@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- BEGIN BEGIN -->
+<commentator condition="BEGIN_BEGIN">Bienvenue dans un nouveau match Pokémon !</commentator>
+<commentator condition="BEGIN_BEGIN">Nous sommes de retour pour un nouveau combat !</commentator>
+<commentator condition="BEGIN_BEGIN">Notre match va pouvoir débuter !</commentator>
+
+
+<commentator condition="BEGIN_BEGIN" special="TOURNAMENT">Bienvenue dans une manche très sérieuse de ce tournoi !</commentator>
+<commentator condition="BEGIN_BEGIN" special="TOURNAMENT">Il est temps de débuter ce grand match de tournoi !</commentator>
+<commentator condition="BEGIN_BEGIN" special="TOURNAMENT">Nous somme en direct pour du sérieux aujourd'hui !</commentator>
+
+<commentator condition="BEGIN_BEGIN" special="SEMI_FINAL">Nous sommes en direct de la demi-finale du jour !</commentator>
+<commentator condition="BEGIN_BEGIN" special="SEMI_FINAL">C'est l'heure de la demi-finale ! Un gros match !</commentator>
+<commentator condition="BEGIN_BEGIN" special="SEMI_FINAL">La demi-finale est sur le point de commencer !</commentator>
+
+<commentator condition="BEGIN_BEGIN" special="FINAL">Nous y voici ! La grande finale va commencer !!</commentator>
+<commentator condition="BEGIN_BEGIN" special="FINAL">Nous arrivons à la fin de ce tournoi ! L'heure de la finale !</commentator>
+<commentator condition="BEGIN_BEGIN" special="FINAL">C'est parti pour la grande finale de ce tournoi !!</commentator>
+
+<!-- BEGIN TRAINER 1 -->
+<commentator condition="BEGIN_TRAINER_1" val1="1">A droite, nous avons [TRAINER] !</commentator>
+<commentator condition="BEGIN_TRAINER_1" val1="1" val2="1">A droite, un habitué du stade : [TRAINER] !</commentator>
+<commentator condition="BEGIN_TRAINER_1" val1="1" val2="2">A droite, le célèbre [TRAINER] !</commentator>
+
+<commentator condition="BEGIN_TRAINER_1">A gauche, nous avons [TRAINER] !</commentator>
+<commentator condition="BEGIN_TRAINER_1" val2="1">A gauche, un habitué du stade : [TRAINER] !</commentator>
+<commentator condition="BEGIN_TRAINER_1" val2="2">A gauche, le célèbre [TRAINER] !</commentator>
+
+<!-- BEGIN TRAINER 2 -->
+<commentator condition="BEGIN_TRAINER_2">Un nouveau venu, voyons voir de quoi il est capable !</commentator>
+<commentator condition="BEGIN_TRAINER_2">Une recrue récente, souhaitons-lui bonne chance !</commentator>
+<commentator condition="BEGIN_TRAINER_2" val2="1">A peine arrivé et déja sur une série de [X] victoires !</commentator>
+<commentator condition="BEGIN_TRAINER_2" val2="1">[X] victoires à son actif ! Serait-ce une graine de champion ?</commentator>
+<commentator condition="BEGIN_TRAINER_2" val2="2">Un nouveau qui essaye tant bien que mal à s'imposer, sans vrai succès.</commentator>
+<commentator condition="BEGIN_TRAINER_2" val2="2">Pour le moment il subit, mais continuons à observer ce jeune dresseur !</commentator>
+
+<commentator condition="BEGIN_TRAINER_2" val1="1">Un habitué de la scène, il va nous montrer son talent aujourd'hui !</commentator>
+<commentator condition="BEGIN_TRAINER_2" val1="1">Assez connu, il est la pour en découdre !</commentator>
+<commentator condition="BEGIN_TRAINER_2" val1="1" val2="1">Il est sur une série de [X] victoires. Il est bien parti pour devenir le meilleur !</commentator>
+<commentator condition="BEGIN_TRAINER_2" val1="1" val2="1">Avec sa série de [X] victoires, rien ne semble l'arrêter !</commentator>
+<commentator condition="BEGIN_TRAINER_2" val1="1" val2="2">[X] défaites d'affilée pour le moment. Ce n'est pas sa période.</commentator>
+<commentator condition="BEGIN_TRAINER_2" val1="1" val2="2">C'est un habitué, mais il a du mal en ce moment avec ses [X] défaites d'affilée !</commentator>
+
+<commentator condition="BEGIN_TRAINER_2" val1="2">Un génie du combat, ce match promet je vous le dis !</commentator>
+<commentator condition="BEGIN_TRAINER_2" val1="2">Il est très coriace dans le milieu ! Encouragons-le !</commentator>
+<commentator condition="BEGIN_TRAINER_2" val1="2" val2="1">Le grand favori. Une chaîne de [X] victoires à son actif ! Craignez-le !!</commentator>
+<commentator condition="BEGIN_TRAINER_2" val1="2" val2="1">Avec ses [X] victoires d'affilée et son talent, rien ne semble l'arrêter !!</commentator>
+<commentator condition="BEGIN_TRAINER_2" val1="2" val2="2">Il n'est pas en forme en ce moment, mais ce n'est pas une raison pour le sous-estimer !</commentator>
+<commentator condition="BEGIN_TRAINER_2" val1="2" val2="2">Va-t-il sortir se sa chaîne de défaites qui en est à [X] ? Nous allons bienôt le savoir !</commentator>
+
+
+<!-- BEGIN MATCH -->
+<commentator condition="BEGIN_MATCH">Cramponnez vous car le match commence maintenant !</commentator>
+<commentator condition="BEGIN_MATCH">Et on est partis pour ce combat !</commentator>
+<commentator condition="BEGIN_MATCH">On souhaite bonne chance aux deux dresseurs pour ce combat !</commentator>
+<!--<commentator condition="BEGIN_MATCH">La foule est en délire pour ce match !</commentator>-->
+<commentator condition="BEGIN_MATCH" hype="1">Ce match promet ! Attachez vos ceintures !</commentator>
+
+<commentator condition="BEGIN_MATCH" special="TOURNAMENT">Nous commençons cette manche sérieuse du tournoi !</commentator>
+<commentator condition="BEGIN_MATCH" special="TOURNAMENT">Le coup d'envoi a été donné pour ce match de tournoi !</commentator>
+<commentator condition="BEGIN_MATCH" special="TOURNAMENT">Ce match important est sur le point de commencer !</commentator>
+<commentator condition="BEGIN_MATCH" special="TOURNAMENT">Et on est partis pour ce match de tournoi !</commentator>
+
+
+<commentator condition="BEGIN_MATCH" special="SEMI_FINAL">Cette demi-finale va commencer !</commentator>
+<commentator condition="BEGIN_MATCH" special="SEMI_FINAL">Les deux dresseurs sont prêts pour cette demi-finale !</commentator>
+<commentator condition="BEGIN_MATCH" special="SEMI_FINAL">Le coup d'envoi de cette demi-finale a été donné !</commentator>
+
+<commentator condition="BEGIN_MATCH" special="FINAL">Nous y sommes !! Le début de la grande finale !</commentator>
+<commentator condition="BEGIN_MATCH" special="FINAL">C'est parti ! La grande finale commence !</commentator>
+<commentator condition="BEGIN_MATCH" special="FINAL">C'est parti pour la grande finale de ce tournoi !!</commentator>
+
+
+<commentator condition="BEGIN_MATCH" special="ULTIMATE">Nous sommes en direct de ce match privé !</commentator>
+<commentator condition="BEGIN_MATCH" special="ULTIMATE">Ce match qui se déroule dans un endroit isolé va commencer !</commentator>
+<commentator condition="BEGIN_MATCH" special="ULTIMATE">Les deux dresseurs se tiennent prêts pour ce combat privé !</commentator>
+<commentator condition="BEGIN_MATCH" special="ULTIMATE">Ce match privé est rediffusé en direct sur SphylTV !</commentator>
+
+<!-- END MATCH -->
+<commentator condition="END_MATCH">Et [WINNER] remporte ce match !</commentator>
+<commentator condition="END_MATCH">Fin du match ! Victoire de [WINNER] !</commentator>
+<commentator condition="END_MATCH">GG [WINNER] !</commentator>
+<commentator condition="END_MATCH" hype="1">Et une victoire époustouflante pour [WINNER] !</commentator>
+<commentator condition="END_MATCH" hype="1">Et [WINNER] signe une magnifique victoire !</commentator>
+<commentator condition="END_MATCH" val1="1">Et c'est une nouvelle victoire pour [WINNER] !</commentator>
+<commentator condition="END_MATCH" val1="1">Notre dresseur [WINNER] passe à [X] victoires d'affilée !</commentator>
+<commentator condition="END_MATCH" val1="1">Et de [X] victoires pour [WINNER] !</commentator>
+<commentator condition="END_MATCH" val1="1" hype="1">Et [WINNER] atteint brillament le score de [X] victoires !</commentator>
+<commentator condition="END_MATCH" val1="1" hype="1">Et une magnifique [X]e victoire à la suite de [WINNER] !</commentator>
+<commentator condition="END_MATCH" val1="2">Et [WINNER] casse la chaîne de victoires de [LOOSER] !</commentator>
+<commentator condition="END_MATCH" val1="2">[LOOSER] s'incline sur ce match face à [WINNER] !!</commentator>
+<commentator condition="END_MATCH" val1="2">Et c'est la fin pour [LOOSER] ! [WINNER] brise sa chaîne !!</commentator>
+<commentator condition="END_MATCH" val1="2" hype="1">Quel match ! [WINNER] vient de faire tomber [LOOSER] !!!</commentator>
+<commentator condition="END_MATCH" val1="2" hype="1">Incroyable ! [LOOSER] s'incline après une grosse rencontre !!!</commentator>
+
+<commentator condition="END_MATCH" special="TOURNAMENT">Et [WINNER] remporte cette manche et reste en lice !!</commentator>
+<commentator condition="END_MATCH" special="TOURNAMENT">Victoire de [WINNER] ! Il se qualifie pour la suite !!</commentator>
+<commentator condition="END_MATCH" special="TOURNAMENT">Bien joué à [WINNER] qui passe pour la prochaine manche !</commentator>
+
+<commentator condition="END_MATCH" special="SEMI_FINAL">Et [WINNER] se qualifie pour la demi-finale !!</commentator>
+<commentator condition="END_MATCH" special="SEMI_FINAL">Et c'est le passage en demi-finale pour [WINNER] !!</commentator>
+<commentator condition="END_MATCH" special="SEMI_FINAL">[WINNER] gagne sa place en demi-finale !!!</commentator>
+
+<commentator condition="END_MATCH" special="FINAL">Le ticket de finaliste revient à [WINNER] !!</commentator>
+<commentator condition="END_MATCH" special="FINAL">Bravo à [WINNER] qui est maintenant finaliste !!!</commentator>
+<commentator condition="END_MATCH" special="FINAL">Et [WINNER] repart vainqueur de cette demi-finale !!!</commentator>
+
+<commentator condition="END_MATCH" special="CHAMPION">Félicitations à [WINNER] !! Il est le nouveau Champion !!</commentator>
+<commentator condition="END_MATCH" special="CHAMPION">Nous avons un nouveau Champion !! [WINNER] !!</commentator>
+<commentator condition="END_MATCH" special="CHAMPION">C'est fini !! [WINNER] est devenu le nouveau meilleur dresseur !!</commentator>
+
+
+<!-- END WINNER -->
+<commentator condition="END_WINNER">[WINNER] qui nous a offert une solide performance !</commentator>
+<commentator condition="END_WINNER">Un match plutôt propre !</commentator>
+<commentator condition="END_WINNER">Une rencontre ma foi fort intéressante !</commentator>
+
+<commentator condition="END_WINNER" val1="2">[WINNER] qui a écrasé son adversaire !</commentator>
+<commentator condition="END_WINNER" val1="2">[LOOSER] qui n'a eu aucune chance sur se match !</commentator>
+<commentator condition="END_WINNER" val1="2">C'était un match à sens unique ! [WINNER] qui impose !</commentator>
+
+<commentator condition="END_WINNER" val1="1">Une très belle rencontre ! Je suis sûr que le public a apprécié !</commentator>
+<commentator condition="END_WINNER" val1="1">[LOOSER] n'a pas à démériter, le match était vraiment serré !</commentator>
+<commentator condition="END_WINNER" val1="1">On peut également applaudir [LOOSER] qui a très bien joué !</commentator>
+
+<!-- END WINNER -->
+<commentator condition="END_MATCH" special="DRAW">Oh ! Nous avons un match nul !</commentator>
+<commentator condition="END_MATCH" special="DRAW">Et ce match se termine par une égalité !</commentator>
+<commentator condition="END_MATCH" special="DRAW">C'est un match nul !</commentator>
+
+<!-- WAIT -->
+<commentator condition="WAIT" special="POST_KO" val1="1" val2="1">Pour le moment rien n'est encore joué.</commentator>
+<commentator condition="WAIT" special="POST_KO" val1="1" val2="1">Le premier K.O a eu lieu. Le match ne fait que commencer !</commentator>
+<commentator condition="WAIT" special="POST_KO" >[X] Pokémon de chaque côté, un match ma foi fort intéressant !</commentator>
+<commentator condition="WAIT" special="POST_KO" >Il reste [X] Pokémon dans chaque camp. Tout est possible !</commentator>
+<commentator condition="WAIT" special="POST_KO" hype="1">[X] partout mais le match bat déja son plein !</commentator>
+<commentator condition="WAIT" special="POST_KO" hype="2">Voyons voir comment cela va se passer après cette égalisation...</commentator>
+<commentator condition="WAIT" special="POST_KO" val2="2" hype="1">Nous sommes dans l'apogée de ce combat !!</commentator>
+<commentator condition="WAIT" special="POST_KO" val2="2" hype="2">Ahh on atteint enfin la fin du combat !</commentator>
+<commentator condition="WAIT" special="POST_KO" val1="1">[TRAINER] Vient de prendre l'avantage !</commentator>
+<commentator condition="WAIT" special="POST_KO" val1="1">[X3] Pokémon de différence entre les deux joueurs !</commentator>
+<commentator condition="WAIT" special="POST_KO" val1="1" hype="1">Le public attend avec impatience la suite !</commentator>
+<commentator condition="WAIT" special="POST_KO" val1="1" hype="1">On attend de voir la réaction de [TRAINER2] !</commentator>
+<commentator condition="WAIT" special="POST_KO" val1="1" hype="2">Espérons voir les choses bouger après ce K.O</commentator>
+<commentator condition="WAIT" special="POST_KO" val1="1" hype="2">Avantage pour [TRAINER]</commentator>
+
+
+<commentator condition="WAIT" special="POST_KO" val1="2">L'écart se creuse entre les deux joueurs !</commentator>
+<commentator condition="WAIT" special="POST_KO" val1="2">[X3] Pokémon de différence actuellement ! Quel match !</commentator>
+<commentator condition="WAIT" special="POST_KO" val1="2" hype="1">[TRAINER] est en train d'appliquer le rouleau compresseur !!</commentator>
+<commentator condition="WAIT" special="POST_KO" val1="2" hype="1">Je n'aimerais pas être à la place de [TRAINER2] !</commentator>
+<commentator condition="WAIT" special="POST_KO" val1="2" hype="2">Ce combat est à sens unique...</commentator>
+<commentator condition="WAIT" special="POST_KO" val1="2" hype="2">[X] à [X2]. Que dire de plus...</commentator>
+
+
+<commentator condition="WAIT" special="POST_KO" val1="1" val2="2">[TRAINER2] est maintenant dos au mur !</commentator>
+<commentator condition="WAIT" special="POST_KO" val1="1" val2="2">[CREA2] Va-t-il renverser cette situation désespérée ?</commentator>
+<commentator condition="WAIT" special="POST_KO" val1="1" val2="2" hype="1">[TRAINER2] est à deux doigts de perdre cette partie !!</commentator>
+<commentator condition="WAIT" special="POST_KO" val1="1" val2="2" hype="1">[TRAINER] va-t-il pouvoir porter le coup de grâce ?!!</commentator>
+<commentator condition="WAIT" special="POST_KO" val1="1" val2="2" hype="2">On approche de la fin du match.</commentator>
+<commentator condition="WAIT" special="POST_KO" val1="1" val2="2" hype="2">[TRAINER] va-t-il pouvoir finir rapidement cette partie ?</commentator>
+<commentator condition="WAIT" special="POST_KO" val1="2" val2="2">Ce match à l'air d'être à sens unique !</commentator>
+<commentator condition="WAIT" special="POST_KO" val1="2" val2="2">[X2] Pokémon contre [X], un combat bien inégal.</commentator>
+<commentator condition="WAIT" special="POST_KO" val1="2" val2="2" hype="1">[TRAINER] est en train de montrer une solide performance !</commentator>
+<commentator condition="WAIT" special="POST_KO" val1="2" val2="2" hype="2">Ce combat est anticlimatique pour le moment...</commentator>
+<commentator condition="WAIT" special="POST_KO" val2="2">L'issue du combat est proche !</commentator>
+<commentator condition="WAIT" special="POST_KO" val2="2">C'est le duel final !</commentator>
+
+<commentator condition="WAIT" special="FIRST_TURN">Nous commençons ce combat avec [CREA1] Contre [CREA2] !</commentator>
+<commentator condition="WAIT" special="FIRST_TURN">On est impatients de voir comment ce premier duel va se passer !</commentator>
+<commentator condition="WAIT" special="FIRST_TURN">[CREA1] contre [CREA2]. Qui va dominer ce premier duel ?</commentator>
+<commentator condition="WAIT" special="FIRST_TURN" hype="1">Cette rencontre bat déja son plein tellement les enjeux sont énormes !</commentator>
+<commentator condition="WAIT" special="FIRST_TURN" hype="1">Ce match promet d'être sensationnel !</commentator>
+<commentator condition="WAIT" special="FIRST_TURN" hype="1">[TRAINER] contre [TRAINER2] ! Deux légendes, un seul vainqueur !</commentator>
+
+<commentator condition="WAIT" val1="2" val2="2">Voyons voir qui va remporter ce duel !</commentator>
+<commentator condition="WAIT" val1="2" val2="2">Nous avons deux Pokémon bourrés d'énergie !</commentator>
+<commentator condition="WAIT" val1="2" val2="2">Et nous avons un duel entre [CREA1] et [CREA2] !</commentator>
+<commentator condition="WAIT" val1="2" val2="2" hype="1">Nos deux Pokémon ne demande qu'a en découdre !</commentator>
+<commentator condition="WAIT" val1="2" val2="2" hype="1">On peut sentir d'ici la pression énorme de ce duel !</commentator>
+<commentator condition="WAIT" val1="2" val2="2" hype="1">Cette rencontre s'annonce fulgurante rien qu'a voir nos deux Pokémon !</commentator>
+<commentator condition="WAIT" val1="2" val2="2" hype="2">Espérons que ce nouveau duel change les choses...</commentator>
+<commentator condition="WAIT" val1="2" val2="2" hype="2">[CREA1] contre [CREA2]</commentator>
+<commentator condition="WAIT" val1="2">Comment cela va-il se passer désormais ?</commentator>
+<commentator condition="WAIT" val1="2">[CREA1] va-t-il faire ses preuves dans ce duel ?</commentator>
+<commentator condition="WAIT" val1="2">Tout est possible à ce stade de la partie !</commentator>
+<commentator condition="WAIT" val1="2" val2="1">C'est une situation risquée. Va-t-on avoir le droit à un changement de Pokémon ?</commentator>
+<commentator condition="WAIT" val1="2" val2="1">La différence de puissance me semble bien trop importante.</commentator>
+<commentator condition="WAIT" val1="2" val2="1">Comment va réagir notre ami [TRAINER2] face à ça ?</commentator>
+<commentator condition="WAIT" val1="2" val2="1" hype="1">[TRAINER2] est en difficulté mais un renversement est possible !!</commentator>
+<commentator condition="WAIT" val1="2" val2="1" hype="1">Il va y avoir de la bouillie de [CREA2] si ça continue comme ça !!</commentator>
+<commentator condition="WAIT" val1="2" val2="1" hype="2">[CREA2] risque fort de tomber K.O ! Encore un petit effort !</commentator>
+<commentator condition="WAIT" val1="2" val2="1" hype="2">[TRAINER] à l'air confiant sur ce duel !</commentator>
+<commentator condition="WAIT">Nous sommes toujours dans cette rencontre !</commentator>
+<commentator condition="WAIT">Le combat acharné continue !</commentator>
+<commentator condition="WAIT" hype="1">Cette bataille est une tempête !</commentator>
+<commentator condition="WAIT" hype="1">Le combat bat son plein !</commentator>
+<commentator condition="WAIT" hype="1">Cette rencontre est explosive !</commentator>
+<commentator condition="WAIT" hype="2">Il ne se passe pas grand chose pour le moment ...</commentator>
+<commentator condition="WAIT" hype="2">On attend toujours un gros changement de situation...</commentator>
+<commentator condition="WAIT" hype="2">Ca se stagne entre les deux dresseurs...</commentator>
+<commentator condition="WAIT" val2="1" hype="1">On attend avec impatience le prochain K.O !</commentator>
+<commentator condition="WAIT" val2="1" hype="1">[CREA2] va-t-il subir le châtiment de [CREA1] ?</commentator>
+<commentator condition="WAIT" val2="1">L'un de nos deux Pokémon va bientôt craquer !</commentator>
+<commentator condition="WAIT" val2="1">On peut entrevoir un futur vainqueur à ce duel !</commentator>
+<commentator condition="WAIT" val2="1">[CREA1] est en mesure de l'emporter !</commentator>
+<commentator condition="WAIT" val1="1" val2="1">Nos deux Pokémon sont complètement épuisés !</commentator>
+<commentator condition="WAIT" val1="1" val2="1">Ils sont à bout de forces! Mais il faut un vainqueur !</commentator>
+<commentator condition="WAIT" val1="1" val2="1" hype="1">Ce duel prend une tournure dramatique !!</commentator>
+<commentator condition="WAIT" val1="1" val2="1" hype="1">Ca sent la fin entre [CREA1] et [CREA2] !</commentator>
+<commentator condition="WAIT" val1="1" val2="1" hype="2">Il manque pas grand chose pour avoir un K.O !</commentator>
+<commentator condition="WAIT" val1="1" val2="1" hype="2">[CREA1] et [CREA2] ne lâchent pas prise pour le moment !</commentator>
+
+
+<!-- SUPER WAIT -->
+<commentator condition="SUPER_WAIT">Ils se regardent dans les yeux...</commentator>
+<commentator condition="SUPER_WAIT">On attend toujours l'ordre du dresseur</commentator>
+<commentator condition="SUPER_WAIT">Alors Dresseur !</commentator>
+<commentator condition="SUPER_WAIT" hype="2">Alors Dresseur !</commentator>
+<commentator condition="SUPER_WAIT" hype="2">Toujours pas d'ordre donné...</commentator>
+<commentator condition="SUPER_WAIT" hype="1">La tension est à son comble !</commentator>
+<commentator condition="SUPER_WAIT" hype="1">Mais que va-il pouvoir se passer ?!</commentator>
+
+
+<!-- MOVE -->
+<commentator condition="MOVE" special="FIRST_TURN">Et voici la première attaque !</commentator>
+<commentator condition="MOVE" special="FIRST_TURN" val1="1">Et ça démarre sur les châpeaux de roues !</commentator>
+<commentator condition="MOVE" special="FIRST_TURN" val1="2">Et ça commence doucement chez [CREA].</commentator>
+<commentator condition="MOVE" special="FIRST_TURN" val2="1">On va pas se laisser faire en face !</commentator>
+<commentator condition="MOVE" special="FIRST_TURN" val2="2">Et c'est au tour de [CREA] !</commentator>
+<commentator condition="MOVE" special="FIRST_TURN" val1="1" val2="1">Wow [CREA] ne rigole pas par contre !!</commentator>
+<commentator condition="MOVE" special="FIRST_TURN" val1="2" val2="1">Et finalement ça sera un premier tour sans dégâts !</commentator>
+<commentator condition="MOVE" special="FIRST_TURN" val1="2" val2="2">[CREA] décide d'y aller autrement !</commentator>
+<commentator condition="MOVE" special="FIRST_TURN" val1="1" val2="2">WOW ! Quel premier tour de ce match !!</commentator>
+
+<commentator condition="MOVE">Il lance son attaque !</commentator>
+<commentator condition="MOVE">Que va faire [CREA] ?!</commentator>
+<commentator condition="MOVE">Une attaque vigoureuse !</commentator>
+<commentator condition="MOVE">Et maintenant !</commentator>
+<commentator condition="MOVE">Il lance son attaque [MOVE] !</commentator>
+<commentator condition="MOVE">[CREA] se lance !!</commentator>
+<commentator condition="MOVE" hype="1">Et ça continue !!</commentator>
+<commentator condition="MOVE" hype="1">On ne lâche rien chez [CREA1] !</commentator>
+<commentator condition="MOVE" hype="1">Regardez-moi cette attaque [MOVE] !!!</commentator>
+<commentator condition="MOVE" hype="1">Et c'est l'attaque [MOVE] !</commentator>
+<commentator condition="MOVE" hype="1">Ohhhhhh !!</commentator>
+<commentator condition="MOVE" hype="2">C'est à [CREA] d'attaquer.</commentator>
+<commentator condition="MOVE" hype="2">Et on utilise l'attaque [MOVE].</commentator>
+<commentator condition="MOVE" hype="2">Okay c'est l'attaque [MOVE] !</commentator>
+<commentator condition="MOVE" hype="2">Voyons voir ce que ça va faire.</commentator>
+
+
+<commentator condition="MOVE" val1="1">Oh cette attaque à l'air puissante !!</commentator>
+<commentator condition="MOVE" val1="1">Celle la va faire très mal !!</commentator>
+<commentator condition="MOVE" val1="1">[CREA] va lancer une puissante attaque !</commentator>
+<commentator condition="MOVE" val1="1">Oh c'est la surpuissante attaque [MOVE] !!</commentator>
+<commentator condition="MOVE" val1="1">OHHHHHHH !!!</commentator>
+<commentator condition="MOVE" val1="1" hype="1">Mais retenez-le !!</commentator>
+<commentator condition="MOVE" val1="1" hype="1">Tous aux abris !!</commentator>
+<commentator condition="MOVE" val1="1" hype="1">[CREA] est en furie !!</commentator>
+<commentator condition="MOVE" val1="1" hype="1">Le stade va exploser !!</commentator>
+<commentator condition="MOVE" val1="1" hype="1">WOOOOOOW !!! [MOVE] !!!</commentator>
+<commentator condition="MOVE" val1="1" hype="2">Oh on y va avec [MOVE] !</commentator>
+<commentator condition="MOVE" val1="1" hype="2">Est-ce que rythme de la partie va changer ?!</commentator>
+<commentator condition="MOVE" val1="1" hype="2">[CREA1] décide de tout donner !</commentator>
+<commentator condition="MOVE" val1="1" hype="2">Allez on veut des dégâts !</commentator>
+
+
+
+
+<commentator condition="MOVE" val2="1">On préfère l'offensive ici !</commentator>
+<commentator condition="MOVE" val2="1">Et on y va avec l'attaque [MOVE] !</commentator>
+<commentator condition="MOVE" val2="1">Il préfère y aller franco !</commentator>
+<commentator condition="MOVE" val2="1">[CREA] va attaquer !</commentator>
+<commentator condition="MOVE" val2="1" hype="1">On ne laisse pas de temps mort !!</commentator>
+<commentator condition="MOVE" val2="1" hype="1">[CREA] passe aux choses sérieuses !</commentator>
+<commentator condition="MOVE" val2="1" hype="1">[MOVE] pour montrer qui est le patron !!</commentator>
+<commentator condition="MOVE" val2="1" hype="1">Il ne faut pas provoquer [CREA] !!</commentator>
+<commentator condition="MOVE" val2="1" hype="2">On préfère l'offensive ici !</commentator>
+<commentator condition="MOVE" val2="1" hype="2">[CREA] est en train de forcer les choses !</commentator>
+<commentator condition="MOVE" val2="1" hype="2">On y va avec l'attaque [MOVE] !</commentator>
+<commentator condition="MOVE" val2="1" hype="2">Ca attaque !</commentator>
+
+<commentator condition="MOVE" val2="2">On riposte avec [MOVE] !!</commentator>
+<commentator condition="MOVE" val2="2">[CREA] ne va pas se laisser faire !</commentator>
+<commentator condition="MOVE" val2="2">Comment cela va-t-il se passer de ce côté ?</commentator>
+<commentator condition="MOVE" val2="2">La contre-attaque !</commentator>
+<commentator condition="MOVE" val2="2" hype="1">Et Paf ! Retour de bâton !!</commentator>
+<commentator condition="MOVE" val2="2" hype="1">Toujours de plus belle avec [MOVE] !!</commentator>
+<commentator condition="MOVE" val2="2" hype="1">[CREA] va montrer qu'il est le meilleur !!</commentator>
+<commentator condition="MOVE" val2="2" hype="1">C'est l'heure de la contre-attaque !!</commentator>
+<commentator condition="MOVE" val2="2" hype="2">La contre-attaque !</commentator>
+<commentator condition="MOVE" val2="2" hype="2">[CREA] contre-attaque à son tour !</commentator>
+<commentator condition="MOVE" val2="2" hype="2">On riposte avec [MOVE] !</commentator>
+<commentator condition="MOVE" val2="2" hype="2">Un échange de coups !</commentator>
+
+
+<commentator condition="MOVE" val1="1" val2="1">On veut du K.O chez [CREA] !!</commentator>
+<commentator condition="MOVE" val1="1" val2="1">[CREA] décide de donner le ton de jeu !!</commentator>
+<commentator condition="MOVE" val1="1" val2="1">Wow attendre sur ce tour va être risqué !!!</commentator>
+<commentator condition="MOVE" val1="1" val2="1">Et on lance une grosse attaque en face !!</commentator>
+<commentator condition="MOVE" val1="1" val2="1" hype="1">Allez !! [MOVE] maintenant !!!</commentator>
+<commentator condition="MOVE" val1="1" val2="1" hype="1">Ca veut frapper sévère du côté de [CREA] !!</commentator>
+<commentator condition="MOVE" val1="1" val2="1" hype="1">Tous aux abris !!</commentator>
+<commentator condition="MOVE" val1="1" val2="1" hype="1">Mais retenez-le !!</commentator>
+
+<commentator condition="MOVE" val1="1" val2="2">Ouah ! Ca ne rigole pas du tout !</commentator>
+<commentator condition="MOVE" val1="1" val2="2">Et maintenant [MOVE] ?!! Mais que se passe-t-il ?!!</commentator>
+<commentator condition="MOVE" val1="1" val2="2">Wow il fallait pas les embêter ces deux-la !!</commentator>
+<commentator condition="MOVE" val1="1" val2="2">Ca contre-attaque avec [MOVE] !!!</commentator>
+<commentator condition="MOVE" val1="1" val2="2" hype="1">Les deux y vont à fond !!!</commentator>
+<commentator condition="MOVE" val1="1" val2="2" hype="1">C'est ce genre de choses qu'on veut voir !!</commentator>
+<commentator condition="MOVE" val1="1" val2="2" hype="1">C'est un combat de titans !!</commentator>
+<commentator condition="MOVE" val1="1" val2="2" hype="1">[MOVE] !! Encore plus de puissance !!!</commentator>
+
+
+<commentator condition="MOVE" val1="2" val2="1">Intéressant, on a un tour sans dégâts !</commentator>
+<commentator condition="MOVE" val1="2" val2="1">Et on change de rythme !</commentator>
+<commentator condition="MOVE" val1="2" val2="1">Les deux Pokémon ne vont pas attaquer ce tour-ci !</commentator>
+<commentator condition="MOVE" val1="2" val2="1">[MOVE] pour conclure ce tour de jeu !</commentator>
+<commentator condition="MOVE" val1="2" val2="1" hype="2">Et ...</commentator>
+<commentator condition="MOVE" val1="2" val2="1" hype="2">Un tour sans dégâts...</commentator>
+<commentator condition="MOVE" val1="2" val2="1" hype="2">Ca joue lentement des deux côtés...</commentator>
+<commentator condition="MOVE" val1="2" val2="1" hype="2">C'est plutôt tendu des deux côtés...</commentator>
+<commentator condition="MOVE" val1="2" val2="1" hype="1">Changement complet de rythme !</commentator>
+<commentator condition="MOVE" val1="2" val2="1" hype="1">Wow quel changement de rythme !</commentator>
+<commentator condition="MOVE" val1="2" val2="1" hype="1">Et une trève est lancée !</commentator>
+<commentator condition="MOVE" val1="2" val2="1" hype="1">Les deux Pokémon s'accordent une pause !</commentator>
+
+<commentator condition="MOVE" val1="2" val2="2">[CREA] préfère la jouer défensive !</commentator>
+<commentator condition="MOVE" val1="2" val2="2">Et on ne veut pas réagir en face !</commentator>
+<commentator condition="MOVE" val1="2" val2="2">On préfère se préparer avec [MOVE] !</commentator>
+<commentator condition="MOVE" val1="2" val2="2">On encaisse et on utilise [MOVE] !</commentator>
+<commentator condition="MOVE" val1="2" val2="2" hype="1">Wow [CREA] qui se la joue sang-froid !</commentator>
+<commentator condition="MOVE" val1="2" val2="2" hype="1">Voyons voir commment cette stratégie va tourner !</commentator>
+<commentator condition="MOVE" val1="2" val2="2" hype="1">Il préfère se préparer avec [MOVE] !</commentator>
+<commentator condition="MOVE" val1="2" val2="2" hype="1">Wow c'est très ballzy se la part de [CREA] !</commentator>
+<commentator condition="MOVE" val1="2" val2="2" hype="2">[CREA] décide de la jouer tranquille.</commentator>
+<commentator condition="MOVE" val1="2" val2="2" hype="2">On préfère la défense de l'autre côté...</commentator>
+<commentator condition="MOVE" val1="2" val2="2" hype="2">On y va plutôt cool avec [MOVE].</commentator>
+<commentator condition="MOVE" val1="2" val2="2" hype="2">Okay [CREA] ne va pas cercher à riposter.</commentator>
+
+
+<commentator condition="MOVE" val1="2">Une attaque intéressante...</commentator>
+<commentator condition="MOVE" val1="2">Oh il utilise [MOVE] !</commentator>
+<commentator condition="MOVE" val1="2">Et c'est l'attaque [MOVE] !</commentator>
+<commentator condition="MOVE" val1="2">[CREA] décide de la jouer finement !</commentator>
+<commentator condition="MOVE" val1="2">Que va faire [CREA] ?!</commentator>
+
+<commentator condition="MOVE" val1="2" hype="1">Changement de rythme chez [CREA] !</commentator>
+<commentator condition="MOVE" val1="2" hype="1">Et on mise plutôt sur [MOVE] !</commentator>
+<commentator condition="MOVE" val1="2" hype="1">Le calme avant la tempête !</commentator>
+<commentator condition="MOVE" val1="2" hype="1">[CREA] décide de la jouer finement !</commentator>
+<commentator condition="MOVE" val1="2" hype="2">On lance l'attaque [MOVE].</commentator>
+<commentator condition="MOVE" val1="2" hype="2">Un match très calme pour le moment.</commentator>
+<commentator condition="MOVE" val1="2" hype="2">[CREA] la joue défensive.</commentator>
+<commentator condition="MOVE" val1="2" hype="2">Okay ça utilise [MOVE].</commentator>
+
+
+<!-- DAMAGE -->
+<commentator condition="DAMAGE">Joli coup !</commentator>
+<commentator condition="DAMAGE">Et Paf !</commentator>
+<commentator condition="DAMAGE">Un bon coup!</commentator>
+<commentator condition="DAMAGE" val1="1">Peu de dégâts ...</commentator>
+<commentator condition="DAMAGE" val1="1">Une attaque superficielle...</commentator>
+<commentator condition="DAMAGE" val1="2">Et c'est un coup puissant !!</commentator>
+<commentator condition="DAMAGE" val1="2">D'énormes dégâts !!</commentator>
+<commentator condition="DAMAGE" val1="2">Supers dégâts !!</commentator>
+<commentator condition="DAMAGE" val1="3">MAIS D'OU SORT T'IL UNE TELLE PUISSANCE ?!!</commentator>
+<commentator condition="DAMAGE" val1="3">LES DEGATS DE CETTE ATTAQUE SONT EXTRAORDINAIRES !!!</commentator>
+
+<commentator condition="DAMAGE" special="SELF_DAMAGE">Quoi ?! Il s'attaque lui-même !!</commentator>
+<commentator condition="DAMAGE" special="SELF_DAMAGE">Oh non il devient dingue !!</commentator>
+
+<commentator condition="DAMAGE" val2="1">Dans le point faible !</commentator>
+<commentator condition="DAMAGE" val2="1">Et un critique !!</commentator>
+<commentator condition="DAMAGE" val1="1" val2="1">Quoi ? Seulement ça ?!!</commentator>
+<commentator condition="DAMAGE" val1="1" val2="1">Il a complètement épongé ce coup !</commentator>
+<commentator condition="DAMAGE" val1="2" val2="1">Quelle patate !!</commentator>
+<commentator condition="DAMAGE" val1="2" val2="1">Un sacré coup critique !!</commentator>
+<commentator condition="DAMAGE" val1="3" val2="1">OHHHHH C'EST DEVASTATEUR !!</commentator>
+<commentator condition="DAMAGE" val1="3" val2="1">QUELLE PUISSANCE !!</commentator>
+
+<commentator condition="DAMAGE" special="SUPER_EFFECTIVE">Pas mal du tout !</commentator>
+<commentator condition="DAMAGE" special="SUPER_EFFECTIVE">C'est très efficace !</commentator>
+<commentator condition="DAMAGE" special="SUPER_EFFECTIVE">[CREA1] qui fait son travail !</commentator>
+<commentator condition="DAMAGE" val1="1" special="SUPER_EFFECTIVE">L'avantage du type n'a eu aucun effet...</commentator>
+<commentator condition="DAMAGE" val1="1" special="SUPER_EFFECTIVE">Il y a trop de défense en face...</commentator>
+<commentator condition="DAMAGE" val1="2" special="SUPER_EFFECTIVE">Il ne fait pas bon être un [CREA2] !</commentator>
+<commentator condition="DAMAGE" val1="2" special="SUPER_EFFECTIVE">Aïaïaïe la table des types fait son effet !</commentator>
+<commentator condition="DAMAGE" val1="2" special="SUPER_EFFECTIVE">C'est super efficace !</commentator>
+<commentator condition="DAMAGE" val1="2" special="SUPER_EFFECTIVE">[CREA1] qui en impose la !!</commentator>
+<commentator condition="DAMAGE" val1="3" special="SUPER_EFFECTIVE">OHLALALA JE N'AIMERAIS PAS ETRE A SA PLACE !!!</commentator>
+<commentator condition="DAMAGE" val1="3" special="SUPER_EFFECTIVE">C'EST UN MASSACRE !!!</commentator>
+
+<commentator condition="DAMAGE" special="NOT_EFFECTIVE">C'est un [CREA2] ça ne craint pas vraiment ça...</commentator>
+<commentator condition="DAMAGE" special="NOT_EFFECTIVE">On voit clairement qu'il peut résister face à ça...</commentator>
+<commentator condition="DAMAGE" special="NOT_EFFECTIVE">Nan ce n'est pas la bonne attaque...</commentator>
+<commentator condition="DAMAGE" special="NOT_EFFECTIVE">C'est n'est pas très efficace...</commentator>
+<commentator condition="DAMAGE" special="NOT_EFFECTIVE">Aucune réaction de la part de [CREA2]...</commentator>
+<commentator condition="DAMAGE" special="NOT_EFFECTIVE">[CREA1] va devoir revoir sa stratégie...</commentator>
+<commentator condition="DAMAGE" val1="1" special="NOT_EFFECTIVE">Non cette attaque ne fait pas de dégâts</commentator>
+<commentator condition="DAMAGE" val1="1" special="NOT_EFFECTIVE">Il l'a complètement épongée...</commentator>
+<commentator condition="DAMAGE" val1="2" special="NOT_EFFECTIVE">Et paf en pleine poire !!</commentator>
+<commentator condition="DAMAGE" val1="2" special="NOT_EFFECTIVE">Quel coup puissant ! Heureusement qu'il y a le désavantage du type !</commentator>
+<commentator condition="DAMAGE" val1="3" special="NOT_EFFECTIVE">IL Y A TROP DE DEGATS !!!</commentator>
+
+<commentator condition="DAMAGE" special="IMMUNITY">Il est immunisé à ce coup...</commentator>
+<commentator condition="DAMAGE" special="IMMUNITY">Il l'a chatouillé...</commentator>
+<commentator condition="DAMAGE" special="IMMUNITY">Il ne craint pas ça...</commentator>
+
+<commentator condition="DAMAGE" special="MISS">Ahhhh c'est manqué !</commentator>
+<commentator condition="DAMAGE" special="MISS">Wohhhh c'est raté !</commentator>
+<commentator condition="DAMAGE" special="MISS">Vraiment dommage !</commentator>
+<commentator condition="DAMAGE" special="MISS" hype="1">Nonnnnn ça y était presque !!</commentator>
+<commentator condition="DAMAGE" special="MISS" hype="1">Ahhhhhh c'était presque ça !!!</commentator>
+<commentator condition="DAMAGE" special="MISS" hype="1">Oh quel dommage !!</commentator>
+<commentator condition="DAMAGE" special="MISS" hype="2">Raté. La prochaine fois.</commentator>
+<commentator condition="DAMAGE" special="MISS" hype="2">L'attaque n'a pas abouti.</commentator>
+<commentator condition="DAMAGE" special="MISS" hype="2">Non ça n'a pas marché.</commentator>
+
+
+<!-- PKMN CHANGE -->
+<commentator condition="CREA_CHANGE">Le dresseur change de Pokémon.</commentator>
+<commentator condition="CREA_CHANGE">On demande un changement de Pokémon !</commentator>
+<commentator condition="CREA_CHANGE">Changement de Pokémon !</commentator>
+<commentator condition="CREA_CHANGE" hype="1">[CREA] arrête les hostilités pour le moment !</commentator>
+<commentator condition="CREA_CHANGE" hype="1">Notre ami [CREA] va prendre du repos !</commentator>
+<commentator condition="CREA_CHANGE" hype="1">[TRAINER] change son Pokémon !</commentator>
+<commentator condition="CREA_CHANGE" hype="2">Le Pokémon retourne dans sa Pokéball.</commentator>
+<commentator condition="CREA_CHANGE" hype="2">[CREA] est rappelé par son dresseur.</commentator>
+<commentator condition="CREA_CHANGE" hype="2">[TRAINER] change de Pokémon.</commentator>
+
+<commentator condition="CREA_CHANGE" special="FIRST_TURN">Et déja un changement de Pokémon !</commentator>
+<commentator condition="CREA_CHANGE" special="FIRST_TURN">Oh [TRAINER] n'avait pas confiance en son choix !</commentator>
+<commentator condition="CREA_CHANGE" special="FIRST_TURN" hype="1">Wouah [TRAINER] change déja de Pokémon !</commentator>
+<commentator condition="CREA_CHANGE" special="FIRST_TURN" hype="1">Et ça change de Pokémon au premier tour !</commentator>
+
+<commentator condition="CREA_CHANGE" val1="1">Une sage décision de changement de Pokémon.</commentator>
+<commentator condition="CREA_CHANGE" val1="1">Le Pokémon est à bout, le changement est justifié.</commentator>
+<commentator condition="CREA_CHANGE" val1="1" hype="1">Ahhhh [TRAINER] préfère garder [CREA] pour plus tard !!</commentator>
+<commentator condition="CREA_CHANGE" val1="1" hype="1">Retrait stratégique pour [TRAINER] !</commentator>
+<commentator condition="CREA_CHANGE" val1="1" hype="2">C'est bien vu de la part de [TRAINER]</commentator>
+<commentator condition="CREA_CHANGE" val1="1" hype="2">Finalement [CREA] va prendre du repos.</commentator>
+
+
+<commentator condition="CREA_CHANGE" val2="1">Un repos bien mérité !</commentator>
+<commentator condition="CREA_CHANGE" val2="1">[CREA] va récupérer un peu !</commentator>
+<commentator condition="CREA_CHANGE" val2="1">On rappelle le Pokémon favori !</commentator>
+<commentator condition="CREA_CHANGE" hype="1" val2="1">[CREA] va faire une pause stratégique !</commentator>
+<commentator condition="CREA_CHANGE" hype="1" val2="1">On va laisser la vedette à quelqu'un d'autre !</commentator>
+<commentator condition="CREA_CHANGE" hype="2" val2="1">[CREA] est rappelé pour plus tard.</commentator>
+<commentator condition="CREA_CHANGE" hype="2" val2="1">Le dresseur va garder [CREA] pour plus tard.</commentator>
+
+
+<commentator condition="CREA_CHANGE" val1="1" val2="1">Aha ! [CREA] va prendre du repos !</commentator>
+<commentator condition="CREA_CHANGE" val1="1" val2="1">Et on change ! Très bon timing pour [CREA] !</commentator>
+<commentator condition="CREA_CHANGE" val1="1" val2="1" hype="1">Ohhh [TRAINER] décide de changer de Pokémon !!</commentator>
+<commentator condition="CREA_CHANGE" val1="1" val2="1" hype="1">Changement ! [CREA] va revenir encore plus fort !</commentator>
+<commentator condition="CREA_CHANGE" val1="1" val2="1" hype="2">[TRAINER] qui ne va pas prendre de risques.</commentator>
+<commentator condition="CREA_CHANGE" val1="1" val2="1" hype="2">Finalement [CREA] va prendre du repos.</commentator>
+
+
+<!-- KO -->
+<commentator condition="KO" special="FIRST_BLOOD" val1="3" val2="1">Wow c'était rapide, un Pokémon de moins !</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="3" val2="1">Déja un K.O dès le premier tour !</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="3" val2="1" hype="1">Incroyable [CREA] vient de tomber au premier tour !!!</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="3" val2="1" hype="1">[CREA] est déja K.O au premier tour !!</commentator>
+
+<commentator condition="KO" special="FIRST_BLOOD" val1="2" val2="1">Wow c'était rapide, un Pokémon de moins !</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="2" val2="1">Déja un K.O dès le premier tour !</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="2" val2="1" hype="1">Incroyable [CREA] vient de tomber au premier tour !!!</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="2" val2="1" hype="1">[CREA] est déja K.O au premier tour !!</commentator>
+
+<commentator condition="KO" special="FIRST_BLOOD" val1="1" val2="1">Wow c'était rapide, un Pokémon de moins !</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="1" val2="1">Déja un K.O dès le premier tour !</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="1" val2="1" hype="1">Incroyable [CREA] vient de tomber au premier tour !!!</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="1" val2="1" hype="1">[CREA] est déja K.O au premier tour !!</commentator>
+
+
+
+<commentator condition="KO" special="FIRST_BLOOD" val2="2">Et on a le premier K.O après [X] tours de jeu !</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val2="2">On a enfin un K.O ! [TRAINER2] prend l'avantage !</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val2="2">Après [X] tours de jeu [CREA] tombe enfin K.O !</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val2="2">On y est ! Le premier K.O du jeu au [X]eme tour !</commentator>
+
+<commentator condition="KO" special="FIRST_BLOOD" val1="1" val2="2">Et on a le premier K.O après [X] tours de jeu !</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="1" val2="2">On a enfin un K.O ! [TRAINER2] prend l'avantage !</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="1" val2="2">Après [X] tours de jeu [CREA] tombe enfin K.O !</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="1" val2="2">On y est ! Le premier K.O du jeu au [X]eme tour !</commentator>
+
+<commentator condition="KO" special="FIRST_BLOOD" val1="2" val2="2">Et on a le premier K.O après [X] tours de jeu !</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="2" val2="2">On a enfin un K.O ! [TRAINER2] prend l'avantage !</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="2" val2="2">Après [X] tours de jeu [CREA] tombe enfin K.O !</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="2" val2="2">On y est ! Le premier K.O du jeu au [X]eme tour !</commentator>
+
+<commentator condition="KO" special="FIRST_BLOOD" val1="3" val2="2">Et on a le premier K.O après [X] tours de jeu !</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="3" val2="2">On a enfin un K.O ! [TRAINER2] prend l'avantage !</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="3" val2="2">Après [X] tours de jeu [CREA] tombe enfin K.O !</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="3" val2="2">On y est ! Le premier K.O du jeu au [X]eme tour !</commentator>
+
+<commentator condition="KO" special="FIRST_BLOOD">[CREA2] marque le premier K.O !!</commentator>
+<commentator condition="KO" special="FIRST_BLOOD">[CREA] tombe K.O !! [TRAINER2] prend l'avantage !!</commentator>
+<commentator condition="KO" special="FIRST_BLOOD">Le premier K.O a eu lieu !!</commentator>
+<commentator condition="KO" special="FIRST_BLOOD">Premier K.O !! Il est pour [CREA2] !</commentator>
+
+<commentator condition="KO" special="FIRST_BLOOD" val1="1">Ohhh [CREA] offre le premier K.O pour son adversaire !!</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="1">Avantage pour [TRAINER2] ! [CREA] tombe K.O après son attaque !</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="1">Wouah [CREA] se met K.O tout seul en guise d'ouverture de score !</commentator>
+
+
+<commentator condition="KO" special="FIRST_BLOOD" val1="2">Premier K.O ! Le statut a fait son effet !</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="2">Et [CREA] tombe K.O ! Le statut ouvre le score !</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="2">[TRAINER2] Prend l'avantage sur ce K.O au statit !</commentator>
+
+<commentator condition="KO" special="FIRST_BLOOD" val1="3">Quel premier K.O ! [CREA2] ne fait pas dans la dentelle !!</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="3">Ohhh [CREA2] ouvre le score avec un K.O en un coup !!</commentator>
+<commentator condition="KO" special="FIRST_BLOOD" val1="3">[CREA] se fait mettre K.O en un coup ! Joli début !</commentator>
+
+<commentator condition="KO">Oh ! Il est à terre !!</commentator>
+<commentator condition="KO">Et le voila dans les vapes !</commentator>
+<commentator condition="KO">Ohhhh le voila K.O !!</commentator>
+<commentator condition="KO">C'est terminé pour [CREA] !</commentator>
+<commentator condition="KO" hype="1">Et [CREA] se fait éliminer !!</commentator>
+<commentator condition="KO" hype="1">Ahhh [CREA] n'en peux plus !!</commentator>
+<commentator condition="KO" hype="1">Un K.O signé [CREA2] !!</commentator>
+<commentator condition="KO" hype="2">C'est fini pour [CREA].</commentator>
+<commentator condition="KO" hype="2">[CREA] tombe K.O !</commentator>
+<commentator condition="KO" hype="2">On a enfin un K.O !</commentator>
+
+<commentator condition="KO" val1="2">Ahh le statut à eu raison de lui !</commentator>
+<commentator condition="KO" val1="2">Oh non il est tombé K.O de fatigue !</commentator>
+<commentator condition="KO" val1="2" hype="1">Nonnnn [CREA] est tombé à terre !!</commentator>
+<commentator condition="KO" val1="2" hype="1">Ohhh quel dommage pour [CREA] !!</commentator>
+<commentator condition="KO" val1="2" hype="2">Et [CREA] tombe K.O de statut.</commentator>
+<commentator condition="KO" val1="2" hype="2">Et la fatigue prend le dessus sur lui.</commentator>
+
+<commentator condition="KO" val1="1">Sa propre attaque l'a mis à terre !!</commentator>
+<commentator condition="KO" val1="1">Quoi ?! Il s'est mis K.O tout seul !</commentator>
+<commentator condition="KO" val1="1">Et il va au tapis !</commentator>
+<commentator condition="KO" val1="1" hype="1">Et c'est le kamikaze !!</commentator>
+<commentator condition="KO" val1="1" hype="1">Wouah [CREA] s'est mis K.O tout seul !!</commentator>
+<commentator condition="KO" val1="1" hype="2">Oh il s'est mos K.O tout seul !</commentator>
+<commentator condition="KO" val1="1" hype="2">Et c'est le suicide.</commentator>
+
+<commentator condition="KO" val1="3">Wohhh battu en un seul coup !!</commentator>
+<commentator condition="KO" val1="3">Il s'est fait éliminer en un coup !!</commentator>
+<commentator condition="KO" val1="3">Terminé ! Et en un coup !!</commentator>
+<commentator condition="KO" val1="3" hype="1">[CREA2] vient de ridiculiser [CREA] !!!</commentator>
+<commentator condition="KO" val1="3" hype="1">Ohhhh [CREA] s'est fait atomiser !!!</commentator>
+<commentator condition="KO" val1="3" hype="1">Whouah [CREA2] ne rigole pas du tout !!!</commentator>
+
+
+<commentator condition="KO" val2="1">K.O ! Mais il s'est bien battu !</commentator>
+<commentator condition="KO" val2="1">[CREA2] met fin au règne de [CREA] !!</commentator>
+<commentator condition="KO" val2="1">[CREA] tombe finalement K.O !</commentator>
+<commentator condition="KO" val2="1" hype="1">Ohhh [CREA] est enfin tombé K.O !!</commentator>
+<commentator condition="KO" val2="1" hype="1">Ouah [CREA2] vient de faire tomber la vedette!!</commentator>
+<commentator condition="KO" val2="1" hype="1">Et le gros morceau tombe enfin K.O !!!</commentator>
+<commentator condition="KO" val2="1" hype="2">Fini pour [CREA]. Mais il a bien joué.</commentator>
+<commentator condition="KO" val2="1" hype="2">[CREA] : K.O après une bonne perfomance.</commentator>
+
+<commentator condition="KO" val1="1" val2="1">Il tombe enfin K.O de fatigue !!</commentator>
+<commentator condition="KO" val1="1" val2="1">[CREA] lâche enfin prise ! K.O sur le statut !</commentator>
+<commentator condition="KO" val1="1" val2="1">Vraiment bien joué à [CREA] ! Mais c'est terminé pour lui !</commentator>
+
+<commentator condition="KO" val1="2" val2="1">Quel finish pour le favori !!</commentator>
+<commentator condition="KO" val1="2" val2="1">Ouah quelle fin kamikaze pour [CREA] !!</commentator>
+<commentator condition="KO" val1="2" val2="1">[CREA] tire enfin sa révérence !! Quel spectacle !!</commentator>
+
+<commentator condition="KO" val1="3" val2="1">Ouah [CREA2] vient de créer la surprise la !!</commentator>
+<commentator condition="KO" val1="3" val2="1">Ohhh [CREA] s'est fait punir contre toute attente !!!</commentator>
+<commentator condition="KO" val1="3" val2="1">Incroyable le grand favori est mis K.O en un coup !!</commentator>
+
+<commentator condition="KO" special="KILLING_SPREE">Et [CREA2] inflige un nouveau K.O !</commentator>
+<commentator condition="KO" special="KILLING_SPREE">Et de [X] pour [CREA2] !!</commentator>
+<commentator condition="KO" special="KILLING_SPREE">Ahhhh [CREA1] est devenue une nouvelle victime de [CREA2] !!</commentator>
+<commentator condition="KO" special="KILLING_SPREE" hype="1">Ohhhh [CREA2] commence à s'énerver !!</commentator>
+<commentator condition="KO" special="KILLING_SPREE" hype="1">[CREA2] signe sa victime numéro [X] !!</commentator>
+<commentator condition="KO" special="KILLING_SPREE" hype="1">[CREA] vient s'ajouter à la liste des victimes !!</commentator>
+<commentator condition="KO" special="KILLING_SPREE" val1="3">Wouah [CREA2] est en train d'imposer !!</commentator>
+<commentator condition="KO" special="KILLING_SPREE" val1="3">[CREA2] continue avec un K.O en un coup !</commentator>
+<commentator condition="KO" special="KILLING_SPREE" val1="3">[CREA2] enchaîne avec un magnifique K.O en un coup !</commentator>
+
+<commentator condition="KO" special="KILLING_SPREE" val1="2">Oh non [CREA] vient de tomber K.O face à [CREA2] !!</commentator>
+<commentator condition="KO" special="KILLING_SPREE" val1="2">Une victime de plus pour [CREA2] ! K.O au statut !!</commentator>
+<commentator condition="KO" special="KILLING_SPREE" val1="2">Tel un rempart [CREA2] observe son adversaire s'écrouler !</commentator>
+
+<commentator condition="KO" special="KILLING_SPREE" val1="1">[CREA] vient de s'écraser contre [CREA2] !</commentator>
+<commentator condition="KO" special="KILLING_SPREE" val1="1">Ohhh [CREA] s'est donné face à [CREA2] !</commentator>
+<commentator condition="KO" special="KILLING_SPREE" val1="1">Le [X]eme K.O pour [CREA2] ! Son adversaire a fait le tout pour le tout !</commentator>
+
+
+<!-- KO WAIT -->
+<commentator condition="KO_WAIT" special="FIRST_TURN">Ahhh la tension est déja présente !</commentator>
+<commentator condition="KO_WAIT" special="FIRST_TURN">En voila un sacré départ en flèche !!</commentator>
+<commentator condition="KO_WAIT" special="FIRST_TURN" hype="1">Cette rencontre ne rigole pas !!!</commentator>
+<commentator condition="KO_WAIT" special="FIRST_TURN" hype="1">Ce combat est déjà extême !!</commentator>
+<commentator condition="KO_WAIT">Comment va réagir notre dresseur après ce K.O ?</commentator>
+<commentator condition="KO_WAIT">Nous attends tous le prochain Pokémon à entrer en scène...</commentator>
+<commentator condition="KO_WAIT">Le dresseur va devoir trouver une nouvelle stratégie...</commentator>
+<commentator condition="KO_WAIT">Quelle sera la suite ?</commentator>
+<commentator condition="KO_WAIT" hype="1">On attend avec impatience le prochain duel !!</commentator>
+<commentator condition="KO_WAIT" hype="1">La suite sera sûrement encore plus palpitante !!</commentator>
+<commentator condition="KO_WAIT" hype="1">On va maintenant rentrer dans une phase coriace !!</commentator>
+<commentator condition="KO_WAIT" hype="1">C'est du lourd pour le moment !!</commentator>
+<commentator condition="KO_WAIT" hype="2">On espère que la suite soit meilleure ...</commentator>
+<commentator condition="KO_WAIT" hype="2">Il y a des K.O mais l'action n'est pas au rendez-vous.</commentator>
+<commentator condition="KO_WAIT" hype="2">Va-t-il y avoir un changement de rythme ?</commentator>
+
+
+<commentator condition="KO_WAIT" val1="1">[TRAINER2] va devoir trouver un moyen pour gérer [CREA] !</commentator>
+<commentator condition="KO_WAIT" val1="1">[TRAINER] dispose d'un atout de taille !</commentator>
+<commentator condition="KO_WAIT" val1="1">On a un Pokémon qui sort du lot actuellement !</commentator>
+<commentator condition="KO_WAIT" val1="1" hype="1">[CREA] commence à faire vraiment peur la !</commentator>
+<commentator condition="KO_WAIT" val1="1" hype="1">Il va falloir stopper [CREA] maintenant !</commentator>
+<commentator condition="KO_WAIT" val1="1" hype="1">[TRAINER2] doit être en train de suer à grosses gouttes !!</commentator>
+<commentator condition="KO_WAIT" val1="1" hype="2">Pour le moment [CREA] est innarrêtable.</commentator>
+<commentator condition="KO_WAIT" val1="1" hype="2">[TRAINER] s'est mis dans une bonne situation.</commentator>
+
+
+
+
+
+
+
+<!-- CANT MOVE -->
+<commentator condition="CANT_MOVE">Non [CREA] ne peut pas bouger...</commentator>
+<commentator condition="CANT_MOVE">Il ne peut rien faire !!</commentator>
+<commentator condition="CANT_MOVE" hype="1">Oh non il n'arrive pas à attaquer !!</commentator>
+<commentator condition="CANT_MOVE" hype="1">Quel dommage pour [CREA] !</commentator>
+<commentator condition="CANT_MOVE" hype="2">Il ne peut pas bouger...</commentator>
+<commentator condition="CANT_MOVE" hype="2">Ah il ne peut pas attaquer ...</commentator>
+
+<commentator condition="CANT_MOVE" val1="1">Ahhh [CREA] est paralysé !</commentator>
+<commentator condition="CANT_MOVE" val1="1">Il est complètement paralysé !!</commentator>
+<commentator condition="CANT_MOVE" val1="1" hype="1">Wow il est paralysé !!</commentator>
+<commentator condition="CANT_MOVE" val1="1" hype="1">Et [CREA] subit l'effet de la paralysie !</commentator>
+<commentator condition="CANT_MOVE" val1="1" hype="2">Il est complètement paralysé...</commentator>
+<commentator condition="CANT_MOVE" val1="1" hype="2">[CREA] est paralysé.</commentator>
+
+<commentator condition="CANT_MOVE" val1="2">[CREA] dort pour le moment !</commentator>
+<commentator condition="CANT_MOVE" val1="2">Et il ne se réveille pas !</commentator>
+<commentator condition="CANT_MOVE" val1="2" hype="1">Ahhh il n'arrive pas à se réveiller !</commentator>
+<commentator condition="CANT_MOVE" val1="2" hype="1">Et [CREA] qui est en mode sieste !</commentator>
+<commentator condition="CANT_MOVE" val1="2" hype="2">Il dort pour le moment...</commentator>
+<commentator condition="CANT_MOVE" val1="2" hype="2">[CREA] dort toujours.</commentator>
+
+<commentator condition="CANT_MOVE" val1="3">[CREA] est complètement gelé !</commentator>
+<commentator condition="CANT_MOVE" val1="3">Il est toujours gelé !!</commentator>
+<commentator condition="CANT_MOVE" val1="3" hype="1">Tel un glaçon il ne peut pas bouger !!</commentator>
+<commentator condition="CANT_MOVE" val1="3" hype="1">Et [CREA] qui est toujours congel !</commentator>
+<commentator condition="CANT_MOVE" val1="3" hype="2">Il est gelé...</commentator>
+<commentator condition="CANT_MOVE" val1="3" hype="2">[CREA] est gelé.</commentator>
+
+<commentator condition="CANT_MOVE" val1="4">Wow [CREA] est apeuré !</commentator>
+<commentator condition="CANT_MOVE" val1="4">Oh il n'ose pas riposter !</commentator>
+<commentator condition="CANT_MOVE" val1="4" hype="1">Wow ça l'a surpris sur ce coup la !!</commentator>
+<commentator condition="CANT_MOVE" val1="4" hype="1">[CREA] en a les jambes qui tremblent !!!</commentator>
+<commentator condition="CANT_MOVE" val1="4" hype="2">Ahhh ça l'a apeuré...</commentator>
+<commentator condition="CANT_MOVE" val1="4" hype="2">[CREA] est apeuré.</commentator>
+
+<commentator condition="CANT_MOVE" val1="5">[CREA] doit récupérer !</commentator>
+<commentator condition="CANT_MOVE" val1="5">Il est à plat !</commentator>
+<commentator condition="CANT_MOVE" val1="5" hype="1">Ah le contrecoup se fait sentir !!</commentator>
+<commentator condition="CANT_MOVE" val1="5" hype="1">[CREA] doit recharger son énergie !</commentator>
+<commentator condition="CANT_MOVE" val1="5" hype="2">Il doit récupérer</commentator>
+<commentator condition="CANT_MOVE" val1="5" hype="2">[CREA] est fatigué.</commentator>
+
+
+<!-- PKMN DISCOVER -->
+<commentator condition="CREA_DISCOVER" special="FIRST_TURN">Et voici [CREA] !</commentator>
+<commentator condition="CREA_DISCOVER" special="FIRST_TURN">[CREA] fait son entrée !</commentator>
+<commentator condition="CREA_DISCOVER" special="FIRST_TURN">Et [CREA] entre sur le terrain !</commentator>
+<commentator condition="CREA_DISCOVER" special="FIRST_TURN">Et on envoie [CREA] !</commentator>
+
+<commentator condition="CREA_DISCOVER">Et [CREA] entre sur le terrain !</commentator>
+<commentator condition="CREA_DISCOVER">Et voici [CREA] !</commentator>
+<commentator condition="CREA_DISCOVER">[CREA] fait son entrée !</commentator>
+<commentator condition="CREA_DISCOVER">Et on envoie [CREA] !</commentator>
+
+<commentator condition="CREA_DISCOVER" special="LEGENDE">Et voici ... un [CREA] ?!!!</commentator>
+<commentator condition="CREA_DISCOVER" special="LEGENDE">WHOAH ! [TRAINER] envoie un [CREA] !!!</commentator>
+<commentator condition="CREA_DISCOVER" special="LEGENDE">Regardez c'est le légendaire [CREA] !!!</commentator>
+<commentator condition="CREA_DISCOVER" special="LEGENDE">On envoie ... Oh c'est un [CREA] !!!</commentator>
+
+<commentator condition="CREA_DISCOVER" val1="1">Le retour de [CREA] !</commentator>
+<commentator condition="CREA_DISCOVER" val1="1">On fait appel à une tête connue !</commentator>
+<commentator condition="CREA_DISCOVER" val1="1">Et revoila [CREA] !</commentator>
+<commentator condition="CREA_DISCOVER" val1="1">[CREA] revient sur le terrain !</commentator>
+
+<commentator condition="CREA_DISCOVER" val1="2">Et [CREA] revient, mais amoché !</commentator>
+<commentator condition="CREA_DISCOVER" val1="2">[CREA] est de retour ! va-t-il s'en sortir ?</commentator>
+<commentator condition="CREA_DISCOVER" val1="2">Ahhh ce Pokémon est pas super en forme !!</commentator>
+
+<commentator condition="CREA_DISCOVER" val1="3">Et [CREA] revient. Il est à bout de forces !</commentator>
+<commentator condition="CREA_DISCOVER" val1="3">[CREA] n'a pas récupéré ! Attention !</commentator>
+<commentator condition="CREA_DISCOVER" val1="3">Wow on envoie [CREA] qui est épuisé !!</commentator>
+
+
+<commentator condition="CREA_DISCOVER" val1="1" val2="1">Et revoila notre cher [CREA] !!</commentator>
+<commentator condition="CREA_DISCOVER" val1="1" val2="1">Le retour de la vedette !!</commentator>
+<commentator condition="CREA_DISCOVER" val1="1" val2="1">C'est l'heure de renvoyer [CREA] !!</commentator>
+
+<commentator condition="CREA_DISCOVER" val1="2" val2="1">Notre cher [CREA] revient ! Il tient encore debout !</commentator>
+<commentator condition="CREA_DISCOVER" val1="2" val2="1">Le retour de [CREA] qui peut encore en découdre !</commentator>
+<commentator condition="CREA_DISCOVER" val1="2" val2="1">Il a l'air blessé mais il s'en moque complètement !</commentator>
+
+<commentator condition="CREA_DISCOVER" val1="3" val2="1">[CREA] va encore devoir faire un effort !</commentator>
+<commentator condition="CREA_DISCOVER" val1="3" val2="1">Allez tu peux le faire [CREA] !</commentator>
+<commentator condition="CREA_DISCOVER" val1="3" val2="1">On renvoie le favori qui n'a presque plus d'énergie !</commentator>
+
+
+<!-- FORFEIT -->
+<commentator condition="FORFEIT">Ohhhh [TRAINER] décide de jeter l'éponge !!</commentator>
+<commentator condition="FORFEIT">[TRAINER] rappelle son Pokémon ! Il déclare forfait !</commentator>
+<commentator condition="FORFEIT">[TRAINER] arrête les hostilités et met fin au combat !</commentator>
+<commentator condition="FORFEIT" special="DRAW">Les deux dresseurs déclarent le match comme nul !</commentator>
+
+
+<!-- MVP DISCOVER -->
+<commentator condition="MVP_DISCOVER" >[CREA] est élu MVP du match !!</commentator>
+<commentator condition="MVP_DISCOVER" >Le MVP du match revient à [CREA] !!</commentator>
+<commentator condition="MVP_DISCOVER" >On tient notre MVP : [CREA] !</commentator>
+<commentator condition="MVP_DISCOVER" val1="1">Pas de MVP pour ce match !</commentator>
+
+
+<!-- MVP DESCRIPTION -->
+<commentator condition="MVP_DESCRIPTION">Il a ravagé les rangs adverse avec sa puissance de frappe !!</commentator>
+<commentator condition="MVP_DESCRIPTION">Littérablement innarêtable sur ce combat ! Bravo à lui !!</commentator>
+<commentator condition="MVP_DESCRIPTION">Ce Pokémon a brisé l'équipe énnemie tel un boulet de canon !!</commentator>
+
+
+<commentator condition="MVP_DESCRIPTION" val1="1">Ce Pokémon s'est montré immortel en combat ! Un vrai rempart !!</commentator>
+<commentator condition="MVP_DESCRIPTION" val1="1">Rien ne semblait pouvoir faire trembler ce Pokémon !!</commentator>
+<commentator condition="MVP_DESCRIPTION" val1="1">Il a nullifié les attaques adverses !! Quel monstre !!</commentator>
+
+
+<commentator condition="MVP_DESCRIPTION" val1="2">Un vrai joueur d'équipe ! Il a grandement aidé à la victoire !!</commentator>
+<commentator condition="MVP_DESCRIPTION" val1="2">Il a posé les bases de la victoire sur ce match ! Bien joué !!</commentator>
+<commentator condition="MVP_DESCRIPTION" val1="2">Il a permis de provoquer le déclic gagnant !! Un vrai support !!</commentator>

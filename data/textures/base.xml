@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texture>
+	<name>Main</name>
+	
+	<filename>img/textures/moves.png</filename>
+	<height>50</height>
+	<width>50</width>
+	<base_scaling>2</base_scaling>
+	<iteration_x>10</iteration_x>
+	<iteration_y>20</iteration_y>
+</texture>
+<texture>
+	<name>Buffs</name>
+	
+	<filename>img/textures/moves.png</filename>
+	<height>50</height>
+	<width>50</width>
+	<base_scaling>1</base_scaling>
+	<iteration_x>10</iteration_x>
+	<iteration_y>20</iteration_y>
+</texture>
+<texture>
+	<name>Blood</name>
+	
+	<filename>img/textures/blood.png</filename>
+	<height>50</height>
+	<width>50</width>
+	<base_scaling>1</base_scaling>
+	<iteration_x>10</iteration_x>
+	<iteration_y>20</iteration_y>
+</texture>
+<texture>
+	<name>Stadiums</name>
+	
+	<filename>img/textures/stadiums.png</filename>
+	<height>50</height>
+	<width>50</width>
+	<direction>1</direction>
+	<base_scaling>1</base_scaling>
+	<iteration_x>10</iteration_x>
+	<iteration_y>20</iteration_y>
+</texture>

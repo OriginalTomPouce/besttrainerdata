@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subtype>
+	<name>Body</name>
+	
+	<contact>1</contact>
+</subtype>
+
+<subtype>
+	<name>Powder</name>
+	
+	<effectiveness ratio="0">Plante</effectiveness>
+</subtype>
+
+<subtype>
+	<name>Sound</name>
+	
+</subtype>
+
+<subtype>
+	<name>Aura</name>
+	
+</subtype>
+
+<subtype>
+	<name>Tail</name>
+	
+</subtype>
+
+<subtype>
+	<name>Blade</name>
+	
+</subtype>
+
+<subtype>
+	<name>Sonic</name>
+	
+</subtype>
+
+<subtype>
+	<name>Sismic</name>
+	
+</subtype>
+
+
+<subtype>
+	<name>Spear</name>
+	
+	<contact>1</contact>
+</subtype>
+
+<subtype>
+	<name>Cross</name>
+	
+	<contact>1</contact>
+</subtype>
+
+
+<subtype>
+	<name>Wings</name>
+	
+	<contact>1</contact>
+</subtype>
+
+<subtype>
+	<name>Punch</name>
+	
+	<contact>1</contact>
+	
+	<animation category="1" mode="0">MAIN_long_hit</animation>
+	<animation category="1" mode="0">MAIN_punch</animation>
+</subtype>
+
+
+<subtype>
+	<name>Kick</name>
+	
+	<contact>1</contact>
+	
+	<animation category="1" mode="0">MAIN_long_hit</animation>
+	<animation category="1" mode="0">MAIN_kick</animation>
+</subtype>
+
+
+<subtype>
+	<name>Palm</name>
+	
+	<contact>1</contact>
+	
+	<animation category="1" mode="0">MAIN_long_hit</animation>
+	<animation category="1" mode="0">MAIN_hand</animation>
+</subtype>
+
+<subtype>
+	<name>Fangs</name>
+	
+	<contact>1</contact>
+	
+	<animation category="1" mode="0">MAIN_fangs</animation>
+</subtype>
+
+<subtype>
+	<name>Claws</name>
+	
+	<contact>1</contact>
+	
+	<animation category="1" mode="0">MAIN_claw</animation>
+</subtype>
+
+<subtype>
+	<name>Bone</name>
+	
+	<contact>1</contact>
+	
+	<animation category="1" mode="0">MAIN_claw</animation>
+</subtype>
+
+<subtype>
+	<name>Protect</name>
+	
+	<contact>1</contact>
+</subtype>

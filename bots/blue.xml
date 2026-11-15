@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Blue</name>
+<credo>Le meilleur parmi les meilleurs !</credo>
+<streak>1</streak>
+<sprite>25</sprite>
+<historic>1</historic>
+<tag>Blue</tag>
+<tag>Kanto</tag>
+<creature>
+<number>130</number>
+<name>Leviator</name>
+<move>Hydrocanon</move>
+<move>Cascade</move>
+<move>Danse Draco</move>
+<move>Crocs Givre</move>
+</creature>
+<creature>
+<number>103</number>
+<name>Noadkoko</name>
+<move>Psyko</move>
+<move>Eco-Sphère</move>
+<move>Clonage</move>
+<move>Martobois</move>
+</creature>
+<creature>
+<number>59</number>
+<name>Arcanin</name>
+<move>Vit. Extrême</move>
+<move>Lance-Flamme</move>
+<move>Feu Follet</move>
+<move>Seisme</move>
+</creature>
+<creature>
+<number>65</number>
+<name>Alakazam</name>
+<move>Psyko</move>
+<move>Choc Psy</move>
+<move>Plénitude</move>
+<move>Exploforce</move>
+</creature>
+<creature>
+<number>112</number>
+<name>Rhinoféros</name>
+<move>Eboulement</move>
+<move>Mégacorne</move>
+<move>Marto-Poing</move>
+<move>Seisme</move>
+</creature>
+<creature>
+<number>18</number>
+<name>Roucarnage</name>
+<move>Demi-Tour</move>
+<move>Canicule</move>
+<move>Aile d'Acier</move>
+<move>Lame d'Air</move>
+</creature>
+</bot>

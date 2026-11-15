@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Aldo</name>
+<credo>Ton équipe, j'vais en faire du YAOURT !</credo>
+<sprite>27</sprite>
+<tag>Kanto</tag>
+<creature>
+<number>62</number>
+<name>Tartard</name>
+	<move>Dynamopoing</move>
+	<move>Cascade</move>
+	<move>Poinglace</move>
+	<move>Eboulement</move>
+</creature>
+<creature>
+<number>106</number>
+<name>Kicklee</name>
+	<move>Pied Voltige</move>
+	<move>Pied Brûleur</move>
+	<move>Yoga</move>
+	<move>Direct Toxic</move>
+</creature>
+<creature>
+<number>107</number>
+<name>Tygnon</name>
+	<ability>Attention</ability>
+	<move>Poing de Feu</move>
+	<move>Poinglace</move>
+	<move>Stratopercut</move>
+	<move>Poing Eclair</move>
+</creature>
+<creature>
+<number>68</number>
+<name>Mackogneur</name>
+	<ability>Cran</ability>
+	<move>Poing de Feu</move>
+	<move>Coup-Croix</move>
+	<move>Eboulement</move>
+	<move>Poing Eclair</move>
+</creature>
+<creature>
+<number>112</number>
+<name>Rhinoféros</name>
+	<ability>Tête de Roc</ability>
+	<move>Mégacorne</move>
+	<move>Lame de Roc</move>
+	<move>Damocles</move>
+	<move>Seisme</move>
+</creature>
+<creature>
+<number>208</number>
+<name>Steelix</name>
+	<ability>Fermeté</ability>
+	<move>Seisme</move>
+	<move>Tête de Fer</move>
+	<move>Piège de Roc</move>
+	<move>Crocs de Feu</move>
+</creature>
+</bot>

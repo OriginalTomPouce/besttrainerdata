@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<song>
+	<name>Echolocation</name>
+	<location>music/Monomer - Labyrinth - 09 Echolocation.ogg</location>
+	
+</song>
+<song category="MENU">
+	<name>Labyrinth</name>
+	<location>music/Monomer - Labyrinth - 04 Labyrinth.ogg</location>
+	
+</song>
+<song>
+	<name>Chrome Castles</name>
+	<location>music/Monomer - Labyrinth - 02 Chrome Castles.ogg</location>
+</song>
+<song>
+	<name>Warden</name>
+	<location>music/Monomer - Labyrinth - 03 Warden.ogg</location>
+	
+</song>
+<song offset="43" volume="60">
+	<name>Je Revis</name>
+	<location>music/Fixions - Euphorion (remaster 2017) - 11 Demons et Merveilles.ogg</location>
+	<tag>Darkness</tag>
+	
+</song>
+<song offset="164" category="ANNOUNCEMENT" volume="40">
+	<name>Ion Energy Leeches</name>
+	<location>music/Fixions - 03 Ionic Energy Leeches.ogg</location>
+	
+</song>
+<song>
+	<name>Mystery Zone</name>
+	<location>music/PlayStation platinum - Skyridge - 03 Mystery Zone.ogg</location>
+	<tag>Outside</tag>
+</song>
+<song category="LOSE" offset="28">
+	<name>Unwown Pokemon</name>
+	<location>music/Pikachu Noticed the Weed - 11 Unknown Poke?mon.ogg</location>
+</song>
+<song category="LOSE">
+	<name>Fainted</name>
+	<location>music/Pikachu Noticed the Weed - 12 Fainted.ogg</location>
+</song>
+<song category="VICTORY">
+	<name>Fainted</name>
+	<location>music/SOUNDSHOCK 2- FM FUNK TERRROR!! - 16 Fluvial Beat Deposits.ogg</location>
+</song>
+<song category="SUPER VICTORY">
+	<name>Fainted</name>
+	<location>music/SOUNDSHOCK 2- FM FUNK TERRROR!! - 16 Fluvial Beat Deposits.ogg</location>
+</song>
+<song category="AMBIENT" offset="116">
+	<name>Lost Cascades</name>
+	<location>music/Lost Cascades - Crystal Sun - 20.ogg</location>
+</song>

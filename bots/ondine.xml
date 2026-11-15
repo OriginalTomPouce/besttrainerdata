@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<bot>
+<name>Misty</name>
+<credo>Pourquoi avoir une stratégie quand on a des Pokémon Eau ?</credo>
+<sprite>67</sprite>
+<tag>Kanto</tag>
+<creature>
+<number>130</number>
+<name>Leviator</name>
+<move>Hydrocanon</move>
+<move>Cascade</move>
+<move>Danse Draco</move>
+<move>Crocs Givre</move>
+</creature>
+<creature>
+<number>184</number>
+<name>Azumarill</name>
+	<move>Câlinerie</move>
+	<move>Surpuissance</move>
+	<move>Hydroqueue</move>
+	<move>Aqua-Jet</move>
+</creature>
+<creature>
+<number>131</number>
+<name>Locklass</name>
+<move>Surf</move>
+<move>Tonnerre</move>
+<move>Laser Glace</move>
+<move>Rune Protect</move>
+</creature>
+<creature>
+<number>230</number>
+<name>Hyporoi</name>
+<move>Hydrocanon</move>
+<move>Draco Meteor</move>
+<move>Cascade</move>
+<move>Hâte</move>
+</creature>
+<creature>
+<number>121</number>
+<name>Staross</name>
+<move>Soin</move>
+<move>Tonnerre</move>
+<move>Psyko</move>
+<move>Surf</move>
+</creature>
+<creature>
+<number>186</number>
+<name>Tarpaud</name>
+	<move>Surf</move>
+	<move>Laser Glace</move>
+	<move>Hypnose</move>
+	<move>Clonage</move>
+</creature>
+</bot>

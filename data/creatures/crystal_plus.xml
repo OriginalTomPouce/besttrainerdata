@@ -1,0 +1,7727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<library>
+	<name>Base</name>
+	<code>BASE</code>
+	<file>img/crystal_3.png</file>
+	<form-file>crea_form.png</form-file>
+	<crea_per_line>20</crea_per_line>
+	<crea_height>56</crea_height>
+	<crea_width>56</crea_width>
+	<crea_face>1</crea_face>
+</library>
+
+<creature>
+	<number>1</number>
+	<name>Bulbizarre</name>
+	<minisprite color="GREEN">GRASS</minisprite>
+	
+	<type>Plante</type>
+	<type>Poison</type>
+	<ability>Engrais</ability>
+	<ability>Chlorophyle</ability>
+	
+	<stat_hp>45</stat_hp>
+	<stat_att>49</stat_att>
+	<stat_def>49</stat_def>
+	<stat_spe_att>65</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>45</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Tempête Florale</move>
+	<move>Plaquage</move>
+	<move>Bomb'Eurk</move>
+	<move>Vampigraine</move>
+	<move>Poudre Dodo</move>
+	<move>Toxik</move>
+	<move>Synthèse</move>
+	<move>Giga-Sangsue</move>
+	<move>Seisme</move>
+	<move>Eco-Sphère</move>
+	<move>Damocles</move>
+	<move>Lance-Soleil</move>
+</creature>
+
+<creature>
+	<number>2</number>
+	<name>Herbizarre</name>
+	<minisprite color="GREEN">GRASS</minisprite>
+	
+	<type>Plante</type>
+	<type>Poison</type>
+	<ability>Engrais</ability>
+	<ability>Chlorophyle</ability>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>62</stat_att>
+	<stat_def>63</stat_def>
+	<stat_spe_att>80</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>60</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Tempête Florale</move>
+	<move>Plaquage</move>
+	<move>Bomb'Eurk</move>
+	<move>Vampigraine</move>
+	<move>Poudre Dodo</move>
+	<move>Toxik</move>
+	<move>Synthèse</move>
+	<move>Giga-Sangsue</move>
+	<move>Seisme</move>
+	<move>Eco-Sphère</move>
+	<move>Lance-Soleil</move>
+	<move>Damocles</move>
+</creature>
+
+<creature>
+	<number>3</number>
+	<name>Florizarre</name>
+	<minisprite color="GREEN">GRASS</minisprite>
+	
+	<type>Plante</type>
+	<type>Poison</type>
+	<ability>Engrais</ability>
+	<ability>Chlorophyle</ability>
+	
+	<stat_hp>80</stat_hp>
+	<stat_att>82</stat_att>
+	<stat_def>83</stat_def>
+	<stat_spe_att>100</stat_spe_att>
+	<stat_spe_def>100</stat_spe_def>
+	<stat_vit>80</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Tempête Florale</move>
+	<move>Plaquage</move>
+	<move>Bomb'Eurk</move>
+	<move>Vampigraine</move>
+	<move>Poudre Dodo</move>
+	<move>Toxik</move>
+	<move>Synthèse</move>
+	<move>Giga-Sangsue</move>
+	<move>Seisme</move>
+	<move>Eco-Sphère</move>
+	<move>Lance-Soleil</move>
+	<move>Damocles</move>
+</creature>
+
+<creature>
+	<number>4</number>
+	<name>Salamèche</name>
+	<minisprite color="RED">POKEMON</minisprite>
+	
+	<type>Feu</type>
+	<ability>Brasier</ability>
+	
+	<stat_hp>39</stat_hp>
+	<stat_att>52</stat_att>
+	<stat_def>43</stat_def>
+	<stat_spe_att>60</stat_spe_att>
+	<stat_spe_def>50</stat_spe_def>
+	<stat_vit>65</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Lance-Flamme</move>
+	<move>Dracogriffe</move>
+	<move>Déflagration</move>
+	<move>Boutefeu</move>
+	<move>Colère</move>
+	<move>Tranche</move>
+	<move>Danse-Lames</move>
+	<move>Machouille</move>
+	<move>Crocs de Feu</move>
+</creature>
+
+<creature>
+	<number>5</number>
+	<name>Reptincel</name>
+	<minisprite color="RED">POKEMON</minisprite>
+	
+	<type>Feu</type>
+	<ability>Brasier</ability>
+	
+	<stat_hp>58</stat_hp>
+	<stat_att>64</stat_att>
+	<stat_def>58</stat_def>
+	<stat_spe_att>80</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>80</stat_vit>
+	
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Lance-Flamme</move>
+	<move>Dracogriffe</move>
+	<move>Déflagration</move>
+	<move>Boutefeu</move>
+	<move>Colère</move>
+	<move>Tranche</move>
+	<move>Danse-Lames</move>
+	<move>Machouille</move>
+	<move>Crocs de Feu</move>
+</creature>
+
+<creature>
+	<number>6</number>
+	<name>Dracaufeu</name>
+	<minisprite color="RED">DRAGON</minisprite>
+	
+	<type>Feu</type>
+	<type>Vol</type>
+	<ability>Brasier</ability>
+	
+	<stat_hp>78</stat_hp>
+	<stat_att>84</stat_att>
+	<stat_def>78</stat_def>
+	<stat_spe_att>109</stat_spe_att>
+	<stat_spe_def>85</stat_spe_def>
+	<stat_vit>100</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Lance-Flamme</move>
+	<move>Dracogriffe</move>
+	<move>Lame d'Air</move>
+	<move>Déflagration</move>
+	<move>Boutefeu</move>
+	<move>Colère</move>
+	<move>Danse-Lames</move>
+	<move>Atterrissage</move>
+	<move>Machouille</move>
+	<move>Crocs de Feu</move>
+	<move>Tranche</move>
+</creature>
+
+<creature>
+	<number>7</number>
+	<name>Carapuce</name>
+	<minisprite color="BLUE">TURTLE</minisprite>
+	
+	<type>Eau</type>
+	<ability>Torrent</ability>
+	<ability>Super Carapace</ability>
+	
+	<stat_hp>44</stat_hp>
+	<stat_att>48</stat_att>
+	<stat_def>65</stat_def>
+	<stat_spe_att>50</stat_spe_att>
+	<stat_spe_def>64</stat_spe_def>
+	<stat_vit>43</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Laser Glace</move>
+	<move>Hydrocanon</move>
+	<move>Plaquage</move>
+	<move>Tour Rapide</move>
+	<move>Aurasphère</move>
+	<move>Surf</move>
+	<move>Vibrobscur</move>
+	<move>Hydroqueue</move>
+	<move>Danse Pluie</move>
+	<move>Vibraqua</move>
+</creature>
+
+<creature>
+	<number>8</number>
+	<name>Carabaffe</name>
+	<minisprite color="BLUE">TURTLE</minisprite>
+	
+	<type>Eau</type>
+	<ability>Torrent</ability>
+	<ability>Super Carapace</ability>
+	
+	<stat_hp>59</stat_hp>
+	<stat_att>63</stat_att>
+	<stat_def>80</stat_def>
+	<stat_spe_att>65</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>58</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Laser Glace</move>
+	<move>Hydrocanon</move>
+	<move>Plaquage</move>
+	<move>Tour Rapide</move>
+	<move>Aurasphère</move>
+	<move>Surf</move>
+	<move>Vibrobscur</move>
+	<move>Hydroqueue</move>
+	<move>Danse Pluie</move>
+	<move>Vibraqua</move>
+</creature>
+
+<creature>
+	<number>9</number>
+	<name>Tortank</name>
+	<minisprite color="BLUE">TURTLE</minisprite>
+	
+	<type>Eau</type>
+	<ability>Torrent</ability>
+	<ability>Super Carapace</ability>
+	
+	<stat_hp>79</stat_hp>
+	<stat_att>83</stat_att>
+	<stat_def>100</stat_def>
+	<stat_spe_att>85</stat_spe_att>
+	<stat_spe_def>105</stat_spe_def>
+	<stat_vit>78</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Laser Glace</move>
+	<move>Hydrocanon</move>
+	<move>Plaquage</move>
+	<move>Tour Rapide</move>
+	<move>Aurasphère</move>
+	<move>Surf</move>
+	<move>Vibrobscur</move>
+	<move>Hydroqueue</move>
+	<move>Danse Pluie</move>
+	<move>Vibraqua</move>
+</creature>
+
+<creature>
+	<number>10</number>
+	<name>Chenipan</name>
+	<minisprite color="GREEN">COBRA</minisprite>
+	
+	<type>Insecte</type>
+	<ability>Essaim</ability>
+	
+	<stat_hp>45</stat_hp>
+	<stat_att>30</stat_att>
+	<stat_def>35</stat_def>
+	<stat_spe_att>20</stat_spe_att>
+	<stat_spe_def>20</stat_spe_def>
+	<stat_vit>45</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Charge</move>
+	<move>Sécrétion</move>
+	<move>Piqure</move>
+</creature>
+
+<creature>
+	<number>11</number>
+	<name>Chrysacier</name>
+	<minisprite color="GREEN">COBRA</minisprite>
+	
+	<type>Insecte</type>
+	<ability>Mue</ability>
+	
+	<stat_hp>50</stat_hp>
+	<stat_att>20</stat_att>
+	<stat_def>55</stat_def>
+	<stat_spe_att>25</stat_spe_att>
+	<stat_spe_def>25</stat_spe_def>
+	<stat_vit>30</stat_vit>
+	
+	<type>Insecte</type>
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Charge</move>
+	<move>Sécrétion</move>
+	<move>Piqure</move>
+	<move>Armure</move>
+</creature>
+
+<creature>
+	<number>12</number>
+	<name>Papilusion</name>
+	<minisprite color="CYAN">BUTTERFLY</minisprite>
+	
+	<type>Insecte</type>
+	<type>Vol</type>
+	<ability>Essaim</ability>
+	
+	<size>S</size>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>45</stat_att>
+	<stat_def>50</stat_def>
+	<stat_spe_att>90</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>70</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Bird</personnality>
+	
+	<move>Psyko</move>
+	<move>Poudre Dodo</move>
+	<move>Bourdon</move>
+	<move>Papillodanse</move>
+	<move>Ball'Ombre</move>
+	<move>Vent Argenté</move>
+	<move>Vent Arriere</move>
+	<move>Lame d'Air</move>
+	<move>Aeropique</move>
+	<move>Demi-Tour</move>
+</creature>
+
+<creature>
+	<number>13</number>
+	<name>Aspicot</name>
+	<minisprite color="ORANGE">COBRA</minisprite>
+	
+	<type>Insecte</type>
+	<type>Poison</type>
+	<ability>Essaim</ability>
+	
+	<stat_hp>40</stat_hp>
+	<stat_att>35</stat_att>
+	<stat_def>30</stat_def>
+	<stat_spe_att>20</stat_spe_att>
+	<stat_spe_def>20</stat_spe_def>
+	<stat_vit>50</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Dard Venin</move>
+	<move>Sécrétion</move>
+	<move>Piqure</move>
+</creature>
+
+<creature>
+	<number>14</number>
+	<name>Coconfort</name>
+	<minisprite color="ORANGE">COBRA</minisprite>
+	
+	<type>Insecte</type>
+	<type>Poison</type>
+	<ability>Mue</ability>
+	
+	<stat_hp>45</stat_hp>
+	<stat_att>25</stat_att>
+	<stat_def>50</stat_def>
+	<stat_spe_att>25</stat_spe_att>
+	<stat_spe_def>25</stat_spe_def>
+	<stat_vit>35</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Dard Venin</move>
+	<move>Sécrétion</move>
+	<move>Piqure</move>
+	<move>Armure</move>
+</creature>
+
+<creature>
+	<number>15</number>
+	<name>Dardargnan</name>
+	<minisprite color="ORANGE">INSECT</minisprite>
+	
+	<type>Insecte</type>
+	<type>Poison</type>
+	<ability>Essaim</ability>
+	
+	<size>S</size>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>90</stat_att>
+	<stat_def>40</stat_def>
+	<stat_spe_att>45</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>75</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Bird</personnality>
+	
+	<move>Demi-Tour</move>
+	<move>Plaie-Croix</move>
+	<move>Direct Toxic</move>
+	<move>Pics Toxiques</move>
+	<move>Danse-Lames</move>
+	<move>Tunnelier</move>
+	<move>Vent Arriere</move>
+	<move>Aeropique</move>
+</creature>
+
+<creature>
+	<number>16</number>
+	<name>Roucool</name>
+	<minisprite color="ORANGE">BIRD</minisprite>
+	
+	<type>Normal</type>
+	<type>Vol</type>
+	
+	
+	<stat_hp>40</stat_hp>
+	<stat_att>45</stat_att>
+	<stat_def>40</stat_def>
+	<stat_spe_att>35</stat_spe_att>
+	<stat_spe_def>35</stat_spe_def>
+	<stat_vit>56</stat_vit>
+
+	<blood mode="3">BLOOD_main</blood>	
+	
+	<move>Vent Arriere</move>
+	<move>Vive-Attaque</move>
+	<move>Lame d'Air</move>
+	<move>Canicule</move>
+	<move>Danse Plume</move>
+	<move>Vent Violent</move>
+	<move>Demi-Tour</move>
+	<move>Cyclone</move>
+	<move>Aile d'Acier</move>
+</creature>
+
+<creature>
+	<number>17</number>
+	<name>Roucoups</name>
+	<minisprite color="ORANGE">BIRD</minisprite>
+	
+	<type>Normal</type>
+	<type>Vol</type>
+	
+	
+	<stat_hp>63</stat_hp>
+	<stat_att>60</stat_att>
+	<stat_def>55</stat_def>
+	<stat_spe_att>50</stat_spe_att>
+	<stat_spe_def>50</stat_spe_def>
+	<stat_vit>71</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Vent Arriere</move>
+	<move>Vive-Attaque</move>
+	<move>Lame d'Air</move>
+	<move>Canicule</move>
+	<move>Danse Plume</move>
+	<move>Vent Violent</move>
+	<move>Demi-Tour</move>
+	<move>Cyclone</move>
+	<move>Aile d'Acier</move>
+</creature>
+
+<creature>
+	<number>18</number>
+	<name>Roucarnage</name>
+	<minisprite color="ORANGE">BIRD</minisprite>
+	
+	<type>Normal</type>
+	<type>Vol</type>
+	
+	
+	<stat_hp>83</stat_hp>
+	<stat_att>80</stat_att>
+	<stat_def>75</stat_def>
+	<stat_spe_att>70</stat_spe_att>
+	<stat_spe_def>70</stat_spe_def>
+	<stat_vit>101</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Vent Arriere</move>
+	<move>Vive-Attaque</move>
+	<move>Lame d'Air</move>
+	<move>Canicule</move>
+	<move>Danse Plume</move>
+	<move>Vent Violent</move>
+	<move>Demi-Tour</move>
+	<move>Cyclone</move>
+	<move>Aile d'Acier</move>
+</creature>
+
+<creature>
+	<number>19</number>
+	<name>Rattata</name>
+	<minisprite color="PURPLE">CAT</minisprite>
+	
+	<type>Normal</type>
+	
+	<ability>Cran</ability>
+	
+	<stat_hp>30</stat_hp>
+	<stat_att>56</stat_att>
+	<stat_def>35</stat_def>
+	<stat_spe_att>25</stat_spe_att>
+	<stat_spe_def>35</stat_spe_def>
+	<stat_vit>72</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Croc de Mort</move>
+	<move>Croc Fatal</move>
+	<move>Machouille</move>
+	<move>Danse-Lames</move>
+	<move>Damocles</move>
+	<move>Roue de Feu</move>
+	<move>Poursuite</move>
+	<move>Vive-Attaque</move>
+	<move>Griffe Ombre</move>
+</creature>
+
+<creature>
+	<number>19</number>
+	<name>Rattata</name>
+	<minisprite color="BLACK">CAT</minisprite>
+	<form sprite_number="252">Alola</form>
+	
+	<type>Normal</type>
+	<type>Tenebres</type>
+	
+	<ability>Isograisse</ability>
+	
+	<stat_hp>30</stat_hp>
+	<stat_att>56</stat_att>
+	<stat_def>35</stat_def>
+	<stat_spe_att>25</stat_spe_att>
+	<stat_spe_def>35</stat_spe_def>
+	<stat_vit>72</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Croc de Mort</move>
+	<move>Croc Fatal</move>
+	<move>Machouille</move>
+	<move>Danse-Lames</move>
+	<move>Tranche-Nuit</move>
+	<move>Damocles</move>
+	<move>Roue de Feu</move>
+	<move>Poursuite</move>
+	<move>Vive-Attaque</move>
+	<move>Griffe Ombre</move>
+</creature>
+
+<creature>
+	<number>20</number>
+	<name>Rattatac</name>
+	<minisprite color="BROWN">CAT</minisprite>
+	
+	<type>Normal</type>
+	
+	
+	<ability>Cran</ability>
+	
+	<stat_hp>55</stat_hp>
+	<stat_att>81</stat_att>
+	<stat_def>60</stat_def>
+	<stat_spe_att>50</stat_spe_att>
+	<stat_spe_def>70</stat_spe_def>
+	<stat_vit>97</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Croc de Mort</move>
+	<move>Croc Fatal</move>
+	<move>Machouille</move>
+	<move>Danse-Lames</move>
+	<move>Damocles</move>
+	<move>Roue de Feu</move>
+	<move>Poursuite</move>
+	<move>Vive-Attaque</move>
+	<move>Griffe Ombre</move>
+</creature>
+
+<creature>
+	<number>20</number>
+	<name>Rattatac</name>
+	<minisprite color="BLACK">CAT</minisprite>
+	<form sprite_number="253">Alola</form>
+	
+	<type>Normal</type>
+	<type>Tenebres</type>
+	
+	
+	<ability>Isograisse</ability>
+	
+	<stat_hp>75</stat_hp>
+	<stat_att>71</stat_att>
+	<stat_def>70</stat_def>
+	<stat_spe_att>40</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>77</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Croc de Mort</move>
+	<move>Croc Fatal</move>
+	<move>Machouille</move>
+	<move>Tranche-Nuit</move>
+	<move>Danse-Lames</move>
+	<move>Damocles</move>
+	<move>Roue de Feu</move>
+	<move>Poursuite</move>
+	<move>Vive-Attaque</move>
+	<move>Griffe Ombre</move>
+</creature>
+
+<creature>
+	<number>21</number>
+	<name>Piafabec</name>
+	<minisprite color="BROWN">BIRD</minisprite>
+	
+	<type>Normal</type>
+	<type>Vol</type>
+	
+	<stat_hp>40</stat_hp>
+	<stat_att>60</stat_att>
+	<stat_def>30</stat_def>
+	<stat_spe_att>31</stat_spe_att>
+	<stat_spe_def>31</stat_spe_def>
+	<stat_vit>70</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Bec Vrille</move>
+	<move>Damocles</move>
+	<move>Tunnelier</move>
+	<move>Demi-Tour</move>
+	<move>Poursuite</move>
+	<move>Atterrissage</move>
+	<move>Aile d'Acier</move>
+	<move>Vive-Attaque</move>
+</creature>
+
+<creature>
+	<number>22</number>
+	<name>Rapasdepic</name>
+	<minisprite color="BROWN">BIRD</minisprite>
+	
+	<type>Normal</type>
+	<type>Vol</type>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>90</stat_att>
+	<stat_def>65</stat_def>
+	<stat_spe_att>61</stat_spe_att>
+	<stat_spe_def>61</stat_spe_def>
+	<stat_vit>100</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Bec Vrille</move>
+	<move>Damocles</move>
+	<move>Tunnelier</move>
+	<move>Demi-Tour</move>
+	<move>Poursuite</move>
+	<move>Atterrissage</move>
+	<move>Aile d'Acier</move>
+	<move>Vive-Attaque</move>
+</creature>
+
+<creature>
+	<number>23</number>
+	<name>Abo</name>
+	<minisprite color="PURPLE">COBRA</minisprite>
+	
+	<type>Poison</type>
+	<ability>Intimidation</ability>
+	<ability>Crocs Venimeux</ability>
+	
+	<stat_hp>35</stat_hp>
+	<stat_att>60</stat_att>
+	<stat_def>44</stat_def>
+	<stat_spe_att>40</stat_spe_att>
+	<stat_spe_def>54</stat_spe_def>
+	<stat_vit>55</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Détricanon</move>
+	<move>Crocs de Feu</move>
+	<move>Crocs Givre</move>
+	<move>Enroulement</move>
+	<move>Crochetvenin</move>
+	<move>Regard Indimidant</move>
+	<move>Boue Bombe</move>
+	<move>Toxik</move>
+	<move>Tunnelier</move>
+</creature>
+
+<creature>
+	<number>24</number>
+	<name>Arbok</name>
+	<minisprite color="PURPLE">COBRA</minisprite>
+	
+	<type>Poison</type>
+	<ability>Intimidation</ability>
+	<ability>Crocs Venimeux</ability>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>95</stat_att>
+	<stat_def>69</stat_def>
+	<stat_spe_att>65</stat_spe_att>
+	<stat_spe_def>79</stat_spe_def>
+	<stat_vit>80</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Détricanon</move>
+	<move>Crocs de Feu</move>
+	<move>Crocs Givre</move>
+	<move>Enroulement</move>
+	<move>Crochetvenin</move>
+	<move>Regard Indimidant</move>
+	<move>Boue Bombe</move>
+	<move>Toxik</move>
+	<move>Tunnelier</move>
+</creature>
+
+<creature>
+	<number>25</number>
+	<name>Pikachu</name>
+	<minisprite color="ORANGE">PIKACHU</minisprite>
+	
+	<type>Electrik</type>
+	<ability>Statik</ability>
+	
+	<stat_hp>35</stat_hp>
+	<stat_att>55</stat_att>
+	<stat_def>40</stat_def>
+	<stat_spe_att>50</stat_spe_att>
+	<stat_spe_def>50</stat_spe_def>
+	<stat_vit>90</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Tonnerre</move>
+	<move>Fatal Foudre</move>
+	<move>Queue de Fer</move>
+	<move>Damocles</move>
+	<move>Eletacle</move>
+	<move>Vive-Attaque</move>
+	<move>Mur Lumière</move>
+</creature>
+
+<creature>
+	<number>26</number>
+	<name>Raichu</name>
+	<minisprite color="ORANGE">PIKACHU</minisprite>
+	
+	<type>Electrik</type>
+	<ability>Statik</ability>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>90</stat_att>
+	<stat_def>55</stat_def>
+	<stat_spe_att>90</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>110</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Tonnerre</move>
+	<move>Fatal Foudre</move>
+	<move>Queue de Fer</move>
+	<move>Damocles</move>
+	<move>Eletacle</move>
+	<move>Vive-Attaque</move>
+	<move>Mur Lumière</move>
+</creature>
+
+<creature>
+	<number>26</number>
+	<name>Raichu</name>
+	<minisprite color="ORANGE">PIKACHU</minisprite>
+	<form sprite_number="254">Alola</form>
+	
+	<type>Electrik</type>
+	<type>Psy</type>
+	<ability>Statik</ability>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>85</stat_att>
+	<stat_def>50</stat_def>
+	<stat_spe_att>95</stat_spe_att>
+	<stat_spe_def>85</stat_spe_def>
+	<stat_vit>110</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Tonnerre</move>
+	<move>Fatal Foudre</move>
+	<move>Queue de Fer</move>
+	<move>Damocles</move>
+	<move>Vive-Attaque</move>
+	<move>Mur Lumière</move>
+	<move>Psyko</move>
+</creature>
+
+<creature>
+	<number>27</number>
+	<name>Sabelette</name>
+	<minisprite color="BROWN">POKEMON</minisprite>
+	
+	<type>Sol</type>
+	<ability>Voile Sable</ability>
+	<ability>Hypper Cutter</ability>
+	
+	<stat_hp>50</stat_hp>
+	<stat_att>75</stat_att>
+	<stat_def>85</stat_def>
+	<stat_spe_att>20</stat_spe_att>
+	<stat_spe_def>30</stat_spe_def>
+	<stat_vit>40</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Seisme</move>
+	<move>Eclategriffe</move>
+	<move>Danse-Lames</move>
+	<move>Griffe Ombre</move>
+	<move>Plaie-Croix</move>
+	<move>Tranche-Nuit</move>
+	<move>Griffe Acier</move>
+	<move>Tranche</move>
+</creature>
+
+<creature>
+	<number>27</number>
+	<name>Sabelette</name>
+	<minisprite color="CYAN">POKEMON</minisprite>
+	<form sprite_number="255">Alola</form>
+	
+	<type>Glace</type>
+	<type>Acier</type>
+	<ability>Rideau Neige</ability>
+	<ability>Hypper Cutter</ability>
+	
+	<stat_hp>50</stat_hp>
+	<stat_att>75</stat_att>
+	<stat_def>90</stat_def>
+	<stat_spe_att>10</stat_spe_att>
+	<stat_spe_def>35</stat_spe_def>
+	<stat_vit>40</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Chute Glace</move>
+	<move>Poinglace</move>
+	<move>Eclategriffe</move>
+	<move>Danse-Lames</move>
+	<move>Griffe Ombre</move>
+	<move>Plaie-Croix</move>
+	<move>Tranche-Nuit</move>
+	<move>Griffe Acier</move>
+	<move>Tranche</move>
+</creature>
+
+<creature>
+	<number>28</number>
+	<name>Sablaireau</name>
+	<minisprite color="BROWN">POKEMON</minisprite>
+	
+	<type>Sol</type>
+	<ability>Voile Sable</ability>
+	<ability>Hypper Cutter</ability>
+	
+	
+	<stat_hp>75</stat_hp>
+	<stat_att>100</stat_att>
+	<stat_def>110</stat_def>
+	<stat_spe_att>45</stat_spe_att>
+	<stat_spe_def>55</stat_spe_def>
+	<stat_vit>65</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Seisme</move>
+	<move>Eclategriffe</move>
+	<move>Danse-Lames</move>
+	<move>Griffe Ombre</move>
+	<move>Plaie-Croix</move>
+	<move>Tranche-Nuit</move>
+	<move>Griffe Acier</move>
+	<move>Tranche</move>
+</creature>
+
+<creature>
+	<number>28</number>
+	<name>Sablaireau</name>
+	<minisprite color="CYAN">POKEMON</minisprite>
+	<form sprite_number="256">Alola</form>
+	
+	<type>Glace</type>
+	<type>Acier</type>
+	<ability>Rideau Neige</ability>
+	<ability>Hypper Cutter</ability>
+	
+	
+	<stat_hp>75</stat_hp>
+	<stat_att>100</stat_att>
+	<stat_def>120</stat_def>
+	<stat_spe_att>25</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>65</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Chute Glace</move>
+	<move>Poinglace</move>
+	<move>Eclategriffe</move>
+	<move>Danse-Lames</move>
+	<move>Griffe Ombre</move>
+	<move>Plaie-Croix</move>
+	<move>Tranche-Nuit</move>
+	<move>Griffe Acier</move>
+	<move>Tranche</move>
+</creature>
+
+<creature>
+	<number>29</number>
+	<name>Nidoran F</name>
+	<minisprite color="BLUE">POKEMON</minisprite>
+	
+	<type>Poison</type>
+	<ability>Point Poison</ability>
+	
+	<stat_hp>55</stat_hp>
+	<stat_att>47</stat_att>
+	<stat_def>52</stat_def>
+	<stat_spe_att>40</stat_spe_att>
+	<stat_spe_def>40</stat_spe_def>
+	<stat_vit>41</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Météores</move>
+	<move>Machouille</move>
+	<move>Plaquage</move>
+	<move>Double Pied</move>
+	<move>Crochetvenin</move>
+	<move>Direct Toxic</move>
+</creature>
+
+<creature>
+	<number>30</number>
+	<name>Nidorina</name>
+	<minisprite color="BLUE">POKEMON</minisprite>
+	
+	<type>Poison</type>
+	<ability>Point Poison</ability>
+	
+	<stat_hp>70</stat_hp>
+	<stat_att>62</stat_att>
+	<stat_def>67</stat_def>
+	<stat_spe_att>55</stat_spe_att>
+	<stat_spe_def>55</stat_spe_def>
+	<stat_vit>56</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Météores</move>
+	<move>Machouille</move>
+	<move>Plaquage</move>
+	<move>Double Pied</move>
+	<move>Crochetvenin</move>
+	<move>Direct Toxic</move>
+</creature>
+
+<creature>
+	<number>31</number>
+	<name>Nidoqueen</name>
+	<minisprite color="BLUE">POKEMON</minisprite>
+	
+	<type>Poison</type>
+	<type>Sol</type>
+	<ability>Point Poison</ability>
+	
+	<stat_hp>90</stat_hp>
+	<stat_att>92</stat_att>
+	<stat_def>87</stat_def>
+	<stat_spe_att>75</stat_spe_att>
+	<stat_spe_def>85</stat_spe_def>
+	<stat_vit>76</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Laser Glace</move>
+	<move>Seisme</move>
+	<move>Bomb'Eurk</move>
+	<move>Empal'Korne</move>
+	<move>Telluriforce</move>
+	<move>Surpuissance</move>
+	<move>Plaquage</move>
+	<move>Double Pied</move>
+	<move>Crochetvenin</move>
+	<move>Direct Toxic</move>
+	<move>Machouille</move>
+</creature>
+
+
+<creature>
+	<number>32</number>
+	<name>Nidoran M</name>
+	<minisprite color="PURPLE">POKEMON</minisprite>
+	
+	<type>Poison</type>
+	<ability>Toxitouche</ability>
+	
+	<stat_hp>46</stat_hp>
+	<stat_att>57</stat_att>
+	<stat_def>40</stat_def>
+	<stat_spe_att>40</stat_spe_att>
+	<stat_spe_def>40</stat_spe_def>
+	<stat_vit>50</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Météores</move>
+	<move>Machouille</move>
+	<move>Plaquage</move>
+	<move>Double Pied</move>
+	<move>Crochetvenin</move>
+	<move>Direct Toxic</move>
+</creature>
+
+<creature>
+	<number>33</number>
+	<name>Nidorino</name>
+	<minisprite color="PURPLE">POKEMON</minisprite>
+	
+	<type>Poison</type>
+	<ability>Toxitouche</ability>
+	
+	<stat_hp>61</stat_hp>
+	<stat_att>72</stat_att>
+	<stat_def>57</stat_def>
+	<stat_spe_att>55</stat_spe_att>
+	<stat_spe_def>55</stat_spe_def>
+	<stat_vit>65</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Météores</move>
+	<move>Machouille</move>
+	<move>Plaquage</move>
+	<move>Double Pied</move>
+	<move>Crochetvenin</move>
+	<move>Direct Toxic</move>
+</creature>
+
+<creature>
+	<number>34</number>
+	<name>Nidoking</name>
+	<minisprite color="PURPLE">POKEMON</minisprite>
+	
+	<type>Poison</type>
+	<type>Sol</type>
+	<ability>Toxitouche</ability>
+	
+	<stat_hp>90</stat_hp>
+	<stat_att>102</stat_att>
+	<stat_def>77</stat_def>
+	<stat_spe_att>85</stat_spe_att>
+	<stat_spe_def>75</stat_spe_def>
+	<stat_vit>76</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Direct Toxic</move>
+	<move>Seisme</move>
+	<move>Lance-Flamme</move>
+	<move>Empal'Korne</move>
+	<move>Telluriforce</move>
+	<move>Surpuissance</move>
+	<move>Plaquage</move>
+	<move>Double Pied</move>
+	<move>Crochetvenin</move>
+	<move>Machouille</move>
+</creature>
+
+<creature>
+	<number>35</number>
+	<name>Mélofée</name>
+	<minisprite color="PINK">FEE</minisprite>
+	
+	<type>Fee</type>
+	<ability>Garde Magik</ability>
+	
+	<stat_hp>70</stat_hp>
+	<stat_att>45</stat_att>
+	<stat_def>48</stat_def>
+	<stat_spe_att>60</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>35</stat_vit>
+	
+	<blood mode="3">BLOOD_fairy</blood>
+	
+	<move>Eclat Magique</move>
+	<move>Pouvoir Lunaire</move>
+	<move>Lance-Flamme</move>
+	<move>Tonnerre</move>
+	<move>Poinglace</move>
+	<move>Poing de Feu</move>
+	<move>Poing Eclair</move>
+	<move>Plénitude</move>
+	<move>Mur Lumière</move>
+	<move>Rayon Lune</move>
+	<move>Poing Meteor</move>
+</creature>
+
+<creature>
+	<number>36</number>
+	<name>Mélodelfe</name>
+	<minisprite color="PINK">FEE</minisprite>
+	
+	<type>Fee</type>
+	<ability>Garde Magik</ability>
+	
+	<stat_hp>95</stat_hp>
+	<stat_att>70</stat_att>
+	<stat_def>73</stat_def>
+	<stat_spe_att>95</stat_spe_att>
+	<stat_spe_def>90</stat_spe_def>
+	<stat_vit>60</stat_vit>
+	
+	<blood mode="3">BLOOD_fairy</blood>
+	
+	<move>Eclat Magique</move>
+	<move>Pouvoir Lunaire</move>
+	<move>Lance-Flamme</move>
+	<move>Tonnerre</move>
+	<move>Poinglace</move>
+	<move>Poing de Feu</move>
+	<move>Poing Eclair</move>
+	<move>Plénitude</move>
+	<move>Mur Lumière</move>
+	<move>Rayon Lune</move>
+	<move>Poing Meteor</move>
+</creature>
+
+<creature>
+	<number>37</number>
+	<name>Goupix</name>
+	<minisprite color="RED">CAT</minisprite>
+	
+	<type>Feu</type>
+	<ability>Sécheresse</ability>
+	
+	<stat_hp>38</stat_hp>
+	<stat_att>41</stat_att>
+	<stat_def>40</stat_def>
+	<stat_spe_att>50</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>65</stat_vit>
+	
+	<blood mode="3">BLOOD_fairy</blood>
+	
+	<move>Eco-Sphère</move>
+	<move>Lance-Flamme</move>
+	<move>Machination</move>
+	<move>Extrasenseur</move>
+	<move>Surchauffe</move>
+	<move>Feu Follet</move>
+	<move>Déflagration</move>
+	<move>Vibrobscur</move>
+	<move>Zénith</move>
+</creature>
+
+<creature>
+	<number>37</number>
+	<name>Goupix</name>
+	<minisprite color="CYAN">CAT</minisprite>
+	<form sprite_number="257">Alola</form>
+	
+	<type>Glace</type>
+	<ability>Alerte Neige</ability>
+	
+	<stat_hp>38</stat_hp>
+	<stat_att>41</stat_att>
+	<stat_def>40</stat_def>
+	<stat_spe_att>50</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>65</stat_vit>
+	
+	<blood mode="3">BLOOD_fairy</blood>
+	
+	<move>Eco-Sphère</move>
+	<move>Laser Glace</move>
+	<move>Machination</move>
+	<move>Extrasenseur</move>
+	<move>Blizzard</move>
+	<move>Pouvoir Lunaire</move>
+	<move>Mur Lumière</move>
+	<move>Vent Glacé</move>
+	<move>Grêle</move>
+</creature>
+
+<creature>
+	<number>38</number>
+	<name>Feunard</name>
+	<minisprite color="ORANGE">CAT</minisprite>
+	
+	<type>Feu</type>
+	<ability>Sécheresse</ability>
+	
+	<stat_hp>73</stat_hp>
+	<stat_att>76</stat_att>
+	<stat_def>75</stat_def>
+	<stat_spe_att>81</stat_spe_att>
+	<stat_spe_def>100</stat_spe_def>
+	<stat_vit>100</stat_vit>
+	
+	<blood mode="3">BLOOD_fairy</blood>
+	
+	<move>Eco-Sphère</move>
+	<move>Lance-Flamme</move>
+	<move>Machination</move>
+	<move>Extrasenseur</move>
+	<move>Surchauffe</move>
+	<move>Feu Follet</move>
+	<move>Déflagration</move>
+	<move>Vibrobscur</move>
+	<move>Zénith</move>
+</creature>
+
+<creature>
+	<number>38</number>
+	<name>Feunard</name>
+	<minisprite color="CYAN">CAT</minisprite>
+	<form sprite_number="258">Alola</form>
+	
+	<type>Glace</type>
+	<type>Fee</type>
+	<ability>Alerte Neige</ability>
+	
+	<stat_hp>73</stat_hp>
+	<stat_att>67</stat_att>
+	<stat_def>75</stat_def>
+	<stat_spe_att>81</stat_spe_att>
+	<stat_spe_def>100</stat_spe_def>
+	<stat_vit>109</stat_vit>
+	
+	<blood mode="3">BLOOD_fairy</blood>
+	
+	<move>Eco-Sphère</move>
+	<move>Laser Glace</move>
+	<move>Machination</move>
+	<move>Extrasenseur</move>
+	<move>Blizzard</move>
+	<move>Pouvoir Lunaire</move>
+	<move>Eclat Magique</move>
+	<move>Vent Glacé</move>
+	<move>Mur Lumière</move>
+	<move>Grêle</move>
+</creature>
+
+<creature>
+	<number>39</number>
+	<name>Rondoudou</name>
+	<minisprite color="PINK">FEE</minisprite>
+	
+	<type>Normal</type>
+	<type>Fee</type>
+	
+	<ability>Garde Magik</ability>
+	<ability>Contre-Attaque</ability>
+	
+	<stat_hp>115</stat_hp>
+	<stat_att>45</stat_att>
+	<stat_def>20</stat_def>
+	<stat_spe_att>45</stat_spe_att>
+	<stat_spe_def>25</stat_spe_def>
+	<stat_vit>20</stat_vit>
+	
+	<blood mode="3">BLOOD_fairy</blood>
+	
+	<move>Câlinerie</move>
+	<move>Torgnoles</move>
+	<move>Damocles</move>
+	<move>Megaphone</move>
+	<move>Plaquage</move>
+	<move>Casse-Brique</move>
+	<move>Tonnerre</move>
+	<move>Laser Glace</move>
+	<move>Voeu</move>
+	<move>Berceuse</move>
+</creature>
+
+<creature>
+	<number>40</number>
+	<name>Grodoudou</name>
+	<minisprite color="PINK">FEE</minisprite>
+	
+	<type>Normal</type>
+	<type>Fee</type>
+	
+	<ability>Garde Magik</ability>
+	<ability>Contre-Attaque</ability>
+	
+	<stat_hp>140</stat_hp>
+	<stat_att>70</stat_att>
+	<stat_def>45</stat_def>
+	<stat_spe_att>85</stat_spe_att>
+	<stat_spe_def>50</stat_spe_def>
+	<stat_vit>45</stat_vit>
+	
+	<blood mode="3">BLOOD_fairy</blood>
+	
+	<move>Câlinerie</move>
+	<move>Torgnoles</move>
+	<move>Damocles</move>
+	<move>Megaphone</move>
+	<move>Plaquage</move>
+	<move>Casse-Brique</move>
+	<move>Tonnerre</move>
+	<move>Laser Glace</move>
+	<move>Voeu</move>
+	<move>Berceuse</move>
+</creature>
+
+<creature>
+	<number>41</number>
+	<name>Nosferapti</name>
+	<minisprite color="PURPLE">BAT</minisprite>
+	
+	<type>Poison</type>
+	<type>Vol</type>
+	<ability>Attention</ability>
+	
+	<stat_hp>40</stat_hp>
+	<stat_att>45</stat_att>
+	<stat_def>35</stat_def>
+	<stat_spe_att>30</stat_spe_att>
+	<stat_spe_def>40</stat_spe_def>
+	<stat_vit>55</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Crochetvenin</move>
+	<move>Demi-Tour</move>
+	<move>Onde Folie</move>
+	<move>Lame d'Air</move>
+	<move>Pics Toxiques</move>
+	<move>Regard Noir</move>
+	<move>Bomb'Eurk</move>
+	<move>Vampirisme</move>
+	<move>Toxik</move>
+</creature>
+
+<creature>
+	<number>42</number>
+	<name>Nosferalto</name>
+	<minisprite color="PURPLE">BAT</minisprite>
+	
+	<type>Poison</type>
+	<type>Vol</type>
+	<ability>Attention</ability>
+	
+	<stat_hp>75</stat_hp>
+	<stat_att>80</stat_att>
+	<stat_def>70</stat_def>
+	<stat_spe_att>65</stat_spe_att>
+	<stat_spe_def>75</stat_spe_def>
+	<stat_vit>90</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Crochetvenin</move>
+	<move>Demi-Tour</move>
+	<move>Onde Folie</move>
+	<move>Lame d'Air</move>
+	<move>Pics Toxiques</move>
+	<move>Regard Noir</move>
+	<move>Bomb'Eurk</move>
+	<move>Vampirisme</move>
+	<move>Toxik</move>
+</creature>
+
+<creature>
+	<number>43</number>
+	<name>Mystherbe</name>
+	<minisprite color="GREEN">FLOWER</minisprite>
+	
+	<type>Plante</type>
+	<type>Poison</type>
+	<ability>Chlorophyle</ability>
+	
+	<stat_hp>45</stat_hp>
+	<stat_att>50</stat_att>
+	<stat_def>55</stat_def>
+	<stat_spe_att>75</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>30</stat_vit>
+	
+	<blood mode="3">BLOOD_grass_plasma</blood>
+	
+	<move>Poudre Dodo</move>
+	<move>Giga-Sangsue</move>
+	<move>Vampigraine</move>
+	<move>Para-Spore</move>
+	<move>Rayon Lune</move>
+	<move>Pouvoir Lunaire</move>
+	<move>Danse-Fleur</move>
+	<move>Lance-Soleil</move>
+	<move>Toxik</move>
+</creature>
+
+
+<creature>
+	<number>44</number>
+	<name>Ortide</name>
+	<minisprite color="RED">FLOWER</minisprite>
+	
+	<type>Plante</type>
+	<type>Poison</type>
+	<ability>Chlorophyle</ability>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>65</stat_att>
+	<stat_def>70</stat_def>
+	<stat_spe_att>85</stat_spe_att>
+	<stat_spe_def>75</stat_spe_def>
+	<stat_vit>40</stat_vit>
+	
+	<blood mode="3">BLOOD_grass_plasma</blood>
+	
+	<move>Poudre Dodo</move>
+	<move>Giga-Sangsue</move>
+	<move>Vampigraine</move>
+	<move>Para-Spore</move>
+	<move>Rayon Lune</move>
+	<move>Pouvoir Lunaire</move>
+	<move>Danse-Fleur</move>
+	<move>Lance-Soleil</move>
+	<move>Toxik</move>
+</creature>
+
+<creature>
+	<number>45</number>
+	<name>Rafflésia</name>
+	<minisprite color="RED">FLOWER</minisprite>
+	
+	<type>Plante</type>
+	<type>Poison</type>
+	<ability>Chlorophyle</ability>
+	
+	<stat_hp>75</stat_hp>
+	<stat_att>80</stat_att>
+	<stat_def>85</stat_def>
+	<stat_spe_att>110</stat_spe_att>
+	<stat_spe_def>90</stat_spe_def>
+	<stat_vit>50</stat_vit>
+	
+	<blood mode="3">BLOOD_grass_plasma</blood>
+	
+	<move>Poudre Dodo</move>
+	<move>Giga-Sangsue</move>
+	<move>Vampigraine</move>
+	<move>Para-Spore</move>
+	<move>Rayon Lune</move>
+	<move>Pouvoir Lunaire</move>
+	<move>Danse-Fleur</move>
+	<move>Lance-Soleil</move>
+	<move>Toxik</move>
+</creature>
+
+<creature>
+	<number>46</number>
+	<name>Paras</name>
+	<minisprite color="RED">GRASS</minisprite>
+	
+	<type>Insecte</type>
+	<type>Plante</type>
+	
+	<stat_hp>35</stat_hp>
+	<stat_att>70</stat_att>
+	<stat_def>55</stat_def>
+	<stat_spe_att>45</stat_spe_att>
+	<stat_spe_def>55</stat_spe_def>
+	<stat_vit>25</stat_vit>
+	
+	<blood mode="3">BLOOD_grass_plasma</blood>
+	
+	<move>Spore</move>
+	<move>Giga-Sangsue</move>
+	<move>Plaie-Croix</move>
+	<move>Croissance</move>
+	<move>Vampirisme</move>
+	<move>Tranche</move>
+	<move>Toxik</move>
+	<move>Poison Croix</move>
+</creature>
+
+<creature>
+	<number>47</number>
+	<name>Parasect</name>
+	<minisprite color="RED">GRASS</minisprite>
+	
+	<type>Insecte</type>
+	<type>Plante</type>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>95</stat_att>
+	<stat_def>80</stat_def>
+	<stat_spe_att>60</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>30</stat_vit>
+	
+	<blood mode="3">BLOOD_grass_plasma</blood>
+	
+	<move>Spore</move>
+	<move>Giga-Sangsue</move>
+	<move>Plaie-Croix</move>
+	<move>Croissance</move>
+	<move>Vampirisme</move>
+	<move>Tranche</move>
+	<move>Toxik</move>
+	<move>Poison Croix</move>
+</creature>
+
+<creature>
+	<number>48</number>
+	<name>Mimitoss</name>
+	<minisprite color="PURPLE">INSECT</minisprite>
+	
+	<type>Insecte</type>
+	<type>Poison</type>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>55</stat_att>
+	<stat_def>50</stat_def>
+	<stat_spe_att>40</stat_spe_att>
+	<stat_spe_def>55</stat_spe_def>
+	<stat_vit>45</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Psyko</move>
+	<move>Psykoud'Boul</move>
+	<move>Vampirisme</move>
+	<move>Bomb'Eurk</move>
+	<move>Toxik</move>
+	<move>Rayon Signal</move>
+	<move>Crochetvenin</move>
+	<move>Para-Spore</move>
+</creature>
+
+<creature>
+	<number>49</number>
+	<name>Aeromite</name>
+	<minisprite color="PURPLE">INSECT</minisprite>
+	
+	<type>Insecte</type>
+	<type>Poison</type>
+	
+	<stat_hp>70</stat_hp>
+	<stat_att>65</stat_att>
+	<stat_def>60</stat_def>
+	<stat_spe_att>90</stat_spe_att>
+	<stat_spe_def>75</stat_spe_def>
+	<stat_vit>90</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Bird</personnality>
+	
+	<move>Papillodanse</move>
+	<move>Bourdon</move>
+	<move>Psyko</move>
+	<move>Giga-Sangsue</move>
+	<move>Vampirisme</move>
+	<move>Bomb'Eurk</move>
+	<move>Rayon Signal</move>
+	<move>Toxik</move>
+	<move>Para-Spore</move>
+</creature>
+
+<creature>
+	<number>50</number>
+	<name>Taupiqueur</name>
+	<minisprite color="BROWN">MOLE</minisprite>
+	
+	<type>Sol</type>
+	<size>S</size>
+	<ability>Voile Sable</ability>
+	<ability>Piège</ability>
+	
+	<stat_hp>10</stat_hp>
+	<stat_att>55</stat_att>
+	<stat_def>25</stat_def>
+	<stat_spe_att>35</stat_spe_att>
+	<stat_spe_def>45</stat_spe_def>
+	<stat_vit>95</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Seisme</move>
+	<move>Tranche-Nuit</move>
+	<move>Piège de Roc</move>
+	<move>Lame de Roc</move>
+	<move>Tranche</move>
+	<move>Abîme</move>
+	<move>Pouv. Antique</move>
+	<move>Griffe Acier</move>
+	<move>Piétisol</move>
+</creature>
+
+<creature>
+	<number>50</number>
+	<name>Taupiqueur</name>
+	<minisprite color="GREY">MOLE</minisprite>
+	<form sprite_number="259">Alola</form>
+	
+	<type>Sol</type>
+	<type>Acier</type>
+	<size>S</size>
+	<ability>Voile Sable</ability>
+	
+	<stat_hp>10</stat_hp>
+	<stat_att>55</stat_att>
+	<stat_def>30</stat_def>
+	<stat_spe_att>35</stat_spe_att>
+	<stat_spe_def>45</stat_spe_def>
+	<stat_vit>90</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Seisme</move>
+	<move>Tranche-Nuit</move>
+	<move>Piège de Roc</move>
+	<move>Tête de Fer</move>
+	<move>Tranche</move>
+	<move>Abîme</move>
+	<move>Pouv. Antique</move>
+	<move>Griffe Acier</move>
+	<move>Piétisol</move>
+</creature>
+
+<creature>
+	<number>51</number>
+	<name>Triopikeur</name>
+	<minisprite color="BROWN">MOLE</minisprite>
+	
+	<type>Sol</type>
+	<size>S</size>
+	<ability>Voile Sable</ability>
+	<ability>Piège</ability>
+	
+	<stat_hp>35</stat_hp>
+	<stat_att>100</stat_att>
+	<stat_def>50</stat_def>
+	<stat_spe_att>50</stat_spe_att>
+	<stat_spe_def>70</stat_spe_def>
+	<stat_vit>120</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Seisme</move>
+	<move>Tranche-Nuit</move>
+	<move>Piège de Roc</move>
+	<move>Lame de Roc</move>
+	<move>Tranche</move>
+	<move>Abîme</move>
+	<move>Pouv. Antique</move>
+	<move>Griffe Acier</move>
+	<move>Piétisol</move>
+</creature>
+
+<creature>
+	<number>51</number>
+	<name>Triopikeur</name>
+	<minisprite color="ORANGE">MOLE</minisprite>
+	<form sprite_number="260">Alola</form>
+	
+	<type>Sol</type>
+	<type>Acier</type>
+	<size>S</size>
+	<ability>Voile Sable</ability>
+	
+	<stat_hp>35</stat_hp>
+	<stat_att>100</stat_att>
+	<stat_def>60</stat_def>
+	<stat_spe_att>50</stat_spe_att>
+	<stat_spe_def>70</stat_spe_def>
+	<stat_vit>110</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Seisme</move>
+	<move>Tranche-Nuit</move>
+	<move>Piège de Roc</move>
+	<move>Tête de Fer</move>
+	<move>Tranche</move>
+	<move>Abîme</move>
+	<move>Pouv. Antique</move>
+	<move>Griffe Acier</move>
+	<move>Piétisol</move>
+</creature>
+
+<creature>
+	<number>52</number>
+	<name>Miaouss</name>
+	<minisprite color="ORANGE">CAT</minisprite>
+	
+	<type>Normal</type>
+	
+	<stat_hp>40</stat_hp>
+	<stat_att>45</stat_att>
+	<stat_def>35</stat_def>
+	<stat_spe_att>40</stat_spe_att>
+	<stat_spe_def>40</stat_spe_def>
+	<stat_vit>90</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Tranche</move>
+	<move>Tonnerre</move>
+	<move>Demi-Tour</move>
+	<move>Vibrobscur</move>
+	<move>Tranche-Nuit</move>
+	<move>Machination</move>
+	<move>Bluff</move>
+	<move>Ball'Ombre</move>
+</creature>
+
+<creature>
+	<number>52</number>
+	<name>Miaouss</name>
+	<minisprite color="BLACK">CAT</minisprite>
+	<form sprite_number="261">Alola</form>
+	
+	<type>Tenebres</type>
+	
+	<stat_hp>40</stat_hp>
+	<stat_att>35</stat_att>
+	<stat_def>35</stat_def>
+	<stat_spe_att>50</stat_spe_att>
+	<stat_spe_def>40</stat_spe_def>
+	<stat_vit>90</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Tranche</move>
+	<move>Feinte</move>
+	<move>Tonnerre</move>
+	<move>Demi-Tour</move>
+	<move>Vibrobscur</move>
+	<move>Tranche-Nuit</move>
+	<move>Machination</move>
+	<move>Bluff</move>
+	<move>Ball'Ombre</move>
+</creature>
+
+<creature>
+	<number>53</number>
+	<name>Persian</name>
+	<minisprite color="ORANGE">CAT</minisprite>
+	
+	<type>Normal</type>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>70</stat_att>
+	<stat_def>60</stat_def>
+	<stat_spe_att>65</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>115</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Tranche</move>
+	<move>Tonnerre</move>
+	<move>Demi-Tour</move>
+	<move>Vibrobscur</move>
+	<move>Tranche-Nuit</move>
+	<move>Machination</move>
+	<move>Bluff</move>
+	<move>Ball'Ombre</move>
+</creature>
+
+<creature>
+	<number>53</number>
+	<name>Persian</name>
+	<minisprite color="BLACK">CAT</minisprite>
+	<form sprite_number="262">Alola</form>
+	
+	<type>Tenebres</type>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>60</stat_att>
+	<stat_def>60</stat_def>
+	<stat_spe_att>75</stat_spe_att>
+	<stat_spe_def>60</stat_spe_def>
+	<stat_vit>115</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Tranche</move>
+	<move>Feinte</move>
+	<move>Vibrobscur</move>
+	<move>Tonnerre</move>
+	<move>Demi-Tour</move>
+	<move>Tranche-Nuit</move>
+	<move>Machination</move>
+	<move>Bluff</move>
+	<move>Ball'Ombre</move>
+</creature>
+
+
+<creature>
+	<number>54</number>
+	<name>Psykokwak</name>
+	<minisprite color="ORANGE">SLOWPOKE</minisprite>
+	
+	<type>Eau</type>
+	<ability>Glissade</ability>
+	
+	<stat_hp>50</stat_hp>
+	<stat_att>52</stat_att>
+	<stat_def>48</stat_def>
+	<stat_spe_att>65</stat_spe_att>
+	<stat_spe_def>60</stat_spe_def>
+	<stat_vit>55</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Psyko</move>
+	<move>Hydroqueue</move>
+	<move>Surf</move>
+	<move>Plénitude</move>
+	<move>Blizzard</move>
+	<move>Hydrocanon</move>
+	<move>Laser Glace</move>
+	<move>Griffe Ombre</move>
+	<move>Psykoud'Boul</move>
+</creature>
+
+<creature>
+	<number>55</number>
+	<name>Akwakwak</name>
+	<minisprite color="BLUE">SLOWPOKE</minisprite>
+	
+	<type>Eau</type>
+	<ability>Glissade</ability>
+	
+	<stat_hp>80</stat_hp>
+	<stat_att>82</stat_att>
+	<stat_def>78</stat_def>
+	<stat_spe_att>95</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>85</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Normal</personnality>
+	
+	<move>Psyko</move>
+	<move>Hydroqueue</move>
+	<move>Surf</move>
+	<move>Plénitude</move>
+	<move>Blizzard</move>
+	<move>Hydrocanon</move>
+	<move>Laser Glace</move>
+	<move>Griffe Ombre</move>
+	<move>Psykoud'Boul</move>
+</creature>
+
+
+<creature>
+	<number>56</number>
+	<name>Férosinge</name>
+	<minisprite color="ORANGE">FIGHT</minisprite>
+	
+	<type>Combat</type>
+	
+	
+	<stat_hp>40</stat_hp>
+	<stat_att>80</stat_att>
+	<stat_def>35</stat_def>
+	<stat_spe_att>35</stat_spe_att>
+	<stat_spe_def>45</stat_spe_def>
+	<stat_vit>70</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Acrobat</personnality>
+	
+	<move>Close Combat</move>
+	<move>Grincement</move>
+	<move>Poing de Feu</move>
+	<move>Détricanon</move>
+	<move>Colère</move>
+	<move>Coup-Croix</move>
+	<move>Eboulement</move>
+	<move>Casse-Brique</move>
+	<move>Demi-Tour</move>
+	<move>Tonnerre</move>
+	<move>Seisme</move>
+</creature>
+
+
+<creature>
+	<number>57</number>
+	<name>Colossinge</name>
+	<minisprite color="ORANGE">FIGHT</minisprite>
+	
+	<type>Combat</type>
+	
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>105</stat_att>
+	<stat_def>60</stat_def>
+	<stat_spe_att>60</stat_spe_att>
+	<stat_spe_def>70</stat_spe_def>
+	<stat_vit>95</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Close Combat</move>
+	<move>Grincement</move>
+	<move>Poing de Feu</move>
+	<move>Détricanon</move>
+	<move>Colère</move>
+	<move>Coup-Croix</move>
+	<move>Eboulement</move>
+	<move>Casse-Brique</move>
+	<move>Demi-Tour</move>
+	<move>Tonnerre</move>
+	<move>Seisme</move>
+</creature>
+
+<creature>
+	<number>58</number>
+	<name>Caninos</name>
+	<minisprite color="RED">DOG</minisprite>
+	
+	<type>Feu</type>
+	
+	<ability>Intimidation</ability>
+	<ability>Torche</ability>
+	
+	<stat_hp>55</stat_hp>
+	<stat_att>70</stat_att>
+	<stat_def>45</stat_def>
+	<stat_spe_att>70</stat_spe_att>
+	<stat_spe_def>50</stat_spe_def>
+	<stat_vit>60</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Lance-Flamme</move>
+	<move>Feu Follet</move>
+	<move>Seisme</move>
+	<move>Hurlement</move>
+	<move>Machouille</move>
+	<move>Déflagration</move>
+	<move>Colère</move>
+	<move>Canicule</move>
+	<move>Eclair Fou</move>
+</creature>
+
+<creature>
+	<number>59</number>
+	<name>Arcanin</name>
+	<minisprite color="RED">DOG</minisprite>
+	
+	<type>Feu</type>
+	<size>L</size>
+	
+	<ability>Intimidation</ability>
+	<ability>Torche</ability>
+	
+	<stat_hp>90</stat_hp>
+	<stat_att>110</stat_att>
+	<stat_def>80</stat_def>
+	<stat_spe_att>100</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>75</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Vit. Extrême</move>
+	<move>Lance-Flamme</move>
+	<move>Feu Follet</move>
+	<move>Seisme</move>
+	<move>Hurlement</move>
+	<move>Machouille</move>
+	<move>Déflagration</move>
+	<move>Colère</move>
+	<move>Canicule</move>
+	<move>Eclair Fou</move>
+</creature>
+
+<creature>
+	<number>60</number>
+	<name>Ptitard</name>
+	<minisprite color="BLUE">TADPOLE</minisprite>
+	
+	<type>Eau</type>
+	<ability>Glissade</ability>
+	
+	<stat_hp>40</stat_hp>
+	<stat_att>50</stat_att>
+	<stat_def>40</stat_def>
+	<stat_spe_att>40</stat_spe_att>
+	<stat_spe_def>40</stat_spe_def>
+	<stat_vit>90</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Clonage</move>
+	<move>Cognobidon</move>
+	<move>Hypnose</move>
+	<move>Hydrocanon</move>
+	<move>Plaquage</move>
+	<move>Laser Glace</move>
+	<move>Ebullition</move>
+	<move>Psyko</move>
+</creature>
+
+<creature>
+	<number>61</number>
+	<name>Tetarte</name>
+	<minisprite color="BLUE">TADPOLE</minisprite>
+	
+	<type>Eau</type>
+	<ability>Glissade</ability>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>65</stat_att>
+	<stat_def>65</stat_def>
+	<stat_spe_att>50</stat_spe_att>
+	<stat_spe_def>50</stat_spe_def>
+	<stat_vit>90</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Poinglace</move>
+	<move>Clonage</move>
+	<move>Cognobidon</move>
+	<move>Hypnose</move>
+	<move>Hydrocanon</move>
+	<move>Plaquage</move>
+	<move>Laser Glace</move>
+	<move>Ebullition</move>
+	<move>Psyko</move>
+</creature>
+
+<creature>
+	<number>62</number>
+	<name>Tartard</name>
+	<minisprite color="BLUE">TADPOLE</minisprite>
+	
+	<type>Eau</type>
+	<type>Combat</type>
+	<ability>Glissade</ability>
+	
+	<stat_hp>90</stat_hp>
+	<stat_att>95</stat_att>
+	<stat_def>95</stat_def>
+	<stat_spe_att>70</stat_spe_att>
+	<stat_spe_def>90</stat_spe_def>
+	<stat_vit>70</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Dynamopoing</move>
+	<move>Cascade</move>
+	<move>Poinglace</move>
+	<move>Clonage</move>
+	<move>Cognobidon</move>
+	<move>Hypnose</move>
+	<move>Hydrocanon</move>
+	<move>Plaquage</move>
+	<move>Laser Glace</move>
+	<move>Ebullition</move>
+	<move>Eboulement</move>
+	<move>Sacrifice</move>
+</creature>
+
+
+<creature>
+	<number>63</number>
+	<name>Abra</name>
+	<minisprite color="BROWN">PUPPET</minisprite>
+	
+	<type>Psy</type>
+	<ability>Attention</ability>
+	
+	<stat_hp>25</stat_hp>
+	<stat_att>20</stat_att>
+	<stat_def>15</stat_def>
+	<stat_spe_att>105</stat_spe_att>
+	<stat_spe_def>55</stat_spe_def>
+	<stat_vit>90</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Psychic</personnality>
+	
+	<move>Psyko</move>
+	<move>Choc Psy</move>
+	<move>Plénitude</move>
+	<move>Ball'Ombre</move>
+	<move>Exploforce</move>
+	<move>Eco-Sphère</move>
+	<move>Eclat Magique</move>
+	<move>Rayon Charge</move>
+</creature>
+
+<creature>
+	<number>64</number>
+	<name>Kadabra</name>
+	<minisprite color="BROWN">PUPPET</minisprite>
+	
+	<type>Psy</type>
+	<ability>Attention</ability>
+	
+	<stat_hp>40</stat_hp>
+	<stat_att>35</stat_att>
+	<stat_def>30</stat_def>
+	<stat_spe_att>120</stat_spe_att>
+	<stat_spe_def>70</stat_spe_def>
+	<stat_vit>105</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Psychic</personnality>
+	
+	<move>Psyko</move>
+	<move>Choc Psy</move>
+	<move>Plénitude</move>
+	<move>Ball'Ombre</move>
+	<move>Exploforce</move>
+	<move>Eco-Sphère</move>
+	<move>Eclat Magique</move>
+	<move>Rayon Charge</move>
+</creature>
+
+<creature>
+	<number>65</number>
+	<name>Alakazam</name>
+	<minisprite color="BROWN">PUPPET</minisprite>
+	
+	<type>Psy</type>
+	<ability>Attention</ability>
+	
+	<stat_hp>55</stat_hp>
+	<stat_att>50</stat_att>
+	<stat_def>45</stat_def>
+	<stat_spe_att>135</stat_spe_att>
+	<stat_spe_def>85</stat_spe_def>
+	<stat_vit>120</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Psychic</personnality>
+	
+	<move>Psyko</move>
+	<move>Choc Psy</move>
+	<move>Plénitude</move>
+	<move>Ball'Ombre</move>
+	<move>Exploforce</move>
+	<move>Eco-Sphère</move>
+	<move>Eclat Magique</move>
+	<move>Rayon Charge</move>
+</creature>
+
+
+<creature>
+	<number>66</number>
+	<name>Machoc</name>
+	<minisprite color="GREY">FIGHT</minisprite>
+	
+	<type>Combat</type>
+	
+	
+	<ability>Cran</ability>
+	
+	<stat_hp>70</stat_hp>
+	<stat_att>80</stat_att>
+	<stat_def>50</stat_def>
+	<stat_spe_att>35</stat_spe_att>
+	<stat_spe_def>35</stat_spe_def>
+	<stat_vit>35</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Poing de Feu</move>
+	<move>Coup-Croix</move>
+	<move>Eboulement</move>
+	<move>Gonflette</move>
+	<move>Double Baffe</move>
+	<move>Sabotage</move>
+	<move>Dynamopoing</move>
+	<move>Frappe Atlas</move>
+	<move>Sacrifice</move>
+	<move>Poing Eclair</move>
+</creature>
+
+
+<creature>
+	<number>67</number>
+	<name>Machopeur</name>
+	<minisprite color="GREY">FIGHT</minisprite>
+	
+	<type>Combat</type>
+	
+	
+	<ability>Cran</ability>
+	
+	<stat_hp>80</stat_hp>
+	<stat_att>100</stat_att>
+	<stat_def>70</stat_def>
+	<stat_spe_att>50</stat_spe_att>
+	<stat_spe_def>60</stat_spe_def>
+	<stat_vit>45</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Poing de Feu</move>
+	<move>Coup-Croix</move>
+	<move>Eboulement</move>
+	<move>Gonflette</move>
+	<move>Double Baffe</move>
+	<move>Sabotage</move>
+	<move>Dynamopoing</move>
+	<move>Frappe Atlas</move>
+	<move>Sacrifice</move>
+	<move>Poing Eclair</move>
+</creature>
+
+
+<creature>
+	<number>68</number>
+	<name>Mackogneur</name>
+	<minisprite color="GREY">FIGHT</minisprite>
+	
+	<type>Combat</type>
+	
+	
+	<ability>Cran</ability>
+	
+	<stat_hp>90</stat_hp>
+	<stat_att>130</stat_att>
+	<stat_def>80</stat_def>
+	<stat_spe_att>65</stat_spe_att>
+	<stat_spe_def>85</stat_spe_def>
+	<stat_vit>55</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Poing de Feu</move>
+	<move>Coup-Croix</move>
+	<move>Eboulement</move>
+	<move>Gonflette</move>
+	<move>Double Baffe</move>
+	<move>Sabotage</move>
+	<move>Dynamopoing</move>
+	<move>Frappe Atlas</move>
+	<move>Sacrifice</move>
+	<move>Poing Eclair</move>
+</creature>
+
+<creature>
+	<number>69</number>
+	<name>Chétiflor</name>
+	<minisprite color="ORANGE">FLOWER</minisprite>
+	
+	<type>Plante</type>
+	<type>Poison</type>
+	<ability>Chlorophyle</ability>
+	
+	<stat_hp>50</stat_hp>
+	<stat_att>75</stat_att>
+	<stat_def>35</stat_def>
+	<stat_spe_att>70</stat_spe_att>
+	<stat_spe_def>30</stat_spe_def>
+	<stat_vit>40</stat_vit>
+	
+	<blood mode="3">BLOOD_grass_plasma</blood>
+	
+	<move>Canon Graine</move>
+	<move>Megafouet</move>
+	<move>Danse-Lames</move>
+	<move>Damocles</move>
+	<move>Croissance</move>
+	<move>Para-Spore</move>
+	<move>Giga-Sangsue</move>
+	<move>Direct Toxic</move>
+	<move>Sabotage</move>
+	<move>Toxik</move>
+</creature>
+
+<creature>
+	<number>70</number>
+	<name>Boustiflor</name>
+	<minisprite color="ORANGE">FLOWER</minisprite>
+	
+	<type>Plante</type>
+	<type>Poison</type>
+	<ability>Chlorophyle</ability>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>90</stat_att>
+	<stat_def>50</stat_def>
+	<stat_spe_att>85</stat_spe_att>
+	<stat_spe_def>45</stat_spe_def>
+	<stat_vit>55</stat_vit>
+	
+	<blood mode="3">BLOOD_grass_plasma</blood>
+	
+	<move>Canon Graine</move>
+	<move>Megafouet</move>
+	<move>Danse-Lames</move>
+	<move>Damocles</move>
+	<move>Croissance</move>
+	<move>Para-Spore</move>
+	<move>Giga-Sangsue</move>
+	<move>Direct Toxic</move>
+	<move>Sabotage</move>
+	<move>Toxik</move>
+</creature>
+
+<creature>
+	<number>71</number>
+	<name>Empiflor</name>
+	<minisprite color="ORANGE">FLOWER</minisprite>
+	
+	<type>Plante</type>
+	<type>Poison</type>
+	<ability>Chlorophyle</ability>
+	
+	<stat_hp>80</stat_hp>
+	<stat_att>105</stat_att>
+	<stat_def>65</stat_def>
+	<stat_spe_att>100</stat_spe_att>
+	<stat_spe_def>70</stat_spe_def>
+	<stat_vit>70</stat_vit>
+	
+	<blood mode="3">BLOOD_grass_plasma</blood>
+	
+	<move>Canon Graine</move>
+	<move>Megafouet</move>
+	<move>Danse-Lames</move>
+	<move>Damocles</move>
+	<move>Croissance</move>
+	<move>Para-Spore</move>
+	<move>Giga-Sangsue</move>
+	<move>Direct Toxic</move>
+	<move>Sabotage</move>
+	<move>Toxik</move>
+</creature>
+
+<creature>
+	<number>72</number>
+	<name>Tentacool</name>
+	<minisprite color="BLUE">POULP</minisprite>
+	
+	<type>Eau</type>
+	<type>Poison</type>
+	
+	<stat_hp>40</stat_hp>
+	<stat_att>40</stat_att>
+	<stat_def>35</stat_def>
+	<stat_spe_att>50</stat_spe_att>
+	<stat_spe_def>100</stat_spe_def>
+	<stat_vit>70</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Bomb'Eurk</move>
+	<move>Surf</move>
+	<move>Pics Toxiques</move>
+	<move>Laser Glace</move>
+	<move>Hydrocanon</move>
+	<move>Direct Toxic</move>
+	<move>Danse Pluie</move>
+	<move>Toxik</move>
+	<move>Cascade</move>
+	<move>Clonage</move>
+</creature>
+
+<creature>
+	<number>73</number>
+	<name>Tentacruel</name>
+	<minisprite color="BLUE">POULP</minisprite>
+	
+	<type>Eau</type>
+	<type>Poison</type>
+	
+	<stat_hp>80</stat_hp>
+	<stat_att>70</stat_att>
+	<stat_def>65</stat_def>
+	<stat_spe_att>80</stat_spe_att>
+	<stat_spe_def>120</stat_spe_def>
+	<stat_vit>100</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Bomb'Eurk</move>
+	<move>Surf</move>
+	<move>Pics Toxiques</move>
+	<move>Laser Glace</move>
+	<move>Hydrocanon</move>
+	<move>Direct Toxic</move>
+	<move>Danse Pluie</move>
+	<move>Toxik</move>
+	<move>Cascade</move>
+	<move>Clonage</move>
+</creature>
+
+<creature>
+	<number>74</number>
+	<name>Racaillou</name>
+	<minisprite color="BROWN">ROCK</minisprite>
+	
+	<type>Roche</type>
+	<type>Sol</type>
+	
+	<ability>Fermeté</ability>
+	<ability>Tête de Roc</ability>
+	
+	<stat_hp>40</stat_hp>
+	<stat_att>80</stat_att>
+	<stat_def>100</stat_def>
+	<stat_spe_att>30</stat_spe_att>
+	<stat_spe_def>30</stat_spe_def>
+	<stat_vit>20</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Seisme</move>
+	<move>Eboulement</move>
+	<move>Explosion</move>
+	<move>Piège de Roc</move>
+	<move>Boule Roc</move>
+	<move>Lame de Roc</move>
+	<move>Poing Eclair</move>
+	<move>Tempêtesable</move>
+	<move>Piétisol</move>
+</creature>
+
+<creature>
+	<number>74</number>
+	<name>Racaillou</name>
+	<minisprite color="GREY">ROCK</minisprite>
+	<form sprite_number="263">Alola</form>
+	
+	<type>Roche</type>
+	<type>Electrik</type>
+	
+	<ability>Fermeté</ability>
+	
+	<stat_hp>40</stat_hp>
+	<stat_att>80</stat_att>
+	<stat_def>100</stat_def>
+	<stat_spe_att>30</stat_spe_att>
+	<stat_spe_def>30</stat_spe_def>
+	<stat_vit>30</stat_vit>
+	
+	<blood mode="3">BLOOD_rock</blood>
+	
+	<move>Elécanon</move>
+	<move>Eboulement</move>
+	<move>El-Explosion</move>
+	<move>Piège de Roc</move>
+	<move>Boule Roc</move>
+	<move>Lame de Roc</move>
+	<move>Poing Eclair</move>
+	<move>Eclair Fou</move>
+	<move>Tempêtesable</move>
+	<move>Piétisol</move>
+</creature>
+
+<creature>
+	<number>75</number>
+	<name>Gravalanch</name>
+	<minisprite color="BROWN">ROCK</minisprite>
+	
+	<type>Roche</type>
+	<type>Sol</type>
+	
+	<ability>Fermeté</ability>
+	<ability>Tête de Roc</ability>
+	
+	<stat_hp>55</stat_hp>
+	<stat_att>95</stat_att>
+	<stat_def>115</stat_def>
+	<stat_spe_att>45</stat_spe_att>
+	<stat_spe_def>45</stat_spe_def>
+	<stat_vit>35</stat_vit>
+	
+	<blood mode="3">BLOOD_rock</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Seisme</move>
+	<move>Eboulement</move>
+	<move>Explosion</move>
+	<move>Piège de Roc</move>
+	<move>Boule Roc</move>
+	<move>Lame de Roc</move>
+	<move>Poing Eclair</move>
+	<move>Tempêtesable</move>
+	<move>Piétisol</move>
+</creature>
+
+
+<creature>
+	<number>75</number>
+	<name>Gravalanch</name>
+	<minisprite color="GREY">ROCK</minisprite>
+	<form sprite_number="264">Alola</form>
+	
+	<type>Roche</type>
+	<type>Electrik</type>
+	
+	<ability>Fermeté</ability>
+	
+	<stat_hp>55</stat_hp>
+	<stat_att>95</stat_att>
+	<stat_def>115</stat_def>
+	<stat_spe_att>45</stat_spe_att>
+	<stat_spe_def>45</stat_spe_def>
+	<stat_vit>35</stat_vit>
+	
+	<blood mode="3">BLOOD_rock</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Elécanon</move>
+	<move>Eboulement</move>
+	<move>El-Explosion</move>
+	<move>Piège de Roc</move>
+	<move>Boule Roc</move>
+	<move>Lame de Roc</move>
+	<move>Poing Eclair</move>
+	<move>Eclair Fou</move>
+	<move>Tempêtesable</move>
+	<move>Piétisol</move>
+</creature>
+
+<creature>
+	<number>76</number>
+	<name>Grolem</name>
+	<minisprite color="BROWN">ROCK</minisprite>
+	
+	<type>Roche</type>
+	<type>Sol</type>
+	
+	<ability>Fermeté</ability>
+	<ability>Tête de Roc</ability>
+	<personnality>Menacing</personnality>
+	
+	<stat_hp>80</stat_hp>
+	<stat_att>120</stat_att>
+	<stat_def>130</stat_def>
+	<stat_spe_att>55</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>45</stat_vit>
+	
+	<blood mode="3">BLOOD_rock</blood>
+	
+	<move>Seisme</move>
+	<move>Eboulement</move>
+	<move>Explosion</move>
+	<move>Piège de Roc</move>
+	<move>Roc Boulet</move>
+	<move>Lame de Roc</move>
+	<move>Poing Eclair</move>
+	<move>Tempêtesable</move>
+	<move>Piétisol</move>
+</creature>
+
+<creature>
+	<number>76</number>
+	<name>Grolem</name>
+	<minisprite color="GREY">ROCK</minisprite>
+	<form sprite_number="265">Alola</form>
+	
+	<type>Roche</type>
+	<type>Electrik</type>
+	
+	<ability>Fermeté</ability>
+	<personnality>Menacing</personnality>
+	
+	<stat_hp>80</stat_hp>
+	<stat_att>120</stat_att>
+	<stat_def>130</stat_def>
+	<stat_spe_att>55</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>45</stat_vit>
+	
+	<blood mode="3">BLOOD_rock</blood>
+	
+	<move>Elécanon</move>
+	<move>Eboulement</move>
+	<move>El-Explosion</move>
+	<move>Piège de Roc</move>
+	<move>Boule Roc</move>
+	<move>Lame de Roc</move>
+	<move>Poing Eclair</move>
+	<move>Eclair Fou</move>
+	<move>Tempêtesable</move>
+	<move>Piétisol</move>
+</creature>
+
+<creature>
+	<number>77</number>
+	<name>Ponyta</name>
+	<minisprite color="ORANGE">DOG</minisprite>
+	
+	<type>Feu</type>
+	<ability>Corps Ardent</ability>
+	<ability>Torche</ability>
+	
+	<stat_hp>50</stat_hp>
+	<stat_att>85</stat_att>
+	<stat_def>55</stat_def>
+	<stat_spe_att>65</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>90</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Boutefeu</move>
+	<move>Queue de Fer</move>
+	<move>Tunnelier</move>
+	<move>Déflagration</move>
+	<move>Mégacorne</move>
+	<move>Eclair Fou</move>
+	<move>Nitrocharge</move>
+	<move>Damocles</move>
+	<move>Surchauffe</move>
+	<move>Feu Follet</move>
+</creature>
+
+<creature>
+	<number>78</number>
+	<name>Galopa</name>
+	<minisprite color="ORANGE">DOG</minisprite>
+	
+	<type>Feu</type>
+	<ability>Corps Ardent</ability>
+	<ability>Torche</ability>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>100</stat_att>
+	<stat_def>70</stat_def>
+	<stat_spe_att>80</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>105</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Boutefeu</move>
+	<move>Queue de Fer</move>
+	<move>Tunnelier</move>
+	<move>Déflagration</move>
+	<move>Mégacorne</move>
+	<move>Eclair Fou</move>
+	<move>Nitrocharge</move>
+	<move>Damocles</move>
+	<move>Surchauffe</move>
+	<move>Feu Follet</move>
+</creature>
+
+<creature>
+	<number>79</number>
+	<name>Ramoloss</name>
+	<minisprite color="PINK">SLOWPOKE</minisprite>
+	
+	<type>Eau</type>
+	<type>Psy</type>
+	<ability>Régé-Force</ability>
+	<ability>Tempo Perso</ability>
+	
+	<stat_hp>90</stat_hp>
+	<stat_att>65</stat_att>
+	<stat_def>65</stat_def>
+	<stat_spe_att>40</stat_spe_att>
+	<stat_spe_def>40</stat_spe_def>
+	<stat_vit>15</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Plénitude</move>
+	<move>Surf</move>
+	<move>Psyko</move>
+	<move>Paresse</move>
+	<move>Lance-Flamme</move>
+	<move>Psykoud'Boul</move>
+	<move>Amnésie</move>
+	<move>Vibraqua</move>
+	<move>Coud'Boule</move>
+	<move>Blizzard</move>
+	<move>Clonage</move>
+	<move>Distorsion</move>
+</creature>
+
+<creature>
+	<number>80</number>
+	<name>Flagadoss</name>
+	<minisprite color="PINK">SLOWPOKE</minisprite>
+	
+	<type>Eau</type>
+	<type>Psy</type>
+	<ability>Régé-Force</ability>
+	<ability>Tempo Perso</ability>
+	
+	<stat_hp>95</stat_hp>
+	<stat_att>75</stat_att>
+	<stat_def>110</stat_def>
+	<stat_spe_att>100</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>30</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Plénitude</move>
+	<move>Surf</move>
+	<move>Psyko</move>
+	<move>Paresse</move>
+	<move>Lance-Flamme</move>
+	<move>Psykoud'Boul</move>
+	<move>Amnésie</move>
+	<move>Vibraqua</move>
+	<move>Coud'Boule</move>
+	<move>Blizzard</move>
+	<move>Clonage</move>
+	<move>Distorsion</move>
+</creature>
+
+<creature>
+	<number>81</number>
+	<name>Magneti</name>
+	<minisprite>BALL</minisprite>
+	
+	<type>Electrik</type>
+	<type>Acier</type>
+	
+	<ability>Fermeté</ability>
+	
+	<stat_hp>25</stat_hp>
+	<stat_att>35</stat_att>
+	<stat_def>70</stat_def>
+	<stat_spe_att>95</stat_spe_att>
+	<stat_spe_def>55</stat_spe_def>
+	<stat_vit>45</stat_vit>
+	
+	<blood mode="3">BLOOD_steel</blood>
+	
+	<move>Tonnerre</move>
+	<move>Luminocanon</move>
+	<move>Triplattaque</move>
+	<move>Elécanon</move>
+	<move>Coud'Jus</move>
+	<move>Bombaimant</move>
+	<move>Miroi-Tir</move>
+	<move>Cage-Eclair</move>
+	<move>Explosion</move>
+</creature>
+
+<creature>
+	<number>82</number>
+	<name>Magnéton</name>
+	<minisprite>BALL</minisprite>
+	
+	<type>Electrik</type>
+	<type>Acier</type>
+	
+	<ability>Fermeté</ability>
+	
+	<stat_hp>50</stat_hp>
+	<stat_att>60</stat_att>
+	<stat_def>95</stat_def>
+	<stat_spe_att>120</stat_spe_att>
+	<stat_spe_def>70</stat_spe_def>
+	<stat_vit>70</stat_vit>
+	
+	<blood mode="3">BLOOD_steel</blood>
+	
+	<move>Tonnerre</move>
+	<move>Luminocanon</move>
+	<move>Triplattaque</move>
+	<move>Elécanon</move>
+	<move>Coud'Jus</move>
+	<move>Bombaimant</move>
+	<move>Miroi-Tir</move>
+	<move>Cage-Eclair</move>
+	<move>Explosion</move>
+</creature>
+
+<creature>
+	<number>83</number>
+	<name>Canarticho</name>
+	<minisprite color="BROWN">BIRD</minisprite>
+	
+	<type>Normal</type>
+	<type>Vol</type>
+	<ability>Attention</ability>
+	<personnality>Acrobat</personnality>
+	
+	<stat_hp>52</stat_hp>
+	<stat_att>90</stat_att>
+	<stat_def>55</stat_def>
+	<stat_spe_att>58</stat_spe_att>
+	<stat_spe_def>62</stat_spe_def>
+	<stat_vit>60</stat_vit>
+	
+	<move>Danse-Lames</move>
+	<move>Rapace</move>
+	<move>Damocles</move>
+	<move>Lame-Feuille</move>
+	<move>Lame d'Air</move>
+	<move>Direct Toxic</move>
+	<move>Demi-Tour</move>
+	<move>Aile d'Acier</move>
+</creature>
+
+<creature>
+	<number>84</number>
+	<name>Doduo</name>
+	<minisprite color="BROWN">BIRD</minisprite>
+	
+	<type>Normal</type>
+	<type>Vol</type>
+	
+	<stat_hp>35</stat_hp>
+	<stat_att>85</stat_att>
+	<stat_def>45</stat_def>
+	<stat_spe_att>35</stat_spe_att>
+	<stat_spe_def>35</stat_spe_def>
+	<stat_vit>75</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Normal</personnality>
+	
+	<move>Bec Vrille</move>
+	<move>Picore</move>
+	<move>Vive-Attaque</move>
+	<move>Triplattaque</move>
+	<move>Poursuite</move>
+	<move>Pied Sauté</move>
+	<move>Mania</move>
+	<move>Danse-Lames</move>
+</creature>
+
+<creature>
+	<number>85</number>
+	<name>Dodrio</name>
+	<minisprite color="BROWN">BIRD</minisprite>
+	
+	<type>Normal</type>
+	<type>Vol</type>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>110</stat_att>
+	<stat_def>70</stat_def>
+	<stat_spe_att>60</stat_spe_att>
+	<stat_spe_def>60</stat_spe_def>
+	<stat_vit>110</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Normal</personnality>
+	
+	<move>Bec Vrille</move>
+	<move>Picore</move>
+	<move>Vive-Attaque</move>
+	<move>Triplattaque</move>
+	<move>Poursuite</move>
+	<move>Pied Sauté</move>
+	<move>Mania</move>
+	<move>Danse-Lames</move>
+</creature>
+
+<creature>
+	<number>86</number>
+	<name>Otaria</name>
+	<minisprite color="CYAN">NESS</minisprite>
+	
+	<type>Eau</type>
+	<type>Glace</type>
+	<ability>Isograisse</ability>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>45</stat_att>
+	<stat_def>55</stat_def>
+	<stat_spe_att>45</stat_spe_att>
+	<stat_spe_def>70</stat_spe_def>
+	<stat_vit>45</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Laser Glace</move>
+	<move>Surf</move>
+	<move>Eclats Glace</move>
+	<move>Blizzard</move>
+	<move>Rune Protect</move>
+	<move>Aqua-Jet</move>
+	<move>Cascade</move>
+	<move>Vibraqua</move>
+	<move>Grêle</move>
+</creature>
+
+<creature>
+	<number>87</number>
+	<name>Lamantine</name>
+	<minisprite color="CYAN">NESS</minisprite>
+	
+	<type>Eau</type>
+	<type>Glace</type>
+	<ability>Isograisse</ability>
+	
+	<stat_hp>90</stat_hp>
+	<stat_att>70</stat_att>
+	<stat_def>80</stat_def>
+	<stat_spe_att>70</stat_spe_att>
+	<stat_spe_def>95</stat_spe_def>
+	<stat_vit>70</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Laser Glace</move>
+	<move>Surf</move>
+	<move>Eclats Glace</move>
+	<move>Blizzard</move>
+	<move>Rune Protect</move>
+	<move>Aqua-Jet</move>
+	<move>Cascade</move>
+	<move>Vibraqua</move>
+	<move>Grêle</move>
+</creature>
+
+<creature>
+	<number>88</number>
+	<name>Tadmorv</name>
+	<minisprite color="PURPLE">POISON</minisprite>
+	<personnality>Mole</personnality>
+	
+	<type>Poison</type>
+	<ability>Toxitouche</ability>
+	<ability>Puanteur</ability>
+	
+	<stat_hp>80</stat_hp>
+	<stat_att>80</stat_att>
+	<stat_def>50</stat_def>
+	<stat_spe_att>40</stat_spe_att>
+	<stat_spe_def>50</stat_spe_def>
+	<stat_vit>25</stat_vit>
+	
+	<blood mode="3">BLOOD_gaz</blood>
+	
+	<move>Détricanon</move>
+	<move>Déflagration</move>
+	<move>Toxik</move>
+	<move>Clonage</move>
+	<move>Boue Bombe</move>
+	<move>Cradovague</move>
+	<move>Bomb'Eurk</move>
+	<move>Entrave</move>
+	<move>Tonnerre</move>
+	<move>Direct Toxic</move>
+</creature>
+
+<creature>
+	<number>88</number>
+	<name>Tadmorv</name>
+	<minisprite color="GREEN">POISON</minisprite>
+	<form sprite_number="266">Alola</form>
+	<personnality>Mole</personnality>
+	
+	<type>Poison</type>
+	<type>Tenebres</type>
+	<ability>Toxitouche</ability>
+	
+	<stat_hp>80</stat_hp>
+	<stat_att>80</stat_att>
+	<stat_def>50</stat_def>
+	<stat_spe_att>40</stat_spe_att>
+	<stat_spe_def>50</stat_spe_def>
+	<stat_vit>25</stat_vit>
+	
+	<blood mode="3">BLOOD_gaz</blood>
+	
+	<move>Détricanon</move>
+	<move>Déflagration</move>
+	<move>Toxik</move>
+	<move>Clonage</move>
+	<move>Boue Bombe</move>
+	<move>Cradovague</move>
+	<move>Sabotage</move>
+	<move>Entrave</move>
+	<move>Vibrobscur</move>
+	<move>Direct Toxic</move>
+</creature>
+
+<creature>
+	<number>89</number>
+	<name>Grotadmorv</name>
+	<minisprite color="PURPLE">POISON</minisprite>
+	<personnality>Mole</personnality>
+	
+	<type>Poison</type>
+	<ability>Toxitouche</ability>
+	<ability>Puanteur</ability>
+	
+	<stat_hp>105</stat_hp>
+	<stat_att>105</stat_att>
+	<stat_def>75</stat_def>
+	<stat_spe_att>65</stat_spe_att>
+	<stat_spe_def>100</stat_spe_def>
+	<stat_vit>50</stat_vit>
+	
+	<blood mode="3">BLOOD_gaz</blood>
+	
+	<move>Détricanon</move>
+	<move>Déflagration</move>
+	<move>Toxik</move>
+	<move>Clonage</move>
+	<move>Boue Bombe</move>
+	<move>Cradovague</move>
+	<move>Bomb'Eurk</move>
+	<move>Entrave</move>
+	<move>Tonnerre</move>
+	<move>Direct Toxic</move>
+</creature>
+
+<creature>
+	<number>89</number>
+	<name>Grotadmorv</name>
+	<minisprite color="ORANGE">POISON</minisprite>
+	<form sprite_number="267">Alola</form>
+	<personnality>Mole</personnality>
+	
+	<type>Poison</type>
+	<type>Tenebres</type>
+	<ability>Toxitouche</ability>
+	
+	<stat_hp>105</stat_hp>
+	<stat_att>105</stat_att>
+	<stat_def>75</stat_def>
+	<stat_spe_att>65</stat_spe_att>
+	<stat_spe_def>100</stat_spe_def>
+	<stat_vit>50</stat_vit>
+	
+	<blood mode="3">BLOOD_gaz</blood>
+	
+	<move>Détricanon</move>
+	<move>Déflagration</move>
+	<move>Toxik</move>
+	<move>Clonage</move>
+	<move>Boue Bombe</move>
+	<move>Cradovague</move>
+	<move>Sabotage</move>
+	<move>Entrave</move>
+	<move>Vibrobscur</move>
+	<move>Direct Toxic</move>
+</creature>
+
+<creature>
+	<number>90</number>
+	<name>Kokiyas</name>
+	<minisprite color="PURPLE">SHELL</minisprite>
+	
+	<type>Eau</type>
+	
+	<ability>Multi-Coups</ability>
+	
+	<stat_hp>30</stat_hp>
+	<stat_att>65</stat_att>
+	<stat_def>100</stat_def>
+	<stat_spe_att>45</stat_spe_att>
+	<stat_spe_def>25</stat_spe_def>
+	<stat_vit>40</stat_vit>
+	
+	<blood mode="3">BLOOD_rock</blood>
+	
+	<move>Exuviation</move>
+	<move>Cascade</move>
+	<move>Tour Rapide</move>
+	<move>Stalactite</move>
+	<move>Laser Glace</move>
+	<move>Hydrocanon</move>
+	<move>Eclats Glace</move>
+	<move>Surf</move>
+	<move>Picanon</move>
+</creature>
+
+
+<creature>
+	<number>91</number>
+	<name>Crustabri</name>
+	<minisprite color="PURPLE">SHELL</minisprite>
+	
+	<type>Eau</type>
+	<type>Glace</type>
+	
+	<ability>Multi-Coups</ability>
+	
+	<stat_hp>50</stat_hp>
+	<stat_att>95</stat_att>
+	<stat_def>180</stat_def>
+	<stat_spe_att>85</stat_spe_att>
+	<stat_spe_def>45</stat_spe_def>
+	<stat_vit>70</stat_vit>
+	
+	<blood mode="3">BLOOD_rock</blood>
+	
+	<move>Exuviation</move>
+	<move>Cascade</move>
+	<move>Tour Rapide</move>
+	<move>Stalactite</move>
+	<move>Laser Glace</move>
+	<move>Hydrocanon</move>
+	<move>Eclats Glace</move>
+	<move>Surf</move>
+	<move>Picanon</move>
+</creature>
+
+<creature>
+	<number>92</number>
+	<name>Fantôminus</name>
+	<minisprite color="PURPLE">GHOST</minisprite>
+	
+	<type>Spectre</type>
+	<type>Poison</type>
+	<ability>Lévitation</ability>
+	
+	<stat_hp>30</stat_hp>
+	<stat_att>35</stat_att>
+	<stat_def>30</stat_def>
+	<stat_spe_att>100</stat_spe_att>
+	<stat_spe_def>35</stat_spe_def>
+	<stat_vit>80</stat_vit>
+	
+	<blood mode="3">BLOOD_gaz</blood>
+	
+	<move>Ball'Ombre</move>
+	<move>Vibrobscur</move>
+	<move>Bomb'Eurk</move>
+	<move>Entrave</move>
+	<move>Tonnerre</move>
+	<move>Eclat Magique</move>
+	<move>Onde Folie</move>
+</creature>
+
+<creature>
+	<number>93</number>
+	<name>Spectrum</name>
+	<minisprite color="PURPLE">GHOST</minisprite>
+	
+	<type>Spectre</type>
+	<type>Poison</type>
+	<ability>Lévitation</ability>
+	
+	<stat_hp>45</stat_hp>
+	<stat_att>50</stat_att>
+	<stat_def>45</stat_def>
+	<stat_spe_att>115</stat_spe_att>
+	<stat_spe_def>55</stat_spe_def>
+	<stat_vit>95</stat_vit>
+	
+	<blood mode="3">BLOOD_gaz</blood>
+	
+	<move>Ball'Ombre</move>
+	<move>Vibrobscur</move>
+	<move>Bomb'Eurk</move>
+	<move>Entrave</move>
+	<move>Tonnerre</move>
+	<move>Eclat Magique</move>
+	<move>Onde Folie</move>
+</creature>
+
+<creature>
+	<number>94</number>
+	<name>Ectoplasma</name>
+	<minisprite color="PURPLE">GHOST</minisprite>
+	
+	<type>Spectre</type>
+	<type>Poison</type>
+	<ability>Corps Maudit</ability>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>65</stat_att>
+	<stat_def>60</stat_def>
+	<stat_spe_att>130</stat_spe_att>
+	<stat_spe_def>75</stat_spe_def>
+	<stat_vit>110</stat_vit>
+	
+	<blood mode="3">BLOOD_gaz</blood>
+	
+	<move>Ball'Ombre</move>
+	<move>Vibrobscur</move>
+	<move>Bomb'Eurk</move>
+	<move>Entrave</move>
+	<move>Tonnerre</move>
+	<move>Eclat Magique</move>
+	<move>Onde Folie</move>
+</creature>
+
+<creature>
+	<number>95</number>
+	<name>Onix</name>
+	<minisprite color="GREY">SNAKE</minisprite>
+	
+	<type>Sol</type>
+	<type>Roche</type>
+	
+	<ability>Fermeté</ability>
+	
+	<size>XXXXL</size>
+	<stat_hp>35</stat_hp>
+	<stat_att>45</stat_att>
+	<stat_def>160</stat_def>
+	<stat_spe_att>30</stat_spe_att>
+	<stat_spe_def>45</stat_spe_def>
+	<stat_vit>70</stat_vit>
+	
+	<blood mode="3">BLOOD_rock</blood>
+	
+	<move>Seisme</move>
+	<move>Dracossoufle</move>
+	<move>Queue de Fer</move>
+	<move>Lame de Roc</move>
+	<move>Tempêtesable</move>
+	<move>Dracoqueue</move>
+	<move>Tunnelier</move>
+	<move>Piège de Roc</move>
+	<move>Crocs de Feu</move>
+</creature>
+
+<creature>
+	<number>96</number>
+	<name>Soporifik</name>
+	<minisprite color="ORANGE">POKEMON</minisprite>
+	
+	<type>Psy</type>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>48</stat_att>
+	<stat_def>45</stat_def>
+	<stat_spe_att>43</stat_spe_att>
+	<stat_spe_def>90</stat_spe_def>
+	<stat_vit>42</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Hypnose</move>
+	<move>Psykoud'Boul</move>
+	<move>Poinglace</move>
+	<move>Choc Psy</move>
+	<move>Psyko</move>
+	<move>Entrave</move>
+	<move>Eclat Magique</move>
+	<move>Machination</move>
+	<move>Clonage</move>
+	<move>Casse-Brique</move>
+	<move>Distorsion</move>
+</creature>
+
+<creature>
+	<number>97</number>
+	<name>Hypnomade</name>
+	<minisprite color="ORANGE">POKEMON</minisprite>
+	
+	<type>Psy</type>
+	
+	<stat_hp>85</stat_hp>
+	<stat_att>73</stat_att>
+	<stat_def>70</stat_def>
+	<stat_spe_att>73</stat_spe_att>
+	<stat_spe_def>115</stat_spe_def>
+	<stat_vit>67</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Hypnose</move>
+	<move>Psykoud'Boul</move>
+	<move>Poinglace</move>
+	<move>Choc Psy</move>
+	<move>Psyko</move>
+	<move>Entrave</move>
+	<move>Eclat Magique</move>
+	<move>Machination</move>
+	<move>Clonage</move>
+	<move>Casse-Brique</move>
+	<move>Distorsion</move>
+</creature>
+
+<creature>
+	<number>98</number>
+	<name>Krabby</name>
+	<minisprite color="RED">TURTLE</minisprite>
+	
+	<type>Eau</type>
+	
+	<ability>Hypper Cutter</ability>
+	
+	<stat_hp>30</stat_hp>
+	<stat_att>105</stat_att>
+	<stat_def>90</stat_def>
+	<stat_spe_att>25</stat_spe_att>
+	<stat_spe_def>25</stat_spe_def>
+	<stat_vit>50</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Pince Masse</move>
+	<move>Cascade</move>
+	<move>Casse-Brique</move>
+	<move>Griffe Acier</move>
+	<move>Guillotine</move>
+	<move>Sabotage</move>
+	<move>Clonage</move>
+	<move>Eboulement</move>
+	<move>Danse-Lames</move>
+</creature>
+
+<creature>
+	<number>99</number>
+	<name>Kraboss</name>
+	<minisprite color="RED">TURTLE</minisprite>
+	
+	<type>Eau</type>
+	
+	<ability>Hypper Cutter</ability>
+	
+	<stat_hp>55</stat_hp>
+	<stat_att>130</stat_att>
+	<stat_def>115</stat_def>
+	<stat_spe_att>50</stat_spe_att>
+	<stat_spe_def>50</stat_spe_def>
+	<stat_vit>75</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Pince Masse</move>
+	<move>Cascade</move>
+	<move>Casse-Brique</move>
+	<move>Griffe Acier</move>
+	<move>Guillotine</move>
+	<move>Sabotage</move>
+	<move>Clonage</move>
+	<move>Eboulement</move>
+	<move>Danse-Lames</move>
+</creature>
+
+<creature>
+	<number>100</number>
+	<name>Voltorbe</name>
+	<minisprite color="RED">BALL</minisprite>
+	
+	<type>Electrik</type>
+	<ability>Statik</ability>
+	
+	<stat_hp>40</stat_hp>
+	<stat_att>30</stat_att>
+	<stat_def>50</stat_def>
+	<stat_spe_att>55</stat_spe_att>
+	<stat_spe_def>55</stat_spe_def>
+	<stat_vit>100</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Chang'Eclair</move>
+	<move>Fatal Foudre</move>
+	<move>Tonnerre</move>
+	<move>Explosion</move>
+	<move>Roulade</move>
+	<move>Strido-Son</move>
+	<move>Eclair Fou</move>
+	<move>Rayon Charge</move>
+</creature>
+
+<creature>
+	<number>101</number>
+	<name>Electrode</name>
+	<minisprite color="RED">BALL</minisprite>
+	
+	<type>Electrik</type>
+	<ability>Statik</ability>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>50</stat_att>
+	<stat_def>70</stat_def>
+	<stat_spe_att>80</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>150</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Chang'Eclair</move>
+	<move>Fatal Foudre</move>
+	<move>Tonnerre</move>
+	<move>Explosion</move>
+	<move>Roulade</move>
+	<move>Strido-Son</move>
+	<move>Eclair Fou</move>
+	<move>Rayon Charge</move>
+</creature>
+
+<creature>
+	<number>102</number>
+	<name>Noeunoeuf</name>
+	<minisprite color="PINK">FLOWER</minisprite>
+	<personnality>Ball</personnality>
+	
+	<type>Plante</type>
+	<type>Psy</type>
+	<ability>Chlorophyle</ability>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>40</stat_att>
+	<stat_def>80</stat_def>
+	<stat_spe_att>60</stat_spe_att>
+	<stat_spe_def>45</stat_spe_def>
+	<stat_vit>40</stat_vit>
+	
+	<blood mode="3">BLOOD_grass_plasma</blood>
+	
+	<move>Psyko</move>
+	<move>Extrasenseur</move>
+	<move>Eco-Sphère</move>
+	<move>Toxik</move>
+	<move>Clonage</move>
+	<move>Poudre Dodo</move>
+	<move>Bomb'Eurk</move>
+	<move>Balle Graine</move>
+</creature>
+
+<creature>
+	<number>103</number>
+	<name>Noadkoko</name>
+	<minisprite color="DARK_GREEN">FLOWER</minisprite>
+	
+	<type>Plante</type>
+	<type>Psy</type>
+	<ability>Chlorophyle</ability>
+	
+	<stat_hp>95</stat_hp>
+	<stat_att>95</stat_att>
+	<stat_def>85</stat_def>
+	<stat_spe_att>125</stat_spe_att>
+	<stat_spe_def>75</stat_spe_def>
+	<stat_vit>55</stat_vit>
+	
+	<blood mode="3">BLOOD_grass_plasma</blood>
+	
+	<move>Psyko</move>
+	<move>Extrasenseur</move>
+	<move>Eco-Sphère</move>
+	<move>Toxik</move>
+	<move>Clonage</move>
+	<move>Poudre Dodo</move>
+	<move>Bomb'Eurk</move>
+	<move>Balle Graine</move>
+	<move>Martobois</move>
+	<move>Tempête Verte</move>
+</creature>
+
+<creature>
+	<number>103</number>
+	<name>Noadkoko</name>
+	<minisprite color="GREEN">FLOWER</minisprite>
+	<form sprite_number="268">Alola</form>
+	
+	<type>Plante</type>
+	<type>Dragon</type>
+	<size>XXXXL</size>
+	
+	<stat_hp>95</stat_hp>
+	<stat_att>105</stat_att>
+	<stat_def>85</stat_def>
+	<stat_spe_att>125</stat_spe_att>
+	<stat_spe_def>75</stat_spe_def>
+	<stat_vit>45</stat_vit>
+	
+	<blood mode="3">BLOOD_grass_plasma</blood>
+	
+	<move>Dracochoc</move>
+	<move>Draco-Marteau</move>
+	<move>Choc Psy</move>
+	<move>Toxik</move>
+	<move>Clonage</move>
+	<move>Poudre Dodo</move>
+	<move>Bomb'Eurk</move>
+	<move>Balle Graine</move>
+	<move>Martobois</move>
+	<move>Tempête Verte</move>
+</creature>
+
+<creature>
+	<number>104</number>
+	<name>Osselait</name>
+	<minisprite color="BROWN">POKEMON</minisprite>
+	
+	<type>Sol</type>
+	
+	<stat_hp>50</stat_hp>
+	<stat_att>50</stat_att>
+	<stat_def>95</stat_def>
+	<stat_spe_att>40</stat_spe_att>
+	<stat_spe_def>50</stat_spe_def>
+	<stat_vit>35</stat_vit>
+	
+	<ability>Coloforce</ability>
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Danse-Lames</move>
+	<move>Osmerang</move>
+	<move>Tête de Fer</move>
+	<move>Mania</move>
+	<move>Damocles</move>
+	<move>Seisme</move>
+	<move>Poinglace</move>
+	<move>Poing de Feu</move>
+</creature>
+
+<creature>
+	<number>105</number>
+	<name>Ossatueur</name>
+	<minisprite color="BROWN">POKEMON</minisprite>
+	
+	<type>Sol</type>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>80</stat_att>
+	<stat_def>110</stat_def>
+	<stat_spe_att>50</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>45</stat_vit>
+	
+	<ability>Coloforce</ability>
+	<ability>Bone Master</ability>
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Danse-Lames</move>
+	<move>Osmerang</move>
+	<move>Tête de Fer</move>
+	<move>Mania</move>
+	<move>Damocles</move>
+	<move>Seisme</move>
+	<move>Poinglace</move>
+	<move>Poing de Feu</move>
+</creature>
+
+<creature>
+	<number>105</number>
+	<name>Ossatueur</name>
+	<minisprite color="BLACK">POKEMON</minisprite>
+	<form sprite_number="269">Alola</form>
+	
+	<type>Feu</type>
+	<type>Spectre</type>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>80</stat_att>
+	<stat_def>110</stat_def>
+	<stat_spe_att>50</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>45</stat_vit>
+	
+	<ability>Coloforce</ability>
+	<ability>Bone Master</ability>
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Danse-Lames</move>
+	<move>Osmerang</move>
+	<move>Tête de Fer</move>
+	<move>Mania</move>
+	<move>Poing de Feu</move>
+	<move>Poing Eclair</move>
+	<move>Os d'Ombre</move>
+	<move>Boutefeu</move>
+	<move>Roue de Feu</move>
+</creature>
+
+<creature>
+	<number>106</number>
+	<name>Kicklee</name>
+	<minisprite color="BROWN">FIGHT</minisprite>
+	
+	<type>Combat</type>
+	
+	<stat_hp>50</stat_hp>
+	<stat_att>120</stat_att>
+	<stat_def>53</stat_def>
+	<stat_spe_att>35</stat_spe_att>
+	<stat_spe_def>110</stat_spe_def>
+	<stat_vit>87</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Pied Voltige</move>
+	<move>Pied Brûleur</move>
+	<move>Mach Punch</move>
+	<move>Yoga</move>
+	<move>Double Pied</move>
+	<move>Piétisol</move>
+	<move>Direct Toxic</move>
+</creature>
+
+<creature>
+	<number>107</number>
+	<name>Tygnon</name>
+	<minisprite color="BROWN">FIGHT</minisprite>
+	
+	<type>Combat</type>
+	<ability>Attention</ability>
+	
+	<stat_hp>50</stat_hp>
+	<stat_att>105</stat_att>
+	<stat_def>79</stat_def>
+	<stat_spe_att>35</stat_spe_att>
+	<stat_spe_def>110</stat_spe_def>
+	<stat_vit>76</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Poing de Feu</move>
+	<move>Poinglace</move>
+	<move>Mach Punch</move>
+	<move>Poing Eclair</move>
+	<move>Stratopercut</move>
+	<move>Pisto-Poing</move>
+	<move>Close Combat</move>
+</creature>
+
+<creature>
+	<number>108</number>
+	<name>Excelangue</name>
+	<minisprite color="PINK">POKEMON</minisprite>
+	
+	<type>Normal</type>
+	<ability>Tempo Perso</ability>
+	
+	<stat_hp>90</stat_hp>
+	<stat_att>55</stat_att>
+	<stat_def>75</stat_def>
+	<stat_spe_att>60</stat_spe_att>
+	<stat_spe_def>75</stat_spe_def>
+	<stat_vit>30</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Megafouet</move>
+	<move>Plaquage</move>
+	<move>Tonnerre</move>
+	<move>Laser Glace</move>
+	<move>Blizzard</move>
+	<move>Déflagration</move>
+	<move>Ball'Ombre</move>
+	<move>Entrave</move>
+	<move>Roulade</move>
+</creature>
+
+<creature>
+	<number>109</number>
+	<name>Smogo</name>
+	<minisprite color="PURPLE">POISON</minisprite>
+	
+	<type>Poison</type>
+	<ability>Lévitation</ability>
+	
+	<stat_hp>40</stat_hp>
+	<stat_att>65</stat_att>
+	<stat_def>95</stat_def>
+	<stat_spe_att>60</stat_spe_att>
+	<stat_spe_def>45</stat_spe_def>
+	<stat_vit>35</stat_vit>
+	
+	<blood mode="3">BLOOD_gaz</blood>
+	
+	<move>Détricanon</move>
+	<move>Balance</move>
+	<move>Explosion</move>
+	<move>Feu Follet</move>
+	<move>Lance-Flamme</move>
+	<move>Bomb'Eurk</move>
+	<move>Toxik</move>
+	<move>Ball'Ombre</move>
+	<move>Tonnerre</move>
+</creature>
+
+<creature>
+	<number>110</number>
+	<name>Smogogo</name>
+	<minisprite color="PURPLE">POISON</minisprite>
+	
+	<type>Poison</type>
+	<ability>Lévitation</ability>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>90</stat_att>
+	<stat_def>120</stat_def>
+	<stat_spe_att>85</stat_spe_att>
+	<stat_spe_def>70</stat_spe_def>
+	<stat_vit>60</stat_vit>
+	
+	<blood mode="3">BLOOD_gaz</blood>
+	
+	<move>Détricanon</move>
+	<move>Balance</move>
+	<move>Explosion</move>
+	<move>Feu Follet</move>
+	<move>Lance-Flamme</move>
+	<move>Bomb'Eurk</move>
+	<move>Toxik</move>
+	<move>Ball'Ombre</move>
+	<move>Tonnerre</move>
+</creature>
+
+<creature>
+	<number>111</number>
+	<name>Rhinocorne</name>
+	<minisprite color="GREY">POKEMON</minisprite>
+	
+	<type>Sol</type>
+	<type>Roche</type>
+	<size>L</size>
+	
+	<ability>Tête de Roc</ability>
+	
+	
+	<stat_hp>80</stat_hp>
+	<stat_att>85</stat_att>
+	<stat_def>95</stat_def>
+	<stat_spe_att>30</stat_spe_att>
+	<stat_spe_def>30</stat_spe_def>
+	<stat_vit>25</stat_vit>
+	
+	<blood mode="3">BLOOD_rock</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Mégacorne</move>
+	<move>Lame de Roc</move>
+	<move>Eboulement</move>
+	<move>Damocles</move>
+	<move>Tunnelier</move>
+	<move>Seisme</move>
+	<move>Empal'Korne</move>
+</creature>
+
+
+<creature>
+	<number>112</number>
+	<name>Rhinoféros</name>
+	<minisprite color="GREY">POKEMON</minisprite>
+	
+	<type>Sol</type>
+	<type>Roche</type>
+	<size>L</size>
+	
+	<ability>Tête de Roc</ability>
+	
+	
+	<stat_hp>105</stat_hp>
+	<stat_att>130</stat_att>
+	<stat_def>120</stat_def>
+	<stat_spe_att>45</stat_spe_att>
+	<stat_spe_def>45</stat_spe_def>
+	<stat_vit>40</stat_vit>
+	
+	<blood mode="3">BLOOD_rock</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Mégacorne</move>
+	<move>Lame de Roc</move>
+	<move>Eboulement</move>
+	<move>Damocles</move>
+	<move>Tunnelier</move>
+	<move>Seisme</move>
+	<move>Empal'Korne</move>
+	<move>Marto-Poing</move>
+	<move>Poing de Feu</move>
+</creature>
+
+<creature>
+	<number>113</number>
+	<name>Leveinard</name>
+	<minisprite color="PINK">FEE</minisprite>
+	
+	<type>Normal</type>
+	<ability>Cure Nature</ability>
+	
+	<stat_hp>250</stat_hp>
+	<stat_att>5</stat_att>
+	<stat_def>5</stat_def>
+	<stat_spe_att>35</stat_spe_att>
+	<stat_spe_def>105</stat_spe_def>
+	<stat_vit>50</stat_vit>
+	
+	<blood mode="3">BLOOD_fairy</blood>
+	
+	<move>Damocles</move>
+	<move>Laser Glace</move>
+	<move>Tonnerre</move>
+	<move>Toxik</move>
+	<move>Frappe Atlas</move>
+	<move>E-Coque</move>
+	<move>Mur Lumière</move>
+</creature>
+
+<creature>
+	<number>114</number>
+	<name>Saquedeneu</name>
+	<minisprite color="BLUE">FLOWER</minisprite>
+	
+	<type>Plante</type>
+	<ability>Chlorophyle</ability>
+	<ability>Feuille Garde</ability>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>55</stat_att>
+	<stat_def>115</stat_def>
+	<stat_spe_att>110</stat_spe_att>
+	<stat_spe_def>40</stat_spe_def>
+	<stat_vit>60</stat_vit>
+	
+	<blood mode="3">BLOOD_grass_plasma</blood>
+	
+	<move>Para-Spore</move>
+	<move>Poudre Dodo</move>
+	<move>Giga-Sangsue</move>
+	<move>Croissance</move>
+	<move>Megafouet</move>
+	<move>Sabotage</move>
+	<move>Pouv. Antique</move>
+	<move>Bomb'Eurk</move>
+</creature>
+
+<creature>
+	<number>115</number>
+	<name>Kangourex</name>
+	<minisprite color="BROWN">POKEMON</minisprite>
+	
+	<type>Normal</type>
+	<size>L</size>
+	
+	<ability>Tête de Roc</ability>
+	
+	
+	<stat_hp>105</stat_hp>
+	<stat_att>95</stat_att>
+	<stat_def>80</stat_def>
+	<stat_spe_att>40</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>90</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Uppercut</move>
+	<move>Plaquage</move>
+	<move>Damocles</move>
+	<move>Machouille</move>
+	<move>Poing Boost</move>
+	<move>Poing Eclair</move>
+	<move>Poing de Feu</move>
+	<move>Poinglace</move>
+	<move>Colère</move>
+</creature>
+
+<creature>
+	<number>116</number>
+	<name>Hypotrempe</name>
+	<minisprite color="BLUE">SNAKE</minisprite>
+	
+	<type>Eau</type>
+	<ability>Glissade</ability>
+	
+	<stat_hp>30</stat_hp>
+	<stat_att>40</stat_att>
+	<stat_def>70</stat_def>
+	<stat_spe_att>70</stat_spe_att>
+	<stat_spe_def>25</stat_spe_def>
+	<stat_vit>60</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Surf</move>
+	<move>Hydrocanon</move>
+	<move>Bomb'Eurk</move>
+	<move>Laser Glace</move>
+	<move>Dracochoc</move>
+	<move>Danse Draco</move>
+	<move>Cascade</move>
+	<move>Colère</move>
+	<move>Hydroqueue</move>
+	<move>Hâte</move>
+</creature>
+
+<creature>
+	<number>117</number>
+	<name>Hypocean</name>
+	<minisprite color="BLUE">SNAKE</minisprite>
+	
+	<type>Eau</type>
+	<ability>Point Poison</ability>
+	
+	<stat_hp>55</stat_hp>
+	<stat_att>65</stat_att>
+	<stat_def>95</stat_def>
+	<stat_spe_att>95</stat_spe_att>
+	<stat_spe_def>45</stat_spe_def>
+	<stat_vit>85</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Surf</move>
+	<move>Hydrocanon</move>
+	<move>Bomb'Eurk</move>
+	<move>Laser Glace</move>
+	<move>Dracochoc</move>
+	<move>Danse Draco</move>
+	<move>Cascade</move>
+	<move>Colère</move>
+	<move>Hydroqueue</move>
+	<move>Hâte</move>
+</creature>
+
+<creature>
+	<number>118</number>
+	<name>Poissirène</name>
+	<minisprite color="RED">FISH</minisprite>
+	
+	<type>Eau</type>
+	<ability>Crachin</ability>
+	<ability>Glissade</ability>
+	
+	<stat_hp>45</stat_hp>
+	<stat_att>67</stat_att>
+	<stat_def>60</stat_def>
+	<stat_spe_att>35</stat_spe_att>
+	<stat_spe_def>60</stat_spe_def>
+	<stat_vit>43</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Surf</move>
+	<move>Vibraqua</move>
+	<move>Cascade</move>
+	<move>Laser Glace</move>
+	<move>Tunnelier</move>
+	<move>Mégacorne</move>
+	<move>Empal'Korne</move>
+	<move>Bec Vrille</move>
+</creature>
+
+<creature>
+	<number>119</number>
+	<name>Poissoroy</name>
+	<minisprite color="RED">FISH</minisprite>
+	
+	<type>Eau</type>
+	<ability>Crachin</ability>
+	<ability>Glissade</ability>
+	
+	<stat_hp>80</stat_hp>
+	<stat_att>92</stat_att>
+	<stat_def>65</stat_def>
+	<stat_spe_att>65</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>68</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Surf</move>
+	<move>Vibraqua</move>
+	<move>Cascade</move>
+	<move>Laser Glace</move>
+	<move>Tunnelier</move>
+	<move>Mégacorne</move>
+	<move>Empal'Korne</move>
+	<move>Bec Vrille</move>
+</creature>
+
+<creature>
+	<number>120</number>
+	<name>Stari</name>
+	<minisprite color="ORANGE">STAR</minisprite>
+	
+	<type>Eau</type>
+	
+	<stat_hp>30</stat_hp>
+	<stat_att>45</stat_att>
+	<stat_def>55</stat_def>
+	<stat_spe_att>70</stat_spe_att>
+	<stat_spe_def>55</stat_spe_def>
+	<stat_vit>85</stat_vit>
+	
+	<blood mode="3">BLOOD_rock</blood>
+	
+	<move>Soin</move>
+	<move>Tonnerre</move>
+	<move>Hydrocanon</move>
+	<move>Psyko</move>
+	<move>Surf</move>
+	<move>Mur Lumière</move>
+	<move>Laser Glace</move>
+	<move>Eclat Magique</move>
+	<move>Rayon Gemme</move>
+</creature>
+
+<creature>
+	<number>121</number>
+	<name>Staross</name>
+	<minisprite color="PURPLE">STAR</minisprite>
+	
+	<type>Eau</type>
+	<type>Psy</type>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>75</stat_att>
+	<stat_def>85</stat_def>
+	<stat_spe_att>100</stat_spe_att>
+	<stat_spe_def>85</stat_spe_def>
+	<stat_vit>115</stat_vit>
+	
+	<blood mode="3">BLOOD_rock</blood>
+	
+	<move>Soin</move>
+	<move>Tonnerre</move>
+	<move>Hydrocanon</move>
+	<move>Psyko</move>
+	<move>Surf</move>
+	<move>Mur Lumière</move>
+	<move>Laser Glace</move>
+	<move>Eclat Magique</move>
+	<move>Rayon Gemme</move>
+</creature>
+
+<creature>
+	<number>122</number>
+	<name>M. Mime</name>
+	<minisprite color="PINK">PUPPET</minisprite>
+	
+	<type>Psy</type>
+	<type>Fee</type>
+	
+	<ability>Garde Magik</ability>
+	<ability>Pose-Murs</ability>
+	
+	<stat_hp>40</stat_hp>
+	<stat_att>45</stat_att>
+	<stat_def>65</stat_def>
+	<stat_spe_att>100</stat_spe_att>
+	<stat_spe_def>120</stat_spe_def>
+	<stat_vit>90</stat_vit>
+	
+	<blood mode="3">BLOOD_fairy</blood>
+	
+	<move>Protection</move>
+	<move>Mur Lumière</move>
+	<move>Psyko</move>
+	<move>Rafale Psy</move>
+	<move>Ball'Ombre</move>
+	<move>Eclat Magique</move>
+	<move>Tonnerre</move>
+</creature>
+
+<creature>
+	<number>123</number>
+	<name>Insécateur</name>
+	<minisprite color="GREEN">INSECT</minisprite>
+	
+	<type>Insecte</type>
+	<type>Vol</type>
+	
+	<ability>Hypper Cutter</ability>
+	<ability>Technicien</ability>
+	
+	<stat_hp>70</stat_hp>
+	<stat_att>110</stat_att>
+	<stat_def>80</stat_def>
+	<stat_spe_att>55</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>105</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Danse-Lames</move>
+	<move>Vive-Attaque</move>
+	<move>Aeropique</move>
+	<move>Tranche-Nuit</move>
+	<move>Casse-Brique</move>
+	<move>Plaie-Croix</move>
+	<move>Demi-Tour</move>
+</creature>
+
+<creature>
+	<number>124</number>
+	<name>Lippoutou</name>
+	<minisprite color="PURPLE">PUPPET</minisprite>
+	
+	<type>Glace</type>
+	<type>Psy</type>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>50</stat_att>
+	<stat_def>35</stat_def>
+	<stat_spe_att>115</stat_spe_att>
+	<stat_spe_def>95</stat_spe_def>
+	<stat_vit>95</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Laser Glace</move>
+	<move>Psyko</move>
+	<move>Ball'Ombre</move>
+	<move>Grobisou</move>
+	<move>Poinglace</move>
+	<move>Blizzard</move>
+	<move>Requiem</move>
+	<move>Vampibaiser</move>
+</creature>
+
+<creature>
+	<number>125</number>
+	<name>Elektek</name>
+	<minisprite color="ORANGE">PIKACHU</minisprite>
+	
+	<type>Electrik</type>
+	<ability>Statik</ability>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>83</stat_att>
+	<stat_def>57</stat_def>
+	<stat_spe_att>95</stat_spe_att>
+	<stat_spe_def>85</stat_spe_def>
+	<stat_vit>105</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Poing Eclair</move>
+	<move>Tonnerre</move>
+	<move>Casse-Brique</move>
+	<move>Poinglace</move>
+	<move>Poing de Feu</move>
+	<move>Fatal Foudre</move>
+	<move>Giga Impact</move>
+</creature>
+
+<creature>
+	<number>126</number>
+	<name>Magmar</name>
+	<minisprite color="RED">FIRE</minisprite>
+	
+	<type>Feu</type>
+	<ability>Corps Ardent</ability>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>95</stat_att>
+	<stat_def>57</stat_def>
+	<stat_spe_att>100</stat_spe_att>
+	<stat_spe_def>85</stat_spe_def>
+	<stat_vit>93</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Poing de Feu</move>
+	<move>Lance-Flamme</move>
+	<move>Ebullilave</move>
+	<move>Exploforce</move>
+	<move>Casse-Brique</move>
+	<move>Feu Follet</move>
+	<move>Poing Eclair</move>
+	<move>Bomb'Eurk</move>
+</creature>
+
+<creature>
+	<number>127</number>
+	<name>Scarabrute</name>
+	<minisprite color="BROWN">INSECT</minisprite>
+	
+	<type>Insecte</type>
+	
+	<ability>Hypper Cutter</ability>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>125</stat_att>
+	<stat_def>100</stat_def>
+	<stat_spe_att>55</stat_spe_att>
+	<stat_spe_def>70</stat_spe_def>
+	<stat_vit>85</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Gonflette</move>
+	<move>Plaie-Croix</move>
+	<move>Close Combat</move>
+	<move>Surpuissance</move>
+	<move>Guillotine</move>
+	<move>Lame de Roc</move>
+</creature>
+
+<creature>
+	<number>128</number>
+	<name>Tauros</name>
+	<minisprite color="BROWN">DOG</minisprite>
+	
+	<type>Normal</type>
+	
+	<ability>Intimidation</ability>
+	
+	
+	<stat_hp>75</stat_hp>
+	<stat_att>100</stat_att>
+	<stat_def>95</stat_def>
+	<stat_spe_att>40</stat_spe_att>
+	<stat_spe_def>70</stat_spe_def>
+	<stat_vit>110</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Damocles</move>
+	<move>Mania</move>
+	<move>Seisme</move>
+	<move>Psykoud'Boul</move>
+	<move>Giga Impact</move>
+	<move>Déflagration</move>
+	<move>Tête de Fer</move>
+</creature>
+
+<creature>
+	<number>129</number>
+	<name>Magicarpe</name>
+	<minisprite color="RED">FISH</minisprite>
+	
+	<type>Eau</type>
+	
+	<ability>Phobique</ability>
+	
+	<stat_hp>20</stat_hp>
+	<stat_att>10</stat_att>
+	<stat_def>55</stat_def>
+	<stat_spe_att>15</stat_spe_att>
+	<stat_spe_def>20</stat_spe_def>
+	<stat_vit>80</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Trempette</move>
+	<move>Charge</move>
+</creature>
+
+<creature>
+	<number>130</number>
+	<name>Leviator</name>
+	<minisprite color="BLUE">SEADRA</minisprite>
+	
+	<type>Eau</type>
+	<type>Vol</type>
+	<size>XXL</size>
+	
+	<ability>Intimidation</ability>
+	
+	<stat_hp>95</stat_hp>
+	<stat_att>125</stat_att>
+	<stat_def>79</stat_def>
+	<stat_spe_att>60</stat_spe_att>
+	<stat_spe_def>100</stat_spe_def>
+	<stat_vit>81</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Surf</move>
+	<move>Hydrocanon</move>
+	<move>Hydroqueue</move>
+	<move>Cascade</move>
+	<move>Danse Draco</move>
+	<move>Machouille</move>
+	<move>Lame de Roc</move>
+	<move>Ultralaser</move>
+	<move>Crocs Givre</move>
+</creature>
+
+<creature>
+	<number>131</number>
+	<name>Locklass</name>
+	<minisprite color="BLUE">NESS</minisprite>
+	
+	<type>Eau</type>
+	<type>Glace</type>
+	<size>L</size>
+	<ability>Absorb'Eau</ability>
+	
+	<stat_hp>130</stat_hp>
+	<stat_att>85</stat_att>
+	<stat_def>80</stat_def>
+	<stat_spe_att>85</stat_spe_att>
+	<stat_spe_def>95</stat_spe_def>
+	<stat_vit>60</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Surf</move>
+	<move>Cascade</move>
+	<move>Hydrocanon</move>
+	<move>Tonnerre</move>
+	<move>Laser Glace</move>
+	<move>Lyophilisation</move>
+	<move>Onde Folie</move>
+	<move>Rune Protect</move>
+	<move>Requiem</move>
+</creature>
+
+<creature>
+	<number>133</number>
+	<name>Evoli</name>
+	<minisprite color="BROWN">CAT</minisprite>
+	
+	<type>Normal</type>
+	
+	<stat_hp>55</stat_hp>
+	<stat_att>55</stat_att>
+	<stat_def>50</stat_def>
+	<stat_spe_att>45</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>55</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Damocles</move>
+	<move>Ball'Ombre</move>
+	<move>Queue de Fer</move>
+	<move>Morsure</move>
+</creature>
+
+<creature>
+	<number>134</number>
+	<name>Aquali</name>
+	<minisprite color="BLUE">CAT</minisprite>
+	
+	<type>Eau</type>
+	<ability>Absorb'Eau</ability>
+	
+	<stat_hp>130</stat_hp>
+	<stat_att>65</stat_att>
+	<stat_def>60</stat_def>
+	<stat_spe_att>110</stat_spe_att>
+	<stat_spe_def>95</stat_spe_def>
+	<stat_vit>65</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Surf</move>
+	<move>Hydrocanon</move>
+	<move>Laser Glace</move>
+	<move>Anneau Hydro</move>
+	<move>Rayon Signal</move>
+	<move>Ocroupi</move>
+	<move>Onde Boréale</move>
+</creature>
+
+<creature>
+	<number>135</number>
+	<name>Voltali</name>
+	<minisprite color="ORANGE">CAT</minisprite>
+	
+	<type>Electrik</type>
+	<ability>Absorb'Volt</ability>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>65</stat_att>
+	<stat_def>60</stat_def>
+	<stat_spe_att>110</stat_spe_att>
+	<stat_spe_def>95</stat_spe_def>
+	<stat_vit>130</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Tonnerre</move>
+	<move>Fatal Foudre</move>
+	<move>Chang'Eclair</move>
+	<move>Cage-Eclair</move>
+	<move>Dard-Nuée</move>
+	<move>Ball'Ombre</move>
+	<move>Double Pied</move>
+</creature>
+
+<creature>
+	<number>136</number>
+	<name>Pyroli</name>
+	<minisprite color="RED">CAT</minisprite>
+	
+	<type>Feu</type>
+	
+	<ability>Cran</ability>
+	<ability>Torche</ability>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>130</stat_att>
+	<stat_def>60</stat_def>
+	<stat_spe_att>95</stat_spe_att>
+	<stat_spe_def>110</stat_spe_def>
+	<stat_vit>65</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Boutefeu</move>
+	<move>Roue de Feu</move>
+	<move>Lance-Flamme</move>
+	<move>Surpuissance</move>
+	<move>Queue de Fer</move>
+	<move>Ball'Ombre</move>
+	<move>Feu Follet</move>
+</creature>
+
+<creature>
+	<number>137</number>
+	<name>Porygon</name>
+	<minisprite color="PINK">BALL</minisprite>
+	
+	<type>Normal</type>
+	
+	<stat_hp>55</stat_hp>
+	<stat_att>60</stat_att>
+	<stat_def>70</stat_def>
+	<stat_spe_att>85</stat_spe_att>
+	<stat_spe_def>75</stat_spe_def>
+	<stat_vit>40</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Triplattaque</move>
+	<move>Tonnerre</move>
+	<move>Elécanon</move>
+	<move>Rayon Signal</move>
+	<move>Laser Glace</move>
+	<move>Ball'Ombre</move>
+	<move>Soin</move>
+	<move>Distorsion</move>
+</creature>
+
+<creature>
+	<number>138</number>
+	<name>Amonita</name>
+	<minisprite color="BLUE">SHELL</minisprite>
+	
+	<type>Roche</type>
+	<type>Eau</type>
+	<ability>Glissade</ability>
+	
+	<stat_hp>35</stat_hp>
+	<stat_att>40</stat_att>
+	<stat_def>100</stat_def>
+	<stat_spe_att>90</stat_spe_att>
+	<stat_spe_def>55</stat_spe_def>
+	<stat_vit>35</stat_vit>
+	
+	<blood mode="3">BLOOD_rock</blood>
+	
+	<move>Exuviation</move>
+	<move>Surf</move>
+	<move>Cascade</move>
+	<move>Laser Glace</move>
+	<move>Boule Roc</move>
+	<move>Hydrocanon</move>
+	<move>Pouv. Antique</move>
+</creature>
+
+<creature>
+	<number>139</number>
+	<name>Amonistar</name>
+	<minisprite color="BLUE">SHELL</minisprite>
+	
+	<type>Roche</type>
+	<type>Eau</type>
+	<ability>Glissade</ability>
+	
+	<stat_hp>70</stat_hp>
+	<stat_att>60</stat_att>
+	<stat_def>125</stat_def>
+	<stat_spe_att>115</stat_spe_att>
+	<stat_spe_def>70</stat_spe_def>
+	<stat_vit>55</stat_vit>
+	
+	<blood mode="3">BLOOD_rock</blood>
+	
+	<move>Exuviation</move>
+	<move>Surf</move>
+	<move>Cascade</move>
+	<move>Laser Glace</move>
+	<move>Boule Roc</move>
+	<move>Hydrocanon</move>
+	<move>Pouv. Antique</move>
+</creature>
+
+<creature>
+	<number>140</number>
+	<name>Kabuto</name>
+	<minisprite color="BROWN">SHELL</minisprite>
+	
+	<type>Roche</type>
+	<type>Eau</type>
+	<ability>Glissade</ability>
+	
+	<stat_hp>30</stat_hp>
+	<stat_att>80</stat_att>
+	<stat_def>90</stat_def>
+	<stat_spe_att>55</stat_spe_att>
+	<stat_spe_def>45</stat_spe_def>
+	<stat_vit>55</stat_vit>
+	
+	<blood mode="3">BLOOD_rock</blood>
+	
+	<move>Aqua-Jet</move>
+	<move>Eboulement</move>
+	<move>Cascade</move>
+	<move>Giga-Sangsue</move>
+	<move>Pouv. Antique</move>
+	<move>Laser Glace</move>
+</creature>
+
+<creature>
+	<number>141</number>
+	<name>Kabutops</name>
+	<minisprite color="BROWN">SHELL</minisprite>
+	
+	<type>Roche</type>
+	<type>Eau</type>
+	<ability>Glissade</ability>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>115</stat_att>
+	<stat_def>105</stat_def>
+	<stat_spe_att>65</stat_spe_att>
+	<stat_spe_def>70</stat_spe_def>
+	<stat_vit>80</stat_vit>
+	
+	<blood mode="3">BLOOD_rock</blood>
+	
+	<move>Danse-Lames</move>
+	<move>Aqua-Jet</move>
+	<move>Eboulement</move>
+	<move>Cascade</move>
+	<move>Tranche-Nuit</move>
+	<move>Giga-Sangsue</move>
+	<move>Plaie-Croix</move>
+	<move>Pouv. Antique</move>
+	<move>Laser Glace</move>
+</creature>
+
+<creature>
+	<number>142</number>
+	<name>Ptera</name>
+	<minisprite color="GREY">DRAGON</minisprite>
+	
+	<type>Roche</type>
+	<type>Vol</type>
+	
+	<ability>Tête de Roc</ability>
+	
+	
+	<stat_hp>80</stat_hp>
+	<stat_att>105</stat_att>
+	<stat_def>65</stat_def>
+	<stat_spe_att>60</stat_spe_att>
+	<stat_spe_def>75</stat_spe_def>
+	<stat_vit>130</stat_vit>
+	
+	<blood mode="3">BLOOD_rock</blood>
+	<personnality>Bird</personnality>
+	
+	<move>Eboulement</move>
+	<move>Lame de Roc</move>
+	<move>Aeropique</move>
+	<move>Machouille</move>
+	<move>Crocs Givre</move>
+	<move>Crocs de Feu</move>
+	<move>Crocs Eclair</move>
+	<move>Damocles</move>
+	<move>Pouv. Antique</move>
+</creature>
+
+<creature>
+	<number>143</number>
+	<name>Ronflex</name>
+	<minisprite>LAX</minisprite>
+	
+	<type>Normal</type>
+	<ability>Isograisse</ability>
+	
+	<size>XL</size>
+	<stat_hp>160</stat_hp>
+	<stat_att>110</stat_att>
+	<stat_def>65</stat_def>
+	<stat_spe_att>65</stat_spe_att>
+	<stat_spe_def>110</stat_spe_def>
+	<stat_vit>30</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Repos</move>
+	<move>Cognobidon</move>
+	<move>Plaquage</move>
+	<move>Machouille</move>
+	<move>Eboulement</move>
+	<move>Poing de Feu</move>
+	<move>Giga Impact</move>
+	<move>Cavalerie Lourde</move>
+</creature>
+
+<creature>
+	<number>144</number>
+	<name>Artikodin</name>
+	<minisprite color="CYAN">BIRD</minisprite>
+	
+	<type>Glace</type>
+	<type>Vol</type>
+	<size>L</size>
+	<statut>Legende</statut>
+	<ability>Rideau Neige</ability>
+	
+	<stat_hp>90</stat_hp>
+	<stat_att>90</stat_att>
+	<stat_def>100</stat_def>
+	<stat_spe_att>95</stat_spe_att>
+	<stat_spe_def>125</stat_spe_def>
+	<stat_vit>85</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Blizzard</move>
+	<move>Laser Glace</move>
+	<move>Vent Violent</move>
+	<move>Vent Arriere</move>
+	<move>Protection</move>
+	<move>Grêle</move>
+	<move>Glaciation</move>
+	<move>Aeropique</move>
+	<move>Pouv. Antique</move>
+</creature>
+
+<creature>
+	<number>145</number>
+	<name>Electhor</name>
+	<minisprite color="ORANGE">BIRD</minisprite>
+	
+	<type>Electrik</type>
+	<type>Vol</type>
+	<statut>Legende</statut>
+	<ability>Statik</ability>
+	
+	<size>L</size>
+	<stat_hp>90</stat_hp>
+	<stat_att>90</stat_att>
+	<stat_def>85</stat_def>
+	<stat_spe_att>125</stat_spe_att>
+	<stat_spe_def>90</stat_spe_def>
+	<stat_vit>100</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Fatal Foudre</move>
+	<move>Danse Pluie</move>
+	<move>Tonnerre</move>
+	<move>Mur Lumière</move>
+	<move>Bec Vrille</move>
+	<move>Aeropique</move>
+	<move>Damocles</move>
+	<move>Cage-Eclair</move>
+</creature>
+
+<creature>
+	<number>146</number>
+	<name>Sulfura</name>
+	<minisprite color="RED">BIRD</minisprite>
+	
+	<type>Feu</type>
+	<type>Vol</type>
+	<statut>Legende</statut>
+	<ability>Corps Ardent</ability>
+	
+	<size>L</size>
+	<stat_hp>90</stat_hp>
+	<stat_att>100</stat_att>
+	<stat_def>90</stat_def>
+	<stat_spe_att>125</stat_spe_att>
+	<stat_spe_def>85</stat_spe_def>
+	<stat_vit>90</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Lance-Flamme</move>
+	<move>Déflagration</move>
+	<move>Feu Follet</move>
+	<move>Zénith</move>
+	<move>Lame d'Air</move>
+	<move>Vent Violent</move>
+	<move>Rune Protect</move>
+	<move>Pouv. Antique</move>
+	<move>Cyclone</move>
+</creature>
+
+<creature>
+	<number>147</number>
+	<name>Minidraco</name>
+	<minisprite color="BLUE">SNAKE</minisprite>
+	
+	<type>Dragon</type>
+	<ability>Mue</ability>
+	
+	<stat_hp>41</stat_hp>
+	<stat_att>64</stat_att>
+	<stat_def>45</stat_def>
+	<stat_spe_att>50</stat_spe_att>
+	<stat_spe_def>50</stat_spe_def>
+	<stat_vit>50</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Surf</move>
+	<move>Dracochoc</move>
+	<move>Dracocharge</move>
+	<move>Ultralaser</move>
+	<move>Danse Draco</move>
+	<move>Colère</move>
+	<move>Hydroqueue</move>
+	<move>Cage-Eclair</move>
+	<move>Tonnerre</move>
+	<move>Lance-Flamme</move>
+	<move>Laser Glace</move>
+</creature>
+
+<creature>
+	<number>148</number>
+	<name>Draco</name>
+	<minisprite color="BLUE">SNAKE</minisprite>
+	
+	<type>Dragon</type>
+	<ability>Mue</ability>
+	
+	<stat_hp>61</stat_hp>
+	<stat_att>84</stat_att>
+	<stat_def>65</stat_def>
+	<stat_spe_att>70</stat_spe_att>
+	<stat_spe_def>70</stat_spe_def>
+	<stat_vit>70</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Surf</move>
+	<move>Dracochoc</move>
+	<move>Dracocharge</move>
+	<move>Ultralaser</move>
+	<move>Danse Draco</move>
+	<move>Colère</move>
+	<move>Hydroqueue</move>
+	<move>Cage-Eclair</move>
+	<move>Tonnerre</move>
+	<move>Lance-Flamme</move>
+	<move>Laser Glace</move>
+</creature>
+
+<creature>
+	<number>149</number>
+	<name>Dracolosse</name>
+	<minisprite color="ORANGE">DRAGON</minisprite>
+	
+	<type>Dragon</type>
+	<type>Vol</type>
+	
+	<size>L</size>
+	<stat_hp>91</stat_hp>
+	<stat_att>134</stat_att>
+	<stat_def>95</stat_def>
+	<stat_spe_att>100</stat_spe_att>
+	<stat_spe_def>100</stat_spe_def>
+	<stat_vit>80</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<ability>Attention</ability>
+	<personnality>Bird</personnality>
+	
+	<move>Surf</move>
+	<move>Dracogriffe</move>
+	<move>Dracocharge</move>
+	<move>Ultralaser</move>
+	<move>Danse Draco</move>
+	<move>Colère</move>
+	<move>Hydroqueue</move>
+	<move>Cage-Eclair</move>
+	<move>Tonnerre</move>
+	<move>Lance-Flamme</move>
+	<move>Laser Glace</move>
+</creature>
+
+<creature>
+	<number>150</number>
+	<name>Mewtwo</name>
+	<minisprite color="PURPLE">MONSTER</minisprite>
+	
+	<type>Psy</type>
+	
+	<statut>Mythique</statut>
+	
+	<stat_hp>106</stat_hp>
+	<stat_att>110</stat_att>
+	<stat_def>90</stat_def>
+	<stat_spe_att>154</stat_spe_att>
+	<stat_spe_def>90</stat_spe_def>
+	<stat_vit>130</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Psychic</personnality>
+	
+	<move>Psyko</move>
+	<move>Ball'Ombre</move>
+	<move>Aurasphère</move>
+	<move>Choc Psy</move>
+	<move>Bouclier</move>
+	<move>Tonnerre</move>
+	<move>Seisme</move>
+</creature>
+
+<creature>
+	<number>150</number>
+	<name>Mewtwo</name>
+	<minisprite color="PURPLE">MONSTER</minisprite>
+	<form sprite_number="270">Mecha</form>
+	
+	<type>Psy</type>
+	<size>XL</size>
+	<ability>Berserk</ability>
+	
+	<statut>Mythique</statut>
+	
+	<stat_hp>106</stat_hp>
+	<stat_att>100</stat_att>
+	<stat_def>90</stat_def>
+	<stat_spe_att>134</stat_spe_att>
+	<stat_spe_def>90</stat_spe_def>
+	<stat_vit>110</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Psychic</personnality>
+	
+	<move>Psyko</move>
+	<move>Ball'Ombre</move>
+	<move>Aurasphère</move>
+	<move>Choc Psy</move>
+	<move>Bouclier</move>
+	<move>Tonnerre</move>
+	<move>Seisme</move>
+</creature>
+
+<creature>
+	<number>151</number>
+	<name>Mew</name>
+	<minisprite color="PINK">FEE</minisprite>
+	
+	<type>Psy</type>
+	
+	<statut>Fabuleux</statut>
+	<size>XXS</size>
+	
+	<stat_hp>100</stat_hp>
+	<stat_att>100</stat_att>
+	<stat_def>100</stat_def>
+	<stat_spe_att>100</stat_spe_att>
+	<stat_spe_def>100</stat_spe_def>
+	<stat_vit>100</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Psychic</personnality>
+	
+	<move>Psyko</move>
+	<move>Choc Psy</move>
+	<move>Choc Mental</move>
+	<move>Surf</move>
+	<move>Laser Glace</move>
+	<move>Tonnerre</move>
+	<move>Lance-Flamme</move>
+	<move>Seisme</move>
+	<move>Ball'Ombre</move>
+	<move>Aurasphère</move>
+	<move>Pouv. Antique</move>
+	<move>Ultimapoing</move>
+	<move>Eclat Magique</move>
+	<move>Cage-Eclair</move>
+	<move>Feu Follet</move>
+</creature>
+
+<creature>
+	<number>152</number>
+	<name>Germignon</name>
+	<minisprite color="GREEN">GRASS</minisprite>
+	
+	<type>Plante</type>
+	<ability>Engrais</ability>
+	<ability>Feuille Garde</ability>
+	
+	<stat_hp>45</stat_hp>
+	<stat_att>49</stat_att>
+	<stat_def>65</stat_def>
+	<stat_spe_att>49</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>45</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Synthèse</move>
+	<move>Tempête Florale</move>
+	<move>Eco-Sphère</move>
+	<move>Pouv. Antique</move>
+	<move>Plaquage</move>
+	<move>Mur Lumière</move>
+	<move>Toxik</move>
+	<move>Zénith</move>
+	<move>Lance-Soleil</move>
+</creature>
+
+<creature>
+	<number>153</number>
+	<name>Macronium</name>
+	<minisprite color="GREEN">GRASS</minisprite>
+	
+	<type>Plante</type>
+	<ability>Engrais</ability>
+	<ability>Feuille Garde</ability>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>62</stat_att>
+	<stat_def>80</stat_def>
+	<stat_spe_att>63</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>60</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Synthèse</move>
+	<move>Tempête Florale</move>
+	<move>Eco-Sphère</move>
+	<move>Pouv. Antique</move>
+	<move>Plaquage</move>
+	<move>Mur Lumière</move>
+	<move>Toxik</move>
+	<move>Zénith</move>
+	<move>Lance-Soleil</move>
+</creature>
+
+<creature>
+	<number>154</number>
+	<name>Meganium</name>
+	<minisprite color="GREEN">GRASS</minisprite>
+	
+	<type>Plante</type>
+	<ability>Engrais</ability>
+	<ability>Feuille Garde</ability>
+	
+	<stat_hp>80</stat_hp>
+	<stat_att>82</stat_att>
+	<stat_def>100</stat_def>
+	<stat_spe_att>83</stat_spe_att>
+	<stat_spe_def>100</stat_spe_def>
+	<stat_vit>80</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Synthèse</move>
+	<move>Tempête Florale</move>
+	<move>Eco-Sphère</move>
+	<move>Pouv. Antique</move>
+	<move>Plaquage</move>
+	<move>Mur Lumière</move>
+	<move>Toxik</move>
+	<move>Zénith</move>
+	<move>Lance-Soleil</move>
+</creature>
+
+<creature>
+	<number>155</number>
+	<name>Héricendre</name>
+	<minisprite color="ORANGE">FIRE</minisprite>
+	
+	<type>Feu</type>
+	<ability>Torche</ability>
+	<ability>Brasier</ability>
+	
+	<stat_hp>39</stat_hp>
+	<stat_att>52</stat_att>
+	<stat_def>43</stat_def>
+	<stat_spe_att>60</stat_spe_att>
+	<stat_spe_def>50</stat_spe_def>
+	<stat_vit>65</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Cat</personnality>
+	
+	<move>Eruption</move>
+	<move>Déflagration</move>
+	<move>Roulade</move>
+	<move>Damocles</move>
+	<move>Roue de Feu</move>
+	<move>Lance-Flamme</move>
+	<move>Poing Eclair</move>
+	<move>Casse-Brique</move>
+</creature>
+
+<creature>
+	<number>156</number>
+	<name>Feurisson</name>
+	<minisprite color="ORANGE">FIRE</minisprite>
+	
+	<type>Feu</type>
+	<ability>Torche</ability>
+	<ability>Brasier</ability>
+	
+	<stat_hp>58</stat_hp>
+	<stat_att>64</stat_att>
+	<stat_def>58</stat_def>
+	<stat_spe_att>80</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>80</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Cat</personnality>
+	
+	<move>Eruption</move>
+	<move>Déflagration</move>
+	<move>Roulade</move>
+	<move>Damocles</move>
+	<move>Roue de Feu</move>
+	<move>Lance-Flamme</move>
+	<move>Poing Eclair</move>
+	<move>Casse-Brique</move>
+</creature>
+
+<creature>
+	<number>157</number>
+	<name>Typhlosion</name>
+	<minisprite color="ORANGE">FIRE</minisprite>
+	
+	<type>Feu</type>
+	<ability>Torche</ability>
+	<ability>Brasier</ability>
+	
+	<stat_hp>78</stat_hp>
+	<stat_att>84</stat_att>
+	<stat_def>78</stat_def>
+	<stat_spe_att>109</stat_spe_att>
+	<stat_spe_def>85</stat_spe_def>
+	<stat_vit>100</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Eruption</move>
+	<move>Déflagration</move>
+	<move>Roulade</move>
+	<move>Damocles</move>
+	<move>Roue de Feu</move>
+	<move>Lance-Flamme</move>
+	<move>Poing Eclair</move>
+	<move>Casse-Brique</move>
+</creature>
+
+<creature>
+	<number>158</number>
+	<name>Kaïminus</name>
+	<minisprite color="BLUE">POKEMON</minisprite>
+	
+	<type>Eau</type>
+	<ability>Torrent</ability>
+	
+	<stat_hp>50</stat_hp>
+	<stat_att>65</stat_att>
+	<stat_def>64</stat_def>
+	<stat_spe_att>44</stat_spe_att>
+	<stat_spe_def>48</stat_spe_def>
+	<stat_vit>43</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Danse Draco</move>
+	<move>Cascade</move>
+	<move>Hydroqueue</move>
+	<move>Surf</move>
+	<move>Hydrocanon</move>
+	<move>Poinglace</move>
+	<move>Crocs Givre</move>
+	<move>Machouille</move>
+	<move>Surpuissance</move>
+</creature>
+
+<creature>
+	<number>159</number>
+	<name>Crocrodile</name>
+	<minisprite color="BLUE">POKEMON</minisprite>
+	
+	<type>Eau</type>
+	<ability>Torrent</ability>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>80</stat_att>
+	<stat_def>80</stat_def>
+	<stat_spe_att>59</stat_spe_att>
+	<stat_spe_def>63</stat_spe_def>
+	<stat_vit>58</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Danse Draco</move>
+	<move>Cascade</move>
+	<move>Hydroqueue</move>
+	<move>Surf</move>
+	<move>Hydrocanon</move>
+	<move>Poinglace</move>
+	<move>Crocs Givre</move>
+	<move>Machouille</move>
+	<move>Surpuissance</move>
+</creature>
+
+<creature>
+	<number>160</number>
+	<name>Aligatueur</name>
+	<minisprite color="BLUE">POKEMON</minisprite>
+	
+	<type>Eau</type>
+	<ability>Torrent</ability>
+	
+	<stat_hp>85</stat_hp>
+	<stat_att>105</stat_att>
+	<stat_def>100</stat_def>
+	<stat_spe_att>79</stat_spe_att>
+	<stat_spe_def>83</stat_spe_def>
+	<stat_vit>68</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Danse Draco</move>
+	<move>Cascade</move>
+	<move>Hydroqueue</move>
+	<move>Surf</move>
+	<move>Hydrocanon</move>
+	<move>Poinglace</move>
+	<move>Crocs Givre</move>
+	<move>Machouille</move>
+	<move>Surpuissance</move>
+</creature>
+
+<creature>
+	<number>161</number>
+	<name>Fouinette</name>
+	<minisprite color="BROWN">CAT</minisprite>
+	
+	<type>Normal</type>
+	
+	<stat_hp>35</stat_hp>
+	<stat_att>46</stat_att>
+	<stat_def>34</stat_def>
+	<stat_spe_att>35</stat_spe_att>
+	<stat_spe_def>45</stat_spe_def>
+	<stat_vit>20</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Poing Eclair</move>
+	<move>Demi-Tour</move>
+	<move>Damocles</move>
+	<move>Tonnerre</move>
+	<move>Laser Glace</move>
+	<move>Casse-Brique</move>
+	<move>Lance-Flamme</move>
+	<move>Megaphone</move>
+	<move>Poing de Feu</move>
+</creature>
+
+<creature>
+	<number>162</number>
+	<name>Fouinar</name>
+	<minisprite color="BROWN">CAT</minisprite>
+	
+	<type>Normal</type>
+	
+	<stat_hp>85</stat_hp>
+	<stat_att>76</stat_att>
+	<stat_def>64</stat_def>
+	<stat_spe_att>45</stat_spe_att>
+	<stat_spe_def>55</stat_spe_def>
+	<stat_vit>90</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Poing Eclair</move>
+	<move>Demi-Tour</move>
+	<move>Damocles</move>
+	<move>Tonnerre</move>
+	<move>Laser Glace</move>
+	<move>Casse-Brique</move>
+	<move>Lance-Flamme</move>
+	<move>Megaphone</move>
+	<move>Poing de Feu</move>
+</creature>
+
+<creature>
+	<number>163</number>
+	<name>Hoothoot</name>
+	<minisprite color="BROWN">BIRD</minisprite>
+	
+	<type>Normal</type>
+	<type>Vol</type>
+	<ability>Regard Préventif</ability>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>30</stat_att>
+	<stat_def>30</stat_def>
+	<stat_spe_att>36</stat_spe_att>
+	<stat_spe_def>56</stat_spe_def>
+	<stat_vit>50</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Atterrissage</move>
+	<move>Extrasenseur</move>
+	<move>Psyko</move>
+	<move>Megaphone</move>
+	<move>Pouvoir Lunaire</move>
+	<move>Psykoud'Boul</move>
+	<move>Lame d'Air</move>
+</creature>
+
+<creature>
+	<number>164</number>
+	<name>Noarfang</name>
+	<minisprite color="BROWN">BIRD</minisprite>
+	
+	<type>Normal</type>
+	<type>Vol</type>
+	<ability>Regard Préventif</ability>
+	
+	<stat_hp>100</stat_hp>
+	<stat_att>50</stat_att>
+	<stat_def>50</stat_def>
+	<stat_spe_att>86</stat_spe_att>
+	<stat_spe_def>96</stat_spe_def>
+	<stat_vit>70</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Atterrissage</move>
+	<move>Extrasenseur</move>
+	<move>Psyko</move>
+	<move>Megaphone</move>
+	<move>Pouvoir Lunaire</move>
+	<move>Psykoud'Boul</move>
+	<move>Lame d'Air</move>
+</creature>
+
+<creature>
+	<number>165</number>
+	<name>Coxy</name>
+	<minisprite color="RED">INSECT</minisprite>
+	
+	<type>Insecte</type>
+	<type>Vol</type>
+	<ability>Essaim</ability>
+	
+	<stat_hp>40</stat_hp>
+	<stat_att>20</stat_att>
+	<stat_def>30</stat_def>
+	<stat_spe_att>40</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>55</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Bourdon</move>
+	<move>Demi-Tour</move>
+	<move>Poinglace</move>
+	<move>Damocles</move>
+	<move>Mach Punch</move>
+	<move>Vent Argenté</move>
+	<move>Lame d'Air</move>
+	<move>Casse-Brique</move>
+</creature>
+
+<creature>
+	<number>166</number>
+	<name>Coxyclaque</name>
+	<minisprite color="RED">INSECT</minisprite>
+	
+	<type>Insecte</type>
+	<type>Vol</type>
+	<size>S</size>
+	<ability>Essaim</ability>
+	
+	<stat_hp>55</stat_hp>
+	<stat_att>35</stat_att>
+	<stat_def>50</stat_def>
+	<stat_spe_att>55</stat_spe_att>
+	<stat_spe_def>110</stat_spe_def>
+	<stat_vit>85</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Bourdon</move>
+	<move>Demi-Tour</move>
+	<move>Poinglace</move>
+	<move>Damocles</move>
+	<move>Mach Punch</move>
+	<move>Vent Argenté</move>
+	<move>Lame d'Air</move>
+	<move>Casse-Brique</move>
+</creature>
+
+<creature>
+	<number>167</number>
+	<name>Mimigal</name>
+	<minisprite color="GREEN">INSECT</minisprite>
+	
+	<type>Insecte</type>
+	<type>Poison</type>
+	<ability>Essaim</ability>
+	
+	<stat_hp>40</stat_hp>
+	<stat_att>60</stat_att>
+	<stat_def>40</stat_def>
+	<stat_spe_att>40</stat_spe_att>
+	<stat_spe_def>40</stat_spe_def>
+	<stat_vit>30</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Toile Gluante</move>
+	<move>Poison Croix</move>
+	<move>Plaie-Croix</move>
+	<move>Direct Toxic</move>
+	<move>Bomb'Eurk</move>
+	<move>Psyko</move>
+	<move>Ombre Portée</move>
+	<move>Fil Toxique</move>
+</creature>
+
+<creature>
+	<number>168</number>
+	<name>Mygalos</name>
+	<minisprite color="PURPLE">INSECT</minisprite>
+	
+	<type>Insecte</type>
+	<type>Poison</type>
+	<ability>Essaim</ability>
+	
+	<stat_hp>70</stat_hp>
+	<stat_att>90</stat_att>
+	<stat_def>70</stat_def>
+	<stat_spe_att>60</stat_spe_att>
+	<stat_spe_def>70</stat_spe_def>
+	<stat_vit>40</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Toile Gluante</move>
+	<move>Poison Croix</move>
+	<move>Plaie-Croix</move>
+	<move>Direct Toxic</move>
+	<move>Bomb'Eurk</move>
+	<move>Psyko</move>
+	<move>Ombre Portée</move>
+	<move>Fil Toxique</move>
+</creature>
+
+<creature>
+	<number>169</number>
+	<name>Nostenfer</name>
+	<minisprite color="PURPLE">BAT</minisprite>
+	
+	<type>Poison</type>
+	<type>Vol</type>
+	<ability>Attention</ability>
+	
+	<stat_hp>85</stat_hp>
+	<stat_att>90</stat_att>
+	<stat_def>80</stat_def>
+	<stat_spe_att>70</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>130</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	
+	<move>Crochetvenin</move>
+	<move>Demi-Tour</move>
+	<move>Onde Folie</move>
+	<move>Lame d'Air</move>
+	<move>Pics Toxiques</move>
+	<move>Regard Noir</move>
+	<move>Bomb'Eurk</move>
+	<move>Vampirisme</move>
+	<move>Toxik</move>
+</creature>
+
+<creature>
+	<number>170</number>
+	<name>Loupio</name>
+	<minisprite color="BLUE">FISH</minisprite>
+	
+	<type>Eau</type>
+	<type>Electrik</type>
+	<ability>Absorb'Eau</ability>
+	<ability>Absorb'Volt</ability>
+	
+	<stat_hp>75</stat_hp>
+	<stat_att>38</stat_att>
+	<stat_def>38</stat_def>
+	<stat_spe_att>56</stat_spe_att>
+	<stat_spe_def>56</stat_spe_def>
+	<stat_vit>67</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Tonnerre</move>
+	<move>Fatal Foudre</move>
+	<move>Chang'Eclair</move>
+	<move>Surf</move>
+	<move>Hydrocanon</move>
+	<move>Cage-Eclair</move>
+	<move>Onde Folie</move>
+	<move>Rayon Signal</move>
+	<move>Anneau Hydro</move>
+</creature>
+
+<creature>
+	<number>171</number>
+	<name>Lanturn</name>
+	<minisprite color="BLUE">FISH</minisprite>
+	
+	<type>Eau</type>
+	<type>Electrik</type>
+	<ability>Absorb'Eau</ability>
+	<ability>Absorb'Volt</ability>
+	
+	<stat_hp>125</stat_hp>
+	<stat_att>58</stat_att>
+	<stat_def>58</stat_def>
+	<stat_spe_att>76</stat_spe_att>
+	<stat_spe_def>76</stat_spe_def>
+	<stat_vit>67</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Tonnerre</move>
+	<move>Fatal Foudre</move>
+	<move>Chang'Eclair</move>
+	<move>Surf</move>
+	<move>Hydrocanon</move>
+	<move>Cage-Eclair</move>
+	<move>Onde Folie</move>
+	<move>Rayon Signal</move>
+	<move>Anneau Hydro</move>
+</creature>
+
+<creature>
+	<number>172</number>
+	<name>Pichu</name>
+	<minisprite color="ORANGE">PIKACHU</minisprite>
+	
+	<type>Electrik</type>
+	<ability>Statik</ability>
+	
+	<stat_hp>20</stat_hp>
+	<stat_att>40</stat_att>
+	<stat_def>15</stat_def>
+	<stat_spe_att>35</stat_spe_att>
+	<stat_spe_def>35</stat_spe_def>
+	<stat_vit>60</stat_vit>
+	
+	<blood mode="3">BLOOD_fairy</blood>
+	
+	<move>Tonnerre</move>
+	<move>Fatal Foudre</move>
+	<move>Doux Baiser</move>
+	<move>Damocles</move>
+	<move>Machination</move>
+	<move>Vive-Attaque</move>
+	<move>Mur Lumière</move>
+</creature>
+
+<creature>
+	<number>173</number>
+	<name>Mélo</name>
+	<minisprite color="PINK">FEE</minisprite>
+	
+	<type>Fee</type>
+	
+	<stat_hp>50</stat_hp>
+	<stat_att>25</stat_att>
+	<stat_def>28</stat_def>
+	<stat_spe_att>45</stat_spe_att>
+	<stat_spe_def>55</stat_spe_def>
+	<stat_vit>15</stat_vit>
+	
+	<blood mode="3">BLOOD_fairy</blood>
+	
+	<move>Eclat Magique</move>
+	<move>Pouvoir Lunaire</move>
+	<move>Lance-Flamme</move>
+	<move>Tonnerre</move>
+	<move>Doux Baiser</move>
+	<move>Plénitude</move>
+	<move>Mur Lumière</move>
+</creature>
+
+<creature>
+	<number>174</number>
+	<name>Toudoudou</name>
+	<minisprite color="PINK">FEE</minisprite>
+	
+	<type>Normal</type>
+	<type>Fee</type>
+	
+	<stat_hp>90</stat_hp>
+	<stat_att>30</stat_att>
+	<stat_def>15</stat_def>
+	<stat_spe_att>40</stat_spe_att>
+	<stat_spe_def>20</stat_spe_def>
+	<stat_vit>15</stat_vit>
+	
+	<blood mode="3">BLOOD_fairy</blood>
+	
+	<move>Câlinerie</move>
+	<move>Torgnoles</move>
+	<move>Damocles</move>
+	<move>Megaphone</move>
+	<move>Plaquage</move>
+	<move>Casse-Brique</move>
+	<move>Tonnerre</move>
+	<move>Laser Glace</move>
+	<move>Doux Baiser</move>
+	<move>Berceuse</move>
+</creature>
+
+<creature>
+	<number>175</number>
+	<name>Togepi</name>
+	<minisprite color="ORANGE">FEE</minisprite>
+	
+	<type>Fee</type>
+	
+	<stat_hp>35</stat_hp>
+	<stat_att>20</stat_att>
+	<stat_def>65</stat_def>
+	<stat_spe_att>40</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>20</stat_vit>
+	
+	<blood mode="3">BLOOD_fairy</blood>
+	
+	<move>Eclat Magique</move>
+	<move>Voeu</move>
+	<move>Canicule</move>
+	<move>Vibraqua</move>
+	<move>Damocles</move>
+	<move>Pouv. Antique</move>
+	<move>Doux Baiser</move>
+</creature>
+
+<creature>
+	<number>176</number>
+	<name>Togetic</name>
+	<minisprite>FEE</minisprite>
+	
+	<type>Fee</type>
+	<type>Vol</type>
+	<size>XS</size>
+	
+	<stat_hp>55</stat_hp>
+	<stat_att>40</stat_att>
+	<stat_def>85</stat_def>
+	<stat_spe_att>80</stat_spe_att>
+	<stat_spe_def>105</stat_spe_def>
+	<stat_vit>40</stat_vit>
+	
+	<blood mode="3">BLOOD_fairy</blood>
+	
+	<move>Eclat Magique</move>
+	<move>Voeu</move>
+	<move>Canicule</move>
+	<move>Vibraqua</move>
+	<move>Damocles</move>
+	<move>Pouv. Antique</move>
+	<move>Doux Baiser</move>
+</creature>
+
+<creature>
+	<number>177</number>
+	<name>Natu</name>
+	<minisprite color="GREEN">BIRD</minisprite>
+	
+	<type>Psy</type>
+	<type>Vol</type>
+	<ability>Regard Préventif</ability>
+	
+	<stat_hp>40</stat_hp>
+	<stat_att>50</stat_att>
+	<stat_def>45</stat_def>
+	<stat_spe_att>70</stat_spe_att>
+	<stat_spe_def>45</stat_spe_def>
+	<stat_vit>70</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Vent Mauvais</move>
+	<move>Ball'Ombre</move>
+	<move>Psyko</move>
+	<move>Choc Psy</move>
+	<move>Voeu</move>
+	<move>Demi-Tour</move>
+	<move>Eclat Magique</move>
+	<move>Lame d'Air</move>
+	<move>Mur Lumière</move>
+</creature>
+
+<creature>
+	<number>178</number>
+	<name>Xatu</name>
+	<minisprite color="GREEN">BIRD</minisprite>
+	
+	<type>Psy</type>
+	<type>Vol</type>
+	<ability>Regard Préventif</ability>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>75</stat_att>
+	<stat_def>70</stat_def>
+	<stat_spe_att>95</stat_spe_att>
+	<stat_spe_def>70</stat_spe_def>
+	<stat_vit>95</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Vent Mauvais</move>
+	<move>Ball'Ombre</move>
+	<move>Psyko</move>
+	<move>Choc Psy</move>
+	<move>Voeu</move>
+	<move>Demi-Tour</move>
+	<move>Eclat Magique</move>
+	<move>Lame d'Air</move>
+	<move>Mur Lumière</move>
+</creature>
+
+<creature>
+	<number>179</number>
+	<name>Wattouatt</name>
+	<minisprite color="ORANGE">CAT</minisprite>
+	
+	<type>Electrik</type>
+	<ability>Statik</ability>
+	
+	<stat_hp>55</stat_hp>
+	<stat_att>40</stat_att>
+	<stat_def>40</stat_def>
+	<stat_spe_att>65</stat_spe_att>
+	<stat_spe_def>45</stat_spe_def>
+	<stat_vit>35</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Tonnerre</move>
+	<move>Rayon Gemme</move>
+	<move>Mur Lumière</move>
+	<move>Fatal Foudre</move>
+	<move>Onde Folie</move>
+	<move>Eclair Fou</move>
+	<move>Bélier</move>
+</creature>
+
+<creature>
+	<number>180</number>
+	<name>Lainergie</name>
+	<minisprite color="PINK">POKEMON</minisprite>
+	
+	<type>Electrik</type>
+	<ability>Statik</ability>
+	
+	<stat_hp>70</stat_hp>
+	<stat_att>55</stat_att>
+	<stat_def>55</stat_def>
+	<stat_spe_att>80</stat_spe_att>
+	<stat_spe_def>60</stat_spe_def>
+	<stat_vit>45</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Tonnerre</move>
+	<move>Rayon Gemme</move>
+	<move>Poing de Feu</move>
+	<move>Mur Lumière</move>
+	<move>Fatal Foudre</move>
+	<move>Onde Folie</move>
+	<move>Eclair Fou</move>
+	<move>Bélier</move>
+</creature>
+
+<creature>
+	<number>181</number>
+	<name>Pharamp</name>
+	<minisprite color="ORANGE">POKEMON</minisprite>
+	
+	<type>Electrik</type>
+	<ability>Statik</ability>
+	
+	<stat_hp>90</stat_hp>
+	<stat_att>75</stat_att>
+	<stat_def>85</stat_def>
+	<stat_spe_att>115</stat_spe_att>
+	<stat_spe_def>90</stat_spe_def>
+	<stat_vit>55</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Dracochoc</move>
+	<move>Tonnerre</move>
+	<move>Rayon Gemme</move>
+	<move>Poing de Feu</move>
+	<move>Mur Lumière</move>
+	<move>Fatal Foudre</move>
+	<move>Onde Folie</move>
+	<move>Eclair Fou</move>
+	<move>Bélier</move>
+</creature>
+
+<creature>
+	<number>182</number>
+	<name>Joliflor</name>
+	<minisprite color="RED">FLOWER</minisprite>
+	
+	<type>Plante</type>
+	<ability>Chlorophyle</ability>
+	<size>S</size>
+	
+	<stat_hp>75</stat_hp>
+	<stat_att>80</stat_att>
+	<stat_def>95</stat_def>
+	<stat_spe_att>90</stat_spe_att>
+	<stat_spe_def>100</stat_spe_def>
+	<stat_vit>50</stat_vit>
+	
+	<blood mode="3">BLOOD_grass_plasma</blood>
+	
+	<move>Poudre Dodo</move>
+	<move>Giga-Sangsue</move>
+	<move>Vampigraine</move>
+	<move>Para-Spore</move>
+	<move>Rayon Lune</move>
+	<move>Pouvoir Lunaire</move>
+	<move>Danse-Fleur</move>
+	<move>Lance-Soleil</move>
+	<move>Toxik</move>
+</creature>
+
+<creature>
+	<number>183</number>
+	<name>Marill</name>
+	<minisprite color="BLUE">FEE</minisprite>
+	
+	<type>Eau</type>
+	<type>Fee</type>
+	
+	<stat_hp>70</stat_hp>
+	<stat_att>20</stat_att>
+	<stat_def>50</stat_def>
+	<stat_spe_att>20</stat_spe_att>
+	<stat_spe_def>50</stat_spe_def>
+	<stat_vit>40</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<ability>Coloforce</ability>
+	<ability>Isograisse</ability>
+	
+	<move>Câlinerie</move>
+	<move>Surf</move>
+	<move>Damocles</move>
+	<move>Cognobidon</move>
+	<move>Roulade</move>
+	<move>Surpuissance</move>
+	<move>Hydroqueue</move>
+	<move>Aqua-Jet</move>
+	<move>Toxik</move>
+</creature>
+
+<creature>
+	<number>184</number>
+	<name>Azumarill</name>
+	<minisprite color="BLUE">FEE</minisprite>
+	
+	<type>Eau</type>
+	<type>Fee</type>
+	
+	<stat_hp>100</stat_hp>
+	<stat_att>50</stat_att>
+	<stat_def>80</stat_def>
+	<stat_spe_att>60</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>50</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<ability>Coloforce</ability>
+	<ability>Isograisse</ability>
+	
+	<move>Câlinerie</move>
+	<move>Surf</move>
+	<move>Damocles</move>
+	<move>Cognobidon</move>
+	<move>Roulade</move>
+	<move>Surpuissance</move>
+	<move>Hydroqueue</move>
+	<move>Aqua-Jet</move>
+	<move>Toxik</move>
+</creature>
+
+<creature>
+	<number>185</number>
+	<name>Simularbre</name>
+	<minisprite color="BROWN">TREE</minisprite>
+	
+	<type>Roche</type>
+	<ability>Fermeté</ability>
+	
+	<stat_hp>70</stat_hp>
+	<stat_att>100</stat_att>
+	<stat_def>115</stat_def>
+	<stat_spe_att>30</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>30</stat_vit>
+	
+	<blood mode="3">BLOOD_rock</blood>
+	
+	<move>Eboulement</move>
+	<move>Lame de Roc</move>
+	<move>Fracass'Tête</move>
+	<move>Martobois</move>
+	<move>Piège de Roc</move>
+	<move>Marto-Poing</move>
+	<move>Feinte</move>
+	<move>Seisme</move>
+</creature>
+
+<creature>
+	<number>186</number>
+	<name>Tarpaud</name>
+	<minisprite color="GREEN">TADPOLE</minisprite>
+	
+	<type>Eau</type>
+	<ability>Crachin</ability>
+	
+	<stat_hp>90</stat_hp>
+	<stat_att>75</stat_att>
+	<stat_def>75</stat_def>
+	<stat_spe_att>90</stat_spe_att>
+	<stat_spe_def>100</stat_spe_def>
+	<stat_vit>70</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Danse Pluie</move>
+	<move>Surf</move>
+	<move>Laser Glace</move>
+	<move>Hypnose</move>
+	<move>Requiem</move>
+	<move>Clonage</move>
+	<move>Hydrocanon</move>
+	<move>Plaquage</move>
+	<move>Ebullition</move>
+	<move>Psyko</move>
+</creature>
+
+<creature>
+	<number>187</number>
+	<name>Granivol</name>
+	<minisprite color="PINK">FLOWER</minisprite>
+	
+	<type>Plante</type>
+	<type>Vol</type>
+	<ability>Chlorophyle</ability>
+	<ability>Feuille Garde</ability>
+	<size>S</size>
+	
+	<stat_hp>35</stat_hp>
+	<stat_att>35</stat_att>
+	<stat_def>40</stat_def>
+	<stat_spe_att>35</stat_spe_att>
+	<stat_spe_def>55</stat_spe_def>
+	<stat_vit>50</stat_vit>
+	
+	<blood mode="3">BLOOD_grass_plasma</blood>
+	
+	<move>Vampigraine</move>
+	<move>Poudre Dodo</move>
+	<move>Demi-Tour</move>
+	<move>Aeropique</move>
+	<move>Toxik</move>
+	<move>Vent Féerique</move>
+	<move>Giga-Sangsue</move>
+</creature>
+
+<creature>
+	<number>188</number>
+	<name>Floravol</name>
+	<minisprite color="GREEN">FLOWER</minisprite>
+	
+	<type>Plante</type>
+	<type>Vol</type>
+	<ability>Chlorophyle</ability>
+	<ability>Feuille Garde</ability>
+	<size>S</size>
+	
+	<stat_hp>55</stat_hp>
+	<stat_att>45</stat_att>
+	<stat_def>50</stat_def>
+	<stat_spe_att>45</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>80</stat_vit>
+	
+	<blood mode="3">BLOOD_grass_plasma</blood>
+	
+	<move>Vampigraine</move>
+	<move>Poudre Dodo</move>
+	<move>Demi-Tour</move>
+	<move>Aeropique</move>
+	<move>Toxik</move>
+	<move>Vent Féerique</move>
+	<move>Giga-Sangsue</move>
+</creature>
+
+<creature>
+	<number>189</number>
+	<name>Cotovol</name>
+	<minisprite color="BLUE">FLOWER</minisprite>
+	
+	<type>Plante</type>
+	<type>Vol</type>
+	<ability>Chlorophyle</ability>
+	<ability>Feuille Garde</ability>
+	<size>S</size>
+	
+	<stat_hp>75</stat_hp>
+	<stat_att>55</stat_att>
+	<stat_def>70</stat_def>
+	<stat_spe_att>55</stat_spe_att>
+	<stat_spe_def>95</stat_spe_def>
+	<stat_vit>110</stat_vit>
+	
+	<blood mode="3">BLOOD_grass_plasma</blood>
+	
+	<move>Vampigraine</move>
+	<move>Poudre Dodo</move>
+	<move>Demi-Tour</move>
+	<move>Aeropique</move>
+	<move>Toxik</move>
+	<move>Vent Féerique</move>
+	<move>Giga-Sangsue</move>
+</creature>
+
+<creature>
+	<number>190</number>
+	<name>Capumain</name>
+	<minisprite color="PURPLE">PUPPET</minisprite>
+	
+	<type>Normal</type>
+	
+	<stat_hp>55</stat_hp>
+	<stat_att>55</stat_att>
+	<stat_def>70</stat_def>
+	<stat_spe_att>40</stat_spe_att>
+	<stat_spe_def>55</stat_spe_def>
+	<stat_vit>85</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Acrobat</personnality>
+	
+	<move>Poing de Feu</move>
+	<move>Poing Eclair</move>
+	<move>Poinglace</move>
+	<move>Sabotage</move>
+	<move>Ball'Ombre</move>
+	<move>Vive-Attaque</move>
+	<move>Demi-Tour</move>
+	<move>Bluff</move>
+</creature>
+
+<creature>
+	<number>191</number>
+	<name>Tournegrin</name>
+	<minisprite color="GREEN">FLOWER</minisprite>
+	
+	<type>Plante</type>
+	
+	<stat_hp>30</stat_hp>
+	<stat_att>30</stat_att>
+	<stat_def>30</stat_def>
+	<stat_spe_att>30</stat_spe_att>
+	<stat_spe_def>30</stat_spe_def>
+	<stat_vit>30</stat_vit>
+	
+	<blood mode="3">BLOOD_grass_plasma</blood>
+	
+	<move>Telluriforce</move>
+	<move>Poudre Dodo</move>
+	<move>Zénith</move>
+	<move>Synthèse</move>
+	<move>Croissance</move>
+	<move>Bomb'Eurk</move>
+	<move>Canon Graine</move>
+	<move>Giga-Sangsue</move>
+	<move>Lance-Soleil</move>
+</creature>
+
+<creature>
+	<number>192</number>
+	<name>Heliatronc</name>
+	<minisprite color="GREEN">FLOWER</minisprite>
+	
+	<type>Plante</type>
+	<ability>Sécheresse</ability>
+	
+	<stat_hp>75</stat_hp>
+	<stat_att>75</stat_att>
+	<stat_def>55</stat_def>
+	<stat_spe_att>105</stat_spe_att>
+	<stat_spe_def>85</stat_spe_def>
+	<stat_vit>30</stat_vit>
+	
+	<blood mode="3">BLOOD_grass_plasma</blood>
+	
+	<move>Telluriforce</move>
+	<move>Poudre Dodo</move>
+	<move>Zénith</move>
+	<move>Synthèse</move>
+	<move>Croissance</move>
+	<move>Bomb'Eurk</move>
+	<move>Canon Graine</move>
+	<move>Giga-Sangsue</move>
+	<move>Lance-Soleil</move>
+</creature>
+
+<creature>
+	<number>193</number>
+	<name>Yanma</name>
+	<minisprite color="GREEN">BUTTERFLY</minisprite>
+	
+	<type>Insecte</type>
+	<type>Vol</type>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>65</stat_att>
+	<stat_def>45</stat_def>
+	<stat_spe_att>75</stat_spe_att>
+	<stat_spe_def>45</stat_spe_def>
+	<stat_vit>95</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Bourdon</move>
+	<move>Lame d'Air</move>
+	<move>Demi-Tour</move>
+	<move>Ball'Ombre</move>
+	<move>Pouv. Antique</move>
+	<move>Hypnose</move>
+	<move>Psyko</move>
+</creature>
+
+<creature>
+	<number>194</number>
+	<name>Axoloto</name>
+	<minisprite color="BLUE">TADPOLE</minisprite>
+	
+	<type>Eau</type>
+	<type>Sol</type>
+	<ability>Absorb'Eau</ability>
+	
+	<stat_hp>55</stat_hp>
+	<stat_att>45</stat_att>
+	<stat_def>45</stat_def>
+	<stat_spe_att>25</stat_spe_att>
+	<stat_spe_def>25</stat_spe_def>
+	<stat_vit>15</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Seisme</move>
+	<move>Surf</move>
+	<move>Cascade</move>
+	<move>Laser Glace</move>
+	<move>Bomb'Eurk</move>
+	<move>Piétisol</move>
+	<move>Soin</move>
+	<move>Ocroupi</move>
+</creature>
+
+<creature>
+	<number>195</number>
+	<name>Maraiste</name>
+	<minisprite color="BLUE">TADPOLE</minisprite>
+	
+	<type>Eau</type>
+	<type>Sol</type>
+	<ability>Absorb'Eau</ability>
+	
+	<stat_hp>95</stat_hp>
+	<stat_att>85</stat_att>
+	<stat_def>85</stat_def>
+	<stat_spe_att>65</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>35</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Lazy</personnality>
+	
+	<move>Seisme</move>
+	<move>Surf</move>
+	<move>Cascade</move>
+	<move>Laser Glace</move>
+	<move>Poinglace</move>
+	<move>Bomb'Eurk</move>
+	<move>Piétisol</move>
+	<move>Soin</move>
+	<move>Ocroupi</move>
+</creature>
+
+<creature>
+	<number>196</number>
+	<name>Mentali</name>
+	<minisprite color="PURPLE">CAT</minisprite>
+	
+	<type>Psy</type>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>65</stat_att>
+	<stat_def>60</stat_def>
+	<stat_spe_att>130</stat_spe_att>
+	<stat_spe_def>95</stat_spe_def>
+	<stat_vit>110</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Vive-Attaque</move>
+	<move>Psyko</move>
+	<move>Choc Psy</move>
+	<move>Plénitude</move>
+	<move>Mur Lumière</move>
+	<move>Aurore</move>
+	<move>Eclat Magique</move>
+	<move>Ball'Ombre</move>
+</creature>
+
+<creature>
+	<number>197</number>
+	<name>Noctali</name>
+	<minisprite color="BLACK">CAT</minisprite>
+	
+	<type>Tenebres</type>
+	<ability>Attention</ability>
+	
+	<stat_hp>95</stat_hp>
+	<stat_att>65</stat_att>
+	<stat_def>110</stat_def>
+	<stat_spe_att>60</stat_spe_att>
+	<stat_spe_def>130</stat_spe_def>
+	<stat_vit>65</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Toxik</move>
+	<move>Regard Noir</move>
+	<move>Vive-Attaque</move>
+	<move>Feinte</move>
+	<move>Ball'Ombre</move>
+	<move>Psyko</move>
+	<move>Vibrobscur</move>
+	<move>Onde Folie</move>
+	<move>Rayon Lune</move>
+</creature>
+
+<creature>
+	<number>198</number>
+	<name>Cornèbre</name>
+	<minisprite color="BLACK">BIRD</minisprite>
+	
+	<type>Tenebres</type>
+	<type>Vol</type>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>85</stat_att>
+	<stat_def>42</stat_def>
+	<stat_spe_att>85</stat_spe_att>
+	<stat_spe_def>42</stat_spe_def>
+	<stat_vit>91</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Tranche-Nuit</move>
+	<move>Rapace</move>
+	<move>Canicule</move>
+	<move>Vibrobscur</move>
+	<move>Feinte</move>
+	<move>Bec Vrille</move>
+	<move>Ball'Ombre</move>
+	<move>Aile d'Acier</move>
+	<move>Vent Arriere</move>
+</creature>
+
+<creature>
+	<number>199</number>
+	<name>Roigada</name>
+	<minisprite color="PINK">SLOWPOKE</minisprite>
+	
+	<type>Eau</type>
+	<type>Psy</type>
+	<ability>Régé-Force</ability>
+	<ability>Tempo Perso</ability>
+	
+	<stat_hp>95</stat_hp>
+	<stat_att>75</stat_att>
+	<stat_def>80</stat_def>
+	<stat_spe_att>100</stat_spe_att>
+	<stat_spe_def>110</stat_spe_def>
+	<stat_vit>30</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Lazy</personnality>
+	
+	<move>Plénitude</move>
+	<move>Surf</move>
+	<move>Psyko</move>
+	<move>Paresse</move>
+	<move>Lance-Flamme</move>
+	<move>Psykoud'Boul</move>
+	<move>Amnésie</move>
+	<move>Vibraqua</move>
+	<move>Coud'Boule</move>
+	<move>Blizzard</move>
+	<move>Clonage</move>
+	<move>Distorsion</move>
+</creature>
+
+<creature>
+	<number>200</number>
+	<name>Feuforêve</name>
+	<minisprite color="PURPLE">GHOST</minisprite>
+	
+	<type>Spectre</type>
+	<ability>Lévitation</ability>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>60</stat_att>
+	<stat_def>60</stat_def>
+	<stat_spe_att>85</stat_spe_att>
+	<stat_spe_def>85</stat_spe_def>
+	<stat_vit>85</stat_vit>
+	
+	<blood mode="3">BLOOD_gaz</blood>
+	
+	<move>Plénitude</move>
+	<move>Ball'Ombre</move>
+	<move>Ombre Portée</move>
+	<move>Tonnerre</move>
+	<move>Rayon Gemme</move>
+	<move>Psyko</move>
+	<move>Feu Follet</move>
+	<move>Rayon Charge</move>
+	<move>Eclat Magique</move>
+	<move>Vibrobscur</move>
+	<move>Requiem</move>
+</creature>
+
+<creature>
+	<number>203</number>
+	<name>Girafarig</name>
+	<minisprite color="GREY">DOG</minisprite>
+	
+	<type>Normal</type>
+	<type>Psy</type>
+	<ability>Attention</ability>
+	<ability>Herbivore</ability>
+	
+	<stat_hp>70</stat_hp>
+	<stat_att>80</stat_att>
+	<stat_def>65</stat_def>
+	<stat_spe_att>90</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>85</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Psyko</move>
+	<move>Machouille</move>
+	<move>Megaphone</move>
+	<move>Tonnerre</move>
+	<move>Plénitude</move>
+	<move>Seisme</move>
+	<move>Ecrasement</move>
+	<move>Ball'Ombre</move>
+	<move>Psykoud'Boul</move>
+	<move>Machination</move>
+</creature>
+
+<creature>
+	<number>204</number>
+	<name>Pomdepik</name>
+	<minisprite color="GREY">BALL</minisprite>
+	
+	<type>Insecte</type>
+	<ability>Fermeté</ability>
+	
+	<stat_hp>50</stat_hp>
+	<stat_att>65</stat_att>
+	<stat_def>90</stat_def>
+	<stat_spe_att>35</stat_spe_att>
+	<stat_spe_def>35</stat_spe_def>
+	<stat_vit>15</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Picots</move>
+	<move>Explosion</move>
+	<move>Tour Rapide</move>
+	<move>Damocles</move>
+	<move>Eboulement</move>
+	<move>Piqure</move>
+	<move>Piétisol</move>
+	<move>Piège de Roc</move>
+</creature>
+
+<creature>
+	<number>205</number>
+	<name>Foretress</name>
+	<minisprite color="PINK">BALL</minisprite>
+	
+	<type>Insecte</type>
+	<type>Acier</type>
+	<ability>Fermeté</ability>
+	
+	<stat_hp>75</stat_hp>
+	<stat_att>90</stat_att>
+	<stat_def>140</stat_def>
+	<stat_spe_att>60</stat_spe_att>
+	<stat_spe_def>60</stat_spe_def>
+	<stat_vit>40</stat_vit>
+	
+	<blood mode="3">BLOOD_steel</blood>
+	
+	<move>Picots</move>
+	<move>Explosion</move>
+	<move>Tour Rapide</move>
+	<move>Damocles</move>
+	<move>Eboulement</move>
+	<move>Piqure</move>
+	<move>Piétisol</move>
+	<move>Piège de Roc</move>
+	<move>Miroi-Tir</move>
+</creature>
+
+<creature>
+	<number>206</number>
+	<name>Insolourdo</name>
+	<minisprite color="ORANGE">SNAKE</minisprite>
+	
+	<type>Normal</type>
+	
+	<stat_hp>100</stat_hp>
+	<stat_att>70</stat_att>
+	<stat_def>70</stat_def>
+	<stat_spe_att>65</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>45</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Lazy</personnality>
+	
+	<move>Tunnelier</move>
+	<move>Damocles</move>
+	<move>Atterrissage</move>
+	<move>Blizzard</move>
+	<move>Dracocharge</move>
+	<move>Lame d'Air</move>
+	<move>Tonnerre</move>
+	<move>Rayon Charge</move>
+	<move>Roulade</move>
+</creature>
+
+<creature>
+	<number>207</number>
+	<name>Scorplane</name>
+	<minisprite color="PURPLE">DRAGON</minisprite>
+	
+	<type>Sol</type>
+	<type>Vol</type>
+	<ability>Voile Sable</ability>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>75</stat_att>
+	<stat_def>105</stat_def>
+	<stat_spe_att>35</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>85</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Bird</personnality>
+	
+	<move>Demi-Tour</move>
+	<move>Toxik</move>
+	<move>Aeropique</move>
+	<move>Atterrissage</move>
+	<move>Seisme</move>
+	<move>Sabotage</move>
+	<move>Stratopercut</move>
+	<move>Guillotine</move>
+	<move>Danse-Lames</move>
+</creature>
+
+<creature>
+	<number>208</number>
+	<name>Steelix</name>
+	<minisprite>SNAKE</minisprite>
+	
+	<type>Sol</type>
+	<type>Acier</type>
+	
+	<ability>Fermeté</ability>
+	
+	<size>XXXXL</size>
+	<stat_hp>75</stat_hp>
+	<stat_att>85</stat_att>
+	<stat_def>200</stat_def>
+	<stat_spe_att>55</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>30</stat_vit>
+	
+	<blood mode="3">BLOOD_steel</blood>
+	
+	<move>Seisme</move>
+	<move>Dracossoufle</move>
+	<move>Queue de Fer</move>
+	<move>Tête de Fer</move>
+	<move>Lame de Roc</move>
+	<move>Tempêtesable</move>
+	<move>Dracoqueue</move>
+	<move>Tunnelier</move>
+	<move>Piège de Roc</move>
+	<move>Crocs de Feu</move>
+</creature>
+
+<creature>
+	<number>209</number>
+	<name>Snubull</name>
+	<minisprite color="PINK">POKEMON</minisprite>
+	
+	<type>Fee</type>
+	
+	<ability>Phobique</ability>
+	<ability>Intimidation</ability>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>80</stat_att>
+	<stat_def>50</stat_def>
+	<stat_spe_att>40</stat_spe_att>
+	<stat_spe_def>40</stat_spe_def>
+	<stat_vit>30</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Câlinerie</move>
+	<move>Machouille</move>
+	<move>Colère</move>
+	<move>Coud'Boule</move>
+	<move>Crocs de Feu</move>
+	<move>Crocs Givre</move>
+	<move>Crocs Eclair</move>
+	<move>Hurlement</move>
+</creature>
+
+<creature>
+	<number>210</number>
+	<name>Grandbull</name>
+	<minisprite color="PINK">POKEMON</minisprite>
+	
+	<type>Fee</type>
+	
+	<ability>Phobique</ability>
+	<ability>Intimidation</ability>
+	
+	<stat_hp>90</stat_hp>
+	<stat_att>120</stat_att>
+	<stat_def>75</stat_def>
+	<stat_spe_att>60</stat_spe_att>
+	<stat_spe_def>60</stat_spe_def>
+	<stat_vit>45</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Câlinerie</move>
+	<move>Machouille</move>
+	<move>Colère</move>
+	<move>Coud'Boule</move>
+	<move>Crocs de Feu</move>
+	<move>Crocs Givre</move>
+	<move>Crocs Eclair</move>
+	<move>Hurlement</move>
+</creature>
+
+<creature>
+	<number>211</number>
+	<name>Qwilfish</name>
+	<minisprite color="BLUE">TADPOLE</minisprite>
+	
+	<type>Eau</type>
+	<type>Poison</type>
+	<ability>Glissade</ability>
+	<ability>Point Poison</ability>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>95</stat_att>
+	<stat_def>85</stat_def>
+	<stat_spe_att>55</stat_spe_att>
+	<stat_spe_def>55</stat_spe_def>
+	<stat_vit>85</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Direct Toxic</move>
+	<move>Hydroqueue</move>
+	<move>Cascade</move>
+	<move>Picots</move>
+	<move>Roulade</move>
+	<move>Aqua-Jet</move>
+	<move>Toxik</move>
+	<move>Explosion</move>
+	<move>Pics Toxiques</move>
+</creature>
+
+<creature>
+	<number>212</number>
+	<name>Cizayox</name>
+	<minisprite color="RED">INSECT</minisprite>
+	
+	<type>Insecte</type>
+	<type>Acier</type>
+	
+	<ability>Hypper Cutter</ability>
+	<ability>Technicien</ability>
+	
+	<stat_hp>70</stat_hp>
+	<stat_att>130</stat_att>
+	<stat_def>100</stat_def>
+	<stat_spe_att>55</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>65</stat_vit>
+	
+	<blood mode="3">BLOOD_steel</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Pisto-Poing</move>
+	<move>Tête de Fer</move>
+	<move>Danse-Lames</move>
+	<move>Vive-Attaque</move>
+	<move>Aeropique</move>
+	<move>Tranche-Nuit</move>
+	<move>Casse-Brique</move>
+	<move>Plaie-Croix</move>
+	<move>Demi-Tour</move>
+</creature>
+
+<creature>
+	<number>213</number>
+	<name>Caratroc</name>
+	<minisprite color="RED">INSECT</minisprite>
+	
+	<type>Insecte</type>
+	<type>Roche</type>
+	<ability>Fermeté</ability>
+	
+	<size>XS</size>
+	
+	<stat_hp>20</stat_hp>
+	<stat_att>10</stat_att>
+	<stat_def>230</stat_def>
+	<stat_spe_att>10</stat_spe_att>
+	<stat_spe_def>230</stat_spe_def>
+	<stat_vit>5</stat_vit>
+	
+	<blood mode="3">BLOOD_rock</blood>
+	
+	<move>Toxik</move>
+	<move>Piège de Roc</move>
+	<move>Repos</move>
+	<move>Eboulement</move>
+</creature>
+
+<creature>
+	<number>214</number>
+	<name>Scarhino</name>
+	<minisprite color="DARK_BLUE">INSECT</minisprite>
+	
+	<type>Insecte</type>
+	<type>Combat</type>
+	
+	<ability>Cran</ability>
+	<ability>Multi-Coups</ability>
+	
+	
+	<stat_hp>80</stat_hp>
+	<stat_att>125</stat_att>
+	<stat_def>75</stat_def>
+	<stat_spe_att>40</stat_spe_att>
+	<stat_spe_def>95</stat_spe_def>
+	<stat_vit>85</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Close Combat</move>
+	<move>Mégacorne</move>
+	<move>Dard-Nuée</move>
+	<move>Boule Roc</move>
+	<move>Aeropique</move>
+	<move>Gonflette</move>
+	<move>Lame de Roc</move>
+	<move>Casse-Brique</move>
+	<move>Tranche-Nuit</move>
+</creature>
+
+<creature>
+	<number>215</number>
+	<name>Farfuret</name>
+	<minisprite color="BLACK">CAT</minisprite>
+	
+	<type>Tenebres</type>
+	<type>Glace</type>
+	
+	<stat_hp>55</stat_hp>
+	<stat_att>95</stat_att>
+	<stat_def>55</stat_def>
+	<stat_spe_att>35</stat_spe_att>
+	<stat_spe_def>75</stat_spe_def>
+	<stat_vit>115</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Poinglace</move>
+	<move>Tranche-Nuit</move>
+	<move>Casse-Brique</move>
+	<move>Blizzard</move>
+	<move>Vibrobscur</move>
+	<move>Eclats Glace</move>
+	<move>Provoc</move>
+	<move>Vive-Attaque</move>
+	<move>Aeropique</move>
+</creature>
+
+<creature>
+	<number>216</number>
+	<name>Teddiursa</name>
+	<minisprite color="BROWN">POKEMON</minisprite>
+	
+	<type>Normal</type>
+	
+	<ability>Pied Véloce</ability>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>80</stat_att>
+	<stat_def>50</stat_def>
+	<stat_spe_att>50</stat_spe_att>
+	<stat_spe_def>50</stat_spe_def>
+	<stat_vit>40</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Mania</move>
+	<move>Damocles</move>
+	<move>Seisme</move>
+	<move>Machouille</move>
+	<move>Tranche-Nuit</move>
+	<move>Câlinerie</move>
+	<move>Danse-Lames</move>
+</creature>
+
+<creature>
+	<number>217</number>
+	<name>Ursaring</name>
+	<minisprite color="BROWN">POKEMON</minisprite>
+	
+	<type>Normal</type>
+	
+	<ability>Cran</ability>
+	
+	<stat_hp>90</stat_hp>
+	<stat_att>130</stat_att>
+	<stat_def>75</stat_def>
+	<stat_spe_att>75</stat_spe_att>
+	<stat_spe_def>75</stat_spe_def>
+	<stat_vit>55</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Marto-Poing</move>
+	<move>Mania</move>
+	<move>Damocles</move>
+	<move>Seisme</move>
+	<move>Machouille</move>
+	<move>Tranche-Nuit</move>
+	<move>Câlinerie</move>
+	<move>Danse-Lames</move>
+</creature>
+
+<creature>
+	<number>218</number>
+	<name>Limagma</name>
+	<minisprite color="RED">FIRE</minisprite>
+	
+	<type>Feu</type>
+	<ability>Corps Magma</ability>
+	
+	
+	<stat_hp>40</stat_hp>
+	<stat_att>40</stat_att>
+	<stat_def>40</stat_def>
+	<stat_spe_att>70</stat_spe_att>
+	<stat_spe_def>40</stat_spe_def>
+	<stat_vit>20</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Ebullilave</move>
+	<move>Lance-Flamme</move>
+	<move>Surchauffe</move>
+	<move>Feu Follet</move>
+	<move>Eboulement</move>
+	<move>Telluriforce</move>
+	<move>Pouv. Antique</move>
+	<move>Piège de Roc</move>
+	<move>Soin</move>
+	<move>Nuée de Smog</move>
+</creature>
+
+<creature>
+	<number>219</number>
+	<name>Volcaropod</name>
+	<minisprite color="RED">FIRE</minisprite>
+	
+	<type>Feu</type>
+	<type>Roche</type>
+	<ability>Corps Magma</ability>
+	
+	<stat_hp>60</stat_hp>
+	<stat_att>50</stat_att>
+	<stat_def>120</stat_def>
+	<stat_spe_att>90</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>30</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Ebullilave</move>
+	<move>Lance-Flamme</move>
+	<move>Surchauffe</move>
+	<move>Feu Follet</move>
+	<move>Eboulement</move>
+	<move>Telluriforce</move>
+	<move>Pouv. Antique</move>
+	<move>Piège de Roc</move>
+	<move>Soin</move>
+	<move>Nuée de Smog</move>
+</creature>
+
+<creature>
+	<number>220</number>
+	<name>Marcacrin</name>
+	<minisprite color="BROWN">MONSTER</minisprite>
+	
+	<type>Glace</type>
+	<type>Sol</type>
+	<ability>Isograisse</ability>
+	<ability>Rideau Neige</ability>
+	
+	<stat_hp>50</stat_hp>
+	<stat_att>50</stat_att>
+	<stat_def>40</stat_def>
+	<stat_spe_att>30</stat_spe_att>
+	<stat_spe_def>30</stat_spe_def>
+	<stat_vit>50</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Seisme</move>
+	<move>Grêle</move>
+	<move>Blizzard</move>
+	<move>Boue Bombe</move>
+	<move>Eclats Glace</move>
+	<move>Chute Glace</move>
+	<move>Damocles</move>
+	<move>Plaquage</move>
+	<move>Piège de Roc</move>
+</creature>
+
+<creature>
+	<number>221</number>
+	<name>Cochignon</name>
+	<minisprite color="BROWN">MONSTER</minisprite>
+	
+	<type>Glace</type>
+	<type>Sol</type>
+	<ability>Isograisse</ability>
+	<ability>Rideau Neige</ability>
+	
+	<stat_hp>100</stat_hp>
+	<stat_att>100</stat_att>
+	<stat_def>80</stat_def>
+	<stat_spe_att>60</stat_spe_att>
+	<stat_spe_def>60</stat_spe_def>
+	<stat_vit>50</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Seisme</move>
+	<move>Grêle</move>
+	<move>Blizzard</move>
+	<move>Boue Bombe</move>
+	<move>Eclats Glace</move>
+	<move>Chute Glace</move>
+	<move>Damocles</move>
+	<move>Plaquage</move>
+	<move>Piège de Roc</move>
+</creature>
+
+<creature>
+	<number>222</number>
+	<name>Corayon</name>
+	<minisprite color="PINK">TURTLE</minisprite>
+	
+	<type>Eau</type>
+	<type>Roche</type>
+	<ability>Régé-Force</ability>
+	<ability>Cure Nature</ability>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>55</stat_att>
+	<stat_def>95</stat_def>
+	<stat_spe_att>65</stat_spe_att>
+	<stat_spe_def>95</stat_spe_def>
+	<stat_vit>55</stat_vit>
+	
+	<blood mode="3">BLOOD_rock</blood>
+	
+	<move>Rayon Gemme</move>
+	<move>Pouv. Antique</move>
+	<move>Vibraqua</move>
+	<move>Surf</move>
+	<move>Toxik</move>
+	<move>Soin</move>
+	<move>Telluriforce</move>
+	<move>Boule Roc</move>
+	<move>Piège de Roc</move>
+	<move>Laser Glace</move>
+</creature>
+
+<creature>
+	<number>223</number>
+	<name>Remoraid</name>
+	<minisprite color="BLUE">FISH</minisprite>
+	
+	<type>Eau</type>
+	
+	<stat_hp>35</stat_hp>
+	<stat_att>65</stat_att>
+	<stat_def>35</stat_def>
+	<stat_spe_att>65</stat_spe_att>
+	<stat_spe_def>35</stat_spe_def>
+	<stat_vit>65</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Rayon Signal</move>
+	<move>Surf</move>
+	<move>Psyko</move>
+	<move>Lance-Flamme</move>
+	<move>Ultralaser</move>
+	<move>Hydrocanon</move>
+	<move>Détricanon</move>
+	<move>Laser Glace</move>
+	<move>Balle Graine</move>
+</creature>
+
+<creature>
+	<number>224</number>
+	<name>Octillery</name>
+	<minisprite color="RED">POULP</minisprite>
+	
+	<type>Eau</type>
+	
+	<stat_hp>75</stat_hp>
+	<stat_att>105</stat_att>
+	<stat_def>75</stat_def>
+	<stat_spe_att>105</stat_spe_att>
+	<stat_spe_def>75</stat_spe_def>
+	<stat_vit>45</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Rayon Signal</move>
+	<move>Surf</move>
+	<move>Psyko</move>
+	<move>Lance-Flamme</move>
+	<move>Ultralaser</move>
+	<move>Hydrocanon</move>
+	<move>Détricanon</move>
+	<move>Laser Glace</move>
+	<move>Balle Graine</move>
+</creature>
+
+<creature>
+	<number>225</number>
+	<name>Cadoizo</name>
+	<minisprite color="RED">BIRD</minisprite>
+	
+	<type>Glace</type>
+	<type>Vol</type>
+	<ability>Alerte Neige</ability>
+	
+	<stat_hp>45</stat_hp>
+	<stat_att>55</stat_att>
+	<stat_def>45</stat_def>
+	<stat_spe_att>65</stat_spe_att>
+	<stat_spe_def>45</stat_spe_def>
+	<stat_vit>75</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Aeropique</move>
+	<move>Bec Vrille</move>
+	<move>Blizzard</move>
+	<move>Laser Glace</move>
+	<move>Casse-Brique</move>
+	<move>Bluff</move>
+	<move>Atterrissage</move>
+	<move>Toxik</move>
+</creature>
+
+<creature>
+	<number>226</number>
+	<name>Demanta</name>
+	<minisprite color="BLUE">FISH</minisprite>
+	
+	<type>Eau</type>
+	<type>Vol</type>
+	<ability>Glissade</ability>
+	<ability>Absorb'Eau</ability>
+	
+	<stat_hp>85</stat_hp>
+	<stat_att>40</stat_att>
+	<stat_def>70</stat_def>
+	<stat_spe_att>80</stat_spe_att>
+	<stat_spe_def>140</stat_spe_def>
+	<stat_vit>70</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Vibraqua</move>
+	<move>Surf</move>
+	<move>Eboulement</move>
+	<move>Lame d'Air</move>
+	<move>Rayon Signal</move>
+	<move>Laser Glace</move>
+	<move>Onde Folie</move>
+	<move>Rafale Psy</move>
+</creature>
+
+<creature>
+	<number>227</number>
+	<name>Airmure</name>
+	<minisprite color="GREY">BIRD</minisprite>
+	
+	<type>Acier</type>
+	<type>Vol</type>
+	
+	<ability>Fermeté</ability>
+	
+	<stat_hp>65</stat_hp>
+	<stat_att>80</stat_att>
+	<stat_def>140</stat_def>
+	<stat_spe_att>40</stat_spe_att>
+	<stat_spe_def>70</stat_spe_def>
+	<stat_vit>70</stat_vit>
+	
+	<blood mode="3">BLOOD_steel</blood>
+	
+	<move>Bec Vrille</move>
+	<move>Picots</move>
+	<move>Piège de Roc</move>
+	<move>Aile d'Acier</move>
+	<move>Lame d'Air</move>
+	<move>Tranche-Nuit</move>
+	<move>Plaie-Croix</move>
+	<move>Eboulement</move>
+	<move>Luminocanon</move>
+</creature>
+
+<creature>
+	<number>228</number>
+	<name>Malosse</name>
+	<minisprite color="BLACK">DOG</minisprite>
+	
+	<type>Feu</type>
+	<type>Tenebres</type>
+	<ability>Torche</ability>
+	
+	<stat_hp>45</stat_hp>
+	<stat_att>60</stat_att>
+	<stat_def>30</stat_def>
+	<stat_spe_att>80</stat_spe_att>
+	<stat_spe_def>50</stat_spe_def>
+	<stat_vit>65</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Vibrobscur</move>
+	<move>Crocs de Feu</move>
+	<move>Lance-Flamme</move>
+	<move>Déflagration</move>
+	<move>Bomb'Eurk</move>
+	<move>Machination</move>
+	<move>Tricherie</move>
+	<move>Ball'Ombre</move>
+</creature>
+
+<creature>
+	<number>229</number>
+	<name>Démolosse</name>
+	<minisprite color="BLACK">DOG</minisprite>
+	
+	<type>Feu</type>
+	<type>Tenebres</type>
+	<ability>Torche</ability>
+	
+	<stat_hp>75</stat_hp>
+	<stat_att>90</stat_att>
+	<stat_def>50</stat_def>
+	<stat_spe_att>110</stat_spe_att>
+	<stat_spe_def>80</stat_spe_def>
+	<stat_vit>95</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Vibrobscur</move>
+	<move>Crocs de Feu</move>
+	<move>Lance-Flamme</move>
+	<move>Déflagration</move>
+	<move>Bomb'Eurk</move>
+	<move>Machination</move>
+	<move>Tricherie</move>
+	<move>Ball'Ombre</move>
+</creature>
+
+<creature>
+	<number>230</number>
+	<name>Hyporoi</name>
+	<minisprite color="BLUE">SNAKE</minisprite>
+	
+	<type>Eau</type>
+	<type>Dragon</type>
+	<ability>Glissade</ability>
+	
+	<stat_hp>75</stat_hp>
+	<stat_att>95</stat_att>
+	<stat_def>95</stat_def>
+	<stat_spe_att>95</stat_spe_att>
+	<stat_spe_def>95</stat_spe_def>
+	<stat_vit>85</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Surf</move>
+	<move>Hydrocanon</move>
+	<move>Bomb'Eurk</move>
+	<move>Laser Glace</move>
+	<move>Dracochoc</move>
+	<move>Danse Draco</move>
+	<move>Cascade</move>
+	<move>Colère</move>
+	<move>Hydroqueue</move>
+	<move>Draco Meteor</move>
+	<move>Hâte</move>
+</creature>
+
+<creature>
+	<number>231</number>
+	<name>Phanpy</name>
+	<minisprite color="BLUE">DOG</minisprite>
+	
+	<type>Sol</type>
+	<ability>Fermeté</ability>
+	<ability>Voile Sable</ability>
+	
+	<stat_hp>90</stat_hp>
+	<stat_att>60</stat_att>
+	<stat_def>60</stat_def>
+	<stat_spe_att>40</stat_spe_att>
+	<stat_spe_def>40</stat_spe_def>
+	<stat_vit>40</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Seisme</move>
+	<move>Roulade</move>
+	<move>Damocles</move>
+	<move>Tour Rapide</move>
+	<move>Eboulement</move>
+	<move>Piétisol</move>
+	<move>Lame de Roc</move>
+</creature>
+
+<creature>
+	<number>232</number>
+	<name>Donphan</name>
+	<minisprite color="GREY">DOG</minisprite>
+	
+	<type>Sol</type>
+	<ability>Fermeté</ability>
+	<ability>Voile Sable</ability>
+	
+	<stat_hp>90</stat_hp>
+	<stat_att>120</stat_att>
+	<stat_def>120</stat_def>
+	<stat_spe_att>60</stat_spe_att>
+	<stat_spe_def>60</stat_spe_def>
+	<stat_vit>50</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Seisme</move>
+	<move>Roulade</move>
+	<move>Damocles</move>
+	<move>Tour Rapide</move>
+	<move>Eboulement</move>
+	<move>Piétisol</move>
+	<move>Lame de Roc</move>
+	<move>Crocs de Feu</move>
+	<move>Crocs Eclair</move>
+</creature>
+
+<creature>
+	<number>233</number>
+	<name>Porygon 2</name>
+	<minisprite color="PINK">BALL</minisprite>
+	
+	<type>Normal</type>
+	
+	<stat_hp>85</stat_hp>
+	<stat_att>80</stat_att>
+	<stat_def>90</stat_def>
+	<stat_spe_att>105</stat_spe_att>
+	<stat_spe_def>95</stat_spe_def>
+	<stat_vit>60</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Triplattaque</move>
+	<move>Tonnerre</move>
+	<move>Elécanon</move>
+	<move>Rayon Signal</move>
+	<move>Laser Glace</move>
+	<move>Ball'Ombre</move>
+	<move>Soin</move>
+	<move>Distorsion</move>
+</creature>
+
+<creature>
+	<number>234</number>
+	<name>Cerfrousse</name>
+	<minisprite color="BROWN">DOG</minisprite>
+	
+	<type>Normal</type>
+	<ability>Intimidation</ability>
+	<ability>Regard Préventif</ability>
+	
+	<stat_hp>73</stat_hp>
+	<stat_att>95</stat_att>
+	<stat_def>62</stat_def>
+	<stat_spe_att>85</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>85</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Tonnerre</move>
+	<move>Psyko</move>
+	<move>Bélier</move>
+	<move>Seisme</move>
+	<move>Damocles</move>
+	<move>Giga Impact</move>
+	<move>Onde Folie</move>
+	<move>Pied Sauté</move>
+	<move>Psykoud'Boul</move>
+</creature>
+
+<creature>
+	<number>236</number>
+	<name>Débugant</name>
+	<minisprite color="BROWN">FIGHT</minisprite>
+	
+	<type>Combat</type>
+	
+	<ability>Contre-Attaque</ability>
+	<ability>Cran</ability>
+	
+	
+	<stat_hp>35</stat_hp>
+	<stat_att>35</stat_att>
+	<stat_def>35</stat_def>
+	<stat_spe_att>35</stat_spe_att>
+	<stat_spe_def>35</stat_spe_def>
+	<stat_vit>35</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Tour Rapide</move>
+	<move>Pisto-Poing</move>
+	<move>Mach Punch</move>
+	<move>Pied Voltige</move>
+	<move>Aeropique</move>
+	<move>Seisme</move>
+	<move>Eboulement</move>
+</creature>
+
+<creature>
+	<number>237</number>
+	<name>Kapoera</name>
+	<minisprite color="BLUE">FIGHT</minisprite>
+	
+	<type>Combat</type>
+	<ability>Intimidation</ability>
+	
+	<stat_hp>50</stat_hp>
+	<stat_att>95</stat_att>
+	<stat_def>95</stat_def>
+	<stat_spe_att>35</stat_spe_att>
+	<stat_spe_def>110</stat_spe_def>
+	<stat_vit>70</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Close Combat</move>
+	<move>Tour Rapide</move>
+	<move>Mach Punch</move>
+	<move>Aeropique</move>
+	<move>Seisme</move>
+	<move>Eboulement</move>
+	<move>Pied Voltige</move>
+</creature>
+
+<creature>
+	<number>238</number>
+	<name>Lippouti</name>
+	<minisprite color="PURPLE">PUPPET</minisprite>
+	
+	<type>Glace</type>
+	<type>Psy</type>
+	
+	<size>XS</size>
+	
+	<stat_hp>45</stat_hp>
+	<stat_att>30</stat_att>
+	<stat_def>15</stat_def>
+	<stat_spe_att>85</stat_spe_att>
+	<stat_spe_def>65</stat_spe_def>
+	<stat_vit>65</stat_vit>
+	
+	<blood mode="3">BLOOD_fairy</blood>
+	
+	<move>Laser Glace</move>
+	<move>Psyko</move>
+	<move>Ball'Ombre</move>
+	<move>Grobisou</move>
+	<move>Doux Baiser</move>
+	<move>Poinglace</move>
+	<move>Blizzard</move>
+	<move>Requiem</move>
+	<move>Vampibaiser</move>
+</creature>
+
+<creature>
+	<number>239</number>
+	<name>Elekid</name>
+	<minisprite color="ORANGE">PIKACHU</minisprite>
+	
+	<type>Electrik</type>
+	<ability>Statik</ability>
+	
+	<size>XS</size>
+	
+	<stat_hp>45</stat_hp>
+	<stat_att>63</stat_att>
+	<stat_def>37</stat_def>
+	<stat_spe_att>65</stat_spe_att>
+	<stat_spe_def>55</stat_spe_def>
+	<stat_vit>95</stat_vit>
+	
+	<blood mode="3">BLOOD_fairy</blood>
+	
+	<move>Poing Eclair</move>
+	<move>Tonnerre</move>
+	<move>Casse-Brique</move>
+	<move>Poinglace</move>
+	<move>Poing de Feu</move>
+	<move>Fatal Foudre</move>
+	<move>Giga Impact</move>
+</creature>
+
+<creature>
+	<number>240</number>
+	<name>Magby</name>
+	<minisprite color="RED">FIRE</minisprite>
+	
+	<type>Feu</type>
+	<ability>Corps Ardent</ability>
+	
+	<size>XS</size>
+	
+	<stat_hp>45</stat_hp>
+	<stat_att>75</stat_att>
+	<stat_def>37</stat_def>
+	<stat_spe_att>70</stat_spe_att>
+	<stat_spe_def>55</stat_spe_def>
+	<stat_vit>83</stat_vit>
+	
+	<blood mode="3">BLOOD_fairy</blood>
+	
+	<move>Poing de Feu</move>
+	<move>Lance-Flamme</move>
+	<move>Ebullilave</move>
+	<move>Exploforce</move>
+	<move>Casse-Brique</move>
+	<move>Feu Follet</move>
+	<move>Poing Eclair</move>
+	<move>Bomb'Eurk</move>
+</creature>
+
+<creature>
+	<number>241</number>
+	<name>Ecremeuh</name>
+	<minisprite color="PINK">DOG</minisprite>
+	
+	<type>Normal</type>
+	<ability>Isograisse</ability>
+	
+	<stat_hp>95</stat_hp>
+	<stat_att>80</stat_att>
+	<stat_def>105</stat_def>
+	<stat_spe_att>40</stat_spe_att>
+	<stat_spe_def>70</stat_spe_def>
+	<stat_vit>100</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Lait a Boire</move>
+	<move>Psykoud'Boul</move>
+	<move>Plaquage</move>
+	<move>Roulade</move>
+	<move>Giga Impact</move>
+	<move>Casse-Brique</move>
+	<move>Seisme</move>
+	<move>Eboulement</move>
+	<move>Exploforce</move>
+</creature>
+
+<creature>
+	<number>242</number>
+	<name>Leuphorie</name>
+	<minisprite color="PINK">FEE</minisprite>
+	
+	<type>Normal</type>
+	<ability>Cure Nature</ability>
+	
+	<stat_hp>255</stat_hp>
+	<stat_att>10</stat_att>
+	<stat_def>10</stat_def>
+	<stat_spe_att>75</stat_spe_att>
+	<stat_spe_def>135</stat_spe_def>
+	<stat_vit>55</stat_vit>
+	
+	<blood mode="3">BLOOD_fairy</blood>
+	
+	<move>Damocles</move>
+	<move>Laser Glace</move>
+	<move>Tonnerre</move>
+	<move>Toxik</move>
+	<move>Frappe Atlas</move>
+	<move>E-Coque</move>
+	<move>Mur Lumière</move>
+</creature>
+
+<creature>
+	<number>243</number>
+	<name>Raikou</name>
+	<minisprite color="ORANGE">DOG</minisprite>
+	
+	<type>Electrik</type>
+	<statut>Legende</statut>
+	<ability>Attention</ability>
+	
+	<stat_hp>90</stat_hp>
+	<stat_att>85</stat_att>
+	<stat_def>75</stat_def>
+	<stat_spe_att>115</stat_spe_att>
+	<stat_spe_def>100</stat_spe_def>
+	<stat_vit>115</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Fatal Foudre</move>
+	<move>Crocs Eclair</move>
+	<move>Machouille</move>
+	<move>Extrasenseur</move>
+	<move>Plénitude</move>
+	<move>Ball'Ombre</move>
+	<move>Eclair Fou</move>
+	<move>Coud'Boule</move>
+	<move>Hurlement</move>
+</creature>
+
+<creature>
+	<number>244</number>
+	<name>Entei</name>
+	<minisprite color="RED">DOG</minisprite>
+	
+	<type>Feu</type>
+	<statut>Legende</statut>
+	<ability>Attention</ability>
+	
+	<stat_hp>115</stat_hp>
+	<stat_att>115</stat_att>
+	<stat_def>85</stat_def>
+	<stat_spe_att>90</stat_spe_att>
+	<stat_spe_def>75</stat_spe_def>
+	<stat_vit>100</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Déflagration</move>
+	<move>Crocs de Feu</move>
+	<move>Machouille</move>
+	<move>Hurlement</move>
+	<move>Extrasenseur</move>
+	<move>Tête de Fer</move>
+	<move>Plénitude</move>
+	<move>Eruption</move>
+	<move>Lame de Roc</move>
+</creature>
+
+<creature>
+	<number>245</number>
+	<name>Suicune</name>
+	<minisprite color="BLUE">DOG</minisprite>
+	
+	<type>Eau</type>
+	<statut>Legende</statut>
+	<ability>Attention</ability>
+	
+	<stat_hp>100</stat_hp>
+	<stat_att>75</stat_att>
+	<stat_def>115</stat_def>
+	<stat_spe_att>90</stat_spe_att>
+	<stat_spe_def>115</stat_spe_def>
+	<stat_vit>85</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Hydrocanon</move>
+	<move>Surf</move>
+	<move>Crocs Givre</move>
+	<move>Onde Boréale</move>
+	<move>Blizzard</move>
+	<move>Rayon Signal</move>
+	<move>Extrasenseur</move>
+	<move>Hurlement</move>
+</creature>
+
+<creature>
+	<number>246</number>
+	<name>Embrylex</name>
+	<minisprite color="GREEN">MONSTER</minisprite>
+	
+	<type>Roche</type>
+	<type>Sol</type>
+	<ability>Cran</ability>
+	
+	
+	<stat_hp>50</stat_hp>
+	<stat_att>64</stat_att>
+	<stat_def>50</stat_def>
+	<stat_spe_att>45</stat_spe_att>
+	<stat_spe_def>50</stat_spe_def>
+	<stat_vit>41</stat_vit>
+	
+	<blood mode="3">BLOOD_rock</blood>
+	
+	<move>Eboulement</move>
+	<move>Lame de Roc</move>
+	<move>Machouille</move>
+	<move>Vibrobscur</move>
+	<move>Mania</move>
+	<move>Seisme</move>
+	<move>Piétisol</move>
+	<move>Queue de Fer</move>
+	<move>Tempêtesable</move>
+	<move>Ultralaser</move>
+</creature>
+
+<creature>
+	<number>247</number>
+	<name>Ymphect</name>
+	<minisprite color="BLUE">MONSTER</minisprite>
+	
+	<type>Roche</type>
+	<type>Sol</type>
+	<ability>Mue</ability>
+	
+	
+	<stat_hp>70</stat_hp>
+	<stat_att>84</stat_att>
+	<stat_def>70</stat_def>
+	<stat_spe_att>65</stat_spe_att>
+	<stat_spe_def>70</stat_spe_def>
+	<stat_vit>51</stat_vit>
+	
+	<blood mode="3">BLOOD_rock</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Eboulement</move>
+	<move>Lame de Roc</move>
+	<move>Machouille</move>
+	<move>Vibrobscur</move>
+	<move>Mania</move>
+	<move>Seisme</move>
+	<move>Piétisol</move>
+	<move>Queue de Fer</move>
+	<move>Tempêtesable</move>
+	<move>Ultralaser</move>
+</creature>
+
+<creature>
+	<number>248</number>
+	<name>Tyranocif</name>
+	<minisprite color="GREEN">DRAGON</minisprite>
+	
+	<type>Roche</type>
+	<type>Tenebres</type>
+	<name>Sable Volant</name>
+	
+	<size>L</size>
+	
+	<stat_hp>100</stat_hp>
+	<stat_att>134</stat_att>
+	<stat_def>110</stat_def>
+	<stat_spe_att>95</stat_spe_att>
+	<stat_spe_def>100</stat_spe_def>
+	<stat_vit>61</stat_vit>
+	
+	<blood mode="3">BLOOD_rock</blood>
+	<personnality>Menacing</personnality>
+	
+	<move>Eboulement</move>
+	<move>Lame de Roc</move>
+	<move>Machouille</move>
+	<move>Vibrobscur</move>
+	<move>Mania</move>
+	<move>Seisme</move>
+	<move>Piétisol</move>
+	<move>Queue de Fer</move>
+	<move>Crocs Eclair</move>
+	<move>Crocs de Feu</move>
+	<move>Crocs Givre</move>
+	<move>Tempêtesable</move>
+	<move>Ultralaser</move>
+</creature>
+
+<creature>
+	<number>249</number>
+	<name>Lugia</name>
+	<minisprite color="CYAN">LUJ</minisprite>
+	
+	<type>Psy</type>
+	<type>Vol</type>
+	
+	<size>L</size>
+	<statut>Mythique</statut>
+	
+	<stat_hp>106</stat_hp>
+	<stat_att>90</stat_att>
+	<stat_def>130</stat_def>
+	<stat_spe_att>90</stat_spe_att>
+	<stat_spe_def>154</stat_spe_def>
+	<stat_vit>110</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Psyko</move>
+	<move>Aeroblast</move>
+	<move>Hydrocanon</move>
+	<move>Pouv. Antique</move>
+	<move>Rune Protect</move>
+	<move>Dracocharge</move>
+</creature>
+
+<creature>
+	<number>250</number>
+	<name>Ho-oh</name>
+	<minisprite color="RED">PHIX</minisprite>
+	
+	<type>Feu</type>
+	<type>Vol</type>
+	
+	<size>L</size>
+	<statut>Mythique</statut>
+	
+	<stat_hp>106</stat_hp>
+	<stat_att>130</stat_att>
+	<stat_def>90</stat_def>
+	<stat_spe_att>110</stat_spe_att>
+	<stat_spe_def>154</stat_spe_def>
+	<stat_vit>90</stat_vit>
+	
+	<blood mode="3">BLOOD_main</blood>
+	
+	<move>Extrasenseur</move>
+	<move>Feu Sacre</move>
+	<move>Déflagration</move>
+	<move>Pouv. Antique</move>
+	<move>Rune Protect</move>
+	<move>Rapace</move>
+</creature>
+
+<creature>
+	<number>251</number>
+	<name>Celebi</name>
+	<minisprite color="GREEN">FEE</minisprite>
+	
+	<type>Psy</type>
+	<type>Plante</type>
+	
+	<statut>Fabuleux</statut>
+	<size>XS</size>
+	
+	<stat_hp>100</stat_hp>
+	<stat_att>100</stat_att>
+	<stat_def>100</stat_def>
+	<stat_spe_att>100</stat_spe_att>
+	<stat_spe_def>100</stat_spe_def>
+	<stat_vit>100</stat_vit>
+	
+	<blood mode="3">BLOOD_grass_plasma</blood>
+	<personnality>Psychic</personnality>
+	
+	<move>Tempête Verte</move>
+	<move>Psyko</move>
+	<move>Choc Mental</move>
+	<move>Requiem</move>
+	<move>Pouv. Antique</move>
+	<move>Demi-Tour</move>
+	<move>Eclat Magique</move>
+</creature>

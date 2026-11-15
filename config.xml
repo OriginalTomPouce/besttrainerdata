@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<config>
+<trainer_name>Trainer</trainer_name>
+<trainer_sprite>1</trainer_sprite>
+<n_crea_battle>3</n_crea_battle>
+<battle_speed>0</battle_speed>
+<commentator>1</commentator>
+<ccolor>0</ccolor>
+<balance>0</balance>
+<size_mode>1</size_mode>
+<draft>1</draft>
+<debug>0</debug>
+<help>0</help>
+<dynamic_bars>1</dynamic_bars>
+<shadows>1</shadows>
+<auto_input>0</auto_input>
+<bloody_effects>1</bloody_effects>
+<active_abilities_effects>1</active_abilities_effects>
+<active_stadiums_effects>1</active_stadiums_effects>
+<active_rulesets_effects>1</active_rulesets_effects>
+<start_on_fullscreen>0</start_on_fullscreen>
+</config>

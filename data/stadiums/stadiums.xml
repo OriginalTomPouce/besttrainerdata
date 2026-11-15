@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<stadium>
+	<name>Plein Air</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/plein_air.png</file>
+	<hype>0</hype>
+	
+	<ost_tag>Outside</ost_tag>
+	<!--
+	<stadium_effects>Le champ du stade devient Herbu durant un moment.</stadium_effects>
+	<trigger when="PREP_NEW_TURN" actor="source">
+		<NumberCompare name="v:field:turn" comparator="equal" value="0">
+			<AddGlobal name="Champ Herbu" duration="6">Le champ devient herbu !</AddGlobal>
+		</NumberCompare>
+	</trigger>
+	-->
+</stadium>
+
+<stadium>
+	<name>Mer</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/sea.png</file>
+	<hype>0</hype>
+
+
+
+	<nogo_zone>1,0,4,0</nogo_zone>
+	<!-- SOUTH -->
+	<nogo_zone>22,9,22,10</nogo_zone>
+	<nogo_zone>24,13,24,14</nogo_zone>
+	<nogo_zone>25,14,26,14</nogo_zone>
+	<nogo_zone>0,10,22,14</nogo_zone>
+	<nogo_zone>23,11,23,14</nogo_zone>
+	
+	<!-- WEST -->
+	<nogo_zone>0,8,4,10</nogo_zone>
+	<nogo_zone>0,10,6,10</nogo_zone>
+	<nogo_zone>0,9,5,9</nogo_zone>
+	<nogo_zone>0,6,4,8</nogo_zone>
+	<nogo_zone>0,4,3,5</nogo_zone>
+	<nogo_zone>0,3,2,3</nogo_zone>
+</stadium>
+
+<stadium>
+	<name>Tour de Combat</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/battle_tower.png</file>
+	<hype>50</hype>
+	
+	<stadium_effects>Pour chauffer l'ambiamce, les deux Pokémon attaquent aléatoirement au premier tour.</stadium_effects>
+	<trigger when="START_MATCH" actor="source">
+		<DisplayMessage>Montrez nous de quoi vous êtes capables !</DisplayMessage>
+	</trigger>
+	<trigger when="CHECK_MOVE_ORDER" actor="source">
+		<NumberCompare name="v:field:turn" comparator="infequal" value="1">
+			<SetVariable name="v:result" value="2"/>
+		</NumberCompare>
+	</trigger>
+</stadium>
+
+<stadium>
+	<name>Montagne</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/mont.png</file>
+	<hype>0</hype>
+
+
+	<!--
+	<stadium_effects>Dans leur environnement, les Pokémon Sol et Roche ont une esquive améliorée.</stadium_effects>
+	<trigger when="CHECK_STAT_PRE" actor="source">
+		<StringCompare name="v:source:type" comparator="has" value="Sol,Roche">
+			<MultiplyVariable name="v:result" value="1.2"/>
+		</StringCompare>
+	</trigger>
+	-->
+</stadium>
+
+<stadium>
+	<name>Stade Link</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/link_battle.png</file>
+	<hype>25</hype>
+	
+	
+	<stadium_effects>La connexion filiaire augmente la précision globale des attaques.</stadium_effects>
+	<trigger when="CHECK_STAT_PRE" actor="source">
+		<MultiplyVariable name="v:result" value="1.2"/>
+	</trigger>
+	
+</stadium>
+
+<stadium>
+	<name>Megastade Link</name>
+	<file width="1920" height="1080" tile_offset_x="-15" tile_offset_y="-15">stadiums/debug_background_upscaled.png</file>
+	<hype>25</hype>
+	
+	
+	<stadium_effects>La connexion filiaire augmente la précision globale des attaques.</stadium_effects>
+	<trigger when="CHECK_STAT_PRE" actor="source">
+		<MultiplyVariable name="v:result" value="1.2"/>
+	</trigger>
+	
+</stadium>
+
+<stadium>
+	<name>Ruines Alpha</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/ruines_alph.png</file>
+	<hype>0</hype>
+	
+	<stadium_effects>Le champ du stade devient Psychique durant un moment.</stadium_effects>
+	<trigger when="PREP_NEW_TURN" actor="source">
+		<NumberCompare name="v:field:turn" comparator="equal" value="0">
+			<AddGlobal name="Champ Psychique" duration="6">Le champ devient étrange !</AddGlobal>
+		</NumberCompare>
+	</trigger>
+</stadium>
+
+
+<stadium>
+	<name>Repaire Rocket</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/rocket_hideout.png</file>
+	<hype>0</hype>
+	<supporters priority="90">19,41</supporters>
+	
+	<nogo_zone>0,0,27,0</nogo_zone>
+	<nogo_zone>0,14,27,14</nogo_zone>
+	<nogo_zone>0,0,0,15</nogo_zone>
+	<nogo_zone>26,0,26,14</nogo_zone>
+	<nogo_zone>10,1,10,1</nogo_zone>
+	<nogo_zone>16,1,16,1</nogo_zone>
+	<nogo_zone>15,11,15,11</nogo_zone>
+	<nogo_zone>11,11,11,11</nogo_zone>
+	
+	
+	<stadium_effects>Assumez vos choix ! Un Pokémon peut être changé si il a essayé d'attaquer au moins deux fois !</stadium_effects>
+	<trigger when="CHECK_CHANGE_ORDER" actor="source">
+		<NumberCompare name="v:source:move_turn" comparator="inf" value="2">
+			<SetVariable name="v:result" value="0"/>
+		</NumberCompare>
+	</trigger>
+</stadium>
+
+<stadium>
+	<name>Ligue TCG</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/card_game.png</file>
+	<hype>25</hype>
+	
+	<stadium_effects>Tire une énergie à chaque tour. Les attaques liées à l'Energie font plus de dégâts.</stadium_effects>
+	<trigger when="PREP_NEW_TURN" actor="source">
+		<SetVariable name="v:val_1" value="v:d20"/>
+		<NumberCompare name="v:val_1" comparator="inf" value="2">
+			<AddGlobal name="Energie FEE">Energie du tour : FEE</AddGlobal>
+			<EndEffect/>
+		</NumberCompare>
+		<NumberCompare name="v:val_1" comparator="inf" value="3">
+			<AddGlobal name="Energie DRAGON">Energie du tour : DRAGON</AddGlobal>
+			<EndEffect/>
+		</NumberCompare>
+		<NumberCompare name="v:val_1" comparator="inf" value="4">
+			<AddGlobal name="Energie ACIER">Energie du tour : ACIER</AddGlobal>
+			<EndEffect/>
+		</NumberCompare>
+		<NumberCompare name="v:val_1" comparator="inf" value="5">
+			<AddGlobal name="Energie TENEBRES">Energie du tour : TENEBRES</AddGlobal>
+			<EndEffect/>
+		</NumberCompare>
+		<NumberCompare name="v:val_1" comparator="inf" value="7">
+			<AddGlobal name="Energie PLANTE">Energie du tour : PLANTE</AddGlobal>
+			<EndEffect/>
+		</NumberCompare>
+		<NumberCompare name="v:val_1" comparator="inf" value="9">
+			<AddGlobal name="Energie EAU">Energie du tour : EAU</AddGlobal>
+			<EndEffect/>
+		</NumberCompare>
+		<NumberCompare name="v:val_1" comparator="inf" value="11">
+			<AddGlobal name="Energie FEU">Energie du tour : FEU</AddGlobal>
+			<EndEffect/>
+		</NumberCompare>
+		<NumberCompare name="v:val_1" comparator="inf" value="13">
+			<AddGlobal name="Energie ELECTRIK">Energie du tour : ELECTRIK</AddGlobal>
+			<EndEffect/>
+		</NumberCompare>
+		<NumberCompare name="v:val_1" comparator="inf" value="15">
+			<AddGlobal name="Energie COMBAT">Energie du tour : COMBAT</AddGlobal>
+			<EndEffect/>
+		</NumberCompare>
+		<NumberCompare name="v:val_1" comparator="inf" value="17">
+			<AddGlobal name="Energie PSY">Energie du tour : PSY</AddGlobal>
+			<EndEffect/>
+		</NumberCompare>
+			<AddGlobal name="Energie INCOLORE">Energie du tour : INCOLORE</AddGlobal>
+		
+	</trigger>
+</stadium>
+
+<stadium>
+	<name>Stade Eau</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/aqua.png</file>
+	<hype>0</hype>
+	
+	<ost_tag>Outside</ost_tag>
+	<!--
+	<stadium_effects>Rend des PV aux Pokémon Eau à chaque fin de tour.</stadium_effects>
+	<trigger when="END_TURN" actor="source">
+		<StringCompare name="v:source:type" comparator="has" value="Eau">
+			<SetVariable name="v:val_1" value="v:source:max_hp">
+				<DivideVariable name="v:val_1" value="16"/>
+				<NumberCompare name="v:val_1" comparator="equal" value="0">
+					<SetVariable name="v:val_1" value="1"/>
+				</NumberCompare>
+				<Heal target="source" value="v:val_1" reason="Statut">[SOURCE] regagne des points de vie grâce au Stade.</Heal>
+			</SetVariable>
+		</StringCompare>
+	</trigger>
+	-->
+</stadium>
+
+<stadium>
+	<name>Jeu des Ténèbres</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/shadow_game2.png</file>
+	<hype>0</hype>
+	<supporters>21,10,44</supporters>
+	
+	<stadium_effects>A des chances de soigner les Pokémon Ténèbres des problèmes de statut.</stadium_effects>
+	<trigger when="END_TURN" actor="source">
+		<StringCompare name="v:source:type" comparator="has" value="Tenebres">
+			<RemoveStatut target="source" chance="50">[SOURCE] est soigné grâce au Stade.</RemoveStatut>
+		</StringCompare>
+	</trigger>
+</stadium>
+
+<stadium>
+	<name>Centre Commercial</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/shop.png</file>
+	<hype>0</hype>
+	<nogo_zone>0,0,27,1</nogo_zone>
+	<nogo_zone>0,14,27,14</nogo_zone>
+	<nogo_zone>0,0,0,15</nogo_zone>
+	<nogo_zone>26,0,26,14</nogo_zone>
+	<nogo_zone>2,2,2,5</nogo_zone>
+	<nogo_zone>2,10,2,14</nogo_zone>
+	<nogo_zone>25,3,25,8</nogo_zone>
+	<nogo_zone>25,10,25,13</nogo_zone>
+	<nogo_zone>22,10,22,13</nogo_zone>
+	<nogo_zone>22,10,25,10</nogo_zone>
+	<nogo_zone>22,13,25,13</nogo_zone>
+	
+	<stadium_effects>A chaque tour, des baies Sitrus peuvent être offertes aux Pokémon.</stadium_effects>
+	<trigger when="END_TURN" actor="source">
+		<SetVariable name="v:val_1" value="v:source:max_hp" chance="25">
+			<DivideVariable name="v:val_1" value="4"/>
+			<NumberCompare name="v:val_1" comparator="equal" value="0">
+				<SetVariable name="v:val_1" value="1"/>
+			</NumberCompare>
+			<Heal target="source" value="v:val_1" reason="Statut">BINGO ! [SOURCE] a gagné une baie Sitrus !</Heal>
+		</SetVariable>
+	</trigger>
+</stadium>
+
+<stadium>
+	<name>Ville</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/city.png</file>
+	<hype>0</hype>
+	
+	<ost_tag>Outside</ost_tag>
+	<nogo_zone>0,0,27,0</nogo_zone>
+	<nogo_zone>0,14,27,14</nogo_zone>
+	<nogo_zone>0,0,0,15</nogo_zone>
+	<nogo_zone>18,0,26,3</nogo_zone>
+	<nogo_zone>26,4,26,4</nogo_zone><!--PANCARTE HAUT DROITE-->
+	<nogo_zone>24,7,26,10</nogo_zone>
+	<nogo_zone>19,13,26,14</nogo_zone>
+	
+	<nogo_zone>1,1,4,1</nogo_zone>
+	<nogo_zone>8,1,11,3</nogo_zone>
+	<nogo_zone>1,4,4,5</nogo_zone>
+	<nogo_zone>0,13,3,14</nogo_zone>
+	<nogo_zone>4,11,7,14</nogo_zone>
+	<nogo_zone>15,11,18,14</nogo_zone>
+</stadium>
+
+<stadium>
+	<name>Ville Néon</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/neon_city.png</file>
+	<hype>0</hype>
+	
+	<ost_tag>Darkness</ost_tag>
+	<nogo_zone>0,0,3,4</nogo_zone>
+	<nogo_zone>9,0,12,3</nogo_zone>
+	<nogo_zone>13,0,18,1</nogo_zone>
+	<nogo_zone>23,0,26,4</nogo_zone>
+	<nogo_zone>24,7,26,15</nogo_zone>
+	<nogo_zone>14,12,17,15</nogo_zone>
+	<nogo_zone>0,11,2,15</nogo_zone>
+	<nogo_zone>3,13,6,15</nogo_zone>
+</stadium>
+
+<stadium>
+	<name>Centrale</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/power_plant.png</file>
+	<hype>0</hype>
+	<nogo_zone>0,0,27,0</nogo_zone>
+	<nogo_zone>0,14,27,14</nogo_zone>
+	<nogo_zone>0,0,0,15</nogo_zone>
+	<nogo_zone>26,0,26,14</nogo_zone>
+	
+	<nogo_zone>4,3,7,4</nogo_zone>
+	<nogo_zone>19,3,22,4</nogo_zone>
+	<nogo_zone>4,10,7,11</nogo_zone>
+	<nogo_zone>19,10,22,11</nogo_zone>
+	
+	<nogo_zone>1,1,2,2</nogo_zone>
+	<nogo_zone>24,1,25,2</nogo_zone>
+	<nogo_zone>5,1,9,1</nogo_zone>
+	<nogo_zone>17,1,21,1</nogo_zone>
+	
+	<stadium_effects>Paralyse à coup sûr si une attaque Electrique fait mouche.</stadium_effects>
+	<trigger when="AFTER_HIT" actor="source">
+		<StringCompare name="v:type_move" comparator="has" value="Electrik">
+			<AddStatut target="target" name="Paralysie">[TARGET] est paralysé suite aux ondes du stade !</AddStatut>
+		</StringCompare>
+	</trigger>
+</stadium>
+
+<stadium>
+	<name>Repaire Dragon</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/dragon_den.png</file>
+	<hype>0</hype>
+	<nogo_zone>0,0,27,2</nogo_zone>
+	<nogo_zone>0,12,27,14</nogo_zone>
+	<nogo_zone>0,0,2,15</nogo_zone>
+	<nogo_zone>24,0,26,14</nogo_zone>
+	
+	<nogo_zone>10,3,16,3</nogo_zone>
+	
+	<stadium_effects>Augmente la défense spéciale des Pokémon Dragon et Eau.</stadium_effects>
+	<trigger when="ON_CALL" actor="source">
+		<StringCompare name="v:source:type" comparator="has" value="Dragon,Eau">
+			<ModifyStat target="source" value="1" name="spe_def">Le stade augmente la Défense Spéciale de [SOURCE] !</ModifyStat>
+		</StringCompare>
+	</trigger>
+</stadium>
+
+<stadium>
+	<name>Pont Pépite</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/nugget_bridge.png</file>
+	<hype>0</hype>
+	<supporters priority="100">1,2,3,8,14,22,52,53,51,50,49</supporters>
+	
+	<nogo_zone>0,2,27,4</nogo_zone>
+	<nogo_zone>0,0,18,1</nogo_zone>
+	<nogo_zone>0,10,27,13</nogo_zone>
+	
+	<ost_tag>Outside</ost_tag>
+	<stadium_effects>Agitation ! Les attaques font plus de dégâts mais la précison des attaques offensives est diminuée !</stadium_effects>
+	<trigger when="MOVE_DECLARE" actor="source">
+		<NumberCompare name="v:move_cat" comparator="sup" value="0">
+			<MultiplyVariable name="v:mult_dmg" value="1.5"/>
+			<MultiplyVariable name="v:precision" value="0.8"/>
+		</NumberCompare>
+	</trigger>
+</stadium>
+
+<stadium>
+	<name>Ranch Meumeu</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/moo_ranch.png</file>
+	<hype>0</hype>
+	<supporters priority="70">8,14,33,34,52,53</supporters>
+	<nogo_zone>0,0,9,1</nogo_zone>
+	<nogo_zone>21,0,27,1</nogo_zone>
+	<nogo_zone>22,4,22,4</nogo_zone>
+	<nogo_zone>22,14,27,14</nogo_zone>
+	
+	<nogo_zone>0,4,4,4</nogo_zone>
+	<nogo_zone>0,5,2,6</nogo_zone>
+	<nogo_zone>0,7,1,10</nogo_zone>
+	<nogo_zone>0,11,0,14</nogo_zone>
+	<nogo_zone>0,14,4,14</nogo_zone>
+	<nogo_zone>5,13,7,14</nogo_zone>
+	
+	
+	<ost_tag>Outside</ost_tag>
+	<stadium_effects>Rend des PV aux Pokémon Normal à chaque fin de tour.</stadium_effects>
+	<trigger when="END_TURN" actor="source">
+		<StringCompare name="v:source:type" comparator="has" value="Normal">
+			<SetVariable name="v:val_1" value="v:source:max_hp">
+				<DivideVariable name="v:val_1" value="16"/>
+				<NumberCompare name="v:val_1" comparator="equal" value="0">
+					<SetVariable name="v:val_1" value="1"/>
+				</NumberCompare>
+				<Heal target="source" value="v:val_1" reason="Statut">[SOURCE] regagne des points de vie grâce au Stade.</Heal>
+			</SetVariable>
+		</StringCompare>
+	</trigger>
+</stadium>
+
+
+<stadium>
+	<name>Pont aux Pêcheurs</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/fisher_bridge.png</file>
+	<hype>0</hype>
+	
+	<ost_tag>Outside</ost_tag>
+	<nogo_zone>0,0,20,1</nogo_zone>
+	<nogo_zone>0,2,4,4</nogo_zone>
+	<nogo_zone>25,0,27,15</nogo_zone>
+	<nogo_zone>4,11,26,15</nogo_zone>
+	<nogo_zone>7,2,11,3</nogo_zone>
+</stadium>
+
+<stadium>
+	<name>Bois aux Chênes</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/ilex_forest.png</file>
+	<hype>0</hype>
+	<nogo_zone>0,0,17,1</nogo_zone>
+	<nogo_zone>0,2,13,2</nogo_zone>
+	<nogo_zone>2,3,2,3</nogo_zone>
+	<nogo_zone>1,3,1,5</nogo_zone>
+	
+	<nogo_zone>0,0,0,15</nogo_zone>
+	<nogo_zone>1,10,1,15</nogo_zone>
+	<nogo_zone>2,12,2,15</nogo_zone>
+	
+	<nogo_zone>6,14,26,14</nogo_zone>
+	<nogo_zone>8,13,18,13</nogo_zone>
+	<nogo_zone>23,13,27,13</nogo_zone>
+	
+	
+	<nogo_zone>22,0,27,1</nogo_zone>
+	<nogo_zone>25,0,27,4</nogo_zone>
+	<nogo_zone>23,2,24,2</nogo_zone>
+	
+	<nogo_zone>25,7,26,14</nogo_zone>
+	<nogo_zone>24,10,24,14</nogo_zone>
+	
+	<stadium_effects>En cas de K.O, lance un voeu pour les Pokémon Plante, une malédicion pour les Insectes.</stadium_effects>
+	<trigger when="BEFORE_SWITCH" actor="source">
+		<NumberCompare name="v:source:hp" comparator="equal" value="0">
+			<StringCompare name="v:source:type" comparator="has" value="Plante">
+				<AddBuff target="source" name="Voeu">[SOURCE] lance un Voeu grâce au Stade !</AddBuff>
+			</StringCompare>
+			<StringCompare name="v:source:type" comparator="has" value="Insecte">
+				<AddBuff target="target" name="Malédiction">[SOURCE] lance une Malédiction grâce au Stade !</AddBuff>
+			</StringCompare>
+		</NumberCompare>
+	</trigger>
+</stadium>
+
+<stadium>
+	<name>Rosalia</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/ecruteak_city.png</file>
+	<hype>0</hype>
+	<nogo_zone>0,0,26,0</nogo_zone>
+	<nogo_zone>0,1,7,1</nogo_zone>
+	<nogo_zone>12,1,26,1</nogo_zone>
+	<nogo_zone>0,2,4,2</nogo_zone>
+	<nogo_zone>0,3,0,6</nogo_zone>
+	
+	<nogo_zone>0,11,2,14</nogo_zone>
+	
+	<nogo_zone>6,13,9,14</nogo_zone>
+	<nogo_zone>14,13,17,14</nogo_zone>
+	<nogo_zone>22,11,26,14</nogo_zone>
+	
+	
+	<nogo_zone>25,0,26,4</nogo_zone>
+	<nogo_zone>26,0,26,14</nogo_zone>
+	
+	
+	<ost_tag>Outside</ost_tag>
+	<stadium_effects>Les Pokémon Spectre et Psy ont une précision doublée.</stadium_effects>
+	<trigger when="CHECK_STAT_PRE" actor="source">
+		<StringCompare name="v:source:type" comparator="has" value="Spectre,Psy">
+			<MultilyVariable name="v:result" value="2"/>
+		</StringCompare>
+	</trigger>
+</stadium>
+
+<stadium>
+	<name>Mont Selenite</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/mt_moon.png</file>
+	<hype>0</hype>
+	<supporters priority="30">9,47</supporters>
+	<!-- NW -->
+	<nogo_zone>0,0,2,2</nogo_zone>
+	<nogo_zone>0,0,6,0</nogo_zone>
+	<nogo_zone>0,1,12,1</nogo_zone>
+	<nogo_zone>12,0,12,0</nogo_zone>
+	<nogo_zone>2,3,2,5</nogo_zone>
+	<nogo_zone>1,5,1,9</nogo_zone>
+	<nogo_zone>0,9,0,9</nogo_zone>
+	<!-- NE -->
+	<nogo_zone>16,0,22,0</nogo_zone>
+	<nogo_zone>23,0,26,3</nogo_zone>
+	<!-- SW -->
+	<nogo_zone>0,14,2,14</nogo_zone>
+	<nogo_zone>5,10,5,14</nogo_zone>
+	
+	<!-- SE -->
+	<nogo_zone>5,14,26,14</nogo_zone>
+	<nogo_zone>26,10,26,13</nogo_zone>
+	<nogo_zone>21,10,26,10</nogo_zone>
+	
+	<stadium_effects>Octroie Garde Magik à tous les Pokémon Fée, les protégeant des dégâts autres que d'attaques.</stadium_effects>
+	<trigger when="CHECK_BEFORE_DMG" actor="source">
+		<StringCompare name="v:source:type" comparator="has" value="Fée">
+			<StringCompare name="v:reason" comparator="dif" value="ATTACK">
+				<Cancel/>
+			</StringCompare>
+		</StringCompare>
+	</trigger>
+</stadium>
+
+<stadium>
+	<name>Tour Pokémon</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/pokemon_tower.png</file>
+	<hype>0</hype>
+	<supporters priority="50">21,10,44,45,43</supporters>
+	<!-- NORTH -->
+	<nogo_zone>0,0,2,14</nogo_zone>
+	<nogo_zone>24,0,26,14</nogo_zone>
+	<nogo_zone>0,0,10,0</nogo_zone>
+	<nogo_zone>16,0,26,0</nogo_zone>
+	<nogo_zone>0,1,5,1</nogo_zone>
+	<nogo_zone>0,2,4,3</nogo_zone>
+	<nogo_zone>0,4,3,6</nogo_zone>
+	<nogo_zone>21,1,26,1</nogo_zone>
+	<nogo_zone>22,2,26,3</nogo_zone>
+	<nogo_zone>23,4,26,5</nogo_zone>
+	
+	<!-- SOUTH -->
+	<nogo_zone>0,14,9,14</nogo_zone>
+	<nogo_zone>17,14,26,14</nogo_zone>
+	<nogo_zone>0,12,4,13</nogo_zone>
+	<nogo_zone>0,10,3,11</nogo_zone>
+	<nogo_zone>22,12,26,13</nogo_zone>
+	<nogo_zone>23,9,26,11</nogo_zone>
+	
+	<!-- ESCS -->
+	<nogo_zone>5,6,5,8</nogo_zone>
+	<nogo_zone>21,6,21,8</nogo_zone>
+	
+	
+	<ost_tag>Darkness</ost_tag>
+	<stadium_effects>Réduit les PV des Pokémon non Spectres (et les donne aux Pokémon Spectres)</stadium_effects>
+	<trigger when="END_TURN" actor="source">
+		<StringCompare name="v:source:type" comparator="not" value="Spectre">
+			<SetVariable name="v:val_1" value="v:source:max_hp">
+				<DivideVariable name="v:val_1" value="10"/>
+				<NumberCompare name="v:val_1" comparator="equal" value="0">
+					<SetVariable name="v:val_1" value="1"/>
+				</NumberCompare>
+				<Damage target="source" value="v:val_1" reason="Statut">
+					<DisplayMessage>Le stade draine l'énergie de [SOURCE].</DisplayMessage>
+					<StringCompare name="v:target:type" comparator="has" value="Spectre">
+						<Heal target="target" value="v:return_value"/>
+					</StringCompare>
+				</Damage>
+			</SetVariable>
+		</StringCompare>
+	</trigger>
+</stadium>
+
+<stadium>
+	<name>Forêt de Jade</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/jade_forest.png</file>
+	<hype>0</hype>
+	<supporters priority="70">1,2,3,22,53,51,50,49</supporters>
+	<!-- WEST / EAST -->
+	<nogo_zone>0,0,0,8</nogo_zone>
+	<nogo_zone>1,3,1,7</nogo_zone>
+	
+	<nogo_zone>26,0,26,7</nogo_zone>
+	<nogo_zone>25,0,25,4</nogo_zone>
+	
+	<!-- SOUTH -->
+	<nogo_zone>0,13,11,14</nogo_zone>
+	<nogo_zone>15,13,26,14</nogo_zone>
+	<nogo_zone>16,12,18,12</nogo_zone>
+	<nogo_zone>8,12,10,12</nogo_zone>
+	<nogo_zone>0,12,2,12</nogo_zone>
+	
+	<!-- NORTH -->
+	<nogo_zone>4,0,12,0</nogo_zone>
+	<nogo_zone>5,1,12,1</nogo_zone>
+	<nogo_zone>7,2,10,2</nogo_zone>
+	
+	<nogo_zone>16,0,21,1</nogo_zone>
+	<nogo_zone>18,2,19,2</nogo_zone>
+	
+	<stadium_effects>Augmente l'attaque et l'attaque spéciale des Pokémon Insecte.</stadium_effects>
+	<trigger when="ON_CALL" actor="source">
+		<StringCompare name="v:source:type" comparator="has" value="Insecte">
+			<ModifyStat target="source" value="1" name="att">Le stade augmente l'Attaque de [SOURCE] !</ModifyStat>
+			<ModifyStat target="source" value="1" name="spe_att">Le stade augmente l'Attaque Spéciale de [SOURCE] !</ModifyStat>
+		</StringCompare>
+	</trigger>
+</stadium>
+
+<stadium>
+	<name>Tour Chétiflor</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/bellsprout_tower.png</file>
+	<hype>0</hype>
+	<!-- BORDERS -->
+	<nogo_zone>0,0,26,0</nogo_zone>
+	<nogo_zone>0,0,0,14</nogo_zone>
+	<nogo_zone>26,0,26,14</nogo_zone>
+	<nogo_zone>1,1,1,1</nogo_zone>
+	<nogo_zone>25,1,25,1</nogo_zone>
+	
+	<!-- SOUTH -->
+	<nogo_zone>12,10,14,13</nogo_zone>
+	<nogo_zone>8,10,10,14</nogo_zone>
+	<nogo_zone>16,10,18,14</nogo_zone>
+	
+	<!-- STADIUM -->
+	<nogo_zone>4,3,22,4</nogo_zone>
+	<nogo_zone>4,10,22,11</nogo_zone>
+	<nogo_zone>4,3,5,11</nogo_zone>
+	<nogo_zone>21,3,22,11</nogo_zone>
+	
+	<stadium_effects>Augmente la précision des Pokémon Plante. Augmente l'Esquive de Chétiflor !</stadium_effects>
+	<trigger when="ON_CALL" actor="source">
+		<StringCompare name="v:source:type" comparator="has" value="Plante">
+			<ModifyStat target="source" value="1" name="pre">Le stade augmente la Précision de [SOURCE] !</ModifyStat>
+		</StringCompare>
+		<StringCompare name="v:source:crea_truename" comparator="has" value="Chétiflor">
+			<ModifyStat target="source" value="1" name="eva">Danse [SOURCE], danse !</ModifyStat>
+		</StringCompare>
+	</trigger>
+</stadium>
+
+<stadium>
+	<name>Manoir Pokémon</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/pokemon_mansion.png</file>
+	<hype>0</hype>
+	<!-- BORDERS -->
+	<nogo_zone>0,0,26,0</nogo_zone>
+	<nogo_zone>0,0,0,14</nogo_zone>
+	<nogo_zone>26,0,26,14</nogo_zone>
+	<nogo_zone>1,1,1,1</nogo_zone>
+	<nogo_zone>24,0,25,5</nogo_zone>
+	
+	<!-- BLOCKS -->
+	<nogo_zone>1,1,2,2</nogo_zone>
+	<nogo_zone>1,1,3,1</nogo_zone>
+	
+	<nogo_zone>1,6,1,10</nogo_zone>
+	<nogo_zone>2,7,2,8</nogo_zone>
+	<nogo_zone>21,12,22,12</nogo_zone>
+	<nogo_zone>21,11,21,12</nogo_zone>
+	
+	
+	<!-- PILLARS -->
+	<nogo_zone>21,3,21,4</nogo_zone>
+	<nogo_zone>21,7,21,8</nogo_zone>
+	<nogo_zone>5,3,5,4</nogo_zone>
+	<nogo_zone>5,7,5,8</nogo_zone>
+	<nogo_zone>5,11,5,12</nogo_zone>
+	
+	
+	<stadium_effects>A chaque tour, a des chances d'empoisonner les Pokémon qui ne sont pas de type Feu ou Poison.</stadium_effects>
+	<trigger when="END_TURN" actor="source">
+		<StringCompare name="v:source:type" comparator="not" value="Feu,Poison">
+			<AddStatut target="source" name="Poison" chance="33">L'atmosphère du stade a empoisonné [SOURCE] !</AddStatut>
+		</StringCompare>
+	</trigger>
+</stadium>
+
+
+<stadium>
+	<name>Dojo</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/dojo.png</file>
+	<hype>0</hype>
+	<nogo_zone>0,0,26,0</nogo_zone>
+	<nogo_zone>0,14,26,14</nogo_zone>
+	<nogo_zone>0,0,0,15</nogo_zone>
+	<nogo_zone>26,0,26,14</nogo_zone>
+	
+	<nogo_zone>1,1,1,1</nogo_zone>
+	<nogo_zone>25,1,25,1</nogo_zone>
+	
+	<nogo_zone>4,4,4,5</nogo_zone>
+	<nogo_zone>4,9,4,10</nogo_zone>
+	<nogo_zone>22,4,22,5</nogo_zone>
+	<nogo_zone>22,9,22,10</nogo_zone>
+	
+	
+	<stadium_effects>Les Pokémon Combat et les attaques Combat font plus de dégâts</stadium_effects>
+	<trigger when="MOVE_DECLARE" actor="source">
+		<StringCompare name="v:source:type" comparator="has" value="Combat">
+			<MultiplyVariable name="v:mult_dmg" value="1.5"/>
+			<EndEffect/>
+		</StringCompare>
+		<StringCompare name="v:type_move" comparator="has" value="Combat">
+			<MultiplyVariable name="v:mult_dmg" value="1.5"/>
+		</StringCompare>
+	</trigger>
+</stadium>
+
+
+<stadium>
+	<name>Route de Glace</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/ice_cave.png</file>
+	<hype>0</hype>
+	<nogo_zone>0,2,3,2</nogo_zone>
+	<nogo_zone>3,0,3,2</nogo_zone>
+	<nogo_zone>3,0,11,0</nogo_zone>
+	<nogo_zone>5,3,5,6</nogo_zone>
+	<nogo_zone>0,6,5,6</nogo_zone>
+	
+	<nogo_zone>5,3,21,3</nogo_zone>
+	<nogo_zone>21,4,21,5</nogo_zone>
+	<nogo_zone>21,5,26,5</nogo_zone>
+	<nogo_zone>26,2,26,5</nogo_zone>
+	
+	<nogo_zone>0,9,5,9</nogo_zone>
+	<nogo_zone>0,10,0,15</nogo_zone>
+	<nogo_zone>1,10,2,11</nogo_zone>
+	
+	
+	<nogo_zone>21,8,26,8</nogo_zone>
+	<nogo_zone>21,9,21,9</nogo_zone>
+	<nogo_zone>21,10,22,12</nogo_zone>
+	<nogo_zone>20,13,26,13</nogo_zone>
+	<nogo_zone>8,14,20,14</nogo_zone>
+	
+	<stadium_effects>Le sol glisse ! Les Pokémon terrestres n'ayant pas le type Glace sont moins rapides !</stadium_effects>
+	<trigger when="CHECK_STAT_SPEED" actor="source">
+		<StringCompare name="v:source:type" comparator="not" value="Glace">
+			<ImmunityCheck target="source" name="Sol"/>
+			<NumberCompare name="v:return_value" comparator="equal" value="0">
+				<MultiplyVariable name="v:mult_dmg" value="0.25"/>
+			</NumberCompare>
+		</StringCompare>
+	</trigger>
+</stadium>
+
+
+<stadium>
+	<name>Route Victoire</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/victory_road.png</file>
+	<hype>0</hype>
+
+
+
+	<nogo_zone>6,0,6,0</nogo_zone>
+	<nogo_zone>5,0,5,3</nogo_zone>
+	<nogo_zone>4,3,4,6</nogo_zone>
+	<nogo_zone>3,6,3,9</nogo_zone>
+	<nogo_zone>2,9,2,12</nogo_zone>
+	<nogo_zone>1,12,1,15</nogo_zone>
+	<!-- SOUTH -->
+	<nogo_zone>20,0,20,0</nogo_zone>
+	<nogo_zone>21,0,21,3</nogo_zone>
+	<nogo_zone>22,3,22,6</nogo_zone>
+	<nogo_zone>23,6,23,9</nogo_zone>
+	<nogo_zone>24,9,24,12</nogo_zone>
+	<nogo_zone>25,12,25,15</nogo_zone>
+
+	<nogo_zone>6,3,20,3</nogo_zone>
+	<nogo_zone>3,12,23,12</nogo_zone>
+
+	<!-- PILLARS -->
+	<nogo_zone>7,2,7,3</nogo_zone>
+	<nogo_zone>10,2,10,3</nogo_zone>
+	<nogo_zone>16,2,16,3</nogo_zone>
+	<nogo_zone>19,2,19,3</nogo_zone>
+
+	<nogo_zone>4,11,4,12</nogo_zone>
+	<nogo_zone>7,11,7,12</nogo_zone>
+	<nogo_zone>10,11,10,12</nogo_zone>
+	<nogo_zone>16,11,16,12</nogo_zone>
+	<nogo_zone>19,11,19,12</nogo_zone>
+	<nogo_zone>22,11,22,12</nogo_zone>
+
+
+	<nogo_zone>5,4,5,5</nogo_zone>
+	<nogo_zone>21,4,21,5</nogo_zone>
+
+	<nogo_zone>5,9,5,10</nogo_zone>
+	<nogo_zone>21,9,21,10</nogo_zone>
+
+
+	<!-- ROCKS LEFT -->
+	<nogo_zone>0,0,1,2</nogo_zone>
+	<nogo_zone>4,0,4,1</nogo_zone>
+	<nogo_zone>2,1,2,6</nogo_zone>
+	<nogo_zone>0,6,0,12</nogo_zone>
+	<nogo_zone>26,4,26,7</nogo_zone>
+	
+	
+	<!-- ROCKS RIGHT -->
+	<nogo_zone>26,0,26,2</nogo_zone>
+	<nogo_zone>24,0,24,4</nogo_zone>
+	<nogo_zone>25,4,25,4</nogo_zone>
+	<nogo_zone>26,4,26,7</nogo_zone>
+	
+</stadium>
+
+
+<stadium>
+	<name>Dimension Noire</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/shadow_game_u.png</file>
+	<hype>0</hype>
+	<ultimate/>
+	
+	<ost_tag>Darkness</ost_tag>
+	<stadium_effects>Augmente l'esquive des Pokémon Spectre et Tenèbres.</stadium_effects>
+	<trigger when="ON_CALL" actor="source">
+		<StringCompare name="v:source:type" comparator="has" value="Spectre,Tenebres">
+			<ModifyStat target="source" value="1" name="eva">Le stade augmente l'Esquive de [SOURCE] !</ModifyStat>
+		</StringCompare>
+	</trigger>
+</stadium>
+
+<stadium>
+	<name>Dome de Lave</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/lava_land.png</file>
+	<hype>0</hype>
+	<ultimate/>
+	
+	<stadium_effects>A des chances de brûler les Pokémon en jeu.</stadium_effects>
+	<trigger when="END_TURN" actor="source">
+			<AddStatut target="source" name="Brûlure" chance="25">La chaleur du stade a brûlé [SOURCE] !</AddStatut>
+	</trigger>
+</stadium>
+
+<stadium>
+	<name>Elite 4</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/league_champ.png</file>
+	<hype>0</hype>
+	<ultimate/>
+	
+	<stadium_effects>Lorsque le dernier Pokémon du dresseur est appelé, de la force supplémentaire lui est donnée.</stadium_effects>
+	<trigger when="ON_CALL" actor="source">
+		<NumberCompare name="v:source:n_creature" comparator="equal" value="1">
+			<ModifyStat target="source" value="1" name="att"/>
+			<ModifyStat target="source" value="1" name="spe_att"/>
+			<SetVariable name="v:val_1" value="v:source:max_hp">
+				<DivideVariable name="v:val_1" value="4"/>
+				<NumberCompare name="v:val_1" comparator="equal" value="0">
+					<SetVariable name="v:val_1" value="1"/>
+				</NumberCompare>
+				<Heal target="source" value="v:val_1" reason="Shonen"/>
+				<DisplayMessage>[TSOURCE] : je compte sur toi [SOURCE] !</DisplayMessage>
+			</SetVariable>
+		</NumberCompare>
+	</trigger>
+</stadium>
+
+<stadium>
+	<name>Mt. Silver</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/mt_silver.png</file>
+	<hype>0</hype>
+	<ultimate/>
+	
+	<stadium_effects>Dans ces conditions, les Pokémon Roche et Ténèbres voient leur chances de coup critique doublée.</stadium_effects>
+	<trigger when="CHECK_STAT_CRIT" actor="source">
+		<StringCompare name="v:source:type" comparator="has" value="Tenebres,Roche">
+			<MultiplyVariable name="v:result" value="2"/>
+		</StringCompare>
+	</trigger>
+</stadium>
+
+<stadium>
+	<name>Salle du Boss</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/boss_room.png</file>
+	<hype>0</hype>
+	<ultimate/>
+	
+	<stadium_effects>Si un Pokémon est bas en PV, les dégâts qu'ils subis sont plus importants.</stadium_effects>
+	<trigger when="CHECK_BEFORE_DMG" actor="source">
+		<NumberCompare name="v:source:percent_hp" comparator="inf" value="50">
+			<MultiplyVariable name="v:result" value="1.5"/>
+		</NumberCompare>
+	</trigger>
+</stadium>
+
+<stadium>
+	<name>Tourb'Iles</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/whirl_islands.png</file>
+	<hype>0</hype>
+	<ultimate/>
+	
+	<stadium_effects>A des chances de blesser un Pokémon dans un tourbillon.</stadium_effects>
+	<trigger when="END_TURN" actor="source">
+		<AddBuff target="source" name="Tourb'Siphon" chance="25" duration="4">[SOURCE] a été pris dans un tourbillon !</AddBuff>
+	</trigger>
+</stadium>
+
+<stadium>
+	<name>Tour Carillon</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/top_tin_tower.png</file>
+	<hype>0</hype>
+	<ultimate/>
+	
+	<stadium_effects>Les Pokémon Vol ont leur vitesse doublée. Zénith arrive en jeu</stadium_effects>
+	<trigger when="PREP_NEW_TURN" actor="source">
+		<NumberCompare name="v:field:turn" comparator="equal" value="0">
+			<AddGlobal name="Zénith" duration="6">Les rayons du soleil sont forts !</AddGlobal>
+		</NumberCompare>
+	</trigger>
+	<trigger when="CHECK_STAT_SPEED" actor="source">
+		<StringCompare name="v:source:type" comparator="has" value="Vol">
+			<MultiplyVariable name="v:result" value="2"/>
+		</StringCompare>
+	</trigger>
+</stadium>
+
+<stadium>
+	<name>Caverne Azurée</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/cerulean_cavern.png</file>
+	<hype>0</hype>
+	<ultimate/>
+</stadium>
+
+<stadium>
+	<name>Jungle X</name>
+	<file width="853" height="480" tile_offset_x="-6" tile_offset_y="0">stadiums/x_jungle.png</file>
+	<hype>0</hype>
+	<ultimate/>
+</stadium>

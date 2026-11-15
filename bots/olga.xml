@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Lorelei</name>
+<credo>La Glaze, z'est trop fort !</credo>
+<sprite>28</sprite>
+<tag>Kanto</tag>
+<creature>
+<number>144</number>
+<name>Artikodin</name>
+	<ability>Rideau Neige</ability>
+	<move>Laser Glace</move>
+	<move>Vent Violent</move>
+	<move>Protection</move>
+	<move>Pouv. Antique</move>
+</creature>
+<creature>
+<number>124</number>
+<name>Lippoutou</name>
+	<move>Laser Glace</move>
+	<move>Psyko</move>
+	<move>Ball'Ombre</move>
+	<move>Grobisou</move>
+</creature>
+<creature>
+<number form="Alola">38</number>
+<name>Feunard</name>
+	<ability>Alerte Neige</ability>
+	<move>Eco-Sphère</move>
+	<move>Laser Glace</move>
+	<move>Pouvoir Lunaire</move>
+	<move>Mur Lumière</move>
+</creature>
+<creature>
+<number>87</number>
+<name>Lamantine</name>
+	<ability>Isograisse</ability>
+	<move>Laser Glace</move>
+	<move>Vibraqua</move>
+	<move>Eclats Glace</move>
+	<move>Aqua-Jet</move>
+</creature>
+<creature>
+<number>221</number>
+<name>Cochignon</name>
+	<ability>Isograisse</ability>
+	<move>Seisme</move>
+	<move>Chute Glace</move>
+	<move>Plaquage</move>
+	<move>Piège de Roc</move>
+</creature>
+<creature>
+<number>91</number>
+<name>Crustabri</name>
+	<ability>Multi-Coups</ability>
+	<move>Exuviation</move>
+	<move>Cascade</move>
+	<move>Stalactite</move>
+	<move>Picanon</move>
+</creature>
+</bot>

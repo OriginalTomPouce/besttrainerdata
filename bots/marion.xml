@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Karen</name>
+<credo>Bienvenue dans le jeu des ténèbres.</credo>
+<streak>-1</streak>
+<sprite>65</sprite>
+<historic>2</historic>
+<tag>Johto</tag>
+<creature>
+<number>197</number>
+<name>Noctali</name>
+<move>Regard Noir</move>
+<move>Rayon Lune</move>
+	<move>Vibrobscur</move>
+	<move>Toxik</move>
+</creature>
+<creature>
+<number>215</number>
+<name>Farfuret</name>
+<move>Poinglace</move>
+<move>Tranche-Nuit</move>
+<move>Casse-Brique</move>
+<move>Eclats Glace</move>
+</creature>
+<creature>
+<number>198</number>
+<name>Cornèbre</name>
+<move>Tranche-Nuit</move>
+<move>Rapace</move>
+<move>Canicule</move>
+<move>Vibrobscur</move>
+</creature>
+<creature>
+<number>229</number>
+<name>Démolosse</name>
+<move>Vibrobscur</move>
+<move>Lance-Flamme</move>
+<move>Bomb'Eurk</move>
+<move>Machination</move>
+</creature>
+<creature>
+<number>31</number>
+<name>Nidoqueen</name>
+	<move>Laser Glace</move>
+	<move>Seisme</move>
+	<move>Bomb'Eurk</move>
+	<move>Plaquage</move>
+</creature>
+<creature>
+<number>248</number>
+<name>Tyranocif</name>
+<move>Eboulement</move>
+<move>Machouille</move>
+<move>Crocs Eclair</move>
+<move>Tempêtesable</move>
+</creature>
+</bot>

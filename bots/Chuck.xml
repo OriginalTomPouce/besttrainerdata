@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Chuck</name>
+<credo>WHOAAAAAAAAARGH !!!!!!</credo>
+<sprite>74</sprite>
+<tag>Johto</tag>
+<creature>
+<number>62</number>
+<name>Tartard</name>
+	<move>Dynamopoing</move>
+	<move>Cascade</move>
+	<move>Poinglace</move>
+	<move>Eboulement</move>
+</creature>
+<creature>
+<number>9</number>
+<name>Tortank</name>
+	<move>Laser Glace</move>
+	<move>Vibraqua</move>
+	<move>Aurasphère</move>
+	<move>Vibrobscur</move>
+</creature>
+<creature>
+<number>217</number>
+<name>Ursaring</name>
+	<ability>Cran</ability>
+	<move>Marto-Poing</move>
+	<move>Mania</move>
+	<move>Machouille</move>
+	<move>Danse-Lames</move>
+</creature>
+<creature>
+<number>68</number>
+<name>Mackogneur</name>
+	<ability>Cran</ability>
+	<move>Poing de Feu</move>
+	<move>Coup-Croix</move>
+	<move>Eboulement</move>
+	<move>Poing Eclair</move>
+</creature>
+<creature>
+<number>57</number>
+<name>Colossinge</name>
+	<move>Close Combat</move>
+	<move>Détricanon</move>
+	<move>Colère</move>
+	<move>Demi-Tour</move>
+</creature>
+<creature>
+<number>214</number>
+<name>Scarhino</name>
+	<ability>Cran</ability>
+	<move>Close Combat</move>
+	<move>Mégacorne</move>
+	<move>Gonflette</move>
+	<move>Lame de Roc</move>
+</creature>
+</bot>

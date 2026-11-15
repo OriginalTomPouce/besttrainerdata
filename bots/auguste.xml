@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Blaine</name>
+<credo>Pas d'Anti-Brûle ? Dommage !</credo>
+<streak>2</streak>
+<sprite>57</sprite>
+<historic>11</historic>
+<tag>Kanto</tag>
+<creature>
+<number>59</number>
+<name>Arcanin</name>
+<move>Vit. Extrême</move>
+<move>Lance-Flamme</move>
+<move>Feu Follet</move>
+<move>Seisme</move>
+</creature>
+<creature>
+<number>146</number>
+<name>Sulfura</name>
+<move>Lance-Flamme</move>
+<move>Vent Violent</move>
+<move>Rune Protect</move>
+<move>Pouv. Antique</move>
+</creature>
+<creature>
+<number>229</number>
+<name>Démolosse</name>
+<move>Vibrobscur</move>
+<move>Lance-Flamme</move>
+<move>Bomb'Eurk</move>
+<move>Machination</move>
+</creature>
+<creature>
+<number>126</number>
+<name>Magmar</name>
+<move>Poing de Feu</move>
+<move>Lance-Flamme</move>
+<move>Exploforce</move>
+<move>Poing Eclair</move>
+</creature>
+<creature>
+<number>219</number>
+<name>Volcaropod</name>
+<move>Ebullilave</move>
+<move>Telluriforce</move>
+<move>Pouv. Antique</move>
+<move>Piège de Roc</move>
+</creature>
+<creature>
+<number form="Alola">105</number>
+<name>Ossatueur</name>
+<move>Danse-Lames</move>
+<move>Osmerang</move>
+<move>Poing de Feu</move>
+<move>Os d'Ombre</move>
+</creature>
+</bot>

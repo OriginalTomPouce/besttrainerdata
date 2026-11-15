@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<particle>
+	<name>MAIN_pokeball_launch</name>
+	
+	<texture x="4" y="12">Main</texture>
+	<cycle>4</cycle>
+	<movement x="3">2</movement>
+	<base_speed z="6"/>
+	<gravity>1</gravity>
+	<category>Main_hit</category>
+	<duration>-1</duration>
+	<deathwhen>Hit_ground</deathwhen>
+	<dying>
+		<texture x="1" y="9">Main</texture>
+		<cycle>4</cycle>
+		<movement>0</movement>
+		<category>Main_hit</category>
+		<duration>4</duration>
+	</dying>
+</particle>
+
+
+<particle>
+	<name>MAIN_pokeball_dissapear</name>
+	
+	<texture x="0" y="12">Main</texture>
+	<cycle>4</cycle>
+	<movement>0</movement>
+	<category>Main_hit</category>
+	<duration>4</duration>
+	<dying>
+		<texture x="4" y="12">Main</texture>
+		<cycle>1</cycle>
+		<movement>1</movement>
+		<gravity>-1</gravity>
+		<category>Main_hit</category>
+		<duration>16</duration>
+	</dying>
+</particle>
+
+<particle>
+	<name>MAIN_hit</name>
+	
+	<texture x="0" y="0">Main</texture>
+	<cycle>3</cycle>
+	<movement>0</movement>
+	<gravity>0</gravity>
+	<category>Main_hit</category>
+	<duration>3</duration>
+</particle>
+
+<particle>
+	<name>MAIN_flame</name>
+	
+	<texture x="3" y="3">Main</texture>
+	<cycle>4</cycle>
+	<movement z="1">2</movement>
+	<gravity>-0.5</gravity>
+	<category>Multi_impact</category>
+	<duration>16</duration>
+</particle>
+
+<particle>
+	<name>MAIN_blue_flame</name>
+	
+	<texture x="3" y="7">Main</texture>
+	<cycle>4</cycle>
+	<movement z="1">2</movement>
+	<gravity>-0.5</gravity>
+	<category>Multi_impact</category>
+	<duration>16</duration>
+</particle>
+
+<particle>
+	<name>MAIN_water</name>
+	
+	<texture x="8" y="2">Main</texture>
+	<cycle>1</cycle>
+	<movement x="3">2</movement>
+	<base_speed z="6"/>
+	<gravity>1</gravity>
+	<category>Multi_impact</category>
+	<duration>-1</duration>
+	<deathwhen>Hit_ground</deathwhen>
+	<dying>
+			<texture x="9" y="1">Main</texture>
+			<cycle>1</cycle>
+			<movement>None</movement>
+			<duration>9</duration>
+			<gravity>1</gravity>
+	</dying>
+</particle>
+
+
+<particle>
+	<name>MAIN_electrik</name>
+	
+	<texture x="0" y="10">Main</texture>
+	<cycle>4</cycle>
+	<scale>3</scale>
+	<speed_animation>2</speed_animation>
+	<movement>0</movement>
+	<gravity>0</gravity>
+	<category>Main_hit</category>
+	<duration>12</duration>
+</particle>
+
+
+<particle>
+	<name>MAIN_rock</name>
+	
+	<texture x="6" y="5">Main</texture>
+	<cycle>1</cycle>
+	<movement x="3">2</movement>
+	<base_speed z="6"/>
+	<gravity>1</gravity>
+	<category>Multi_impact</category>
+	<duration>20</duration>
+</particle>
+
+
+
+
+<particle>
+	<name>MAIN_poison_bubble</name>
+	
+	<texture x="6" y="4">Main</texture>
+	<cycle>3</cycle>
+	<movement>0</movement>
+	<gravity>0</gravity>
+	<category>Main_hit</category>
+	<duration>3</duration>
+</particle>
+
+
+
+<particle>
+	<name>MAIN_poison_head</name>
+	
+	<texture x="0" y="2">Main</texture>
+	<cycle>1</cycle>
+	<movement z="1">2</movement>
+	<gravity>-1</gravity>
+	<category>Multi_impact</category>
+	<duration>12</duration>
+</particle>
+
+
+
+<particle>
+	<name>MAIN_psylight</name>
+	
+	<texture x="0" y="11">Main</texture>
+	<cycle>5</cycle>
+	<movement>0</movement>
+	<gravity>0</gravity>
+	<category>Main_hit</category>
+	<duration>5</duration>
+</particle>
+
+
+
+<particle>
+	<name>MAIN_darkwave</name>
+	
+	<texture x="3" y="8">Main</texture>
+	<cycle>4</cycle>
+	<movement>0</movement>
+	<gravity>0</gravity>
+	<category>Main_hit</category>
+	<duration>4</duration>
+</particle>
+
+
+
+
+<particle>
+	<name>MAIN_steel_little</name>
+	
+	<texture x="0" y="8">Main</texture>
+	<cycle>1</cycle>
+	<movement x="3">2</movement>
+	<base_speed z="6"/>
+	<gravity>1</gravity>
+	<category>Multi_impact</category>
+	<duration>20</duration>
+</particle>
+
+
+
+<particle>
+	<name>MAIN_steel_medium</name>
+	
+	<texture x="1" y="8">Main</texture>
+	<cycle>1</cycle>
+	<movement x="3">2</movement>
+	<base_speed z="6"/>
+	<gravity>1</gravity>
+	<category>Multi_impact</category>
+	<duration>20</duration>
+</particle>
+
+
+<particle>
+	<name>MAIN_ice</name>
+	
+	<texture x="0" y="3">Main</texture>
+	<cycle>3</cycle>
+	<movement>0</movement>
+	<gravity>0</gravity>
+	<speed_animation>2</speed_animation>
+	<category>Main_hit</category>
+	<duration>6</duration>
+</particle>
+
+
+<particle>
+	<name>MAIN_fairystar</name>
+	
+	<texture x="2" y="0">Blood</texture>
+	<cycle>2</cycle>
+	<scale>2</scale>
+	<speed_animation>2</speed_animation>
+	<movement z="1">2</movement>
+	<gravity>-0.5</gravity>
+	<category>Multi_impact</category>
+	<duration>16</duration>
+</particle>
+
+
+
+<particle>
+	<name>MAIN_leaf</name>
+	
+	<texture x="7" y="3" direction="x_axis">Main</texture>
+	<movement x="3">1.5</movement>
+	<base_speed z="2"/>
+	<gravity>0.33</gravity>
+	<category>Multi_impact</category>
+	<duration>-1</duration>
+	<deathwhen>Hit_ground</deathwhen>
+</particle>
+
+<particle>
+	<name>MAIN_sand</name>
+	
+	<texture x="5" y="5" direction="x_axis">Main</texture>
+	<movement x="3">2</movement>
+	<base_speed z="3"/>
+	<gravity>0.5</gravity>
+	<category>Multi_impact</category>
+	<duration>-1</duration>
+	<deathwhen>Hit_ground</deathwhen>
+</particle>
+
+<particle>
+	<name>MAIN_tornado</name>
+	
+	<texture x="0" y="7">Main</texture>
+	<cycle>3</cycle>
+	<scale>1.5</scale>
+	<category>Multi_impact</category>
+	<duration>16</duration>
+</particle>
+
+<particle>
+	<name>MAIN_big_tornado</name>
+	
+	<texture x="0" y="7">Main</texture>
+	<cycle>3</cycle>
+	<scale>3</scale>
+	<category>Multi_impact</category>
+	<duration>32</duration>
+</particle>
+
+
+
+<particle>
+	<name>MAIN_needle</name>
+	
+	<texture x="7" y="1" direction="x_axis">Main</texture>
+	<movement x="3">1.5</movement>
+	<base_speed z="2"/>
+	<scale>1</scale>
+	<gravity>0.33</gravity>
+	<category>Multi_impact</category>
+	<duration>-1</duration>
+	<deathwhen>Hit_ground</deathwhen>
+</particle>
+
+
+
+<particle>
+	<name>MAIN_ghost</name>
+	
+	<texture x="8" y="8" direction="x_axis">Main</texture>
+	<movement x="3">1</movement>
+	<base_speed z="2"/>
+	<scale>1</scale>
+	<gravity>-0.5</gravity>
+	<category>Multi_impact</category>
+	<duration>20</duration>
+</particle>
+
+
+<particle>
+	<name>MAIN_claw</name>
+	
+	<texture x="5" y="9">Main</texture>
+	<cycle frequency="2">6</cycle>
+	<movement>0</movement>
+	<scale>3</scale>
+	<category>Main_hit</category>
+	<duration>6</duration>
+	<dying>
+		<texture x="8" y="9">Main</texture>
+		<cycle>2</cycle>
+		<movement>0</movement>
+		<category>Main_hit</category>
+		<duration>8</duration>
+	</dying>
+</particle>
+
+
+<particle>
+	<name>MAIN_fangs</name>
+	
+	<texture x="0" y="13">Main</texture>
+	<cycle frequency="2">3</cycle>
+	<movement>0</movement>
+	<scale>3</scale>
+	<category>Main_hit</category>
+	<duration>6</duration>
+	<dying>
+		<texture x="4" y="13">Main</texture>
+		<cycle>3</cycle>
+		<movement>0</movement>
+		<category>Main_hit</category>
+		<duration>9</duration>
+	</dying>
+</particle>
+
+
+
+<particle>
+	<name>MAIN_long_hit</name>
+	
+	<texture x="0" y="14">Main</texture>
+	<cycle frequency="2">4</cycle>
+	<movement>0</movement>
+	<category>Main_hit</category>
+	<duration>8</duration>
+	<dying>
+		<texture x="4" y="14">Main</texture>
+		<cycle frequency="2">2</cycle>
+		<movement>0</movement>
+		<category>Main_hit</category>
+		<duration>4</duration>
+	</dying>
+</particle>
+
+
+
+
+<particle>
+	<name>MAIN_punch</name>
+	
+	<texture x="3" y="0">Main</texture>
+	<cycle>1</cycle>
+	<movement>0</movement>
+	<category>Main_hit</category>
+	<duration>7</duration>
+</particle>
+
+<particle>
+	<name>MAIN_hand</name>
+	
+	<texture x="4" y="0">Main</texture>
+	<cycle>1</cycle>
+	<movement>0</movement>
+	<category>Main_hit</category>
+	<duration>7</duration>
+</particle>
+
+<particle>
+	<name>MAIN_kick</name>
+	
+	<texture x="5" y="0">Main</texture>
+	<cycle>1</cycle>
+	<movement>0</movement>
+	<category>Main_hit</category>
+	<duration>7</duration>
+</particle>
+

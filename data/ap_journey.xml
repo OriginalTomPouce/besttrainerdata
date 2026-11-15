@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- JOHTO -->
+<cup>
+	<name>Local Cup New Bark Town</name>
+	<tag>NewBarkTownCup</tag>
+	<region>Johto</region>
+	<category>Local</category>
+	<swiss_rounds to_win="2">3</swiss_rounds>
+	<topcut_rounds>1</topcut_rounds>
+	<ai_level>1</ai_level>
+	
+	<max_sum_stats>350</max_sum_stats>
+	<min_sum_stats>0</min_sum_stats>
+	<trainers_topcut chance="100">
+		<trainer>Elm</trainer>
+	</trainers_topcut>
+	<tag>Johto</tag>
+	<stadiums>
+		<stadium>Plein Air</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Plein Air</stadium>
+	</stadiums_topcut>
+</cup>
+
+<cup>
+	<name>Local Cup Cherrygrove City</name>
+	<tag>CherrygroveCityCup</tag>
+	<region>Johto</region>
+	<category>Local</category>
+	<swiss_rounds to_win="2">3</swiss_rounds>
+	<topcut_rounds>1</topcut_rounds>
+	<ai_level>2</ai_level>
+
+	<max_sum_stats>400</max_sum_stats>
+	<min_sum_stats>0</min_sum_stats>
+	<stadiums>
+		<stadium>Plein Air</stadium>
+		<stadium>Pont aux Pêcheurs</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Pont aux Pêcheurs</stadium>
+	</stadiums_topcut>
+</cup>
+
+<cup>
+	<name>Local Cup Violet City</name>
+	<tag>VioletCityCup</tag>
+	<region>Johto</region>
+	<category>Local</category>
+	<swiss_rounds to_win="2">3</swiss_rounds>
+	<topcut_rounds>1</topcut_rounds>
+	<ai_level>2</ai_level>
+
+
+	<max_sum_stats>400</max_sum_stats>
+	<min_sum_stats>0</min_sum_stats>
+	<trainers_topcut chance="100">
+		<trainer>Falkner</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Plein Air</stadium>
+		<stadium>Tour Chétiflor</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Tour Chétiflor</stadium>
+	</stadiums_topcut>
+</cup>
+
+<cup>
+	<name>Local Cup Azalea Town</name>
+	<tag>AzaleaTownCup</tag>
+	<region>Johto</region>
+	<category>Local</category>
+	<swiss_rounds to_win="2">3</swiss_rounds>
+	<topcut_rounds>1</topcut_rounds>
+	<ai_level>2</ai_level>
+
+
+	<max_sum_stats>400</max_sum_stats>
+	<min_sum_stats>0</min_sum_stats>
+	<trainers_topcut chance="100">
+		<trainer>Bugsy</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Plein Air</stadium>
+		<stadium>Bois aux Chênes</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Bois aux Chênes</stadium>
+	</stadiums_topcut>
+</cup>
+
+<cup>
+	<name>Local Cup Cianwood City</name>
+	<tag>CianwoodCityCup</tag>
+	<region>Johto</region>
+	<category>Local</category>
+	<swiss_rounds to_win="2">3</swiss_rounds>
+	<topcut_rounds>1</topcut_rounds>
+	<ai_level>2</ai_level>
+
+
+	<max_sum_stats>400</max_sum_stats>
+	<min_sum_stats>0</min_sum_stats>
+	<trainers_topcut chance="100">
+		<trainer>Chuck</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Mer</stadium>
+		<stadium>Dojo</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Dojo</stadium>
+	</stadiums_topcut>
+</cup>
+
+<cup>
+	<name>Local Cup Mahogany Town</name>
+	<tag>MahoganyTownCup</tag>
+	<region>Johto</region>
+	<category>Local</category>
+	<swiss_rounds to_win="2">3</swiss_rounds>
+	<topcut_rounds>1</topcut_rounds>
+	<ai_level>2</ai_level>
+
+
+	<max_sum_stats>400</max_sum_stats>
+	<min_sum_stats>0</min_sum_stats>
+	<trainers_topcut chance="100">
+		<trainer>Pryce</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Montagne</stadium>
+		<stadium>Route de Glace</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Route de Glace</stadium>
+	</stadiums_topcut>
+</cup>
+
+
+<cup>
+	<name>City Cup Goldenrod City</name>
+	<tag>GoldenrodCityCup</tag>
+	<region>Johto</region>
+	<category>City</category>
+	<swiss_rounds to_win="3">4</swiss_rounds>
+	<topcut_rounds>2</topcut_rounds>
+	<ai_level>3</ai_level>
+
+
+	<max_sum_stats>450</max_sum_stats>
+	<min_sum_stats>0</min_sum_stats>
+	<trainers_topcut chance="100">
+		<trainer>Whitney</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Ville</stadium>
+		<stadium>Plein Air</stadium>
+		<stadium>Centre Commercial</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Centre Commercial</stadium>
+	</stadiums_topcut>
+</cup>
+
+
+<cup>
+	<name>City Cup Ecruteak City</name>
+	<tag>EcruteakCityCup</tag>
+	<region>Johto</region>
+	<category>City</category>
+	<swiss_rounds to_win="3">4</swiss_rounds>
+	<topcut_rounds>2</topcut_rounds>
+	<ai_level>3</ai_level>
+
+	<max_sum_stats>450</max_sum_stats>
+	<min_sum_stats>0</min_sum_stats>
+	<trainers_topcut chance="100">
+		<trainer>Morty</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Tour Chétiflor</stadium>
+		<stadium>Plein Air</stadium>
+		<stadium>Rosalia</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Rosalia</stadium>
+	</stadiums_topcut>
+</cup>
+
+<cup>
+	<name>City Cup Olivine City</name>
+	<tag>OlivineCityCup</tag>
+	<region>Johto</region>
+	<category>City</category>
+	<swiss_rounds to_win="3">4</swiss_rounds>
+	<topcut_rounds>2</topcut_rounds>
+	<ai_level>3</ai_level>
+
+	<max_sum_stats>450</max_sum_stats>
+	<min_sum_stats>0</min_sum_stats>
+	<trainers_topcut chance="100">
+		<trainer>Jasmine</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Mer</stadium>
+		<stadium>Ranch Meumeu</stadium>
+		<stadium>Ville Néon</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Ville Néon</stadium>
+	</stadiums_topcut>
+</cup>
+
+<cup>
+	<name>City Cup Blackthorn City</name>
+	<tag>BlackthornCityCup</tag>
+	<region>Johto</region>
+	<category>City</category>
+	<swiss_rounds to_win="3">4</swiss_rounds>
+	<topcut_rounds>2</topcut_rounds>
+	<ai_level>3</ai_level>
+
+	<max_sum_stats>450</max_sum_stats>
+	<min_sum_stats>0</min_sum_stats>
+	<trainers_topcut chance="100">
+		<trainer>Clair</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Route de Glace</stadium>
+		<stadium>Montagne</stadium>
+		<stadium>Repaire Dragon</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Repaire Dragon</stadium>
+	</stadiums_topcut>
+</cup>
+
+
+<cup>
+	<name>Subregion Cup West Johto</name>
+	<tag>WestJohtoCup</tag>
+	<region>Johto</region>
+	<category>Subregion</category>
+	<swiss_rounds to_win="4">6</swiss_rounds>
+	<topcut_rounds>3</topcut_rounds>
+	<ai_level>4</ai_level>
+
+	<max_sum_stats>500</max_sum_stats>
+	<min_sum_stats>350</min_sum_stats>
+	<trainers_topcut chance="50">
+		<trainer>Jasmine</trainer>
+		<trainer>Chuck</trainer>
+		<trainer>Aldo</trainer>
+		<trainer>Will</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Ranch Meumeu</stadium>
+		<stadium>Ville Néon</stadium>
+		<stadium>Mer</stadium>
+		<stadium>Tour de Combat</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Tourb'Iles</stadium>
+	</stadiums_topcut>
+</cup>
+
+
+
+<cup>
+	<name>Subregion Cup South Johto</name>
+	<tag>SouthJohtoCup</tag>
+	<region>Johto</region>
+	<category>Subregion</category>
+	<swiss_rounds to_win="4">6</swiss_rounds>
+	<topcut_rounds>3</topcut_rounds>
+	<ai_level>4</ai_level>
+
+	<max_sum_stats>500</max_sum_stats>
+	<min_sum_stats>350</min_sum_stats>
+	<trainers_topcut chance="50">
+		<trainer>Falkner</trainer>
+		<trainer>Bugsy</trainer>
+		<trainer>Whitney</trainer>
+		<trainer>Silver</trainer>
+		<trainer>Koga</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Centre Commercial</stadium>
+		<stadium>Ruines Alpha</stadium>
+		<stadium>Tour de Combat</stadium>
+		<stadium>Tour Chétiflor</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Repaire Rocket</stadium>
+	</stadiums_topcut>
+</cup>
+
+<cup>
+	<name>Subregion Cup North Johto</name>
+	<tag>NorthJohtoCup</tag>
+	<region>Johto</region>
+	<category>Subregion</category>
+	<swiss_rounds to_win="4">6</swiss_rounds>
+	<topcut_rounds>3</topcut_rounds>
+	<ai_level>4</ai_level>
+
+	<max_sum_stats>500</max_sum_stats>
+	<min_sum_stats>350</min_sum_stats>
+	<trainers_topcut chance="50">
+		<trainer>Morty</trainer>
+		<trainer>Pryce</trainer>
+		<trainer>Clair</trainer>
+		<trainer>Karen</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Route de Glace</stadium>
+		<stadium>Repaire Dragon</stadium>
+		<stadium>Tour de Combat</stadium>
+		<stadium>Rosalia</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Tour Carillon</stadium>
+	</stadiums_topcut>
+</cup>
+
+
+<cup>
+	<name>Region Cup Johto</name>
+	<tag>JohtoCup</tag>
+	<region>Johto</region>
+	<category>Region</category>
+	<swiss_rounds to_win="5">7</swiss_rounds>
+	<topcut_rounds>4</topcut_rounds>
+	<ai_level>5</ai_level>
+
+	<max_sum_stats>600</max_sum_stats>
+	<min_sum_stats>400</min_sum_stats>
+	<trainers_topcut chance="100">
+		<trainer>Falkner</trainer>
+		<trainer>Bugsy</trainer>
+		<trainer>Whitney</trainer>
+		<trainer>Morty</trainer>
+		<trainer>Chuck</trainer>
+		<trainer>Jasmine</trainer>
+		<trainer>Pryce</trainer>
+		<trainer>Clair</trainer>
+		<trainer>Will</trainer>
+		<trainer>Aldo</trainer>
+		<trainer>Koga</trainer>
+		<trainer>Karen</trainer>
+		<trainer>Lance</trainer>
+		<trainer>Silver</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Plein Air</stadium>
+		<stadium>Mer</stadium>
+		<stadium>Montagne</stadium>
+		<stadium>Route de Glace</stadium>
+		<stadium>Repaire Dragon</stadium>
+		<stadium>Rosalia</stadium>
+		<stadium>Ranch Meumeu</stadium>
+		<stadium>Stade Link</stadium>
+		<stadium>Bois aux Chênes</stadium>
+		<stadium>Repaire Rocket</stadium>
+		<stadium>Dojo</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Mt. Silver</stadium>
+		<stadium>Tour Carillon</stadium>
+		<stadium>Tourb'Iles</stadium>
+	</stadiums_topcut>
+</cup>
+
+
+
+<!-- KANTO -->
+<cup>
+	<name>Local Cup Pallet Town</name>
+	<tag>PalletTownCup</tag>
+	<region>Kanto</region>
+	<category>Local</category>
+	<swiss_rounds to_win="2">3</swiss_rounds>
+	<topcut_rounds>1</topcut_rounds>
+	<ai_level>1</ai_level>
+	
+	<max_sum_stats>350</max_sum_stats>
+	<min_sum_stats>0</min_sum_stats>
+	<trainers_topcut chance="100">
+		<trainer>Oak</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Plein Air</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Plein Air</stadium>
+	</stadiums_topcut>
+</cup>
+
+
+<cup>
+	<name>Local Cup Viridian City</name>
+	<tag>ViridianCityCup</tag>
+	<region>Kanto</region>
+	<category>Local</category>
+	<swiss_rounds to_win="2">3</swiss_rounds>
+	<topcut_rounds>1</topcut_rounds>
+	<ai_level>2</ai_level>
+
+	<max_sum_stats>400</max_sum_stats>
+	<min_sum_stats>0</min_sum_stats>
+	<trainers_topcut chance="100">
+		<trainer>Blue</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Plein Air</stadium>
+		<stadium>Forêt de Jade</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Forêt de Jade</stadium>
+	</stadiums_topcut>
+</cup>
+
+<cup>
+	<name>Local Cup Cerulean City</name>
+	<tag>CeruleanCityCup</tag>
+	<region>Kanto</region>
+	<category>Local</category>
+	<swiss_rounds to_win="2">3</swiss_rounds>
+	<topcut_rounds>1</topcut_rounds>
+	<ai_level>2</ai_level>
+
+	<max_sum_stats>400</max_sum_stats>
+	<min_sum_stats>0</min_sum_stats>
+	<trainers_topcut chance="100">
+		<trainer>Misty</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Stade Eau</stadium>
+		<stadium>Pont Pépite</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Pont Pépite</stadium>
+	</stadiums_topcut>
+</cup>
+
+<cup>
+	<name>Local Cup Vermilion City</name>
+	<tag>VermilionCityCup</tag>
+	<region>Kanto</region>
+	<category>Local</category>
+	<swiss_rounds to_win="2">3</swiss_rounds>
+	<topcut_rounds>1</topcut_rounds>
+	<ai_level>2</ai_level>
+
+	<max_sum_stats>400</max_sum_stats>
+	<min_sum_stats>0</min_sum_stats>
+	<trainers_topcut chance="100">
+		<trainer>Surge</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Stade Eau</stadium>
+		<stadium>Centrale</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Centrale</stadium>
+	</stadiums_topcut>
+</cup>
+
+<cup>
+	<name>Local Cup Lavender Town</name>
+	<tag>LavenderTownCup</tag>
+	<region>Kanto</region>
+	<category>Local</category>
+	<swiss_rounds to_win="2">3</swiss_rounds>
+	<topcut_rounds>1</topcut_rounds>
+	<ai_level>2</ai_level>
+
+	<max_sum_stats>400</max_sum_stats>
+	<min_sum_stats>0</min_sum_stats>
+	<stadiums>
+		<stadium>Montagne</stadium>
+		<stadium>Tour Pokémon</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Tour Pokémon</stadium>
+	</stadiums_topcut>
+</cup>
+
+<cup>
+	<name>Local Cup Cinnabar Island</name>
+	<tag>CinnabarIslandCup</tag>
+	<region>Kanto</region>
+	<category>Local</category>
+	<swiss_rounds to_win="2">3</swiss_rounds>
+	<topcut_rounds>1</topcut_rounds>
+	<ai_level>2</ai_level>
+
+	<max_sum_stats>400</max_sum_stats>
+	<min_sum_stats>0</min_sum_stats>
+	<trainers_topcut chance="100">
+		<trainer>Blaine</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Manoir Pokémon</stadium>
+		<stadium>Stade Eau</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Manoir Pokémon</stadium>
+	</stadiums_topcut>
+</cup>
+
+
+<cup>
+	<name>City Cup Pewter City</name>
+	<tag>PewterCityCup</tag>
+	<region>Kanto</region>
+	<category>City</category>
+	<swiss_rounds to_win="3">4</swiss_rounds>
+	<topcut_rounds>2</topcut_rounds>
+	<ai_level>3</ai_level>
+
+	<max_sum_stats>450</max_sum_stats>
+	<min_sum_stats>0</min_sum_stats>
+	<trainers_topcut chance="100">
+		<trainer>Brock</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Ville</stadium>
+		<stadium>Forêt de Jade</stadium>
+		<stadium>Mont Selenite</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Mont Selenite</stadium>
+	</stadiums_topcut>
+</cup>
+
+
+<cup>
+	<name>City Cup Celadon City</name>
+	<tag>CeladonCityCup</tag>
+	<region>Kanto</region>
+	<category>City</category>
+	<swiss_rounds to_win="3">4</swiss_rounds>
+	<topcut_rounds>2</topcut_rounds>
+	<ai_level>3</ai_level>
+
+	<max_sum_stats>450</max_sum_stats>
+	<min_sum_stats>0</min_sum_stats>
+	<trainers_topcut chance="100">
+		<trainer>Erika</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Centre Commercial</stadium>
+		<stadium>Plein Air</stadium>
+		<stadium>Ville</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Centre Commercial</stadium>
+	</stadiums_topcut>
+</cup>
+
+<cup>
+	<name>City Cup Fuchsia City</name>
+	<tag>OlivineCityCup</tag>
+	<region>Johto</region>
+	<category>City</category>
+	<swiss_rounds to_win="3">4</swiss_rounds>
+	<topcut_rounds>2</topcut_rounds>
+	<ai_level>3</ai_level>
+
+	<max_sum_stats>450</max_sum_stats>
+	<min_sum_stats>0</min_sum_stats>
+	<trainers_topcut chance="100">
+		<trainer>Jeanine</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Pont aux Pêcheurs</stadium>
+		<stadium>Dojo</stadium>
+		<stadium>Stade Eau</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Jeu des Ténèbres</stadium>
+	</stadiums_topcut>
+</cup>
+
+<cup>
+	<name>City Cup Saffron City</name>
+	<tag>SaffronCityCup</tag>
+	<region>Kanto</region>
+	<category>City</category>
+	<swiss_rounds to_win="3">4</swiss_rounds>
+	<topcut_rounds>2</topcut_rounds>
+	<ai_level>3</ai_level>
+
+	<max_sum_stats>450</max_sum_stats>
+	<min_sum_stats>0</min_sum_stats>
+	<trainers_topcut chance="100">
+		<trainer>Sabrina</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Ville</stadium>
+		<stadium>Ville Néon</stadium>
+		<stadium>Dojo</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Ville Néon</stadium>
+	</stadiums_topcut>
+</cup>
+
+
+<cup>
+	<name>Subregion Cup West Kanto</name>
+	<tag>WestKantoCup</tag>
+	<region>Kanto</region>
+	<category>Subregion</category>
+	<swiss_rounds to_win="4">6</swiss_rounds>
+	<topcut_rounds>3</topcut_rounds>
+	<ai_level>4</ai_level>
+
+	<max_sum_stats>500</max_sum_stats>
+	<min_sum_stats>350</min_sum_stats>
+	<trainers_topcut chance="50">
+		<trainer>Brock</trainer>
+		<trainer>Blue</trainer>
+		<trainer>Blaine</trainer>
+		<trainer>Misty</trainer>
+		<trainer>Lorelei</trainer>
+		<trainer>Lance</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Forêt de Jade</stadium>
+		<stadium>Mont Selenite</stadium>
+		<stadium>Pont Pépite</stadium>
+		<stadium>Manoir Pokémon</stadium>
+		<stadium>Tour de Combat</stadium>
+		<stadium>Route Victoire</stadium>
+	
+</stadiums>
+	<stadiums_topcut>
+		<stadium>Elite 4</stadium>
+	</stadiums_topcut>
+</cup>
+
+
+
+<cup>
+	<name>Subregion Cup East Kanto</name>
+	<tag>EastKantoCup</tag>
+	<region>Kanto</region>
+	<category>Subregion</category>
+	<swiss_rounds to_win="4">6</swiss_rounds>
+	<topcut_rounds>3</topcut_rounds>
+	<ai_level>4</ai_level>
+
+	<max_sum_stats>500</max_sum_stats>
+	<min_sum_stats>350</min_sum_stats>
+	<trainers_topcut chance="50">
+		<trainer>Erika</trainer>
+		<trainer>Surge</trainer>
+		<trainer>Sabrina</trainer>
+		<trainer>Jeanine</trainer>
+		<trainer>Agatha</trainer>
+		<trainer>Aldo</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Centre Commercial</stadium>
+		<stadium>Tour Pokémon</stadium>
+		<stadium>Neon City</stadium>
+		<stadium>Pont aux Pêcheurs</stadium>
+		<stadium>Centrale</stadium>
+		<stadium>Tour de Combat</stadium>
+</stadiums>
+	<stadiums_topcut>
+		<stadium>Salle du Boss</stadium>
+	</stadiums_topcut>
+</cup>
+
+
+<cup>
+	<name>Region Cup Kanto</name>
+	<tag>KantoCup</tag>
+	<region>Kanto</region>
+	<category>Region</category>
+	<swiss_rounds to_win="5">7</swiss_rounds>
+	<topcut_rounds>4</topcut_rounds>
+	<ai_level>5</ai_level>
+
+	<max_sum_stats>600</max_sum_stats>
+	<min_sum_stats>400</min_sum_stats>
+	<trainers_topcut chance="100">
+		<trainer>Brock</trainer>
+		<trainer>Misty</trainer>
+		<trainer>Surge</trainer>
+		<trainer>Erika</trainer>
+		<trainer>Sabrina</trainer>
+		<trainer>Jeanine</trainer>
+		<trainer>Blaine</trainer>
+		<trainer>Blue</trainer>
+		<trainer>Lorelei</trainer>
+		<trainer>Aldo</trainer>
+		<trainer>Agatha</trainer>
+		<trainer>Giovanni</trainer>
+		<trainer>Lance</trainer>
+		<trainer>Red</trainer>
+	</trainers_topcut>
+	<stadiums>
+		<stadium>Forêt de Jade</stadium>
+		<stadium>Mont Selenite</stadium>
+		<stadium>Pont Pépite</stadium>
+		<stadium>Manoir Pokémon</stadium>
+		<stadium>Tour Pokémon</stadium>
+		<stadium>Route Victoire</stadium>
+		<stadium>Pont aux Pêcheurs</stadium>
+		<stadium>Centrale</stadium>
+		<stadium>Tour de Combat</stadium>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Caverne Azurée</stadium>
+		<stadium>Elite 4</stadium>
+		<stadium>Salle du Boss</stadium>
+	</stadiums_topcut>
+</cup>
+
+
+<cup>
+	<name>Indigo League</name>
+	<tag>IndigoLeague</tag>
+	<region>Kanto</region>
+	<category>World</category>
+	<swiss_rounds to_win="9">12</swiss_rounds>
+	<topcut_rounds>6</topcut_rounds>
+	<ai_level>6</ai_level>
+	
+	<max_sum_stats>800</max_sum_stats>
+	<min_sum_stats>400</min_sum_stats>
+	<max_cat_legendaries>1</max_cat_legendaries>
+	<trainers_topcut chance="100">
+		<trainer>Will</trainer>
+		<trainer>Aldo</trainer>
+		<trainer>Koga</trainer>
+		<trainer>Karen</trainer>
+		<trainer>Lance</trainer>
+		<trainer>Lorelei</trainer>
+		<trainer>Agatha</trainer>
+		<trainer>Giovanni</trainer>
+		<trainer>Silver</trainer>
+		<trainer>Red</trainer>
+		<trainer>Gold</trainer>
+		<trainer>Blue</trainer>
+		<trainer>Crystal</trainer>
+	</trainers_topcut>
+	<stadiums>
+	</stadiums>
+	<stadiums_topcut>
+		<stadium>Elite 4</stadium>
+		<stadium>Elite 4</stadium>
+		<stadium>Elite 4</stadium>
+		<stadium>Dimension Noire</stadium>
+		<stadium>Mt. Silver</stadium>
+		<stadium>Caverne Azurée</stadium>
+	</stadiums_topcut>
+</cup>

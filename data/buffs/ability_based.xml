@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buff>
+	<name>Colère</name>
+	<category>Positive</category>
+	<IA_value>15</IA_value>
+	
+	<trigger when="MOVE_DECLARE" actor="source">
+		<MultiplyVariable name="v:mult_dmg" value="1.5"/>
+	</trigger>
+</buff>

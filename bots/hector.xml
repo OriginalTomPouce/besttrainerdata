@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Bugsy</name>
+<credo>Moi et mon filet à papillons . . .</credo>
+<sprite>61</sprite>
+<tag>Johto</tag>
+<creature>
+<number>212</number>
+<name>Cizayox</name>
+<move>Danse-Lames</move>
+<move>Pisto-Poing</move>
+<move>Tranche-Nuit</move>
+</creature>
+<creature>
+<number>193</number>
+<name>Yanma</name>
+<move>Lame d'Air</move>
+<move>Bourdon</move>
+<move>Demi-Tour</move>
+<move>Ball'Ombre</move>
+</creature>
+<creature>
+<number>49</number>
+<name>Aeromite</name>
+<move>Papillodanse</move>
+<move>Bourdon</move>
+<move>Psyko</move>
+<move>Para-Spore</move>
+</creature>
+<creature>
+<number>214</number>
+<name>Scarhino</name>
+<move>Close Combat</move>
+<move>Boule Roc</move>
+<move>Aeropique</move>
+</creature>
+<creature>
+<number>12</number>
+<name>Papilusion</name>
+	<move>Psyko</move>
+	<move>Poudre Dodo</move>
+	<move>Vent Arriere</move>
+	<move>Demi-Tour</move>
+</creature>
+<creature>
+<number>127</number>
+<name>Scarabrute</name>
+<move>Gonflette</move>
+	<move>Plaie-Croix</move>
+<move>Close Combat</move>
+<move>Lame de Roc</move>
+</creature>
+</bot>

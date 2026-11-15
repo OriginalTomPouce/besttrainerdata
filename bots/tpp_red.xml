@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Red</name>
+<credo>Oak : It's not the time to use that.</credo>
+<streak>0</streak>
+<sprite>24</sprite>
+<creature>
+<number>18</number>
+<name>aaabaaaajss</name>
+<move>Vent Arriere</move>
+<move>Vive-Attaque</move>
+<move>Lame d'Air</move>
+<move>Canicule</move>
+</creature>
+<creature>
+<number>131</number>
+<name>AIIIIIIRRR</name>
+<move>Surf</move>
+<move>Tonnerre</move>
+<move>Laser Glace</move>
+<move>Rune Protect</move>
+</creature>
+<creature>
+<number>49</number>
+<name>AATTVVV</name>
+<move>Papillodanse</move>
+<move>Bourdon</move>
+<move>Psyko</move>
+<move>Para-Spore</move>
+</creature>
+<creature>
+<number>145</number>
+<name>AA-j</name>
+<move>Fatal Foudre</move>
+<move>Bec Vrille</move>
+<move>Damocles</move>
+<move>Cage-Eclair</move>
+</creature>
+<creature>
+<number>34</number>
+<name>AAAAAAAAAA</name>
+<move>Direct Toxic</move>
+<move>Seisme</move>
+<move>Lance-Flamme</move>
+<move>Empal'Korne</move>
+</creature>
+<creature>
+<number>139</number>
+<name>Amonistar</name>
+<move>Exuviation</move>
+<move>Surf</move>
+<move>Hydrocanon</move>
+<move>Pouv. Antique</move>
+</creature>
+</bot>

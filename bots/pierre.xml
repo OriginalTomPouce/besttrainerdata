@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Brock</name>
+<credo>Dur comme la roche !</credo>
+<sprite>66</sprite>
+<tag>Kanto</tag>
+<creature>
+<number form="Alola">76</number>
+<name>Grolem</name>
+<move>Piétisol</move>
+<move>Eboulement</move>
+<move>El-Explosion</move>
+<move>Poing Eclair</move>
+</creature>
+<creature>
+<number>248</number>
+<name>Tyranocif</name>
+<move>Eboulement</move>
+<move>Machouille</move>
+<move>Crocs Eclair</move>
+<move>Tempêtesable</move>
+</creature>
+<creature>
+<number>139</number>
+<name>Amonistar</name>
+<move>Exuviation</move>
+<move>Surf</move>
+<move>Hydrocanon</move>
+<move>Pouv. Antique</move>
+</creature>
+<creature>
+<number>142</number>
+<name>Ptera</name>
+<move>Eboulement</move>
+<move>Aeropique</move>
+<move>Crocs Givre</move>
+<move>Damocles</move>
+</creature>
+<creature>
+<number>208</number>
+<name>Steelix</name>
+<move>Seisme</move>
+<move>Tête de Fer</move>
+<move>Piège de Roc</move>
+<move>Crocs de Feu</move>
+</creature>
+<creature>
+<number>185</number>
+<name>Simularbre</name>
+<move>Eboulement</move>
+<move>Martobois</move>
+<move>Piège de Roc</move>
+<move>Marto-Poing</move>
+</creature>
+</bot>

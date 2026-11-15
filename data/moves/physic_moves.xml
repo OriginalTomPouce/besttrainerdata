@@ -1,0 +1,2458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<move>
+	<name>Abîme</name>
+	
+	<type>Sol</type>
+	<category>physique</category>
+	<power>0</power>
+	<precision>30</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	
+	<description>Inflige un K.O en un coup lorsque l'attaque est réussie.</description>
+	<trigger when="DMG_CALC">
+		<SetVariable name="v:damage" value="9999">Super Patate !</SetVariable>
+	</trigger>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Aeropique</name>
+	
+	<type>Vol</type>
+	<category>physique</category>
+	<power>60</power>
+	<precision>0</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Ne peut jamais rater la cible.</description>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Aile d'Acier</name>
+	
+	<type>Acier</type>
+	<category>physique</category>
+	<power>70</power>
+	<precision>90</precision>
+	<pp>25</pp>
+	<direction>Target</direction>
+	<subtype>Wings</subtype>
+	
+	<description>A des chances d'augmenter la défense du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="1" name="def" chance="10">La Défense de [SOURCE] a augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Aqua-Jet</name>
+	
+	<type>Eau</type>
+	<category>physique</category>
+	<power>40</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Attaque prioritaire.</description>
+	
+	<priority value="1" />
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Balle Graine</name>
+	
+	<type>Plante</type>
+	<category>physique</category>
+	<power>15</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	
+	<description>Attaque de 2 à 5 fois la cible.</description>
+	
+	<tag>Multi-hits</tag>
+	<trigger when="MOVE_DECLARE" priority="5">
+		<SetVariable name="v:val_1" value="v:d6"/>
+		<NumberCompare name="v:val_1" comparator="infequal" value="2">
+			<SetVariable name="v:number_hits" value="2"/>
+			<EndEffect/>
+		</NumberCompare>
+		<NumberCompare name="v:val_1" comparator="infequal" value="4">
+			<SetVariable name="v:number_hits" value="3"/>
+			<EndEffect/>
+		</NumberCompare>
+		<NumberCompare name="v:val_1" comparator="infequal" value="5">
+			<SetVariable name="v:number_hits" value="4"/>
+			<EndEffect/>
+		</NumberCompare>
+		<SetVariable name="v:number_hits" value="5"/>
+	</trigger>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Bec Vrille</name>
+	
+	<type>Vol</type>
+	<category>physique</category>
+	<power>80</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Spear</subtype>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Bélier</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>90</power>
+	<precision>85</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Blesse le lanceur après l'attaque.</description>
+	
+	<effect>
+		<NumberCompare name="v:total_damage" comparator="sup" value="0">
+			<SetVariable name="v:val_1" value="v:total_damage"/>
+			<DivideVariable name="v:val_1" value="4"/>
+			<Damage target="source" value="v:val_1" reason="Recoil">[SOURCE] se blesse en frappant !</Damage>
+		</NumberCompare>
+	</effect>
+</move>
+
+
+<move>
+	<name>Bluff</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>40</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Ennemy</direction>
+	<subtype>Body</subtype>
+	
+	<priority value="3"/>
+	
+	<description>Ne marche que durant le tour où le Pokémon entre sur le terrain. Attaque prioritaire et apeure à coup sûr la cible.</description>
+	
+	<trigger when="MOVE_DECLARE" actor="source">
+		<NumberCompare name="v:source:move_turn" comparator="sup" value="1">
+			<SetVariable name="v:move_success" value="0"/>
+		</NumberCompare>
+	</trigger>
+	<effect>
+		<AddBuff target="target" name="Apeuré"/>
+	</effect>
+</move>
+
+
+<move>
+	<name>Boule Roc</name>
+	
+	<type>Roche</type>
+	<category>physique</category>
+	<power>25</power>
+	<precision>90</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>Attaque de 2 à 5 fois la cible.</description>
+	
+	<tag>Multi-hits</tag>
+	<trigger when="MOVE_DECLARE" priority="5">
+		<SetVariable name="v:val_1" value="v:d6"/>
+		<NumberCompare name="v:val_1" comparator="infequal" value="2">
+			<SetVariable name="v:number_hits" value="2"/>
+			<EndEffect/>
+		</NumberCompare>
+		<NumberCompare name="v:val_1" comparator="infequal" value="4">
+			<SetVariable name="v:number_hits" value="3"/>
+			<EndEffect/>
+		</NumberCompare>
+		<NumberCompare name="v:val_1" comparator="infequal" value="5">
+			<SetVariable name="v:number_hits" value="4"/>
+			<EndEffect/>
+		</NumberCompare>
+		<SetVariable name="v:number_hits" value="5"/>
+	</trigger>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Boutefeu</name>
+	
+	<type>Feu</type>
+	<category>physique</category>
+	<power>120</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Blesse le lanceur après l'attaque. A des chances de brûler la cible.</description>
+	
+	<effect>
+		<NumberCompare name="v:total_damage" comparator="sup" value="0">
+			<SetVariable name="v:val_1" value="v:total_damage"/>
+			<DivideVariable name="v:val_1" value="3"/>
+			<Damage target="source" value="v:val_1" reason="Recoil">[SOURCE] se blesse en frappant !</Damage>
+		</NumberCompare>
+		<AddStatut target="target" name="Brûlure" chance="10">[TARGET] est brûlé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Buldoboule</name>
+	
+	<type>Insecte</type>
+	<category>physique</category>
+	<power>65</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>A des chances d'apeurer la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Apeuré" chance="30"/>
+	</effect>
+</move>
+
+<move>
+	<name>Canon Graine</name>
+	
+	<type>Plante</type>
+	<category>physique</category>
+	<power>80</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	
+	<effect>
+	</effect>
+</move>
+
+
+<move>
+	<name>Cascade</name>
+	
+	<type>Eau</type>
+	<category>physique</category>
+	<power>80</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>A des chances d'apeurer la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Apeuré" chance="20"/>
+	</effect>
+</move>
+
+<move>
+	<name>Câlinerie</name>
+	
+	<type>Fee</type>
+	<category>physique</category>
+	<power>90</power>
+	<precision>90</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>A des chances de réduire l'attaque de la cible.</description>
+	
+	<effect>
+		<ModifyStat target="target" value="-1" name="att" chance="10">L'Attaque de [TARGET] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Casse-Brique</name>
+	
+	<type>Combat</type>
+	<category>physique</category>
+	<power>75</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	
+	<description>Brise les barrières protectrices lorsque l'attaque réussit.</description>
+	
+	<subtype>Punch</subtype>
+	<effect>
+		<RemoveBuff target="target" tag="Wall">Les murs adverses ont été détruits !</RemoveBuff>
+	</effect>
+</move>
+
+
+<move>
+	<name>Cavalerie Lourde</name>
+	
+	<type>Sol</type>
+	<category>physique</category>
+	<power>90</power>
+	<precision>90</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>A des chances d'apeurer la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Apeuré" chance="10"/>
+	</effect>
+</move>
+
+<move>
+	<name>Charge</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>40</power>
+	<precision>95</precision>
+	<pp>35</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Chute Glace</name>
+	
+	<type>Glace</type>
+	<category>physique</category>
+	<power>85</power>
+	<precision>90</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances d'apeurer la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Apeuré" chance="30"/>
+	</effect>
+</move>
+
+<move>
+	<name>Close Combat</name>
+	
+	<type>Combat</type>
+	<category>physique</category>
+	<power>120</power>
+	<precision>100</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	
+	<description>Réduit la défense et la défense spéciale du lanceur après utilisation.</description>
+	
+	<subtype>Punch</subtype>
+	<effect>
+		<ModifyStat target="source" value="-1" name="def">La Défense de [SOURCE] a diminuée !</ModifyStat>
+		<ModifyStat target="source" value="-1" name="spe_def">La Défense spéciale de [SOURCE] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Colère</name>
+	
+	<type>Dragon</type>
+	<category>physique</category>
+	<power>120</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>L'attaque rend le Pokémon enragé, le forçant à la réutiliser plisuers fois d'affilée.</description>
+	
+	<effect>
+		<AddBuff target="source" name="Furie">
+			<DisplayMessage>[SOURCE] devient enragé !</DisplayMessage>
+			<LockMove target="source" value="2"/>
+		</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Coquilame</name>
+	
+	<type>Eau</type>
+	<category>physique</category>
+	<power>75</power>
+	<precision>95</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de baisser la défense de la cible.</description>
+	
+	<subtype>Blade</subtype>
+	<effect>
+		<ModifyStat target="target" value="-1" name="def" chance="50">La Défense de [TARGET] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Coup-Croix</name>
+	
+	<type>Combat</type>
+	<category>physique</category>
+	<power>100</power>
+	<precision>80</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Cross</subtype>
+	
+	<critical value="2"/>
+	
+	<description>Haut taux de critiques.</description>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Coupe Psycho</name>
+	
+	<type>Psy</type>
+	<category>physique</category>
+	<power>70</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<subtype>Blade</subtype>
+	<critical value="2" />
+	
+	<description>Haut taux de critiques.</description>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Corps Perdu</name>
+	
+	<type>Combat</type>
+	<category>physique</category>
+	<power>70</power>
+	<precision>0</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<priotity value="-1"/>
+	
+	<description>Attaque lente, mais ne rate jamais la cible.</description>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Crochetvenin</name>
+	
+	<type>Poison</type>
+	<category>physique</category>
+	<power>50</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	
+	<description>A des fortes chances d'empoisonner gravement la cible.</description>
+	
+	<subtype>Fangs</subtype>
+	<effect>
+		<AddStatut target="target" name="Toxik" chance="50">[TARGET] est gravement empoisonné !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Croc de Mort</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>80</power>
+	<precision>90</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	
+	<subtype>Fangs</subtype>
+	
+	<description>A des chances d'apeurer la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Apeuré" chance="10"/>
+	</effect>
+</move>
+
+<move>
+	<name>Croc Fatal</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>0</power>
+	<precision>90</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>Inflige la moitié des points de vie adverses en dégâts.</description>
+	
+	<subtype>Fangs</subtype>
+	<trigger when="DMG_CALC">
+		<SetVariable name="v:val_1" value="v:target:hp"/>
+		<DivideVariable name="v:val_1" value="2" round="up"/>
+		<SetVariable name="v:damage" value="v:val_1"/>
+	</trigger>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Crocs Givre</name>
+	
+	<type>Glace</type>
+	<category>physique</category>
+	<power>65</power>
+	<precision>95</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	
+	<subtype>Fangs</subtype>
+	
+	<description>A des chances d'apeurer la cible, voire de le geler.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Gel" chance="10">[TARGET] est gelé !</AddStatut>
+		<AddBuff target="target" name="Apeuré" chance="10"/>
+	</effect>
+</move>
+
+<move>
+	<name>Crocs Eclair</name>
+	
+	<type>Electrik</type>
+	<category>physique</category>
+	<power>65</power>
+	<precision>95</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	
+	<subtype>Fangs</subtype>
+	<description>A des chances d'apeurer la cible, voire de le paralyser.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Paralysie" chance="10">[TARGET] est paralysé !</AddStatut>
+		<AddBuff target="target" name="Apeuré" chance="10"/>
+	</effect>
+</move>
+
+<move>
+	<name>Crocs de Feu</name>
+	
+	<type>Feu</type>
+	<category>physique</category>
+	<power>65</power>
+	<precision>95</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	
+	<subtype>Fangs</subtype>
+	<description>A des chances d'apeurer la cible, voire de le brûler.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Brûlure" chance="10">[TARGET] est brûlé !</AddStatut>
+		<AddBuff target="target" name="Apeuré" chance="10"/>
+	</effect>
+</move>
+
+<move>
+	<name>Coud'Boule</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>65</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>A des chances d'apeurer la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Apeuré" chance="30"/>
+	</effect>
+</move>
+
+<move>
+	<name>Damocles</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>120</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Blesse le lanceur après l'attaque.</description>
+	
+	<effect>
+		<NumberCompare name="v:total_damage" comparator="sup" value="0">
+			<SetVariable name="v:val_1" value="v:total_damage"/>
+			<DivideVariable name="v:val_1" value="3"/>
+			<Damage target="source" value="v:val_1" reason="Recoil">[SOURCE] se blesse en frappant !</Damage>
+		</NumberCompare>
+	</effect>
+</move>
+
+<move>
+	<name>Dard-Nuée</name>
+	
+	<type>Insecte</type>
+	<category>physique</category>
+	<power>25</power>
+	<precision>95</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>Attaque de 2 à 5 fois la cible.</description>
+	
+	<tag>Multi-hits</tag>
+	<trigger when="MOVE_DECLARE" priority="5">
+		<SetVariable name="v:val_1" value="v:d6"/>
+		<NumberCompare name="v:val_1" comparator="infequal" value="2">
+			<SetVariable name="v:number_hits" value="2"/>
+			<EndEffect/>
+		</NumberCompare>
+		<NumberCompare name="v:val_1" comparator="infequal" value="4">
+			<SetVariable name="v:number_hits" value="3"/>
+			<EndEffect/>
+		</NumberCompare>
+		<NumberCompare name="v:val_1" comparator="infequal" value="5">
+			<SetVariable name="v:number_hits" value="4"/>
+			<EndEffect/>
+		</NumberCompare>
+		<SetVariable name="v:number_hits" value="5"/>
+	</trigger>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Dard Venin</name>
+	
+	<type>Poison</type>
+	<category>physique</category>
+	<power>15</power>
+	<precision>100</precision>
+	<pp>35</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances d'empoisonner la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Poison" chance="30">[TARGET] est empoisonné !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Demi-Tour</name>
+	
+	<type>Insecte</type>
+	<category>physique</category>
+	<power>70</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Après avoir attaqué, le lanceur revient vers son propriétaire.</description>
+	
+	<effect>
+		<PrepareChange target="source">[SOURCE] revient vers son propriétaire.</PrepareChange>
+	</effect>
+</move>
+
+<move>
+	<name>Détricanon</name>
+	
+	<type>Poison</type>
+	<category>physique</category>
+	<power>120</power>
+	<precision>80</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances d'empoisonner la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Poison" chance="30">[TARGET] est empoisonné !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Direct Toxic</name>
+	
+	<type>Poison</type>
+	<category>physique</category>
+	<power>80</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	<subtype>Punch</subtype>
+	
+	<description>A des chances d'empoisonner la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Poison" chance="30">[TARGET] est empoisonné !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Double Baffe</name>
+	
+	<type>Dragon</type>
+	<category>physique</category>
+	<power>30</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Attaque de 2 fois la cible.</description>
+	
+	<hits value="2"/>
+	<effect>
+	</effect>
+</move>
+
+
+<move>
+	<name>Double Pied</name>
+	
+	<type>Combat</type>
+	<category>physique</category>
+	<power>30</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Kick</subtype>
+	
+	<description>Attaque de 2 fois la cible.</description>
+	
+	<hits value="2"/>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Draco-Marteau</name>
+	
+	<type>Dragon</type>
+	<category>physique</category>
+	<power>90</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Dracocharge</name>
+	
+	<type>Dragon</type>
+	<category>physique</category>
+	<power>100</power>
+	<precision>75</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>A des chances d'apeurer la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Apeuré" chance="20"/>
+	</effect>
+</move>
+
+<move>
+	<name>Dracogriffe</name>
+	
+	<type>Dragon</type>
+	<category>physique</category>
+	<power>80</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Claws</subtype>
+	
+	<effect>
+	</effect>
+</move>
+
+
+<move>
+	<name>Dracoqueue</name>
+	
+	<type>Dragon</type>
+	<category>physique</category>
+	<power>60</power>
+	<precision>90</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Tail</subtype>
+	
+	<description>Attaque lente, mais force l'adversaire à changer de Pokémon.</description>
+	
+	<priority value="-5"/>
+	<effect>
+		<ForceChange target="target">[TARGET] a été éjecté du terrain !</ForceChange>
+	</effect>
+</move>
+
+<move>
+	<name>Dynamopoing</name>
+	
+	<type>Combat</type>
+	<category>physique</category>
+	<power>100</power>
+	<precision>50</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	<subtype>Punch</subtype>
+	
+	<description>Peu précis, mais rend confus la cible à coup sûr.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Confusion">[TARGET] est confus !</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Eboulement</name>
+	
+	<type>Roche</type>
+	<category>physique</category>
+	<power>75</power>
+	<precision>90</precision>
+	<pp>10</pp>
+	<direction>Ennemy</direction>
+	
+	<description>A des chances d'apeurer la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Apeuré" chance="30"/>
+	</effect>
+</move>
+
+<move>
+	<name>Eclair Fou</name>
+	
+	<type>Electrik</type>
+	<category>physique</category>
+	<power>90</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Blesse le lanceur après l'attaque.</description>
+	
+	<effect>
+		<NumberCompare name="v:total_damage" comparator="sup" value="0">
+			<SetVariable name="v:val_1" value="v:total_damage"/>
+			<DivideVariable name="v:val_1" value="4"/>
+			<Damage target="source" value="v:val_1" reason="Recoil">[SOURCE] se blesse en frappant !</Damage>
+		</NumberCompare>
+	</effect>
+</move>
+
+<move>
+	<name>Eclategriffe</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>75</power>
+	<precision>95</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Claws</subtype>
+	
+	<description>A des chances de réduire la défense de la cible.</description>
+	
+	<effect>
+		<ModifyStat target="target" value="-1" name="def">La Défense de [TARGET] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Eclats Glace</name>
+	
+	<type>Glace</type>
+	<category>physique</category>
+	<power>40</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>Attaque prioritaire.</description>
+	
+	<priority value="1"/>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Ecrasement</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>65</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>A des chances d'apeurer la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Apeuré" chance="30"/>
+	</effect>
+</move>
+
+<move>
+	<name>Eletacle</name>
+	
+	<type>Electrik</type>
+	<category>physique</category>
+	<power>120</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Blesse le lanceur après l'attaque. Peut paralyser la cible</description>
+	
+	<effect>
+		<NumberCompare name="v:total_damage" comparator="sup" value="0">
+			<SetVariable name="v:val_1" value="v:total_damage"/>
+			<DivideVariable name="v:val_1" value="3"/>
+			<Damage target="source" value="v:val_1" reason="Recoil">[SOURCE] se blesse en frappant !</Damage>
+		</NumberCompare>
+		<AddStatut target="target" name="Paralysie" chance="10">[TARGET] est paralysé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>El-Explosion</name>
+	
+	<type>Electrik</type>
+	<category>physique</category>
+	<power>250</power>
+	<precision>100</precision>
+	<pp>5</pp>
+	<direction>Zone</direction>
+	
+	<description>Inflige de lourds dégâts mais met le lanceur K.O.</description>
+	
+	<trigger when="MOVE_DECLARE">
+		<SetVariable name="v:source:hp" value="0"/>
+	</trigger>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Encornebois</name>
+	
+	<type>Plante</type>
+	<category>physique</category>
+	<power>75</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Draine la vie de l'ennemi.</description>
+	
+	<effect>
+		<drain/>
+	</effect>
+</move>
+
+<move>
+	<name>Empal'Korne</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>0</power>
+	<precision>30</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Inflige un K.O en un coup lorsque l'attaque est réussie.</description>
+	
+	<trigger when="DMG_CALC">
+		<SetVariable name="v:damage" value="9999">Super Patate !</SetVariable>
+	</trigger>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Explosion</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>250</power>
+	<precision>100</precision>
+	<pp>5</pp>
+	<direction>Zone</direction>
+	
+	<description>Inflige de lourds dégâts mais met le lanceur K.O.</description>
+	
+	<trigger when="MOVE_DECLARE">
+		<SetVariable name="v:source:hp" value="0"/>
+	</trigger>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Feinte</name>
+	
+	<type>Tenebres</type>
+	<category>physique</category>
+	<power>60</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	
+	<description>Ne peut jamais rater la cible.</description>
+	
+	<effect>
+	</effect>
+</move>
+
+
+<move>
+	<name>Feu Sacre</name>
+	
+	<type>Feu</type>
+	<category>physique</category>
+	<power>100</power>
+	<precision>95</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>A des fortes chances de brûler la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Brûlure" chance="50">[TARGET] est brûlé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Fracass'Tête</name>
+	
+	<type>Roche</type>
+	<category>physique</category>
+	<power>150</power>
+	<precision>80</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Blesse le lanceur après l'attaque.</description>
+	
+	<effect>
+		<NumberCompare name="v:total_damage" comparator="sup" value="0">
+			<SetVariable name="v:val_1" value="v:total_damage"/>
+			<DivideVariable name="v:val_1" value="2"/>
+			<Damage target="source" value="v:val_1" reason="Recoil">[SOURCE] se blesse en frappant !</Damage>
+		</NumberCompare>
+	</effect>
+</move>
+
+<move>
+	<name>Frappe Atlas</name>
+	
+	<type>Combat</type>
+	<category>physique</category>
+	<power>0</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Inflige des dégâts équivalents au niveau du lanceur.</description>
+	
+	<trigger when="MOVE_DECLARE">
+		<SetVariable name="v:critical_hit" value="0"/>
+	</trigger>
+	<trigger when="DMG_CALC">
+		<SetVariable name="v:damage" value="v:source:level"/>
+	</trigger>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Frotte-Frimousse</name>
+	
+	<type>Electrik</type>
+	<category>physique</category>
+	<power>20</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Paralyse la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Paralysie">[TARGET] est paralysé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Giga Impact</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>150</power>
+	<precision>100</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Le lanceur doit recharger un tour après avoir réussi l'attaque.</description>
+	
+	<effect>
+		<AddBuff target="source" name="Fatigue"/>
+	</effect>
+</move>
+
+<move>
+	<name>Griffe Acier</name>
+	
+	<type>Acier</type>
+	<category>physique</category>
+	<power>50</power>
+	<precision>95</precision>
+	<pp>35</pp>
+	<direction>Target</direction>
+	<subtype>Claws</subtype>
+	
+	<description>A des chances d'augmenter l'attaque du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="1" name="att" chance="30">L'Attaque de [SOURCE] a augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Griffe Ombre</name>
+	
+	<type>Spectre</type>
+	<category>physique</category>
+	<power>70</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<critical value="2"/>
+	<direction>Target</direction>
+	<subtype>Claws</subtype>
+	
+	<description>Haut taux de critiques.</description>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Guillotine</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>0</power>
+	<precision>30</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Inflige un K.O en un coup lorsque l'attaque est réussie.</description>
+	
+	<trigger when="DMG_CALC">
+		<SetVariable name="v:damage" value="9999">Super Patate !</SetVariable>
+	</trigger>
+	<effect>
+	</effect>
+</move>
+
+
+<move>
+	<name>Hydroqueue</name>
+	
+	<type>Eau</type>
+	<category>physique</category>
+	<power>90</power>
+	<precision>90</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Lame-Feuille</name>
+	
+	<type>Plante</type>
+	<category>physique</category>
+	<power>90</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Blade</subtype>
+	
+	<critical value="2"/>
+	
+	<description>Haut taux de critiques.</description>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Lame de Roc</name>
+	
+	<type>Roche</type>
+	<category>physique</category>
+	<power>100</power>
+	<precision>80</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Blade</subtype>
+	
+	<critical value="2"/>
+	
+	<description>Haut taux de critiques.</description>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Lame Sainte</name>
+	
+	<type>Combat</type>
+	<category>physique</category>
+	<power>90</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<attribut>True Damage</attribut>
+	<direction>Target</direction>
+	<subtype>Claws</subtype>
+	
+	<description>[DEGATS NON IMPLEMENTES]</description>
+	
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Lancécrou</name>
+	
+	<type>Acier</type>
+	<category>physique</category>
+	<power>50</power>
+	<precision>85</precision>
+	<pp>15</pp>
+		<hits value="2"/>
+	<direction>Target</direction>
+
+	<description>Attaque 2 fois la cible.</description>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Lutte</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>50</power>
+	<precision>0</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<effect>
+		<lifeloss/>
+	</effect>
+</move>
+
+<move>
+	<name>Confusion_Degats</name>
+	
+	<category>physique</category>
+	<power>50</power>
+	<precision>0</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Machouille</name>
+	
+	<type>Tenebres</type>
+	<category>physique</category>
+	<power>80</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Fangs</subtype>
+	
+	<description>A des chances de réduire la défense de la cible.</description>
+	
+	<effect>
+		<ModifyStat target="target" value="-1" name="def" chance="10">La Défense de [TARGET] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Megacorne</name>
+	
+	<type>Insecte</type>
+	<category>physique</category>
+	<power>120</power>
+	<precision>85</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Mach Punch</name>
+	
+	<type>Combat</type>
+	<category>physique</category>
+	<power>40</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	<subtype>Punch</subtype>
+	
+	<description>Attaque prioritaire.</description>
+	
+	<priority value="1"/>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Mania</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>120</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>L'attaque rend le Pokémon enragé, le forçant à la réutiliser plisuers fois d'affilée.</description>
+	
+	<effect>
+		<AddBuff target="source" name="Furie">
+			<DisplayMessage>[SOURCE] devient enragé !</DisplayMessage>
+			<LockMove target="source" value="2"/>
+		</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Marto-Poing</name>
+	
+	<type>Combat</type>
+	<category>physique</category>
+	<power>100</power>
+	<precision>90</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Punch</subtype>
+	
+	<description>Réduit la vitesse du lanceur après son utilisation.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="-1" name="vit">La Vitesse de [SOURCE] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Martobois</name>
+	
+	<type>Plante</type>
+	<category>physique</category>
+	<power>120</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Blesse le lanceur après l'attaque.</description>
+	
+	<effect>
+		<NumberCompare name="v:total_damage" comparator="sup" value="0">
+			<SetVariable name="v:val_1" value="v:total_damage"/>
+			<DivideVariable name="v:val_1" value="3"/>
+			<Damage target="source" value="v:val_1" reason="Recoil">[SOURCE] se blesse en frappant !</Damage>
+		</NumberCompare>
+	</effect>
+</move>
+
+<move>
+	<name>Mégacorne</name>
+	
+	<type>Insecte</type>
+	<category>physique</category>
+	<power>120</power>
+	<precision>85</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Megafouet</name>
+	
+	<type>Plante</type>
+	<category>physique</category>
+	<power>120</power>
+	<precision>85</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<effect>
+	</effect>
+</move>
+
+
+<move>
+	<name>Morsure</name>
+	
+	<type>Tenebres</type>
+	<category>physique</category>
+	<power>65</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	<subtype>Fangs</subtype>
+	
+	<description>A des chances d'apeurer cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Apeuré" chance="10"/>
+	</effect>
+</move>
+
+<move>
+	<name>Nitrocharge</name>
+	
+	<type>Feu</type>
+	<category>physique</category>
+	<power>50</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Augmente la vitesse du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="1" name="vit">La Vitesse de [SOURCE] a augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Ombre Portée</name>
+	
+	<type>Spectre</type>
+	<category>physique</category>
+	<power>40</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Attaque prioritaire.</description>
+	
+	<priority value="1"/>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Os d'Ombre</name>
+	
+	<type>Spectre</type>
+	<category>physique</category>
+	<power>85</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Bone</subtype>
+	
+	<description>A des chances de réduire la défense de la cible.</description>
+	
+	<effect>
+		<ModifyStat target="target" value="-1" name="def" chance="20">La Défense de [TARGET] a diminuée !</ModifyStat>
+	</effect>
+</move> 
+
+<move>
+	<name>Osmerang</name>
+	
+	<type>Sol</type>
+	<category>physique</category>
+	<power>50</power>
+	<precision>90</precision>
+	<pp>10</pp>
+		<hits value="2"/>
+	<direction>Target</direction>
+	<subtype>Bone</subtype>
+
+	<description>Attaque 2 fois la cible.</description>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Queue de Fer</name>
+	
+	<type>Acier</type>
+	<category>physique</category>
+	<power>100</power>
+	<precision>75</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Tail</subtype>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Queue Poison</name>
+	
+	<type>Poison</type>
+	<category>physique</category>
+	<power>50</power>
+	<precision>100</precision>
+	<pp>25</pp>
+	<critical value="2"/>
+	<direction>Target</direction>
+	<subtype>Tail</subtype>
+	
+	<description>Haut taux de critiques. A des chances d'empoisonner la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Poison" chance="10">[TARGET] est empoisonné !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Picanon</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>25</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	
+	<description>Attaque de 2 à 5 fois la cible.</description>
+	
+	<tag>Multi-hits</tag>
+	<trigger when="MOVE_DECLARE" priority="5">
+		<SetVariable name="v:val_1" value="v:d6"/>
+		<NumberCompare name="v:val_1" comparator="infequal" value="2">
+			<SetVariable name="v:number_hits" value="2"/>
+			<EndEffect/>
+		</NumberCompare>
+		<NumberCompare name="v:val_1" comparator="infequal" value="4">
+			<SetVariable name="v:number_hits" value="3"/>
+			<EndEffect/>
+		</NumberCompare>
+		<NumberCompare name="v:val_1" comparator="infequal" value="5">
+			<SetVariable name="v:number_hits" value="4"/>
+			<EndEffect/>
+		</NumberCompare>
+		<SetVariable name="v:number_hits" value="5"/>
+	</trigger>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Pied Brûleur</name>
+	
+	<type>Feu</type>
+	<category>physique</category>
+	<power>85</power>
+	<precision>90</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Kick</subtype>
+	
+	<critical value="2"/>
+	
+	<description>Haut taux de critiques. A des chances de brûler la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Brûlure" chance="10">[TARGET] est brûlé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Pied Sauté</name>
+	
+	<type>Combat</type>
+	<category>physique</category>
+	<power>100</power>
+	<precision>95</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Kick</subtype>
+	
+	<description>Le lanceur perd beaucoup de points de vie si il rate sa cible.</description>
+	
+	<trigger when="MOVE_MISS" actor="source">
+		<SetVariable name="v:val_1" value="v:source:max_hp">
+			<DivideVariable name="v:val_1" value="2"/>
+			<Damage target="source" value="v:val_1" reason="MISSED_MOVE">[SOURCE] s'écrace au sol !</Damage>
+		</SetVariable>
+	</trigger>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Pied Voltige</name>
+	
+	<type>Combat</type>
+	<category>physique</category>
+	<power>130</power>
+	<precision>90</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	<subtype>Kick</subtype>
+	
+	<description>Le lanceur perd beaucoup de points de vie si il rate sa cible.</description>
+	
+	<trigger when="MOVE_MISS" actor="source">
+		<SetVariable name="v:val_1" value="v:source:max_hp">
+			<DivideVariable name="v:val_1" value="2"/>
+			<Damage target="source" value="v:val_1" reason="MISSED_MOVE">[SOURCE] s'écrace au sol !</Damage>
+		</SetVariable>
+	</trigger>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Piétisol</name>
+	
+	<type>Sol</type>
+	<category>physique</category>
+	<power>60</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Zone</direction>
+	<subtype>Sismic</subtype>
+	
+	<description>Réduit la vitesse de la cible.</description>
+	
+	<effect>
+		<ModifyStat target="target" value="-1" name="vit">La Vitesse de [TARGET] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Pince Masse</name>
+	
+	<type>Eau</type>
+	<category>physique</category>
+	<power>100</power>
+	<precision>90</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<critical value="2"/>
+	
+	<description>Haut taux de critiques.</description>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Piqure</name>
+	
+	<type>Insecte</type>
+	<category>physique</category>
+	<power>60</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Pisto-Poing</name>
+	
+	<type>Acier</type>
+	<category>physique</category>
+	<power>40</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	<subtype>Punch</subtype>
+	
+	<description>Attaque prioritaire.</description>
+	
+	<priority value="1"/>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Plaie-Croix</name>
+	
+	<type>Insecte</type>
+	<category>physique</category>
+	<power>80</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Cross</subtype>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Poison Croix</name>
+	
+	<type>Poison</type>
+	<category>physique</category>
+	<power>70</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Cross</subtype>
+	
+	<critical value="2" />
+	
+	<description>Haut taux de critiques. A des chances d'empoisonner la cible.</description>
+	<effect>
+		<AddStatut target="target" name="Poison" chance="10">[TARGET] est empoisonné !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Poing Boost</name>
+	
+	<type>Combat</type>
+	<category>physique</category>
+	<power>40</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	<subtype>Punch</subtype>
+	
+	<description>Augmente l'attaque du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="1" name="att">L'Attaque de [SOURCE] a augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Poing de Feu</name>
+	
+	<type>Feu</type>
+	<category>physique</category>
+	<power>75</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Punch</subtype>
+	
+	<description>A des chances de brûler la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Brûlure" chance="10">[TARGET] est brûlé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Poing Eclair</name>
+	
+	<type>Electrik</type>
+	<category>physique</category>
+	<power>75</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Punch</subtype>
+	
+	<description>A des chances de paralyser la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Paralysie" chance="10">[TARGET] est paralysé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Poing Meteor</name>
+	
+	<type>Acier</type>
+	<category>physique</category>
+	<power>90</power>
+	<precision>90</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Punch</subtype>
+	
+	<description>A des chances d'augmenter l'attaque du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="1" name="att" chance="10">L'Attaque de [SOURCE] a augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Poing Ombre</name>
+	
+	<type>Spectre</type>
+	<category>physique</category>
+	<power>60</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	<subtype>Punch</subtype>
+	
+	<description>Ne peut jamais rater la cible.</description>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Poinglace</name>
+	
+	<type>Glace</type>
+	<category>physique</category>
+	<power>75</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Punch</subtype>
+	
+	<description>A des chances de geler la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Gel" chance="10">[TARGET] est gelé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Plaquage</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>85</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>A des chances de paralyser la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Paralysie" chance="30">[TARGET] est paralysé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Plumo-Queue</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>25</power>
+	<precision>85</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Tail</subtype>
+	
+	<description>Attaque de 2 à 5 fois la cible.</description>
+	
+	<tag>Multi-hits</tag>
+	<trigger when="MOVE_DECLARE" priority="5">
+		<SetVariable name="v:val_1" value="v:d6"/>
+		<NumberCompare name="v:val_1" comparator="infequal" value="2">
+			<SetVariable name="v:number_hits" value="2"/>
+			<EndEffect/>
+		</NumberCompare>
+		<NumberCompare name="v:val_1" comparator="infequal" value="4">
+			<SetVariable name="v:number_hits" value="3"/>
+			<EndEffect/>
+		</NumberCompare>
+		<NumberCompare name="v:val_1" comparator="infequal" value="5">
+			<SetVariable name="v:number_hits" value="4"/>
+			<EndEffect/>
+		</NumberCompare>
+		<SetVariable name="v:number_hits" value="5"/>
+	</trigger>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Poursuite</name>
+	
+	<type>Tenebres</type>
+	<category>physique</category>
+	<power>40</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>[NON IMPLEMENTE]</description>
+	
+	<attribut>Pursuit</attribut>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Psykoud'Boul</name>
+	
+	<type>Psy</type>
+	<category>physique</category>
+	<power>80</power>
+	<precision>90</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>A des chances d'apeurer la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Apeuré" chance="20"/>
+	</effect>
+</move>
+
+<move>
+	<name>Roc Boulet</name>
+	
+	<type>Roche</type>
+	<category>physique</category>
+	<power>150</power>
+	<precision>100</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Le lanceur doit recharger un tour après avoir réussi l'attaque.</description>
+	
+	<effect>
+		<AddBuff target="source" name="Fatigue"/>
+	</effect>
+</move>
+
+
+<move>
+	<name>Roue de Feu</name>
+	
+	<type>Feu</type>
+	<category>physique</category>
+	<power>60</power>
+	<precision>100</precision>
+	<pp>25</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>A des chances de brûler la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Brûlure" chance="10">[TARGET] est brûlé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Sabotage</name>
+	
+	<type>Tenebres</type>
+	<category>physique</category>
+	<power>65</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Sacrifice</name>
+	
+	<type>Combat</type>
+	<category>physique</category>
+	<power>100</power>
+	<precision>80</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Blesse le lanceur après l'attaque.</description>
+	
+	<effect>
+		<NumberCompare name="v:total_damage" comparator="sup" value="0">
+			<SetVariable name="v:val_1" value="v:total_damage"/>
+			<DivideVariable name="v:val_1" value="4"/>
+			<Damage target="source" value="v:val_1" reason="Recoil">[SOURCE] se blesse en frappant !</Damage>
+		</NumberCompare>
+	</effect>
+</move>
+
+<move>
+	<name>Seisme</name>
+	
+	<type>Sol</type>
+	<category>physique</category>
+	<power>100</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Zone</direction>
+	<subtype>Sismic</subtype>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Rapace</name>
+	
+	<type>Vol</type>
+	<category>physique</category>
+	<power>120</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Blesse le lanceur après l'attaque.</description>
+	
+	<effect>
+		<NumberCompare name="v:total_damage" comparator="sup" value="0">
+			<SetVariable name="v:val_1" value="v:total_damage"/>
+			<DivideVariable name="v:val_1" value="3"/>
+			<Damage target="source" value="v:val_1" reason="Recoil">[SOURCE] se blesse en frappant !</Damage>
+		</NumberCompare>
+	</effect>
+</move>
+
+<move>
+	<name>Surpuissance</name>
+	
+	<type>Combat</type>
+	<category>physique</category>
+	<power>120</power>
+	<precision>100</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Réduit l'attaque et la défense du lanceur après utilisation.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="-1" name="att">L'Attaque de [SOURCE] a diminuée !</ModifyStat>
+		<ModifyStat target="source" value="-1" name="def">La Défense de [SOURCE] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Stalactite</name>
+	
+	<type>Glace</type>
+	<category>physique</category>
+	<power>20</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	
+	<description>Attaque de 2 à 5 fois la cible.</description>
+	
+	<tag>Multi-hits</tag>
+	<trigger when="MOVE_DECLARE" priority="5">
+		<SetVariable name="v:val_1" value="v:d6"/>
+		<NumberCompare name="v:val_1" comparator="infequal" value="2">
+			<SetVariable name="v:number_hits" value="2"/>
+			<EndEffect/>
+		</NumberCompare>
+		<NumberCompare name="v:val_1" comparator="infequal" value="4">
+			<SetVariable name="v:number_hits" value="3"/>
+			<EndEffect/>
+		</NumberCompare>
+		<NumberCompare name="v:val_1" comparator="infequal" value="5">
+			<SetVariable name="v:number_hits" value="4"/>
+			<EndEffect/>
+		</NumberCompare>
+		<SetVariable name="v:number_hits" value="5"/>
+	</trigger>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Stratopercut</name>
+	
+	<type>Combat</type>
+	<category>physique</category>
+	<power>85</power>
+	<precision>90</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Punch</subtype>
+	
+	<critical value="2"/>
+	
+	<description>Haut taux de critiques.</description>
+	<effect>
+	</effect>
+</move>
+
+
+<move>
+	<name>Tempête Florale</name>
+	
+	<type>Plante</type>
+	<category>physique</category>
+	<power>90</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Ennemy</direction>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Tête de Fer</name>
+	
+	<type>Acier</type>
+	<category>physique</category>
+	<power>80</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>A des chances d'apeurer la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Apeuré" chance="30"/>
+	</effect>
+</move>
+
+<move>
+	<name>Tour Rapide</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>20</power>
+	<precision>100</precision>
+	<pp>40</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Retire les effets négatifs sur le terrain du lanceur.</description>
+	
+	<effect>
+		<RemoveBuff target="source" tag="Spinnable">[SOURCE] a nettoyé son terrain !</RemoveBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Torgnoles</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>18</power>
+	<precision>85</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Palm</subtype>
+	
+	<description>Attaque de 2 à 5 fois la cible.</description>
+	
+	<tag>Multi-hits</tag>
+	<trigger when="MOVE_DECLARE" priority="5">
+		<SetVariable name="v:val_1" value="v:d6"/>
+		<NumberCompare name="v:val_1" comparator="infequal" value="2">
+			<SetVariable name="v:number_hits" value="2"/>
+			<EndEffect/>
+		</NumberCompare>
+		<NumberCompare name="v:val_1" comparator="infequal" value="4">
+			<SetVariable name="v:number_hits" value="3"/>
+			<EndEffect/>
+		</NumberCompare>
+		<NumberCompare name="v:val_1" comparator="infequal" value="5">
+			<SetVariable name="v:number_hits" value="4"/>
+			<EndEffect/>
+		</NumberCompare>
+		<SetVariable name="v:number_hits" value="5"/>
+	</trigger>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Tranche</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>70</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Claws</subtype>
+	
+	<critical value="2"/>
+	
+	<description>Haut taux de critiques.</description>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Tranche-Nuit</name>
+	
+	<type>Tenebres</type>
+	<category>physique</category>
+	<power>70</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Claws</subtype>
+	
+	<critical value="2" />
+	
+	<description>Haut taux de critiques.</description>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Tunnelier</name>
+	
+	<type>Sol</type>
+	<category>physique</category>
+	<power>80</power>
+	<precision>95</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Spear</subtype>
+	
+	<critical value="2"/>
+	
+	<description>Haut taux de critiques.</description>
+	<effect>
+	</effect>
+</move>
+
+
+<move>
+	<name>Ultimapoing</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>80</power>
+	<precision>85</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	<subtype>Punch</subtype>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Uppercut</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>70</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Punch</subtype>
+	
+	<description>A des chances de rendre confus la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Confusion" chance="30">[TARGET] est confus !</AddBuff>
+	</effect>
+</move>
+
+
+<move>
+	<name>Vampipoing</name>
+	
+	<type>Combat</type>
+	<category>physique</category>
+	<power>75</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Punch</subtype>
+	
+	<description>Draine la vie de l'ennemi.</description>
+	
+	<effect>
+		<drain/>
+	</effect>
+</move>
+
+<move>
+	<name>Vampirisme</name>
+	
+	<type>Insecte</type>
+	<category>physique</category>
+	<power>80</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	<subtype>Fangs</subtype>
+	
+	<description>Draine la vie de l'ennemi.</description>
+	
+	<effect>
+		<NumberCompare name="v:total_damage" comparator="sup" value="0">
+			<SetVariable name="v:val_1" value="v:total_damage"/>
+			<DivideVariable name="v:val_1" value="2"/>
+			<Heal target="source" value="v:val_1">L'énergie de [TARGET] a été drainée !</Heal>
+		</NumberCompare>
+	</effect>
+</move>
+
+<move>
+	<name>Vol</name>
+	
+	<type>Vol</type>
+	<category>physique</category>
+	<power>90</power>
+	<precision>90</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>[NON IMPLEMENTE]</description>
+	
+	<effect>
+		<charge duration="0">[POKEMON] s'envole dans le ciel</charge>
+	</effect>
+</move>
+
+<move>
+	<name>Vit. Extrême</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>80</power>
+	<precision>100</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Attaque prioritaire.</description>
+	
+	<priority value="2"/>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Vive-Attaque</name>
+	
+	<type>Normal</type>
+	<category>physique</category>
+	<power>40</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	<subtype>Body</subtype>
+	
+	<description>Attaque prioritaire.</description>
+	
+	<priority value="1"/>
+	<effect>
+	</effect>
+</move>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Koga</name>
+<credo>Ne me sous-estime pas ! Mes techniques sont séculaires !</credo>
+<streak>1</streak>
+<sprite>70</sprite>
+<historic>1</historic>
+<tag>Kanto</tag>
+<creature>
+<number>94</number>
+<name>Ectoplama</name>
+<move>Ball'Ombre</move>
+<move>Bomb'Eurk</move>
+<move>Eclat Magique</move>
+<move>Onde Folie</move>
+</creature>
+<creature>
+<number>110</number>
+<name>Smogogo</name>
+<move>Détricanon</move>
+<move>Balance</move>
+<move>Explosion</move>
+<move>Feu Follet</move>
+</creature>
+<creature>
+<number>73</number>
+<name>Tentacruel</name>
+<move>Bomb'Eurk</move>
+<move>Surf</move>
+<move>Pics Toxiques</move>
+<move>Laser Glace</move>
+</creature>
+<creature>
+<number>34</number>
+<name>Nidoking</name>
+	<move>Lance-Flamme</move>
+	<move>Seisme</move>
+	<move>Direct Toxic</move>
+	<move>Machouille</move>
+</creature>
+<creature>
+<number>168</number>
+<name>Mygalos</name>
+	<move>Poison Croix</move>
+	<move>Plaie-Croix</move>
+	<move>Ombre Portée</move>
+	<move>Toile Gluante</move>
+</creature>
+<creature>
+<number>89</number>
+<name>Grotadmorv</name>
+<move>Détricanon</move>
+<move>Déflagration</move>
+	<move>Entrave</move>
+	<move>Tonnerre</move>
+</creature>
+</bot>

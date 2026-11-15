@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<particle>
+	<name>BLOOD_main</name>
+	
+	<texture x="0" y="0">Blood</texture>
+	<cycle>1</cycle>
+	<movement x="3">2</movement>
+	<base_speed z="6"/>
+	<gravity>1</gravity>
+	<category>Multi_impact</category>
+	<duration>-1</duration>
+	<deathwhen>Hit_ground</deathwhen>
+	<dying>
+			<texture x="1" y="0">Blood</texture>
+			<cycle>1</cycle>
+			<movement>None</movement>
+			<duration>18</duration>
+			<gravity>1</gravity>
+	</dying>
+</particle>
+
+<particle>
+	<name>BLOOD_sweat</name>
+	
+	<texture x="0" y="0">Blood</texture>
+	<cycle>1</cycle>
+	<movement x="3">2</movement>
+	<base_speed z="6"/>
+	<gravity>1</gravity>
+	<category>Multi_impact</category>
+	<duration>-1</duration>
+	<deathwhen>Hit_ground</deathwhen>
+	<dying>
+			<texture x="1" y="0">Blood</texture>
+			<cycle>1</cycle>
+			<movement>None</movement>
+			<duration>18</duration>
+			<gravity>1</gravity>
+	</dying>
+</particle>
+
+
+<particle>
+	<name>BLOOD_grass_plasma</name>
+	
+	<texture x="0" y="2">Blood</texture>
+	<cycle>1</cycle>
+	<movement x="3">2</movement>
+	<base_speed z="6"/>
+	<gravity>1</gravity>
+	<category>Multi_impact</category>
+	<duration>-1</duration>
+	<deathwhen>Hit_ground</deathwhen>
+	<dying>
+			<texture x="1" y="2">Blood</texture>
+			<cycle>1</cycle>
+			<movement>None</movement>
+			<duration>18</duration>
+			<gravity>1</gravity>
+	</dying>
+</particle>
+
+<particle>
+	<name>BLOOD_rock</name>
+	
+	<texture x="6" y="5">Blood</texture>
+	<cycle>1</cycle>
+	<movement x="3">2</movement>
+	<base_speed z="6"/>
+	<gravity>1</gravity>
+	<category>Multi_impact</category>
+	<duration>20</duration>
+</particle>
+
+<particle>
+	<name>BLOOD_steel</name>
+	
+	<texture x="0" y="4">Blood</texture>
+	<cycle>1</cycle>
+	<movement x="3">2</movement>
+	<base_speed z="6"/>
+	<gravity>1</gravity>
+	<category>Multi_impact</category>
+	<duration>20</duration>
+</particle>
+
+<particle>
+	<name>BLOOD_fairy</name>
+	
+	<texture x="2" y="0">Blood</texture>
+	<cycle>2</cycle>
+	<movement z="1">2</movement>
+	<gravity>0</gravity>
+	<speed_animation>2</speed_animation>
+	<category>Multi_impact</category>
+	<duration>16</duration>
+</particle>
+
+
+<particle>
+	<name>BLOOD_gaz</name>
+	
+	<texture x="2" y="6" direction="x_axis">Blood</texture>
+	<cycle>1</cycle>
+	<movement z="1">2</movement>
+	<gravity>0</gravity>
+	<category>Multi_impact</category>
+	<duration>16</duration>
+</particle>
+

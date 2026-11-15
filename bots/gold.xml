@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Gold</name>
+<credo>. . .</credo>
+<streak>1</streak>
+<sprite>72</sprite>
+<historic>1</historic>
+<tag>Johto</tag>
+<creature>
+<number>178</number>
+<name>Xatu</name>
+	<move>Ball'Ombre</move>
+	<move>Psyko</move>
+	<move>Lame d'Air</move>
+	<move>Mur Lumière</move>
+</creature>
+<creature>
+<number>157</number>
+<name>Typhlosion</name>
+<move>Eruption</move>
+<move>Déflagration</move>
+<move>Poing Eclair</move>
+<move>Casse-Brique</move>
+</creature>
+<creature>
+<number>217</number>
+<name>Ursaring</name>
+	<move>Marto-Poing</move>
+	<move>Damocles</move>
+	<move>Machouille</move>
+	<move>Câlinerie</move>
+</creature>
+<creature>
+<number>248</number>
+<name>Tyranocif</name>
+<move>Eboulement</move>
+<move>Machouille</move>
+<move>Crocs Eclair</move>
+<move>Tempêtesable</move>
+</creature>
+<creature>
+<number>195</number>
+<name>Maraiste</name>
+	<move>Seisme</move>
+	<move>Cascade</move>
+	<move>Bomb'Eurk</move>
+	<move>Soin</move>
+</creature>
+<creature>
+<number>212</number>
+<name>Cizayox</name>
+	<move>Pisto-Poing</move>
+	<move>Tête de Fer</move>
+	<move>Plaie-Croix</move>
+	<move>Demi-Tour</move>
+</creature>
+</bot>

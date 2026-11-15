@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<particle>
+	<name>STADIUM_TCG_Colorless</name>
+	
+	<texture x="0" y="0">Stadiums</texture>
+	<scale>4</scale>
+	<movement>0</movement>
+	<gravity>0</gravity>
+	<category>Main_hit</category>
+	<duration>50</duration>
+</particle>
+
+<particle>
+	<name>STADIUM_TCG_Grass</name>
+	
+	<texture x="1" y="0">Stadiums</texture>
+	<scale>4</scale>
+	<movement>0</movement>
+	<gravity>0</gravity>
+	<category>Main_hit</category>
+	<duration>50</duration>
+</particle>
+
+<particle>
+	<name>STADIUM_TCG_Fire</name>
+	
+	<texture x="2" y="0">Stadiums</texture>
+	<scale>4</scale>
+	<movement>0</movement>
+	<gravity>0</gravity>
+	<category>Main_hit</category>
+	<duration>50</duration>
+</particle>
+
+<particle>
+	<name>STADIUM_TCG_Water</name>
+	
+	<texture x="3" y="0">Stadiums</texture>
+	<scale>4</scale>
+	<movement>0</movement>
+	<gravity>0</gravity>
+	<category>Main_hit</category>
+	<duration>50</duration>
+</particle>
+
+<particle>
+	<name>STADIUM_TCG_Lighting</name>
+	
+	<texture x="4" y="0">Stadiums</texture>
+	<scale>4</scale>
+	<movement>0</movement>
+	<gravity>0</gravity>
+	<category>Main_hit</category>
+	<duration>50</duration>
+</particle>
+
+<particle>
+	<name>STADIUM_TCG_Fighting</name>
+	
+	<texture x="5" y="0">Stadiums</texture>
+	<scale>4</scale>
+	<movement>0</movement>
+	<gravity>0</gravity>
+	<category>Main_hit</category>
+	<duration>50</duration>
+</particle>
+
+<particle>
+	<name>STADIUM_TCG_Psy</name>
+	
+	<texture x="6" y="0">Stadiums</texture>
+	<scale>4</scale>
+	<movement>0</movement>
+	<gravity>0</gravity>
+	<category>Main_hit</category>
+	<duration>50</duration>
+</particle>
+
+<particle>
+	<name>STADIUM_TCG_Dark</name>
+	
+	<texture x="0" y="1">Stadiums</texture>
+	<scale>4</scale>
+	<movement>0</movement>
+	<gravity>0</gravity>
+	<category>Main_hit</category>
+	<duration>50</duration>
+</particle>
+
+<particle>
+	<name>STADIUM_TCG_Steel</name>
+	
+	<texture x="1" y="1">Stadiums</texture>
+	<scale>4</scale>
+	<movement>0</movement>
+	<gravity>0</gravity>
+	<category>Main_hit</category>
+	<duration>50</duration>
+</particle>
+
+<particle>
+	<name>STADIUM_TCG_Dragon</name>
+	
+	<texture x="2" y="1">Stadiums</texture>
+	<scale>4</scale>
+	<movement>0</movement>
+	<gravity>0</gravity>
+	<category>Main_hit</category>
+	<duration>50</duration>
+</particle>
+
+<particle>
+	<name>STADIUM_TCG_Fairy</name>
+	
+	<texture x="3" y="1">Stadiums</texture>
+	<scale>4</scale>
+	<movement>0</movement>
+	<gravity>0</gravity>
+	<category>Main_hit</category>
+	<duration>50</duration>
+</particle>

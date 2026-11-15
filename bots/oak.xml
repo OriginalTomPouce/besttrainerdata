@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Oak</name>
+<credo>Are you a boy or a girl ?</credo>
+<sprite>23</sprite>
+<tag>Kanto</tag>
+<creature>
+<number>3</number>
+<name>Florizarre</name>
+<move>Tempête Florale</move>
+<move>Plaquage</move>
+<move>Bomb'Eurk</move>
+<move>Vampigraine</move>
+</creature>
+<creature>
+<number>6</number>
+<name>Dracaufeu</name>
+<move>Lance-Flamme</move>
+<move>Dracogriffe</move>
+<move>Lame d'Air</move>
+<move>Déflagration</move>
+</creature>
+<creature>
+<number>9</number>
+<name>Tortank</name>
+<move>Laser Glace</move>
+<move>Hydrocanon</move>
+<move>Plaquage</move>
+<move>Tour Rapide</move>
+</creature>
+<creature>
+<number>123</number>
+<name>Insécateur</name>
+<move>Danse-Lames</move>
+<move>Vive-Attaque</move>
+<move>Aeropique</move>
+<move>Plaie-Croix</move>
+</creature>
+<creature>
+<number>80</number>
+<name>Flagadoss</name>
+<move>Plénitude</move>
+<move>Surf</move>
+<move>Psyko</move>
+<move>Lance-Flamme</move>
+</creature>
+<creature>
+<number>76</number>
+<name>Grolem</name>
+<move>Seisme</move>
+<move>Eboulement</move>
+<move>Explosion</move>
+<move>Piège de Roc</move>
+</creature>
+</bot>

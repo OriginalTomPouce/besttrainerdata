@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ability>
+	<name>Samuraï</name>
+	
+	<trigger when="ON_CALL" actor="source">
+		<buffStat to="source" name="crit" val="1"/>
+	</trigger>
+	<trigger when="MOVE_DECLARE" actor="source">
+		<ConditionCompare name="MoveSubtype" comparator="equal" value="Edge">
+			<MultiplyValue name="CoeffPower">1.5</MultiplyValue>
+		</ConditionCompare>
+	</trigger>
+	<trigger when="AFTER_MOVE" actor="source">
+		<ConditionCompare name="HitsDone" comparator="sup" value="0">
+			<buffStat to="source" name="def" val="1"/>
+		</ConditionCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Vampirique</name>
+	
+	<trigger when="AFTER_MOVE" actor="source">
+		<SetVariable name="v:val_1" value="v:total_damage"/>
+		<DivideVariable name="v:val_1" value="5" round="up"/>
+		<Heal target="source" value="v:val_1">[SOURCE] regagne des points de vie grâce à Vampirisme.</Heal>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Isograisse</name>
+	
+	<trigger when="MOVE_DECLARE" actor="target">
+		<StringCompare name="v:type_move" comparator="has" value="Glace,Feu">
+			<MultiplyVariable name="v:mult_dmg" value="0.5"/>
+		</StringCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Mue</name>
+	
+	<description>Peut Soigner les altérations de statut à la fin du tour</description>
+	<trigger when="END_TURN" actor="source" priority="5">
+		<RemoveStatut target="source" chance="33">Mue de [SOURCE] a corrigé son altération de statut</RemoveStatut>
+	</trigger>
+</ability>
+
+<!-- Boosts -->
+<ability>
+	<name>Brasier</name>
+	
+	<description>Augmente les attaques feu lorsque le Pokémon est blessé.</description>
+	<trigger when="MOVE_DECLARE" actor="source">
+		<StringCompare name="v:move:type" comparator="has" value="Feu">
+			<NumberCompare name="v:source:percent_hp" comparator="inf" value="33.34">
+				<MultiplyVariable name="v:mult_dmg" value="1.5"/>
+			</NumberCompare>
+		</StringCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Torrent</name>
+	
+	<description>Augmente les attaques Eau lorsque le Pokémon est blessé.</description>
+	<trigger when="MOVE_DECLARE" actor="source">
+		<StringCompare name="v:move:type" comparator="has" value="Eau">
+			<NumberCompare name="v:source:percent_hp" comparator="inf" value="33.34">
+				<MultiplyVariable name="v:mult_dmg" value="1.5"/>
+			</NumberCompare>
+		</StringCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Engrais</name>
+	
+	<description>Augmente les attaques Plante lorsque le Pokémon est blessé.</description>
+	<trigger when="MOVE_DECLARE" actor="source">
+		<StringCompare name="v:move:type" comparator="has" value="Plante">
+			<NumberCompare name="v:source:percent_hp" comparator="inf" value="33.34">
+				<MultiplyVariable name="v:mult_dmg" value="1.5"/>
+			</NumberCompare>
+		</StringCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Essaim</name>
+	
+	<description>Augmente les attaques Insecte lorsque le Pokémon est blessé.</description>
+	<trigger when="MOVE_DECLARE" actor="source">
+		<StringCompare name="v:move:type" comparator="has" value="Insecte">
+			<NumberCompare name="v:source:percent_hp" comparator="inf" value="33.34">
+				<MultiplyVariable name="v:mult_dmg" value="1.5"/>
+			</NumberCompare>
+		</StringCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Proganthe</name>
+	
+	<description>Augmente les dégâts des attaques de croc.</description>
+	<trigger when="MOVE_DECLARE" actor="source">
+		<StringCompare name="v:move:subtype" comparator="equal" value="Fangs">
+				<MultiplyVariable name="v:mult_dmg" value="1.2"/>
+		</StringCompare>
+	</trigger>
+</ability>
+
+
+<ability>
+	<name>Poing de Fer</name>
+	
+	<description>Augmente les dégâts des attaques de poing.</description>
+	<trigger when="MOVE_DECLARE" actor="source">
+		<StringCompare name="v:move:subtype" comparator="equal" value="Punch">
+				<MultiplyVariable name="v:mult_dmg" value="1.2"/>
+		</StringCompare>
+	</trigger>
+</ability>
+
+
+<ability>
+	<name>Bone Master</name>
+	
+	<description>Augmente les dégâts des attaques d'Os.</description>
+	<trigger when="MOVE_DECLARE" actor="source">
+		<StringCompare name="v:move:subtype" comparator="equal" value="Bone">
+				<MultiplyVariable name="v:mult_dmg" value="1.5"/>
+		</StringCompare>
+	</trigger>
+</ability>
+
+
+<ability>
+	<name>Technicien</name>
+	
+	<description>Augmente les dégâts des attaques infligeant peu de dégâts.</description>
+	<trigger when="MOVE_DECLARE" actor="source">
+		<NumberCompare name="v:move:power" comparator="infequal" value="40">
+			<NumberCompare name="v:move:power" comparator="sup" value="0">
+				<MultiplyVariable name="v:mult_dmg" value="1.5"/>
+			</NumberCompare>
+		</NumberCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>React</name>
+	
+	<trigger when="BEFORE_MOVE" actor="source">
+		<ConditionCompare name="source_turn" comparator="equal" value="1">
+			<SetValue name="CanMove">1</SetValue>
+		</ConditionCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Bluffer</name>
+	
+	<trigger when="AFTER_HIT" actor="source">
+		<NumberCompare name="v:source:move_turn" comparator="infequal" value="1">
+				<AddBuff target="target" name="Apeuré" chance="50"/>
+		</NumberCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Affuté</name>
+	
+	<description>Augmente naturellement les dégâts des attaques physiques.</description>
+	<trigger when="DMG_CALC" actor="target">
+		<NumberCompare name="v:move_cat" comparator="equal" value="1">
+			<SetVariable name="v:val_1" value="v:target:level"/>
+			<MultiplyVariable name="v:val_1" value="0.2" round="down"/>
+			<AdditionVariable name="v:damage" value="v:val_1"/>
+		</NumberCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Super Armor</name>
+	
+	<trigger when="DMG_CALC" actor="target">
+		<SubstractVariable name="DamageDone" value="target_level" coeff="0.2"/>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Super Carapace</name>
+	
+	<description>Bloque les coups critiques et la baisse de défense.</description>
+	<trigger when="BEFORE_CHANGE_STAT" actor="source">
+		<StringCompare name="v:stat_aff" comparator="equal" value="def">
+			<NumberCompare name="v:result" comparator="inf" value="0">
+				<SetVariable name="v:result" value="0">Super Carapace de [SOURCE] empêche la défense de baisser !</SetVariable>
+			</NumberCompare>
+		</StringCompare>
+	</trigger>
+	<trigger when="DMC_CALC" actor="target">
+		<SetVariable name="v:critical_hit"value="0"/>
+	</trigger>
+</ability>
+
+
+<!-- Immunités -->
+<ability>
+	<name>Lévitation</name>
+	
+	<description>Protège contre le type Sol</description>
+	<trigger when="CHECK_IMMUNITY" actor="source">
+		<StringCompare name="v:types_offensive" comparator="has" value="Sol">
+			<SetVariable name="v:result" value="1"/>
+		</StringCompare>
+	</trigger>
+</ability>
+
+
+<ability>
+	<name>Torche</name>
+	
+	<description>Les attaques Feu reçues donnent le statut Torche</description>
+	<trigger when="CHECK_IMMUNITY" actor="source">
+		<StringCompare name="v:move:type" comparator="has" value="Feu">
+			<SetVariable name="v:result" value="1"/>
+		</StringCompare>
+	</trigger>
+	<trigger when="MOVE_MISS" actor="target">
+		<StringCompare name="v:move:type" comparator="has" value="Feu">
+			<AddBuff target="target" name="Torche">Torche de [TARGET] vient d'augmenter ses attaques Feu !</AddBuff>
+		</StringCompare>
+	</trigger>
+</ability>
+
+
+<ability>
+	<name>Absorb'Eau</name>
+	
+	<description>Les attaques Eau reçues redonnent des points de vie</description>
+	<trigger when="CHECK_IMMUNITY" actor="source">
+		<StringCompare name="v:move:type" comparator="has" value="Eau">
+			<SetVariable name="v:result" value="1"/>
+		</StringCompare>
+	</trigger>
+	<trigger when="MOVE_MISS" actor="target">
+		<StringCompare name="v:move:type" comparator="has" value="Eau">
+			<NumberCompare name="v:move:catagory" comparator="sup" value="0">
+				<SetVariable name="v:val_1" value="v:source:max_hp"/>
+				<DivideVariable name="v:val_1" value="4"/>
+				<Heal target="source" value="v:val_1" reason="Ability">Absorb'Eau de [TARGET] vient de restaurer ses points de Vie !</Heal>
+			</NumberCompare>
+		</StringCompare>
+	</trigger>
+</ability>
+
+
+<ability>
+	<name>Absorb'Volt</name>
+	
+	<description>Les attaques Electrik reçues redonnent des points de vie</description>
+	<trigger when="CHECK_IMMUNITY" actor="source">
+		<StringCompare name="v:move:type" comparator="has" value="Electrik">
+			<SetVariable name="v:result" value="1"/>
+		</StringCompare>
+	</trigger>
+	<trigger when="MOVE_MISS" actor="target">
+		<StringCompare name="v:move:type" comparator="has" value="Electrik">
+			<NumberCompare name="v:move:catagory" comparator="sup" value="0">
+				<SetVariable name="v:val_1" value="v:source:max_hp"/>
+				<DivideVariable name="v:val_1" value="4"/>
+				<Heal target="source" value="v:val_1" reason="Ability">Absorb'Volt de [TARGET] vient de restaurer ses points de Vie !</Heal>
+			</NumberCompare>
+		</StringCompare>
+	</trigger>
+</ability>
+
+
+<ability>
+	<name>Herbivore</name>
+	
+	<description>Les attaques Plante reçues redonnent des points de vie</description>
+	<trigger when="CHECK_IMMUNITY" actor="source">
+		<StringCompare name="v:move:type" comparator="has" value="Plante">
+			<SetVariable name="v:result" value="1"/>
+		</StringCompare>
+	</trigger>
+	<trigger when="MOVE_MISS" actor="target">
+		<StringCompare name="v:move:type" comparator="has" value="Plante">
+			<NumberCompare name="v:move:catagory" comparator="sup" value="0">
+				<SetVariable name="v:val_1" value="v:source:max_hp"/>
+				<DivideVariable name="v:val_1" value="4"/>
+				<Heal target="source" value="v:val_1" reason="Ability">Herbivore de [TARGET] vient de restaurer ses points de Vie !</Heal>
+			</NumberCompare>
+		</StringCompare>
+	</trigger>
+</ability>
+
+
+<ability>
+	<name>Tempo Perso</name>
+	
+	<description>Ne peut pas être confus.</description>
+	<trigger when="CHECK_BEFORE_ADD_BUFF" actor="source">
+		<StringCompare name="v:newbuff:name" comparator="has" value="Confusion">
+			<Cancel/>
+		</StringCompare>
+	</trigger>
+</ability>
+
+
+<ability>
+	<name>Attention</name>
+	
+	<trigger when="BEFORE_ADD_BUFF" actor="source">
+		<StringCompare name="v:newbuff:name" comparator="has" value="Apeuré">
+			<DisplayMessage>Can't flinch [SOURCE]</DisplayMessage>
+			<Cancel/>
+		</StringCompare>
+	</trigger>
+</ability>
+
+
+
+<ability>
+	<name>Hypper Cutter</name>
+	
+	<description>Empêche la baisse d'attaque. L'augmente en cas ce coup critique</description>
+	<trigger when="BEFORE_CHANGE_STAT" actor="source">
+		<StringCompare name="v:stat_aff" comparator="equal" value="att">
+			<NumberCompare name="v:result" comparator="inf" value="0">
+				<SetVariable name="v:result" value="0">Hyper Cutter de [SOURCE] empêche l'attaque de baisser !</SetVariable>
+			</NumberCompare>
+		</StringCompare>
+	</trigger>
+	<trigger when="AFTER_HIT" actor="source">
+		<StringCompare name="v:critical_hit" comparator="sup" value="0">
+			<ModifyStat target="source" value="1" name="att">Hyper Cutter a augmenté l'Attaque de [SOURCE] après son coup critique !</ModifyStat>
+		</StringCompare>
+	</trigger>
+</ability>
+
+<!-- Adore toucher ses ennemis -->
+<ability>
+	<name>Crocs Venimeux</name>
+	
+	<description>Empoisonne gravement la cible si une attaque de croc est utilisée</description>
+	<trigger when="AFTER_HIT" actor="target">
+		<StringCompare name="v:move:subtype" comparator="has" value="Fangs">
+			<AddStatut target="target" name="Toxik">Les Crocs Venimeux de [SOURCE] ont gravement empoisonné [TARGET] !</AddStatut>
+		</StringCompare>
+	</trigger>
+</ability>
+ 
+ 
+<!-- N'aime pas se faire toucher -->
+<ability>
+	<name>Phobique</name>
+	
+	<trigger when="AFTER_HIT" actor="target">
+		<StringCompare name="v:type_move" comparator="has" value="Insecte,Spectre,Tenebres">
+			<ModifyStat target="target" value="1" name="vit">Phobique a augmenté la Vitesse de [TARGET] !</ModifyStat>
+		</StringCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Statik</name>
+	
+	<trigger when="AFTER_HIT" actor="target">
+		<NumberCompare name="v:contact_made" comparator="sup" value="0">
+			<AddStatut target="source" name="Paralysie" chance="30">Statik de [TARGET] a paralysé [SOURCE] !</AddStatut>
+		</NumberCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Corps Ardent</name>
+	
+	<trigger when="AFTER_HIT" actor="target">
+		<NumberCompare name="v:contact_made" comparator="sup" value="0">
+			<AddStatut target="source" name="Brûlure" chance="30">Corps Ardent de [TARGET] a brûlé [SOURCE] !</AddStatut>
+		</NumberCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Point Poison</name>
+	
+	<trigger when="AFTER_HIT" actor="target">
+		<NumberCompare name="v:contact_made" comparator="sup" value="0">
+			<AddStatut target="source" name="Poison" chance="30">Point Poison de [TARGET] a empoisonné [SOURCE] !</AddStatut>
+		</NumberCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Toxitouche</name>
+	
+	<trigger when="AFTER_HIT" actor="source">
+		<NumberCompare name="v:contact_made" comparator="sup" value="0">
+			<AddStatut target="target" name="Poison" chance="30">Point Poison de [TARGET] a empoisonné [SOURCE] !</AddStatut>
+		</NumberCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Puanteur</name>
+	
+	<trigger when="AFTER_HIT" actor="source">
+		<NumberCompare name="v:contact_made" comparator="sup" value="0">
+			<AddBuff target="target" name="Apeuré" chance="20"/>
+		</NumberCompare>
+	</trigger>
+</ability>
+
+
+
+<ability>
+	<name>Contre-Attaque</name>
+	
+	<description>Inflige plus de dégâts si il en a subi sur le même tour</description>
+	<trigger when="AFTER_HIT" actor="target">
+			<AddBuff target="target" name="Colère" duration="1"/>
+	</trigger>
+</ability>
+
+
+<ability>
+	<name>Corps Magma</name>
+	
+	<trigger when="AFTER_HIT" actor="source">
+		<NumberCompare name="v:contact_made" comparator="sup" value="0">
+			<AddStatut target="target" name="Brûlure" chance="30">Corps Magma de [SOURCE] a brûlé [TARGET] !</AddStatut>
+		</NumberCompare>
+	</trigger>
+	<trigger when="AFTER_HIT" actor="target">
+		<NumberCompare name="v:contact_made" comparator="sup" value="0">
+			<AddStatut target="source" name="Brûlure" chance="30">Corps Magma de [TARGET] a brûlé [SOURCE] !</AddStatut>
+		</NumberCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Corps Maudit</name>
+	
+	<trigger when="AFTER_HIT" actor="target">
+		<NumberCompare name="v:contact_made" comparator="sup" value="0">
+			<AddBuff target="source" name="Entrave" chance="30">Corps Maudit de [TARGET] a entravé [SOURCE] !</AddBuff>
+		</NumberCompare>
+	</trigger>
+</ability>
+
+
+
+
+<!-- SWITCH -->
+<ability>
+	<name>Cure Nature</name>
+	
+	<description>Soigne des altérations de statut lorsque changé</description>
+	<trigger when="DURING_SWITCH" actor="source">
+		<RemoveStatut target="source"/>
+	</trigger>
+</ability>
+
+
+<ability>
+	<name>Régé-Force</name>
+	
+	<description>Soigne ses HP lorsque changé</description>
+	<trigger when="DURING_SWITCH" actor="source">
+		<SetVariable name="v:val_1" value="v:source:max_hp">
+			<DivideVariable name="v:val_1" value="3"/>
+			<Heal target="source" value="v:val_1"/>
+		</SetVariable>
+	</trigger>
+</ability>
+
+
+
+<!-- Altérations de statut ?? -->
+<ability>
+	<name>Cran</name>
+	
+	<description>Augmente l'attaque lorsqu'il subit une altération de statut.</description>
+	
+	
+	<trigger when="CHECK_STAT_ATT" actor="source">
+		<StringCompare name="v:source:statut" comparator="has" value="Paralysie,Poison,Toxik,Brûlure">
+			<MultiplyVariable name="v:result" value="1.5"/>
+		</StringCompare>
+	</trigger>
+	<trigger when="MOVE_DECLARE" actor="source">
+		<NumberCompare name="v:move_cat" comparator="equal" value="1">
+			<StringCompare name="v:source:statut" comparator="has" value="Brûlure">
+				<MultiplyVariable name="v:mult_dmg" value="2"/>
+			</StringCompare>
+		</NumberCompare>
+	</trigger>
+</ability>
+
+
+
+<ability>
+	<name>Pied Véloce</name>
+	
+	<description>Augmente la vitesse lorsqu'il subit une altération de statut.</description>
+	<trigger when="CHECK_STAT_SPEED" actor="source">
+		<StringCompare name="v:source:statut" comparator="has" value="Poison,Toxik,Brûlure,Gel,Sommeil">
+			<MultiplyVariable name="v:result" value="1.5"/>
+		</StringCompare>
+		<StringCompare name="v:source:statut" comparator="has" value="Paralysie">
+			<MultiplyVariable name="v:result" value="2"/>
+		</StringCompare>
+	</trigger>
+</ability>
+
+
+<ability>
+	<name>Multi-Coups</name>
+	
+	<description>Les attaques multi-coups infligent toujours le nombre maximum de coups.</description>
+	<trigger when="MOVE_DECLARE" actor="source">
+		<StringCompare name="v:move:tag" comparator="has" value="Multi-hits">
+			<SetVariable name="v:number_hits" value="5"/>
+		</StringCompare>
+	</trigger>
+</ability>
+
+
+<ability>
+	<name>Fermeté</name>
+	
+	<description>Le Pokémon ne peut pas tomber K.O en un coup.</description>
+	<trigger when="CHECK_BEFORE_DMG" actor="source">
+		<StringCompare name="v:reason" comparator="equal" value="ATTACK">
+			<NumberCompare name="v:result" comparator="supequal" value="v:source:max_hp">
+				<SetVariable name="v:result" value="v:source:max_hp"/>
+				<SubstractVariable name="v:result" value="1">[SOURCE] tient le coup grâce à Fermeté !</SubstractVariable>
+			</NumberCompare>
+		</StringCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Tête de Roc</name>
+	
+	<description>Protège des dégâts de recul.</description>
+	<trigger when="CHECK_BEFORE_DMG" actor="source">
+		<StringCompare name="v:reason" comparator="equal" value="Recoil">
+			<Cancel/>
+		</StringCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Piège</name>
+	
+	<description>Empêche le Switch ennemi si il est non-volant.</description>
+	
+	<trigger when="CHECK_CHANGE_ORDER" actor="opponent">
+		<ImmunityCheck target="source" value="Sol"/>
+		<NumberCompare name="v:return_value" comparator="equal" value="0">
+			<SetVariable name="v:result" value="0"/>
+		</NumberCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Garde Magik</name>
+	
+	<description>Protège des dégâts autres que ceux d'attaques.</description>
+	<trigger when="CHECK_BEFORE_DMG" actor="source">
+		<StringCompare name="v:reason" comparator="dif" value="ATTACK">
+			<Cancel/>
+		</StringCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Coloforce</name>
+	
+	<description>Augmente l'attaque.</description>
+	<trigger when="CHECK_STAT_ATT" actor="source">
+		<MultiplyVariable name="v:result" value="1.5"/>
+	</trigger>
+</ability>
+
+
+<ability>
+	<name>Calmos</name>
+	
+	<description>Calmos les amis !</description>
+	<trigger when="AFTER_HIT" actor="target">
+		<NumberCompare name="v:target:hp" comparator="sup" value="0">[TARGET] : Calmos les amis !</NumberCompare>
+	</trigger>
+	<trigger when="DMG_CALC" actor="source">
+		<DisplayMessage>[SOURCE] : Bienvenue dans le donjon.</DisplayMessage>
+	</trigger>
+</ability>
+
+
+
+<!-- CLIMAT -->
+<ability>
+	<name>Feuille Garde</name>
+	
+	<description>Protège des altérations de statut sous le soleil.</description>
+	<trigger when="CHECK_BEFORE_ADD_STATUT" actor="source">
+		<StringCompare name="v:field:list_globals" comparator="has" value="Zénith">
+			<Cancel/>
+		</StringCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Chlorophyle</name>
+	
+	<description>Augmente la vitesse sous le soleil.</description>
+	<trigger when="CHECK_STAT_SPEED" actor="source">
+		<StringCompare name="v:field:list_globals" comparator="has" value="Zénith">
+			<MultiplyVariable name="v:result" value="2"/>
+		</StringCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Glissade</name>
+	
+	<description>Augmente la vitesse sous la pluie.</description>
+	<trigger when="CHECK_STAT_SPEED" actor="source">
+		<StringCompare name="v:field:list_globals" comparator="has" value="Pluie">
+			<MultiplyVariable name="v:result" value="2"/>
+		</StringCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Voile Sable</name>
+	
+	<description>Augmente l'esquive sous la Grâle.</description>
+	<trigger when="CHECK_STAT_EVA" actor="source">
+		<StringCompare name="v:field:list_globals" comparator="has" value="Tempêtesable">
+			<MultiplyVariable name="v:result" value="1.25"/>
+		</StringCompare>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Rideau Neige</name>
+	
+	<description>Augmente l'esquive sous la Grâle.</description>
+	<trigger when="CHECK_STAT_EVA" actor="source">
+		<StringCompare name="v:field:list_globals" comparator="has" value="Grêle">
+			<MultiplyVariable name="v:result" value="1.25"/>
+		</StringCompare>
+	</trigger>
+</ability>
+
+<!-- Support -->
+
+<ability>
+	<name>Intimidation</name>
+	
+	<trigger when="AFTER_SWITCH" actor="source">
+		<ModifyStat target="target" value="-1" name="att">Intimidation de [SOURCE] a réduit l'attaque de [TARGET] !</ModifyStat>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Regard Préventif</name>
+	
+	<trigger when="AFTER_SWITCH" actor="source">
+		<ModifyStat target="target" value="-1" name="spe_att">Regard Préventif de [SOURCE] a réduit l'attaque spéciale de [TARGET] !</ModifyStat>
+	</trigger>
+</ability>
+
+<ability>
+	<name>Pose-Murs</name>
+	
+	<description>Lance Protection ou Mur Lumière lorsqu'il arrive en jeu.</description>
+	<trigger when="AFTER_SWITCH" actor="source">
+		<SetVariable name="v:val_1" value="v:d2"/>
+		<NumberCompare name="v:val_1" comparator="equal" value="1">	
+			<AddBuff duration="5" target="source"  name="Mur Lumière">Une barrière lumineuse se dresse devant l'équipe de [TSOURCE]</AddBuff>
+			<EndEffect/>
+		</NumberCompare>
+		<AddBuff duration="5" target="source"  name="Protection">Une barrière protectrice se dresse devant l'équipe de [TSOURCE]</AddBuff>
+	</trigger>
+</ability>
+
+
+<!-- Climat -->
+
+<ability>
+	<name>Sécheresse</name>
+	
+	<description>Lance le Zénith lorsqu'il arrive en jeu.</description>
+	<trigger when="AFTER_SWITCH" actor="source">
+		<AddGlobal duration="5"  name="Zénith">Le soleil se met à briller.</AddGlobal>
+	</trigger>
+</ability>
+
+
+<ability>
+	<name>Crachin</name>
+	
+	<description>Lance la Pluie lorsqu'il arrive en jeu.</description>
+	<trigger when="AFTER_SWITCH" actor="source">
+		<AddGlobal duration="5"  name="Pluie">Il se met à pleuvoir.</AddGlobal>
+	</trigger>
+</ability>
+
+
+
+<ability>
+	<name>Sable Volant</name>
+	
+	<description>Lance la Tempêtesable lorsqu'il arrive en jeu.</description>
+	<trigger when="AFTER_SWITCH" actor="source">
+		<AddGlobal duration="5"  name="Tempêtesable">Une tempête de sable se prépare.</AddGlobal>
+	</trigger>
+</ability>
+
+
+<ability>
+	<name>Alerte Neige</name>
+	
+	<description>Lance la Grêle lorsqu'il arrive en jeu.</description>
+	<trigger when="AFTER_SWITCH" actor="source">
+		<AddGlobal duration="5"  name="Grêle">La grêle commence à tomber.</AddGlobal>
+	</trigger>
+</ability>
+
+<!-- Climat -->
+
+
+
+
+<ability>
+	<name>Berserk</name>
+	
+	<description>Le Pokémon est incontrôlable une fois blessé</description>
+	<trigger when="CHECK_MOVE_ORDER" actor="source">
+		<NumberCompare name="v:source:percent_hp" comparator="inf" value="50">
+			<SetVariable name="v:result" value="2"/>
+		</NumberCompare>
+	</trigger>
+</ability>

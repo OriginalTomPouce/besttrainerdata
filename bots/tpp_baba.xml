@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>BABA</name>
+<credo>Select</credo>
+<streak>0</streak>
+<sprite>71</sprite>
+<creature>
+<number>157</number>
+<name>BEST</name>
+<move>Eruption</move>
+<move>Déflagration</move>
+<move>Poing Eclair</move>
+<move>Casse-Brique</move>
+</creature>
+<creature>
+<number>245</number>
+<name>DONG</name>
+<move>Hydrocanon</move>
+<move>Crocs Givre</move>
+<move>Rayon Signal</move>
+<move>Extrasenseur</move>
+</creature>
+<creature>
+<number>186</number>
+<name>ORGY</name>
+<move>Danse Pluie</move>
+<move>Surf</move>
+<move>Laser Glace</move>
+<move>Hypnose</move>
+</creature>
+<creature>
+<number>18</number>
+<name>EVER</name>
+<move>Vent Arriere</move>
+<move>Vive-Attaque</move>
+<move>Lame d'Air</move>
+<move>Canicule</move>
+</creature>
+<creature>
+<number>130</number>
+<name>DADA</name>
+<move>Hydrocanon</move>
+<move>Cascade</move>
+<move>Danse Draco</move>
+<move>Crocs Givre</move>
+</creature>
+<creature>
+<number>176</number>
+<name>DEKU</name>
+<move>Eclat Magique</move>
+<move>Voeu</move>
+<move>Vibraqua</move>
+<move>Pouv. Antique</move>
+</creature>
+</bot>

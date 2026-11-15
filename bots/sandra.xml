@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Clair</name>
+<credo>Rien ne peut arrêter mes Dragons !</credo>
+<sprite>73</sprite>
+<tag>Johto</tag>
+<creature>
+<number>245</number>
+<name>Suicune</name>
+	<move>Surf</move>
+	<move>Crocs Givre</move>
+	<move>Extrasenseur</move>
+	<move>Hurlement</move>
+</creature>
+<creature>
+<number>230</number>
+<name>Hyporoi</name>
+	<ability>Glissade</ability>
+	<move>Colère</move>
+	<move>Hydrocanon</move>
+	<move>Cascade</move>
+	<move>Draco Meteor</move>
+</creature>
+<creature>
+<number>160</number>
+<name>Aligatueur</name>
+	<ability>Torrent</ability>
+	<move>Danse Draco</move>
+	<move>Hydroqueue</move>
+	<move>Machouille</move>
+	<move>Surpuissance</move>
+</creature>
+<creature>
+<number>149</number>
+<name>Dracolosse</name>
+<move>Surf</move>
+<move>Dracogriffe</move>
+<move>Ultralaser</move>
+<move>Danse Draco</move>
+</creature>
+<creature>
+<number>148</number>
+<name>Draco</name>
+	<move>Surf</move>
+	<move>Dracochoc</move>
+	<move>Cage-Eclair</move>
+	<move>Tonnerre</move>
+</creature>
+<creature>
+<number>80</number>
+<name>Flagadoss</name>
+	<ability>Régé-Force</ability>
+	<move>Plénitude</move>
+	<move>Vibraqua</move>
+	<move>Psyko</move>
+	<move>Lance-Flamme</move>
+</creature>
+</bot>

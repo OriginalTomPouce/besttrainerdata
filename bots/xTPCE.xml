@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>TPCE</name>
+<credo>Bienvenue dans le donjon.</credo>
+<sprite>9</sprite>
+<historic>1</historic>
+<tag>TOMAGUERI</tag>
+<creature>
+<number>178</number>
+<name>Xatu</name>
+	<ability>Regard Préventif</ability>
+	<move>Ball'Ombre</move>
+	<move>Psyko</move>
+	<move>Demi-Tour</move>
+	<move>Mur Lumière</move>
+</creature>
+<creature>
+<number>195</number>
+<name>Maraiste</name>
+	<ability>Absorb'Eau</ability>
+	<move>Seisme</move>
+	<move>Cascade</move>
+	<move>Laser Glace</move>
+	<move>Soin</move>
+</creature>
+<creature>
+<number>189</number>
+<name>Cotovol</name>
+	<ability>Feuille Garde</ability>
+	<move>Vampigraine</move>
+	<move>Poudre Dodo</move>
+	<move>Aeropique</move>
+	<move>Giga-Sangsue</move>
+</creature>
+<creature>
+<number form="Alola">53</number>
+<name>Persian</name>
+	<move>Vibrobscur</move>
+	<move>Tonnerre</move>
+	<move>Demi-Tour</move>
+	<move>Tranche-Nuit</move>
+</creature>
+<creature>
+<number>62</number>
+<name>Tartard</name>
+	<ability>Glissade</ability>
+	<move>Cascade</move>
+	<move>Hypnose</move>
+	<move>Eboulement</move>
+	<move>Sacrifice</move>
+</creature>
+<creature>
+<number>136</number>
+<name>Pyroli</name>
+	<ability>Torche</ability>
+	<move>Boutefeu</move>
+	<move>Lance-Flamme</move>
+	<move>Surpuissance</move>
+	<move>Queue de Fer</move>
+</creature>
+</bot>

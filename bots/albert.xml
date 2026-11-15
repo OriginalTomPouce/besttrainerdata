@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Falkner</name>
+<credo>Mes Pokémon Vol vont faire de leur mieux !</credo>
+<sprite>59</sprite>
+<tag>Johto</tag>
+<creature>
+<number>18</number>
+<name>Roucarnage</name>
+	<move>Vent Arriere</move>
+	<move>Lame d'Air</move>
+	<move>Canicule</move>
+	<move>Aile d'Acier</move>
+</creature>
+<creature>
+<number>227</number>
+<name>Airmure</name>
+	<ability>Fermeté</ability>
+	<move>Bec Vrille</move>
+	<move>Picots</move>
+	<move>Piège de Roc</move>
+	<move>Aile d'Acier</move>
+</creature>
+<creature>
+<number>142</number>
+<name>Ptera</name>
+	<ability>Tête de Roc</ability>
+	<move>Eboulement</move>
+	<move>Machouille</move>
+	<move>Crocs Givre</move>
+	<move>Crocs de Feu</move>
+</creature>
+<creature>
+<number>6</number>
+<name>Dracaufeu</name>
+<move>Lance-Flamme</move>
+<move>Dracogriffe</move>
+<move>Lame d'Air</move>
+<move>Déflagration</move>
+</creature>
+<creature>
+<number>207</number>
+<name>Scorplane</name>
+	<ability>Voile Sable</ability>
+	<move>Demi-Tour</move>
+	<move>Toxik</move>
+	<move>Aeropique</move>
+	<move>Seisme</move>
+</creature>
+<creature>
+<number>85</number>
+<name>Dodrio</name>
+	<move>Bec Vrille</move>
+	<move>Pied Sauté</move>
+	<move>Mania</move>
+	<move>Danse-Lames</move>
+</creature>
+</bot>

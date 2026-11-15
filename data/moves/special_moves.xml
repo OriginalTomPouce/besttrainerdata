@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<move>
+	<name>Aeroblast</name>
+	
+	<type>Vol</type>
+	<category>special</category>
+	<power>100</power>
+	<precision>95</precision>
+	<pp>5</pp>
+	<direction>Ennemy</direction>
+	
+	<critical value="2"/>
+	
+	<description>Haut taux de critiques.</description>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Appel Attak</name>
+	
+	<type>Insecte</type>
+	<category>special</category>
+	<power>90</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Ennemy</direction>
+	
+	<critical value="2"/>
+	
+	<description>Haut taux de critiques.</description>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Aurasphère</name>
+	
+	<type>Combat</type>
+	<category>special</category>
+	<power>80</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>Ne peut jamais rater la cible.</description>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Babil</name>
+	
+	<type>Vol</type>
+	<category>special</category>
+	<power>65</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de rendre confus la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Confusion" chance="30">[TARGET] est confus !</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Ball'Ombre</name>
+	
+	<type>Spectre</type>
+	<category>special</category>
+	<power>80</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de réduire la défense spéciale de la cible.</description>
+	
+	<effect>
+		<ModifyStat chance="10" target="target" value="-1" name="spe_def">La Défense Spéciale de [TARGET] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Bang Sonique</name>
+	
+	<type>Normal</type>
+	<category>special</category>
+	<power>140</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Zone</direction>
+	
+	<subtype>Sonic</subtype>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Blizzard</name>
+	
+	<type>Glace</type>
+	<category>special</category>
+	<power>110</power>
+	<precision>70</precision>
+	<pp>5</pp>
+	<direction>Ennemy</direction>
+	
+	<description>A des chances de geler la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Gel" chance="10">[TARGET] est gelé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Bomb'Eurk</name>
+	
+	<type>Poison</type>
+	<category>special</category>
+	<power>90</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances d'empoisonner la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Poison" chance="30">[TARGET] est empoisonné !</AddStatut>
+	</effect>
+</move>
+
+
+<move>
+	<name>Bombaimant</name>
+	
+	<type>Acier</type>
+	<category>special</category>
+	<power>60</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Ennemy</direction>
+	
+	<description>Ne peut jamais rater la cible.</description>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Boue Bombe</name>
+	
+	<type>Sol</type>
+	<category>special</category>
+	<power>65</power>
+	<precision>85</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de réduire la précision de la cible.</description>
+	
+	<effect>
+		<ModifyStat target="target" chance="30" value="-1" name="pre">La Précision de [TARGET] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Bourdon</name>
+	
+	<type>Insecte</type>
+	<category>special</category>
+	<power>90</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de réduire la défense spéciale de la cible.</description>
+	
+	<effect>
+		<ModifyStat target="target" chance="10" value="-1" name="spe_def">La Défense Spéciale de [TARGET] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Canicule</name>
+	
+	<type>Feu</type>
+	<category>special</category>
+	<power>95</power>
+	<precision>90</precision>
+	<pp>10</pp>
+	<direction>Ennemy</direction>
+	
+	<description>A des chances de brûler la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Brûlure" chance="10">[TARGET] est brûlé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Chang'Eclair</name>
+	
+	<type>Electrik</type>
+	<category>special</category>
+	<power>70</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	
+	<description>Après avoir attaqué, le lanceur revient vers son propriétaire.</description>
+	
+	<effect>
+		<PrepareChange target="source">[SOURCE] revient vers son propriétaire.</PrepareChange>
+	</effect>
+</move>
+
+
+<move>
+	<name>Choc Mental</name>
+	
+	<type>Psy</type>
+	<category>special</category>
+	<power>50</power>
+	<precision>100</precision>
+	<pp>25</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de rendre confus la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Confusion" chance="20">[TARGET] est confus !</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Choc Psy</name>
+	
+	<type>Psy</type>
+	<category>special</category>
+	<power>80</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<attribut>Inverse Def</attribut>
+	
+	<description>[SWAP DAMAGE NON IMPLEMENTE]</description>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Coud'Jus</name>
+	
+	<type>Electrik</type>
+	<category>special</category>
+	<power>80</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Zone</direction>
+	
+	<description>A des chances de paralyser la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Paralysie" chance="30">[TARGET] est paralysé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Cradovague</name>
+	
+	<type>Poison</type>
+	<category>special</category>
+	<power>95</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Zone</direction>
+	
+	<description>A des chances d'empoisonner la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Poison" chance="10">[TARGET] est empoisonné !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Déflagration</name>
+	
+	<type>Feu</type>
+	<category>special</category>
+	<power>110</power>
+	<precision>85</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de brûler la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Brûlure" chance="30">[TARGET] est brûlé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Danse-Fleur</name>
+	
+	<type>Plante</type>
+	<category>special</category>
+	<power>120</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>L'attaque rend le Pokémon enragé, le forçant à la réutiliser plisuers fois d'affilée.</description>
+	
+	<effect>
+		<AddBuff target="source" name="Furie">
+			<DisplayMessage>[SOURCE] devient enragé !</DisplayMessage>
+			<LockMove target="source" value="2"/>
+		</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Draco Rage</name>
+	
+	<type>Dragon</type>
+	<category>special</category>
+	<precision>90</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>Inflige 40 points de dégâts.</description>
+	
+	<trigger when="DMG_CALC">
+		<SetVariable var="v:damage" value="40"/>
+	</trigger>
+	
+	<effect>
+	</effect>
+</move>
+
+
+<move>
+	<name>Draco Meteor</name>
+	
+	<type>Dragon</type>
+	<category>special</category>
+	<power>130</power>
+	<precision>90</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	
+	<description>Réduit fortement l'attaque spéciale du lanceur après son utilisation.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="-2" name="spe_att">L'Attaque Spéciale de [SOURCE] a fortement diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Dracochoc</name>
+	
+	<type>Dragon</type>
+	<category>special</category>
+	<power>85</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Dracossoufle</name>
+	
+	<type>Dragon</type>
+	<category>special</category>
+	<power>60</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de paralyser la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Paralysie" chance="30">[TARGET] est paralysé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Eclat Magique</name>
+	
+	<type>Fee</type>
+	<category>special</category>
+	<power>90</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Ennemy</direction>
+	
+	<description>A des chances de réduire l'attaque spéciale de la cible.</description>
+	
+	<effect>
+		<ModifyStat target="target" chance="10" value="-1" name="spe_att">L'Attaque Spéciale de [TARGET] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Eco-Sphère</name>
+	
+	<type>Plante</type>
+	<category>special</category>
+	<power>90</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de réduire la défense spéciale de la cible.</description>
+	
+	<effect>
+		<ModifyStat target="target" chance="10" value="-1" name="spe_def">La Défense Spéciale de [TARGET] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Ebullilave</name>
+	
+	<type>Feu</type>
+	<category>special</category>
+	<power>80</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Zone</direction>
+	
+	<description>A des chances de brûler la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Brûlure" chance="30">[TARGET] est brûlé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Ebullition</name>
+	
+	<type>Eau</type>
+	<category>special</category>
+	<power>80</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de brûler la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Brûlure" chance="30">[TARGET] est brûlé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Elécanon</name>
+	
+	<type>Electrik</type>
+	<category>special</category>
+	<power>100</power>
+	<precision>50</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>Peu précis, mais paralyse la cible à coup sûr.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Paralysie">[TARGET] est paralysé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Eruption</name>
+	
+	<type>Feu</type>
+	<category>special</category>
+	<power>150</power>
+	<precision>100</precision>
+	<pp>5</pp>
+	<direction>Ennemy</direction>
+	
+	<description>Les dégâts sont équivalents au ratio de PV du lanceur. (moins il a de PV, moins il fera de dégâts)</description>
+	
+	<trigger when="MOVE_DECLARE">
+		<SetVariable name="v:val_1" value="v:power_move"/>
+		<MultiplyVariable name="v:val_1" value="v:source:percent_hp"/>
+		<DivideVariable name="v:val_1" value="100" round="up"/>
+		<SetVariable name="v:power_move" value="v:val_1"/>
+	</trigger>
+	<effect>
+		<AddStatut target="target" name="Brûlure" chance="30">[TARGET] est brûlé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Exploforce</name>
+	
+	<type>Combat</type>
+	<category>special</category>
+	<power>120</power>
+	<precision>70</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de réduire la défense spéciale de la cible.</description>
+	
+	<effect>
+		<ModifyStat target="target" chance="10" value="-1" name="spe_def">La Défense Spéciale de [TARGET] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Extrasenseur</name>
+	
+	<type>Psy</type>
+	<category>special</category>
+	<power>80</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances d'apeurer la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Apeuré" chance="10"/>
+	</effect>
+</move>
+
+<move>
+	<name>Fatal Foudre</name>
+	
+	<type>Electrik</type>
+	<category>special</category>
+	<power>110</power>
+	<precision>70</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de paralyser la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Paralysie" chance="30">[TARGET] est paralysé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Gicledo</name>
+	
+	<type>Eau</type>
+	<category>special</category>
+	<power>150</power>
+	<precision>100</precision>
+	<pp>5</pp>
+	<direction>Ennemy</direction>
+	
+	<description>Les dégâts sont équivalents au ratio de PV du lanceur. (moins il a de PV, moins il fera de dégâts)</description>
+	
+	<trigger when="MOVE_DECLARE">
+		<SetVariable name="v:val_1" value="v:power_move"/>
+		<MultiplyVariable name="v:val_1" value="v:source:percent_hp"/>
+		<DivideVariable name="v:val_1" value="100" round="up"/>
+		<SetVariable name="v:power_move" value="v:val_1"/>
+	</trigger>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Giga-Sangsue</name>
+	
+	<type>Plante</type>
+	<category>special</category>
+	<power>75</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>Draine la vie de l'ennemi.</description>
+	
+	<effect>
+		<NumberCompare name="v:total_damage" comparator="sup" value="0">
+			<SetVariable name="v:val_1" value="v:total_damage"/>
+			<DivideVariable name="v:val_1" value="2"/>
+			<Heal target="source" value="v:val_1">L'énergie de [TARGET] a été drainée !</Heal>
+		</NumberCompare>
+	</effect>
+</move>
+
+<move>
+	<name>Glaciation</name>
+	
+	<type>Glace</type>
+	<category>Special</category>
+	<power>0</power>
+	<precision>30</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	
+	<description>Inflige un K.O en un coup lorsque l'attaque est réussie.</description>
+	
+	<trigger when="DMG_CALC">
+		<SetVariable name="v:damage" value="9999">Super Patate !</SetVariable>
+	</trigger>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Hydrocanon</name>
+	
+	<type>Eau</type>
+	<category>special</category>
+	<power>110</power>
+	<precision>85</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Lance-Flamme</name>
+	
+	<type>Feu</type>
+	<category>special</category>
+	<power>90</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de brûler la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Brûlure" chance="10">[TARGET] est brûlé !</AddStatut>
+	</effect>
+</move>
+
+
+<move>
+	<name>Lance-Soleil</name>
+	
+	<type>Plante</type>
+	<category>special</category>
+	<power>120</power>
+	<precision>0</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>Lance une puissante attaque après avoir chargé un tour.</description>
+	
+	<trigger when="MOVE_DECLARE">
+		<StringCompare name="v:source:list_buffs" comparator="not" value="Chargement">
+			<StringCompare name="v:field:list_globals" comparator="not" value="Zénith">
+				<LockMove target="source">
+					<DisplayMessage>[SOURCE] charge son énergie</DisplayMessage>
+					<AddBuff target="source" name="Chargement"/>
+					<DropActualMove/>
+				</LockMove>
+			</StringCompare>
+		</StringCompare>
+	</trigger>
+	<effect>
+	</effect>
+</move>
+
+
+<move>
+	<name>Lame d'Air</name>
+	
+	<type>Vol</type>
+	<category>special</category>
+	<power>75</power>
+	<precision>95</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances d'apeurer la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Apeuré" chance="30"/>
+	</effect>
+</move>
+
+<move>
+	<name>Laser Glace</name>
+	
+	<type>Glace</type>
+	<category>special</category>
+	<power>90</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de geler la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Gel" chance="10">[TARGET] est gelé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Luminocanon</name>
+	
+	<type>Acier</type>
+	<category>special</category>
+	<power>80</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de réduire la défense spéciale de la cible.</description>
+	
+	<effect>
+		<ModifyStat target="target" chance="10" value="-1" name="spe_def">La Défense Spéciale de [TARGET] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Lyophilisation</name>
+	
+	<type>Glace</type>
+	<category>special</category>
+	<power>70</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>Cette attaque est Super Efficace contre le type Eau. A des chances de geler la cible.</description>
+	
+	<trigger when="CHECK_EFFECTIVENESS" actor="source">
+		<StringCompare name="v:types_defensive" comparator="has" value="Eau">
+			<MultiplyVariable name="v:result" value="4"/>
+		</StringCompare>
+	</trigger>
+	<effect>
+		<AddStatut target="target" name="Gel" chance="10">[TARGET] est gelé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Megaphone</name>
+	
+	<type>Normal</type>
+	<category>special</category>
+	<power>90</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<subtype>Sonic</subtype>
+	
+	<effect>
+	</effect>
+</move>
+
+
+<move>
+	<name>Météores</name>
+	
+	<type>Normal</type>
+	<category>special</category>
+	<power>60</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Ennemy</direction>
+	
+	<description>Ne peut jamais rater la cible.</description>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Miroi-Tir</name>
+	
+	<type>Acier</type>
+	<category>special</category>
+	<power>65</power>
+	<precision>85</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de réduire la précision de la cible.</description>
+	
+	<effect>
+		<ModifyStat target="target" chance="30" value="-1" name="pre">La Précision de [TARGET] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Ombre Nocturne</name>
+	
+	<type>Spectre</type>
+	<category>physique</category>
+	<power>0</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>Inflige des dégâts équivalents au niveau du lanceur.</description>
+	
+	<trigger when="DMG_CALC">
+		<SetVariable name="v:damage" value="v:source:level"/>
+	</trigger>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Ocroupi</name>
+	
+	<type>Eau</type>
+	<category>special</category>
+	<power>90</power>
+	<precision>85</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de réduire la précision de la cible.</description>
+	
+	<effect>
+		<ModifyStat target="target" chance="30" value="-1" name="pre">La Précision de [TARGET] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Onde Boréale</name>
+	
+	<type>Glace</type>
+	<category>special</category>
+	<power>65</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de réduire l'attaque de la cible.</description>
+	
+	<effect>
+			<ModifyStat target="target" value="-1" name="att" chance="30">L'Attaque de [TARGET] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Pouv. Antique</name>
+	
+	<type>Roche</type>
+	<category>special</category>
+	<power>60</power>
+	<precision>100</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances d'augmenter toutes les stats du lanceur.</description>
+	
+	<effect>
+		<SubEffect chance="10">
+			<ModifyStat target="source" value="1" name="att">L'Attaque de [SOURCE] a augmentée !</ModifyStat>
+			<ModifyStat target="source" value="1" name="def">La Défense de [SOURCE] a augmentée !</ModifyStat>
+			<ModifyStat target="source" value="1" name="vit">La Vitesse de [SOURCE] a augmentée !</ModifyStat>
+			<ModifyStat target="source" value="1" name="spe_att">L'Attaque Spéciale de [SOURCE] a augmentée !</ModifyStat>
+			<ModifyStat target="source" value="1" name="spe_def">La Défense Spéciale de [SOURCE] a augmentée !</ModifyStat>
+		</SubEffect>
+	</effect>
+</move>
+
+<move>
+	<name>Pouvoir Lunaire</name>
+	
+	<type>Fee</type>
+	<category>special</category>
+	<power>95</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de réduire l'attaque spéciale de la cible.</description>
+	
+	<effect>
+			<ModifyStat target="target" chance="10" value="-1" name="spe_att">L'Attaque Spéciale de [TARGET] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Psyko</name>
+	
+	<type>Psy</type>
+	<category>special</category>
+	<power>90</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de réduire la défense spéciale de la cible.</description>
+	
+	<effect>
+		<ModifyStat target="target" chance="10" value="-1" name="spe_def">La Défense Spéciale de [TARGET] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Rafale Psy</name>
+	
+	<type>Psy</type>
+	<category>special</category>
+	<power>65</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de rendre confus la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Confusion" chance="10">[TARGET] est confus !</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Rayon Charge</name>
+	
+	<type>Electrik</type>
+	<category>special</category>
+	<power>50</power>
+	<precision>90</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances d'augmenter l'attaque spéciale du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" chance="70" value="1" name="spe_att">L'Attaque Spéciale de [SOURCE] a augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Rayon Gemme</name>
+	
+	<type>Roche</type>
+	<category>special</category>
+	<power>80</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Rayon Signal</name>
+	
+	<type>Insecte</type>
+	<category>special</category>
+	<power>75</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de rendre confus la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Confusion" chance="10">[TARGET] est confus !</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Surchauffe</name>
+	
+	<type>Feu</type>
+	<category>special</category>
+	<power>130</power>
+	<precision>90</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	
+	<description>Réduit fortement l'attaque spéciale du lanceur après son utilisation.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="-2" name="spe_att">L'Attaque Spéciale de [SOURCE] a fortement diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Surf</name>
+	
+	<type>Eau</type>
+	<category>special</category>
+	<power>90</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Zone</direction>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Telluriforce</name>
+	
+	<type>Sol</type>
+	<category>special</category>
+	<power>90</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de réduire la défense spéciale de la cible.</description>
+	
+	<effect>
+		<ModifyStat target="target" chance="10" value="-1" name="spe_def">La Défense Spéciale de [TARGET] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Tempête Verte</name>
+	
+	<type>Plante</type>
+	<category>special</category>
+	<power>130</power>
+	<precision>90</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	
+	<description>Réduit fortement l'attaque spéciale du lanceur après son utilisation.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="-2" name="spe_att">L'Attaque Spéciale de [SOURCE] a fortement diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Tonnerre</name>
+	
+	<type>Electrik</type>
+	<category>special</category>
+	<power>90</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de paralyser la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Paralysie" chance="10">[TARGET] est paralysé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Tranch'Air</name>
+	
+	<type>Vol</type>
+	<category>special</category>
+	<power>60</power>
+	<precision>95</precision>
+	<pp>25</pp>
+	<direction>Target</direction>
+	
+	<critical value="2" />
+	
+	<description>Haut taux de critiques.</description>
+	
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Triplattaque</name>
+	
+	<type>Normal</type>
+	<category>special</category>
+	<power>80</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de brûler, paralyser, ou geler la cible.</description>
+	
+	<effect>
+		<SubEffect chance="30">
+			<SetVariable name="v:val_1" value="v:d6"/>
+			<NumberCompare name="v:val_1" comparator="infequal" value="2">
+				<AddStatut target="target" name="Paralysie" chance="10">[TARGET] est paralysé !</AddStatut>
+				<EndEffect/>
+			</NumberCompare>
+			<NumberCompare name="v:val_1" comparator="infequal" value="4">
+				<AddStatut target="target" name="Brûlure" chance="10">[TARGET] est brûlé !</AddStatut>
+				<EndEffect/>
+			</NumberCompare>
+			<AddStatut target="target" name="Gel" chance="10">[TARGET] est gelé !</AddStatut>
+		</SubEffect>
+	</effect>
+</move>
+
+<move>
+	<name>Ultralaser</name>
+	
+	<type>Normal</type>
+	<category>special</category>
+	<power>150</power>
+	<precision>100</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	
+	<description>Le lanceur doit recharger un tour après avoir réussi l'attaque.</description>
+	
+	<effect>
+		<AddBuff target="source" name="Fatigue"/>
+	</effect>
+</move>
+
+<move>
+	<name>Vampibaiser</name>
+	
+	<type>Fee</type>
+	<category>special</category>
+	<power>50</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>Draine la vie de l'ennemi.</description>
+	
+	<effect>
+		<NumberCompare name="v:total_damage" comparator="sup" value="0">
+			<SetVariable name="v:val_1" value="v:total_damage"/>
+			<MultiplyVariable name="v:val_1" value="0.66"/>
+			<Heal target="source" value="v:val_1">L'énergie de [TARGET] a été drainée !</Heal>
+		</NumberCompare>
+	</effect>
+</move>
+
+
+<move>
+	<name>Vent Féerique</name>
+	
+	<type>Fee</type>
+	<category>special</category>
+	<power>40</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>Attaque prioritaire. Ne peut jamais rater la cible.</description>
+	
+	<priority value="1"/>
+	<effect>
+	</effect>
+</move>
+
+<move>
+	<name>Vent Argenté</name>
+	
+	<type>Insecte</type>
+	<category>special</category>
+	<power>60</power>
+	<precision>100</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances d'augmenter toutes les stats du lanceur.</description>
+	
+	<effect>
+		<SubEffect chance="10">
+			<ModifyStat target="source" value="1" name="att">L'Attaque de [SOURCE] a augmentée !</ModifyStat>
+			<ModifyStat target="source" value="1" name="def">La Défense de [SOURCE] a augmentée !</ModifyStat>
+			<ModifyStat target="source" value="1" name="vit">La Vitesse de [SOURCE] a augmentée !</ModifyStat>
+			<ModifyStat target="source" value="1" name="spe_att">L'Attaque Spéciale de [SOURCE] a augmentée !</ModifyStat>
+			<ModifyStat target="source" value="1" name="spe_def">La Défense Spéciale de [SOURCE] a augmentée !</ModifyStat>
+		</SubEffect>
+	</effect>
+</move>
+
+<move>
+	<name>Vent Glacé</name>
+	
+	<type>Glace</type>
+	<category>special</category>
+	<power>55</power>
+	<precision>95</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>Réduit la vitesse de la cible.</description>
+	
+	<effect>
+			<ModifyStat target="target" value="-1" name="vit">La Vitesse de [TARGET] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Vent Mauvais</name>
+	
+	<type>Spectre</type>
+	<category>special</category>
+	<power>60</power>
+	<precision>100</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances d'augmenter toutes les stats du lanceur.</description>
+	
+	<effect>
+		<SubEffect chance="10">
+			<ModifyStat target="source" value="1" name="att">L'Attaque de [SOURCE] a augmentée !</ModifyStat>
+			<ModifyStat target="source" value="1" name="def">La Défense de [SOURCE] a augmentée !</ModifyStat>
+			<ModifyStat target="source" value="1" name="vit">La Vitesse de [SOURCE] a augmentée !</ModifyStat>
+			<ModifyStat target="source" value="1" name="spe_att">L'Attaque Spéciale de [SOURCE] a augmentée !</ModifyStat>
+			<ModifyStat target="source" value="1" name="spe_def">La Défense Spéciale de [SOURCE] a augmentée !</ModifyStat>
+		</SubEffect>
+	</effect>
+</move>
+
+<move>
+	<name>Vent Violent</name>
+	
+	<type>Vol</type>
+	<category>special</category>
+	<power>110</power>
+	<precision>70</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de rendre confus la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Confusion" chance="30">[TARGET] est confus !</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Vibraqua</name>
+	
+	<type>Eau</type>
+	<category>special</category>
+	<power>60</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances de rendre confus la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Confusion" chance="20">[TARGET] est confus !</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Vibrobscur</name>
+	
+	<type>Tenebres</type>
+	<category>special</category>
+	<power>80</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>A des chances d'apeurer la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Apeuré" chance="20"/>
+	</effect>
+</move>
+
+
+

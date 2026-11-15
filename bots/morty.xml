@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Morty</name>
+<credo>Je connais déja l'issue de ce combat.</credo>
+<streak>1</streak>
+<sprite>62</sprite>
+<historic>1</historic>
+<tag>Johto</tag>
+<creature>
+<number>94</number>
+<name>Ectoplama</name>
+<move>Ball'Ombre</move>
+<move>Bomb'Eurk</move>
+<move>Eclat Magique</move>
+<move>Onde Folie</move>
+</creature>
+<creature>
+<number>200</number>
+<name>Feuforêve</name>
+	<ability>Lévitation</ability>
+	<move>Plénitude</move>
+	<move>Ball'Ombre</move>
+	<move>Tonnerre</move>
+	<move>Eclat Magique</move>
+</creature>
+<creature>
+<number>93</number>
+<name>Spectrum</name>
+	<ability>Lévitation</ability>
+	<move>Ball'Ombre</move>
+	<move>Tonnerre</move>
+	<move>Eclat Magique</move>
+	<move>Entrave</move>
+</creature>
+<creature>
+<number>203</number>
+<name>Girafarig</name>
+	<ability>Herbivore</ability>
+	<move>Psyko</move>
+	<move>Megaphone</move>
+	<move>Tonnerre</move>
+	<move>Seisme</move>
+</creature>
+<creature>
+<number>97</number>
+<name>Hypnomade</name>
+	<move>Hypnose</move>
+	<move>Psykoud'Boul</move>
+	<move>Poinglace</move>
+	<move>Casse-Brique</move>
+</creature>
+<creature>
+<number>124</number>
+<name>Lippoutou</name>
+	<ability>Chlorophyle</ability>
+	<move>Laser Glace</move>
+	<move>Ball'Ombre</move>
+	<move>Requiem</move>
+	<move>Vampibaiser</move>
+</creature>
+</bot>

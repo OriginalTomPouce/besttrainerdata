@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Whitney</name>
+<credo>A l'attaque !</credo>
+<streak>0</streak>
+<sprite>60</sprite>
+<tag>Johto</tag>
+<creature>
+<number>241</number>
+<name>Ecremeuh</name>
+	<ability>Isograisse</ability>
+	<move>Lait a Boire</move>
+	<move>Psykoud'Boul</move>
+	<move>Seisme</move>
+	<move>Giga Impact</move>
+</creature>
+<creature>
+<number>128</number>
+<name>Tauros</name>
+	<ability>Intimidation</ability>
+	<move>Damocles</move>
+	<move>Seisme</move>
+	<move>Déflagration</move>
+	<move>Tête de Fer</move>
+</creature>
+<creature>
+<number>36</number>
+<name>Mélodelfe</name>
+	<ability>Garde Magik</ability>
+	<move>Pouvoir Lunaire</move>
+	<move>Lance-Flamme</move>
+	<move>Tonnerre</move>
+	<move>Plénitude</move>
+</creature>
+<creature>
+<number>210</number>
+<name>Grandbull</name>
+	<ability>Phobique</ability>
+	<move>Câlinerie</move>
+	<move>Machouille</move>
+	<move>Colère</move>
+	<move>Crocs Givre</move>
+</creature>
+<creature>
+<number>203</number>
+<name>Girafarig</name>
+	<ability>Herbivore</ability>
+	<move>Psyko</move>
+	<move>Megaphone</move>
+	<move>Ball'Ombre</move>
+	<move>Machination</move>
+</creature>
+<creature>
+<number>53</number>
+<name>Persian</name>
+	<move>Tonnerre</move>
+	<move>Demi-Tour</move>
+	<move>Tranche-Nuit</move>
+	<move>Bluff</move>
+</creature>
+</bot>

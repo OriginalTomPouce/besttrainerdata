@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trainer>
+	<id>1</id>
+	<name>Campeur</name>
+	<credo>A l'aventure !</credo>
+</trainer>
+<trainer>
+	<id>2</id>
+	<name>Pique-Nique</name>
+	<credo>Mon copain est trop nul pour participer !</credo>
+</trainer>
+<trainer>
+	<id>3</id>
+	<name>Scout</name>
+	<credo>Je me suis entraîné toute l'année dans la Forêt de Jade !</credo>
+</trainer>
+<trainer>
+	<id>4</id>
+	<name>Montagnard</name>
+	<credo>MOUAHAHAHA ! Viens manger ta patée !!</credo>
+</trainer>
+<trainer>
+	<id>5</id>
+	<name>Demoiselle</name>
+	<credo>Beau temps n'est ce pas ?</credo>
+</trainer>
+<trainer>
+	<id>6</id>
+	<name>Canon</name>
+	<credo>Laissez place à la reine !</credo>
+</trainer>
+<trainer>
+	<id>7</id>
+	<name>Marin</name>
+	<credo>Je vais te faire couler !</credo>
+</trainer>
+<trainer>
+	<id>8</id>
+	<name>Petit</name>
+	<credo>La limite d'âge ? Je n'en sais rien je ne suis qu'un enfant !</credo>
+</trainer>
+<trainer>
+	<id>9</id>
+	<name>Cosplay</name>
+	<credo>Mélofée !</credo>
+</trainer>
+<trainer>
+	<id>10</id>
+	<name>Gambler</name>
+	<credo>J'ai misé mon salaire sur ma victoire !</credo>
+</trainer>
+<trainer>
+	<id>11</id>
+	<name>Brigand</name>
+	<credo>Si je gagne, la moitié de ton argent y passe !</credo>
+</trainer>
+<trainer>
+	<id>12</id>
+	<name>Topdresseur</name>
+	<credo>Le talent mon cher ! Le talent !</credo>
+</trainer>
+<trainer>
+	<id>13</id>
+	<name>Gentleman</name>
+	<credo>Je viens de l'autre côté du globe.</credo>
+</trainer>
+<trainer>
+	<id>14</id>
+	<name>Petite</name>
+	<credo>Bien sûr que j'ai l'âge pour participer !</credo>
+</trainer>
+<trainer>
+	<id>15</id>
+	<name>Crache-Feu</name>
+	<credo>Le clou du spectacle arrive !</credo>
+</trainer>
+<trainer>
+	<id>16</id>
+	<name>Scientifique</name>
+	<credo>J'ai au moins 50 pour cent de chances de gagner !</credo>
+</trainer>
+<trainer>
+	<id>17</id>
+	<name>Rockstar</name>
+	<credo>Voila le crescendo !</credo>
+</trainer>
+<trainer>
+	<id>18</id>
+	<name>Pêcheur</name>
+	<credo>J'ai un gros morceau en face de moi !</credo>
+</trainer>
+<trainer>
+	<id>19</id>
+	<name>Frère Rocket</name>
+	<credo>Je suis l'un des quatre frères Rocket !</credo>
+</trainer>
+<trainer>
+	<id>20</id>
+	<name>Pokémaniac</name>
+	<credo>T'as des Pokémon rares sur toi ?</credo>
+</trainer>
+<trainer>
+	<id>21</id>
+	<name>Exorciste</name>
+	<credo>REDRUM !</credo>
+</trainer>
+<trainer>
+	<id>22</id>
+	<name>Fillette</name>
+	<credo>Quoi ? Tu veux ma photo ?</credo>
+</trainer>
+<trainer>
+	<id>23</id>
+	<name>Prof Chen</name>
+	<credo>Are you a boy or a girl ?</credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>24</id>
+	<name>Red</name>
+	<credo>. . .</credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>25</id>
+	<name>Blue</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>26</id>
+	<name>Giovanni</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>27</id>
+	<name>Aldo</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>28</id>
+	<name>Olga</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>29</id>
+	<name>Agatha</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>30</id>
+	<name>Lance</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>31</id>
+	<name>Silver</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>32</id>
+	<name>Jeanine</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>33</id>
+	<name>Poké-Maman</name>
+	<credo>Mes Pokémon sont les plus mignons !</credo>
+</trainer>
+<trainer>
+	<id>34</id>
+	<name>Eleveuse</name>
+	<credo>N'oublie pas de jouer avec tes Pokémon.</credo>
+</trainer>
+<trainer>
+	<id>35</id>
+	<name>Motard</name>
+	<credo>Quoi ma moto ? Qu'est ce qu'elle a ma moto ?!</credo>
+</trainer>
+<trainer>
+	<id>36</id>
+	<name>Brigand</name>
+	<credo>C'est l'heure de ramener la coupe à la maison !</credo>
+</trainer>
+<trainer>
+	<id>37</id>
+	<name>Policier</name>
+	<credo>Je vérifie que tout est en ordre.</credo>
+</trainer>
+<trainer>
+	<id>38</id>
+	<name>Kimono</name>
+	<credo>Dansons !</credo>
+</trainer>
+<trainer>
+	<id>39</id>
+	<name>Capitaine</name>
+	<credo>Imaginez un capitaine qui a le mal de mer. HAHAHA LA BLAGUE !</credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>40</id>
+	<name>Karateka</name>
+	<credo>Je suis encore plus fort que mes Pokémon !</credo>
+</trainer>
+<trainer>
+	<id>41</id>
+	<name>Soeur Rocket</name>
+	<credo>Je suis l'une des quatre soeurs Rocket !</credo>
+</trainer>
+<trainer>
+	<id>42</id>
+	<name>Demoiselle</name>
+	<credo>Montrez-moi votre talent !</credo>
+</trainer>
+<trainer>
+	<id>43</id>
+	<name>Vétéran</name>
+	<credo>Je les ai tous capturés dans ma jeunesse !</credo>
+</trainer>
+<trainer>
+	<id>44</id>
+	<name>Moine</name>
+	<credo>La légende raconte qu'un futur maître Pokémon verra le jour ici.</credo>
+</trainer>
+<trainer>
+	<id>45</id>
+	<name>Vénérable</name>
+	<credo>J'ai déja remporté un titre de Maître !</credo>
+</trainer>
+<trainer>
+	<id>46</id>
+	<name>Intello</name>
+	<credo>Je connais ma table des types par coeur !</credo>
+</trainer>
+<trainer>
+	<id>47</id>
+	<name>Super Cosplay</name>
+	<credo>GROAAAAAAR !!!</credo>
+</trainer>
+<trainer>
+	<id>48</id>
+	<name>Infirmière</name>
+	<credo>Ne prends pas de risques inutiles.</credo>
+</trainer>
+<trainer>
+	<id>49</id>
+	<name>Campeur</name>
+	<credo>Je suis diplomé de l'Ecole Pokémon.</credo>
+</trainer>
+<trainer>
+	<id>50</id>
+	<name>Pokémaniac</name>
+	<credo>Je DETESTE les shorts !!!</credo>
+</trainer>
+<trainer>
+	<id>51</id>
+	<name>Gamin</name>
+	<credo>J'adore les shorts !</credo>
+</trainer>
+<trainer>
+	<id>52</id>
+	<name>Petit</name>
+	<credo>Youpi !</credo>
+</trainer>
+<trainer>
+	<id>53</id>
+	<name>Petite</name>
+	<credo>Youpi !</credo>
+</trainer>
+<trainer>
+	<id>54</id>
+	<name>Orme</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>55</id>
+	<name>Leo</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>56</id>
+	<name>Saltimbanque</name>
+	<credo>Voila le clou du spectacle !</credo>
+</trainer>
+<trainer>
+	<id>57</id>
+	<name>Auguste</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>58</id>
+	<name>Erika</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>59</id>
+	<name>Albert</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>60</id>
+	<name>Blanche</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>61</id>
+	<name>Hector</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>62</id>
+	<name>Morty</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>63</id>
+	<name>Jasmine</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>64</id>
+	<name>Fredo</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>65</id>
+	<name>Marion</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>66</id>
+	<name>Pierre</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>67</id>
+	<name>Ondine</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>68</id>
+	<name>Bob</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>69</id>
+	<name>Morganne</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>70</id>
+	<name>Koga</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>71</id>
+	<name>Crystal</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>72</id>
+	<name>Gold</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>73</id>
+	<name>Sandra</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>74</id>
+	<name>Chuck</name>
+	<credo></credo>
+	<unique/>
+</trainer>
+<trainer>
+	<id>75</id>
+	<name>Clément</name>
+	<credo></credo>
+	<unique/>
+</trainer>

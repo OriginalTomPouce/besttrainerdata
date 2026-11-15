@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Lance</name>
+<credo>Mes dragons sont invincibles !</credo>
+<sprite>30</sprite>
+<tag>Johto</tag>
+<creature>
+<number>149</number>
+<name>Dracolosse</name>
+<move>Surf</move>
+<move>Dracogriffe</move>
+<move>Ultralaser</move>
+<move>Danse Draco</move>
+</creature>
+<creature>
+<number>6</number>
+<name>Dracaufeu</name>
+<move>Lance-Flamme</move>
+<move>Dracogriffe</move>
+<move>Lame d'Air</move>
+<move>Déflagration</move>
+</creature>
+<creature>
+<number>130</number>
+<name>Leviator</name>
+<move>Surf</move>
+<move>Hydrocanon</move>
+<move>Cascade</move>
+<move>Danse Draco</move>
+</creature>
+<creature>
+<number form="Alola">103</number>
+<name>Noadkoko</name>
+<move>Draco-Marteau</move>
+<move>Choc Psy</move>
+<move>Bomb'Eurk</move>
+<move>Martobois</move>
+</creature>
+<creature>
+<number>217</number>
+<name>Ursaring</name>
+	<move>Damocles</move>
+	<move>Machouille</move>
+	<move>Câlinerie</move>
+	<move>Danse-Lames</move>
+</creature>
+<creature>
+<number>148</number>
+<name>Draco</name>
+	<move>Surf</move>
+	<move>Dracochoc</move>
+	<move>Cage-Eclair</move>
+	<move>Tonnerre</move>
+</creature>
+</bot>

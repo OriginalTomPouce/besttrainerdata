@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Jasmine</name>
+<credo>Mes Pokémon ont une défense d'acier !</credo>
+<sprite>63</sprite>
+<tag>Johto</tag>
+<creature>
+<number>82</number>
+<name>Magnéton</name>
+	<move>Tonnerre</move>
+	<move>Luminocanon</move>
+	<move>Triplattaque</move>
+	<move>Explosion</move>
+</creature>
+<creature>
+<number>208</number>
+<name>Steelix</name>
+	<move>Seisme</move>
+	<move>Dracossoufle</move>
+	<move>Crocs de Feu</move>
+	<move>Tête de Fer</move>
+</creature>
+<creature>
+<number form="Alola">28</number>
+<name>Sablaireau</name>
+	<move>Chute Glace</move>
+	<move>Danse-Lames</move>
+	<move>Tranche-Nuit</move>
+	<move>Griffe Acier</move>
+</creature>
+<creature>
+<number>212</number>
+<name>Cizayox</name>
+	<move>Tête de Fer</move>
+	<move>Pisto-Poing</move>
+	<move>Plaie-Croix</move>
+	<move>Casse-Brique</move>
+</creature>
+<creature>
+<number>227</number>
+<name>Airmure</name>
+	<move>Bec Vrille</move>
+	<move>Picots</move>
+	<move>Aile d'Acier</move>
+	<move>Tranche-Nuit</move>
+</creature>
+<creature>
+<number>181</number>
+<name>Pharamp</name>
+	<move>Dracochoc</move>
+	<move>Tonnerre</move>
+	<move>Rayon Gemme</move>
+	<move>Poing de Feu</move>
+</creature>
+</bot>

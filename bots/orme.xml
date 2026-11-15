@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Elm</name>
+<credo>Comment fait-on évoluer ses Pokméon ?</credo>
+<sprite>54</sprite>
+<tag>Johto</tag>
+<creature>
+<number>152</number>
+<name>Germignon</name>
+	<move>Eco-Sphère</move>
+	<move>Pouv. Antique</move>
+	<move>Plaquage</move>
+	<move>Mur Lumière</move>
+</creature>
+<creature>
+<number>155</number>
+<name>Héricendre</name>
+	<move>Eruption</move>
+	<move>Lance-Flamme</move>
+	<move>Poing Eclair</move>
+	<move>Casse-Brique</move>
+</creature>
+<creature>
+<number>158</number>
+<name>Kaïminus</name>
+	<move>Danse Draco</move>
+	<move>Cascade</move>
+	<move>Poinglace</move>
+	<move>Machouille</move>
+</creature>
+<creature>
+<number>172</number>
+<name>Pichu</name>
+	<move>Tonnerre</move>
+	<move>Fatal Foudre</move>
+	<move>Damocles</move>
+	<move>Vive-Attaque</move>
+</creature>
+<creature>
+<number>238</number>
+<name>Lippouti</name>
+	<move>Laser Glace</move>
+	<move>Psyko</move>
+	<move>Ball'Ombre</move>
+	<move>Grobisou</move>
+</creature>
+<creature>
+<number>173</number>
+<name>Mélo</name>
+	<move>Eclat Magique</move>
+	<move>Pouvoir Lunaire</move>
+	<move>Lance-Flamme</move>
+	<move>Plénitude</move>
+</creature>
+</bot>

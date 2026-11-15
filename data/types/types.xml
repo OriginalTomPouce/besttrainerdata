@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<type>
+	<name>Normal</name>
+	
+	<effectiveness ratio="0">Spectre</effectiveness>
+	<effectiveness ratio="0.5">Roche</effectiveness>
+	<effectiveness ratio="0.5">Acier</effectiveness>
+	
+	<animation category="1" mode="0">MAIN_long_hit</animation>
+</type>
+
+<type>
+	<name>Plante</name>
+	
+	<effectiveness ratio="0.5">Plante</effectiveness>
+	<effectiveness ratio="0.5">Feu</effectiveness>
+	<effectiveness ratio="0.5">Vol</effectiveness>
+	<effectiveness ratio="0.5">Poison</effectiveness>
+	<effectiveness ratio="0.5">Acier</effectiveness>
+	<effectiveness ratio="0.5">Insecte</effectiveness>
+	<effectiveness ratio="0.5">Dragon</effectiveness>
+	<effectiveness ratio="2">Eau</effectiveness>
+	<effectiveness ratio="2">Roche</effectiveness>
+	<effectiveness ratio="2">Sol</effectiveness>
+	
+	
+	<animation category="1" mode="3">MAIN_leaf</animation>
+	<animation category="0" mode="2">MAIN_leaf</animation>
+</type>
+
+<type>
+	<name>Feu</name>
+	
+	<move_particle>MAIN_flame</move_particle>
+	<hit_particle>MAIN_flame</hit_particle>
+	<effectiveness ratio="0.5">Eau</effectiveness>
+	<effectiveness ratio="0.5">Feu</effectiveness>
+	<effectiveness ratio="0.5">Roche</effectiveness>
+	<effectiveness ratio="0.5">Dragon</effectiveness>
+	<effectiveness ratio="2">Glace</effectiveness>
+	<effectiveness ratio="2">Acier</effectiveness>
+	<effectiveness ratio="2">Insecte</effectiveness>
+	<effectiveness ratio="2">Plante</effectiveness>
+	
+	
+	<animation category="1" mode="3" force="5">MAIN_flame</animation>
+	<animation category="1" mode="2">MAIN_flame</animation>
+	<animation category="0" mode="2">MAIN_flame</animation>
+</type>
+
+<type>
+	<name>Eau</name>
+	
+	<effectiveness ratio="0.5">Eau</effectiveness>
+	<effectiveness ratio="0.5">Plante</effectiveness>
+	<effectiveness ratio="0.5">Dragon</effectiveness>
+	<effectiveness ratio="2">Feu</effectiveness>
+	<effectiveness ratio="2">Roche</effectiveness>
+	<effectiveness ratio="2">Sol</effectiveness>
+	
+	<animation category="1" mode="3">MAIN_water</animation>
+	<animation category="0" mode="2">MAIN_water</animation>
+</type>
+
+<type>
+	<name>Electrik</name>
+	
+	<effectiveness ratio="0">Sol</effectiveness>
+	<effectiveness ratio="0.5">Electrik</effectiveness>
+	<effectiveness ratio="0.5">Plante</effectiveness>
+	<effectiveness ratio="0.5">Dragon</effectiveness>
+	<effectiveness ratio="2">Eau</effectiveness>
+	<effectiveness ratio="2">Vol</effectiveness>
+	
+	<animation category="1" mode="2" power="20">MAIN_electrik</animation>
+	<animation category="0" mode="2" power="15">MAIN_electrik</animation>
+</type>
+
+<type>
+	<name>Insecte</name>
+	
+	<effectiveness ratio="0.5">Combat</effectiveness>
+	<effectiveness ratio="0.5">Poison</effectiveness>
+	<effectiveness ratio="0.5">Feu</effectiveness>
+	<effectiveness ratio="0.5">Dragon</effectiveness>
+	<effectiveness ratio="0.5">Vol</effectiveness>
+	<effectiveness ratio="0.5">Fee</effectiveness>
+	<effectiveness ratio="2">Plante</effectiveness>
+	<effectiveness ratio="2">Psy</effectiveness>
+	<effectiveness ratio="2">Tenebres</effectiveness>
+	
+	
+	<animation category="1" mode="3">MAIN_needle</animation>
+	<animation category="0" mode="2">MAIN_needle</animation>
+</type>
+
+<type>
+	<name>Sol</name>
+	
+	<effectiveness ratio="0">Vol</effectiveness>
+	<effectiveness ratio="0.5">Plante</effectiveness>
+	<effectiveness ratio="0.5">Insecte</effectiveness>
+	<effectiveness ratio="2">Electrik</effectiveness>
+	<effectiveness ratio="2">Roche</effectiveness>
+	<effectiveness ratio="2">Acier</effectiveness>
+	<effectiveness ratio="2">Feu</effectiveness>
+	<effectiveness ratio="2">Poison</effectiveness>
+	
+	
+	<animation category="1" mode="3">MAIN_sand</animation>
+	<animation category="0" mode="2">MAIN_sand</animation>
+</type>
+
+<type>
+	<name>Roche</name>
+	
+	<effectiveness ratio="0.5">Sol</effectiveness>
+	<effectiveness ratio="0.5">Acier</effectiveness>
+	<effectiveness ratio="0.5">Combat</effectiveness>
+	<effectiveness ratio="2">Vol</effectiveness>
+	<effectiveness ratio="2">Glace</effectiveness>
+	<effectiveness ratio="2">Insecte</effectiveness>
+	<effectiveness ratio="2">Feu</effectiveness>
+	
+	
+	<animation category="1" mode="3">MAIN_rock</animation>
+	<animation category="0" mode="2">MAIN_rock</animation>
+</type>
+
+<type>
+	<name>Vol</name>
+	
+	<effectiveness ratio="0.5">Roche</effectiveness>
+	<effectiveness ratio="0.5">Acier</effectiveness>
+	<effectiveness ratio="0.5">Electrik</effectiveness>
+	<effectiveness ratio="2">Combat</effectiveness>
+	<effectiveness ratio="2">Plante</effectiveness>
+	<effectiveness ratio="2">Insecte</effectiveness>
+	
+	
+	<animation category="1" mode="0" force="5">MAIN_big_tornado</animation>
+	<animation category="0" mode="2">MAIN_tornado</animation>
+</type>
+
+<type>
+	<name>Combat</name>
+	
+	<effectiveness ratio="0">Spectre</effectiveness>
+	<effectiveness ratio="0.5">Vol</effectiveness>
+	<effectiveness ratio="0.5">Poison</effectiveness>
+	<effectiveness ratio="0.5">Insecte</effectiveness>
+	<effectiveness ratio="0.5">Fee</effectiveness>
+	<effectiveness ratio="0.5">Psy</effectiveness>
+	<effectiveness ratio="2">Roche</effectiveness>
+	<effectiveness ratio="2">Acier</effectiveness>
+	<effectiveness ratio="2">Glace</effectiveness>
+	<effectiveness ratio="2">Normal</effectiveness>
+	<effectiveness ratio="2">Tenebres</effectiveness>
+	
+	
+	<animation category="1" mode="2">MAIN_hit</animation>
+</type>
+
+<type>
+	<name>Poison</name>
+	
+	<effectiveness ratio="0">Acier</effectiveness>
+	<effectiveness ratio="0.5">Spectre</effectiveness>
+	<effectiveness ratio="0.5">Poison</effectiveness>
+	<effectiveness ratio="0.5">Roche</effectiveness>
+	<effectiveness ratio="0.5">Sol</effectiveness>
+	<effectiveness ratio="2">Plante</effectiveness>
+	<effectiveness ratio="2">Fee</effectiveness>
+	
+	<animation category="1" mode="2" force="3">MAIN_poison_head</animation>
+	<animation category="1" mode="2" force="7">MAIN_poison_bubble</animation>
+	<animation category="0" mode="2">MAIN_poison_bubble</animation>
+</type>
+
+<type>
+	<name>Psy</name>
+	
+	<effectiveness ratio="0">Tenebres</effectiveness>
+	<effectiveness ratio="0.5">Acier</effectiveness>
+	<effectiveness ratio="0.5">Psy</effectiveness>
+	<effectiveness ratio="2">Poison</effectiveness>
+	<effectiveness ratio="2">Combat</effectiveness>
+	
+	
+	<animation category="1" mode="2">MAIN_psylight</animation>
+	<animation category="0" mode="2">MAIN_psylight</animation>
+</type>
+
+<type>
+	<name>Spectre</name>
+	
+	<effectiveness ratio="0">Normal</effectiveness>
+	<effectiveness ratio="0.5">Tenebres</effectiveness>
+	<effectiveness ratio="2">Psy</effectiveness>
+	<effectiveness ratio="2">Spectre</effectiveness>
+
+	
+	<animation category="1" mode="3" force="4">MAIN_ghost</animation>
+	<animation category="1" mode="2" force="8">MAIN_ghost</animation>
+	<animation category="0" mode="2" force="8">MAIN_ghost</animation>
+</type>
+
+<type>
+	<name>Glace</name>
+	
+	<effectiveness ratio="0.5">Acier</effectiveness>
+	<effectiveness ratio="0.5">Glace</effectiveness>
+	<effectiveness ratio="0.5">Eau</effectiveness>
+	<effectiveness ratio="0.5">Feu</effectiveness>
+	<effectiveness ratio="2">Plante</effectiveness>
+	<effectiveness ratio="2">Sol</effectiveness>
+	<effectiveness ratio="2">Dragon</effectiveness>
+	<effectiveness ratio="2">Vol</effectiveness>
+	
+	<animation category="1" mode="2">MAIN_ice</animation>
+	<animation category="0" mode="2">MAIN_ice</animation>
+</type>
+
+<type>
+	<name>Dragon</name>
+	
+	<effectiveness ratio="0">Fee</effectiveness>
+	<effectiveness ratio="0.5">Acier</effectiveness>
+	<effectiveness ratio="2">Dragon</effectiveness>
+	
+	<animation category="1" mode="3" force="5">MAIN_blue_flame</animation>
+	<animation category="1" mode="2">MAIN_blue_flame</animation>
+	<animation category="0" mode="2">MAIN_blue_flame</animation>
+</type>
+
+<type>
+	<name>Tenebres</name>
+	
+	<effectiveness ratio="0.5">Combat</effectiveness>
+	<effectiveness ratio="0.5">Tenebres</effectiveness>
+	<effectiveness ratio="0.5">Fee</effectiveness>
+	<effectiveness ratio="2">Psy</effectiveness>
+	<effectiveness ratio="2">Spectre</effectiveness>
+	
+	<animation category="1" mode="2" force="12">MAIN_darkwave</animation>
+	<animation category="0" mode="2" force="12">MAIN_darkwave</animation>
+</type>
+
+<type>
+	<name>Acier</name>
+	
+	<effectiveness ratio="0.5">Feu</effectiveness>
+	<effectiveness ratio="0.5">Eau</effectiveness>
+	<effectiveness ratio="0.5">Electrik</effectiveness>
+	<effectiveness ratio="0.5">Acier</effectiveness>
+	<effectiveness ratio="2">Glace</effectiveness>
+	<effectiveness ratio="2">Roche</effectiveness>
+	<effectiveness ratio="2">Fee</effectiveness>
+	
+	
+	<animation category="1" mode="3" force="5">MAIN_steel_medium</animation>
+	<animation category="1" mode="3" force="5">MAIN_steel_medium</animation>
+	<animation category="0" mode="2" force="5">MAIN_steel_little</animation>
+	<animation category="0" mode="2" force="5">MAIN_steel_medium</animation>
+</type>
+
+<type>
+	<name>Fee</name>
+	
+	<effectiveness ratio="0.5">Poison</effectiveness>
+	<effectiveness ratio="0.5">Feu</effectiveness>
+	<effectiveness ratio="0.5">Acier</effectiveness>
+	<effectiveness ratio="2">Combat</effectiveness>
+	<effectiveness ratio="2">Tenebres</effectiveness>
+	<effectiveness ratio="2">Dragon</effectiveness>
+	
+	
+	<animation category="1" mode="3" force="5">MAIN_fairystar</animation>
+	<animation category="1" mode="2">MAIN_fairystar</animation>
+	<animation category="0" mode="2">MAIN_fairystar</animation>
+</type>

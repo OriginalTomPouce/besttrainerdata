@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<buff>
+	<name>Distorsion</name>
+	<category>Positive</category>
+	
+	<trigger when="CHECK_STAT_SPEED" actor="source">
+		<MultiplyVariable name="v:result" value="-1"/>
+	</trigger>
+</buff>
+
+<buff>
+	<name>Pluie</name>
+	<category>Positive</category>
+	<spot>Climat</spot>
+	<IA_value>20</IA_value>
+	
+	<trigger when="MOVE_DECLARE" actor="source">
+		<StringCompare name="v:type_move" comparator="has" value="Eau">
+			<MultiplyVariable name="v:mult_dmg" value="1.5"/>
+		</StringCompare>
+		<StringCompare name="v:type_move" comparator="has" value="Feu">
+			<MultiplyVariable name="v:mult_dmg" value="0.5"/>
+		</StringCompare>
+	</trigger>
+</buff>
+
+
+<buff>
+	<name>Zénith</name>
+	<category>Positive</category>
+	<spot>Climat</spot>
+	<IA_value>20</IA_value>
+	
+	<trigger when="MOVE_DECLARE" actor="source">
+		<StringCompare name="v:type_move" comparator="has" value="Feu">
+			<MultiplyVariable name="v:mult_dmg" value="1.5"/>
+		</StringCompare>
+		<StringCompare name="v:type_move" comparator="has" value="Eau">
+			<MultiplyVariable name="v:mult_dmg" value="0.5"/>
+		</StringCompare>
+	</trigger>
+</buff>
+
+
+
+<buff>
+	<name>Grêle</name>
+	<category>Positive</category>
+	<spot>Climat</spot>
+	<IA_value>20</IA_value>
+	
+	<trigger when="END_TURN" actor="source">
+		<NumberCompare name="v:self:duration" comparator="sup" value="1">
+			<StringCompare name="v:source:type" comparator="not" value="Glace">
+				<SetVariable name="v:val_1" value="v:source:max_hp">
+					<DivideVariable name="v:val_1" value="8"/>
+					<NumberCompare name="v:val_1" comparator="equal" value="0">
+						<SetVariable name="v:val_1" value="1"/>
+					</NumberCompare>
+					<Damage target="source" value="v:val_1" reason="Statut">[SOURCE] est blessé par la grêle.</Damage>
+				</SetVariable>
+			</StringCompare>
+		</NumberCompare>
+	</trigger>
+</buff>
+
+<buff>
+	<name>Tempêtesable</name>
+	<category>Positive</category>
+	<spot>Climat</spot>
+	<IA_value>20</IA_value>
+	
+	<trigger when="END_TURN" actor="source">
+		<NumberCompare name="v:self:duration" comparator="sup" value="1">
+			<StringCompare name="v:source:type" comparator="not" value="Acier,Roche,Sol">
+				<SetVariable name="v:val_1" value="v:source:max_hp">
+					<DivideVariable name="v:val_1" value="16"/>
+					<NumberCompare name="v:val_1" comparator="equal" value="0">
+						<SetVariable name="v:val_1" value="1"/>
+					</NumberCompare>
+					<Damage target="source" value="v:val_1" reason="Statut">[SOURCE] est blessé par la tempête de sable.</Damage>
+				</SetVariable>
+			</StringCompare>
+		</NumberCompare>
+	</trigger>
+</buff>
+
+
+
+
+<buff>
+	<name>Champ Herbu</name>
+	<category>Positive</category>
+	<spot>Terrain</spot>
+	<IA_value>20</IA_value>
+	
+	<trigger when="END_TURN" actor="source">
+		<ImmunityCheck target="source" value="Sol"/>
+		<NumberCompare name="v:return_value" comparator="equal" value="0">
+			<SetVariable name="v:val_1" value="v:source:max_hp">
+				<DivideVariable name="v:val_1" value="10"/>
+				<NumberCompare name="v:val_1" comparator="equal" value="0">
+					<SetVariable name="v:val_1" value="1"/>
+				</NumberCompare>
+				<Heal target="source" value="v:val_1" reason="Field">[SOURCE] est soigné par le Champ Herbu.</Heal>
+			</SetVariable>
+		</NumberCompare>
+	</trigger>
+	<trigger when="MOVE_DECLARE" actor="source">
+		<StringCompare name="v:type_move" comparator="has" value="Plante">
+			<MultiplyVariable name="v:mult_dmg" value="1.5"/>
+		</StringCompare>
+		<StringCompare name="v:move:subtype" comparator="has" value="Sismic">
+			<MultiplyVariable name="v:mult_dmg" value="0.5"/>
+		</StringCompare>
+	</trigger>
+</buff>
+
+
+
+
+<buff>
+	<name>Champ Psychique</name>
+	<category>Positive</category>
+	<spot>Terrain</spot>
+	<IA_value>20</IA_value>
+	
+	<trigger when="MOVE_DECLARE" actor="source">
+		<StringCompare name="v:type_move" comparator="has" value="Psy">
+			<MultiplyVariable name="v:mult_dmg" value="1.5"/>
+		</StringCompare>
+	</trigger>
+</buff>
+
+<buff>
+	<name>Champ Brumeux</name>
+	<category>Positive</category>
+	<spot>Terrain</spot>
+	<IA_value>20</IA_value>
+	
+	<trigger when="CHECK_BEFORE_ADD_STATUT" actor="source">
+		<ImmunityCheck target="source" value="Sol"/>
+		<NumberCompare name="v:return_value" comparator="equal" value="0">
+				<Cancel/>
+		</NumberCompare>
+	</trigger>
+	<trigger when="MOVE_DECLARE" actor="source">
+		<StringCompare name="v:type_move" comparator="has" value="Dragon">
+			<MultiplyVariable name="v:mult_dmg" value="0.5"/>
+		</StringCompare>
+	</trigger>
+</buff>
+
+
+
+<buff>
+	<name>Champ Electrifié</name>
+	<category>Positive</category>
+	<spot>Terrain</spot>
+	<IA_value>20</IA_value>
+	
+	<trigger when="CHECK_BEFORE_ADD_STATUT" actor="source">
+		<ImmunityCheck target="source" value="Sol"/>
+		<NumberCompare name="v:return_value" comparator="equal" value="0">
+			<StringCompare name="v:newbuff:name" comparator="has" value="Sommeil">
+				<Cancel/>
+			</StringCompare>
+		</NumberCompare>
+	</trigger>
+	<trigger when="MOVE_DECLARE" actor="source">
+		<StringCompare name="v:type_move" comparator="has" value="Electrik">
+			<MultiplyVariable name="v:mult_dmg" value="1.5"/>
+		</StringCompare>
+	</trigger>
+</buff>

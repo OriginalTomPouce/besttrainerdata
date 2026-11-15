@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Giovanni</name>
+<credo>Ma puissance fait plier tout le monde !</credo>
+<sprite>26</sprite>
+<tag>Kanto</tag>
+<creature>
+<number>34</number>
+<name>Nidoking</name>
+<move>Direct Toxic</move>
+<move>Seisme</move>
+<move>Lance-Flamme</move>
+<move>Empal'Korne</move>
+</creature>
+<creature>
+<number>112</number>
+<name>Rhinoféros</name>
+<move>Tunnelier</move>
+<move>Marto-Poing</move>
+	<move>Lame de Roc</move>
+	<move>Poing de Feu</move>
+</creature>
+<creature>
+<number form="Mecha">150</number>
+<name>Mewtwo</name>
+	<move>Psyko</move>
+	<move>Ball'Ombre</move>
+	<move>Aurasphère</move>
+	<move>Choc Psy</move>
+</creature>
+<creature>
+<number form="Alola">51</number>
+<name>Triopikeur</name>
+<move>Seisme</move>
+<move>Tranche-Nuit</move>
+<move>Piège de Roc</move>
+<move>Griffe Acier</move>
+</creature>
+<creature>
+<number>31</number>
+<name>Nidoqueen</name>
+	<move>Laser Glace</move>
+<move>Seisme</move>
+	<move>Bomb'Eurk</move>
+	<move>Surpuissance</move>
+</creature>
+<creature>
+<number>248</number>
+<name>Tyranocif</name>
+<move>Eboulement</move>
+<move>Machouille</move>
+<move>Crocs Eclair</move>
+<move>Tempêtesable</move>
+</creature>
+</bot>

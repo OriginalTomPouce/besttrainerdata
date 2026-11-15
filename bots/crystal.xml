@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Crystal</name>
+<credo>Select</credo>
+<streak>0</streak>
+<sprite>71</sprite>
+<tag>Johto</tag>
+<creature>
+<number>154</number>
+<name>Meganium</name>
+	<ability>Engrais</ability>
+	<move>Synthèse</move>
+	<move>Eco-Sphère</move>
+	<move>Pouv. Antique</move>
+	<move>Mur Lumière</move>
+</creature>
+<creature>
+<number>226</number>
+<name>Demanta</name>
+	<ability>Absorb'Eau</ability>
+	<move>Vibraqua</move>
+	<move>Lame d'Air</move>
+	<move>Rayon Signal</move>
+	<move>Onde Folie</move>
+</creature>
+<creature>
+<number form="Alola">38</number>
+<name>Feunard</name>
+	<ability>Alerte Neige</ability>
+	<move>Eco-Sphère</move>
+	<move>Laser Glace</move>
+	<move>Machination</move>
+	<move>Pouvoir Lunaire</move>
+</creature>
+<creature>
+<number form="Alola">26</number>
+<name>Raichu</name>
+	<move>Tonnerre</move>
+	<move>Queue de Fer</move>
+	<move>Mur Lumière</move>
+	<move>Psyko</move>
+</creature>
+<creature>
+<number>59</number>
+<name>Arcanin</name>
+	<ability>Intimidation</ability>
+	<move>Lance-Flamme</move>
+	<move>Feu Follet</move>
+	<move>Seisme</move>
+	<move>Colère</move>
+</creature>
+<creature>
+<number>241</number>
+<name>Ecremeuh</name>
+	<ability>Isograisse</ability>
+	<move>Lait a Boire</move>
+	<move>Psykoud'Boul</move>
+	<move>Plaquage</move>
+	<move>Giga Impact</move>
+</creature>
+</bot>

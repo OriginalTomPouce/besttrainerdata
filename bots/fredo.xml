@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Pryce</name>
+<credo>Il n'y a rien de plus tenace que la Glace !</credo>
+<sprite>64</sprite>
+<tag>Johto</tag>
+<creature>
+<number form="Alola">28</number>
+<name>Sablaireau</name>
+	<ability>Rideau Neige</ability>
+	<move>Poinglace</move>
+	<move>Danse-Lames</move>
+	<move>Griffe Ombre</move>
+	<move>Griffe Acier</move>
+</creature>
+<creature>
+<number>124</number>
+<name>Lippoutou</name>
+	<move>Laser Glace</move>
+	<move>Psyko</move>
+	<move>Ball'Ombre</move>
+	<move>Grobisou</move>
+</creature>
+<creature>
+<number>131</number>
+<name>Locklass</name>
+	<ability>Absorb'Eau</ability>
+	<move>Surf</move>
+	<move>Lyophilisation</move>
+	<move>Onde Folie</move>
+	<move>Rune Protect</move>
+</creature>
+<creature>
+<number>87</number>
+<name>Lamantine</name>
+	<ability>Isograisse</ability>
+	<move>Laser Glace</move>
+	<move>Vibraqua</move>
+	<move>Eclats Glace</move>
+	<move>Aqua-Jet</move>
+</creature>
+<creature>
+<number>221</number>
+<name>Cochignon</name>
+	<ability>Isograisse</ability>
+	<move>Seisme</move>
+	<move>Chute Glace</move>
+	<move>Plaquage</move>
+	<move>Piège de Roc</move>
+</creature>
+<creature>
+<number>160</number>
+<name>Aligatueur</name>
+	<ability>Torrent</ability>
+	<move>Danse Draco</move>
+	<move>Hydroqueue</move>
+	<move>Poinglace</move>
+	<move>Surpuissance</move>
+</creature>
+</bot>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<particle>
+	<name>BATTLE_ATT_BOOST</name>
+	
+	<texture x="0" y="15">Buffs</texture>
+	<movement>1</movement>
+	<gravity>-0.3</gravity>
+	<category>Multi_impact</category>
+	<duration>16</duration>
+</particle>
+
+
+
+<particle>
+	<name>BATTLE_ATT_SPE_BOOST</name>
+	
+	<texture x="1" y="15">Buffs</texture>
+	<movement>1</movement>
+	<gravity>-0.3</gravity>
+	<category>Multi_impact</category>
+	<duration>16</duration>
+</particle>
+
+
+
+<particle>
+	<name>BATTLE_DEF_BOOST</name>
+	
+	<texture x="2" y="15">Buffs</texture>
+	<movement>1</movement>
+	<gravity>-0.3</gravity>
+	<category>Multi_impact</category>
+	<duration>16</duration>
+</particle>
+
+
+
+<particle>
+	<name>BATTLE_DEF_SPE_BOOST</name>
+	
+	<texture x="3" y="15">Buffs</texture>
+	<movement>1</movement>
+	<gravity>-0.3</gravity>
+	<category>Multi_impact</category>
+	<duration>16</duration>
+</particle>
+
+
+
+<particle>
+	<name>BATTLE_VIT_BOOST</name>
+	
+	<texture x="4" y="15">Buffs</texture>
+	<movement>1</movement>
+	<gravity>-0.3</gravity>
+	<category>Multi_impact</category>
+	<duration>16</duration>
+</particle>

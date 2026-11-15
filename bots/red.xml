@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Red</name>
+<credo>...</credo>
+<sprite>24</sprite>
+<tag>Red</tag>
+<tag>Kanto</tag>
+<creature>
+<number>3</number>
+<name>Florizarre</name>
+<move>Tempête Florale</move>
+<move>Plaquage</move>
+<move>Bomb'Eurk</move>
+<move>Vampigraine</move>
+</creature>
+<creature>
+<number>6</number>
+<name>Dracaufeu</name>
+<move>Lance-Flamme</move>
+<move>Dracogriffe</move>
+<move>Lame d'Air</move>
+<move>Déflagration</move>
+</creature>
+<creature>
+<number>9</number>
+<name>Tortank</name>
+<move>Laser Glace</move>
+<move>Hydrocanon</move>
+<move>Plaquage</move>
+<move>Tour Rapide</move>
+</creature>
+<creature>
+<number>143</number>
+<name>Ronflex</name>
+<move>Repos</move>
+<move>Plaquage</move>
+<move>Poing de Feu</move>
+<move>Giga Impact</move>
+</creature>
+<creature>
+<number>25</number>
+<name>Pikachu</name>
+	<move>Tonnerre</move>
+	<move>Queue de Fer</move>
+	<move>Eletacle</move>
+	<move>Vive-Attaque</move>
+</creature>
+<creature>
+<number>131</number>
+<name>Locklass</name>
+	<move>Surf</move>
+	<move>Tonnerre</move>
+	<move>Onde Folie</move>
+	<move>Laser Glace</move>
+</creature>
+</bot>

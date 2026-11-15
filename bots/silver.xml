@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Silver</name>
+<credo>Mes Pokémon se sont couchés tard !</credo>
+<streak>1</streak>
+<sprite>31</sprite>
+<historic>1</historic>
+<tag>Johto</tag>
+<creature>
+<number>169</number>
+<name>Nostenfer</name>
+<move>Crochetvenin</move>
+<move>Demi-Tour</move>
+<move>Pics Toxiques</move>
+<move>Lame d'Air</move>
+</creature>
+<creature>
+<number>160</number>
+<name>Aligatueur</name>
+	<move>Danse Draco</move>
+	<move>Hydroqueue</move>
+	<move>Poinglace</move>
+	<move>Machouille</move>
+</creature>
+<creature>
+<number>34</number>
+<name>Nidoking</name>
+	<move>Direct Toxic</move>
+	<move>Seisme</move>
+	<move>Lance-Flamme</move>
+	<move>Machouille</move>
+</creature>
+<creature>
+<number>215</number>
+<name>Farfuret</name>
+	<move>Poinglace</move>
+	<move>Tranche-Nuit</move>
+	<move>Casse-Brique</move>
+	<move>Eclats Glace</move>
+</creature>
+<creature>
+<number>82</number>
+<name>Magnéton</name>
+<move>Tonnerre</move>
+<move>Luminocanon</move>
+<move>Triplattaque</move>
+<move>Cage-Eclair</move>
+</creature>
+<creature>
+<number>214</number>
+<name>Scarhino</name>
+	<move>Close Combat</move>
+	<move>Mégacorne</move>
+	<move>Gonflette</move>
+	<move>Lame de Roc</move>
+</creature>
+</bot>

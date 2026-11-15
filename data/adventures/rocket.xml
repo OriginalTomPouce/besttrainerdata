@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adventure>
+	<name>Gloire à la Team Rocket !</name>
+	<rules>
+		<n_pkmns>3</n_pkmns>
+		<balance>Semi</balance>
+	</rules>
+	
+	<battle>
+	</battle>
+	
+	<battles>
+	
+	</battles>
+</adventure>

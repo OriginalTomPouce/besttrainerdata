@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Surge</name>
+<credo>La foudre ne prévient jamais !</credo>
+<sprite>68</sprite>
+<tag>Kanto</tag>
+<creature>
+<number>145</number>
+<name>Electhor</name>
+<move>Fatal Foudre</move>
+<move>Bec Vrille</move>
+<move>Damocles</move>
+<move>Cage-Eclair</move>
+</creature>
+<creature>
+<number>171</number>
+<name>Lanturn</name>
+<move>Tonnerre</move>
+<move>Surf</move>
+<move>Rayon Signal</move>
+<move>Anneau Hydro</move>
+</creature>
+<creature>
+<number>82</number>
+<name>Magneton</name>
+<move>Tonnerre</move>
+<move>Luminocanon</move>
+<move>Triplattaque</move>
+<move>Cage-Eclair</move>
+</creature>
+<creature>
+<number>125</number>
+<name>Elektek</name>
+<move>Poing Eclair</move>
+<move>Tonnerre</move>
+<move>Casse-Brique</move>
+<move>Poinglace</move>
+</creature>
+<creature>
+<number form="Alola">76</number>
+<name>Grolem</name>
+	<move>Eboulement</move>
+	<move>El-Explosion</move>
+	<move>Poing Eclair</move>
+	<move>Piétisol</move>
+</creature>
+<creature>
+<number form="Alola">26</number>
+<name>Raichu</name>
+	<move>Tonnerre</move>
+	<move>Vive-Attaque</move>
+	<move>Mur Lumière</move>
+	<move>Psyko</move>
+</creature>
+</bot>

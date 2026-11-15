@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Agatha</name>
+<credo>Je suis bien plus forte que Chen !</credo>
+<streak>1</streak>
+<sprite>29</sprite>
+<historic>1</historic>
+<tag>Kanto</tag>
+<creature>
+<number>94</number>
+<name>Ectoplama</name>
+<move>Ball'Ombre</move>
+<move>Bomb'Eurk</move>
+<move>Eclat Magique</move>
+<move>Onde Folie</move>
+</creature>
+<creature>
+<number>200</number>
+<name>Feuforêve</name>
+	<ability>Lévitation</ability>
+	<move>Plénitude</move>
+	<move>Ball'Ombre</move>
+	<move>Tonnerre</move>
+	<move>Eclat Magique</move>
+</creature>
+<creature>
+<number form="Alola">105</number>
+<name>Ossatueur</name>
+	<move>Osmerang</move>
+	<move>Tête de Fer</move>
+	<move>Os d'Ombre</move>
+	<move>Boutefeu</move>
+</creature>
+<creature>
+<number>31</number>
+<name>Nidoqueen</name>
+	<ability>Point Poison</ability>
+	<move>Laser Glace</move>
+	<move>Seisme</move>
+	<move>Direct Toxic</move>
+	<move>Machouille</move>
+</creature>
+<creature>
+<number>169</number>
+<name>Nostenfer</name>
+	<ability>Attention</ability>
+	<move>Crochetvenin</move>
+	<move>Onde Folie</move>
+	<move>Bomb'Eurk</move>
+	<move>Vampirisme</move>
+</creature>
+<creature>
+<number>71</number>
+<name>Empiflor</name>
+	<ability>Chlorophyle</ability>
+	<move>Canon Graine</move>
+	<move>Giga-Sangsue</move>
+	<move>Direct Toxic</move>
+	<move>Sabotage</move>
+</creature>
+</bot>

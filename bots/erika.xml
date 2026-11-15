@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Erika</name>
+<credo>Mon équipe est mon parfum du jour.</credo>
+<sprite>58</sprite>
+<tag>Kanto</tag>
+<creature>
+<number>71</number>
+<name>Empiflor</name>
+	<move>Megafouet</move>
+	<move>Danse-Lames</move>
+	<move>Direct Toxic</move>
+	<move>Sabotage</move>
+</creature>
+<creature>
+<number>45</number>
+<name>Rafflésia</name>
+<move>Poudre Dodo</move>
+<move>Giga-Sangsue</move>
+<move>Vampigraine</move>
+<move>Para-Spore</move>
+</creature>
+<creature>
+<number>114</number>
+<name>Saquedeneu</name>
+<move>Para-Spore</move>
+<move>Giga-Sangsue</move>
+<move>Megafouet</move>
+<move>Sabotage</move>
+</creature>
+<creature>
+<number>103</number>
+<name>Noadkoko</name>
+<move>Psyko</move>
+<move>Eco-Sphère</move>
+<move>Clonage</move>
+</creature>
+<creature>
+<number>189</number>
+<name>Cotovol</name>
+<move>Vampigraine</move>
+<move>Poudre Dodo</move>
+<move>Demi-Tour</move>
+<move>Giga-Sangsue</move>
+</creature>
+<creature>
+<number>154</number>
+<name>Meganium</name>
+<move>Synthèse</move>
+<move>Tempête Florale</move>
+<move>Plaquage</move>
+<move>Mur Lumière</move>
+</creature>
+</bot>

@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<move>
+	<name>Abri</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<priority value="3"/>
+	<subtype>Protect</subtype>
+	<direction>Self</direction>
+	
+	<description>[NON IMPLEMENTE] Se protège des attaques. Peut échouer si utilisée plusieurs fois d'affilée.</description>
+	
+	<effect>
+		<selfbuff>Protect</selfbuff>
+	</effect>
+</move>
+	
+	
+<move>
+	<name>Acidarmure</name>
+	
+	<type>Poison</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Self</direction>
+	
+	<description>Augmente fortement la défense du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="2" name="def">La Défense de [SOURCE] a fortement augmentée !</ModifyStat>
+	</effect>
+</move>
+
+
+<move>
+	<name>Aiguisage</name>
+	
+	<type>Tenebres</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Self</direction>
+	
+	<description>Augmente l'attaque et la précision du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="1" name="att">L'Attaque de [SOURCE] a augmentée !</ModifyStat>
+		<ModifyStat target="source" value="1" name="pre">La Précision de [SOURCE] a augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Anneau Hydro</name>
+	
+	<type>Eau</type>
+	<category>statut</category>
+	<pp>10</pp>
+	<direction>Self</direction>
+	
+	<description>Octroie un anneau Hydro au lanceur, lui rendant régulièrement des PV.</description>
+	
+	<effect>
+		<AddBuff target="source" name="Anneau Hydro">Un anneau Hydro entoure [SOURCE]</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Allègement</name>
+	
+	<type>Acier</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>15</pp>
+	<direction>Self</direction>
+	
+	<description>Augmente fortement la vitesse du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="2" name="vit">La Vitesse de [SOURCE] a fortement augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Amnésie</name>
+	
+	<type>Psy</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Self</direction>
+	
+	<description>Augmente fortement la défense spéciale du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="2" name="spe_def">La Défense spéciale de [SOURCE] a fortement augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Appel Soins</name>
+	
+	<type>Insecte</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>10</pp>
+	<direction>Self</direction>
+	
+	<description>Soigne le lanceur. Réduit la puissance des soins suivants.</description>
+	
+	<effect>
+		<SetVariable name="v:val_1" value="v:source:max_hp"/>
+		<MultiplyVariable name="v:val_1" value="0.5"/>
+		
+		<Heal target="source" value="v:val_1">
+			<DisplayMessage>[SOURCE] récupère son énergie</DisplayMessage>
+			<AddBuff target="source" name="Deja Soigné"/>
+		</Heal>
+	</effect>
+</move>
+
+
+<move>
+	<name>Armure</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>40</pp>
+	<direction>Self</direction>
+	
+	<description>Augmente la défense du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="1" name="def">La Défense de [SOURCE] a augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Atterrissage</name>
+	
+	<type>Vol</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>10</pp>
+	<direction>Self</direction>
+	
+	<description>Soigne le lanceur. Réduit la puissance des soins suivants.</description>
+	
+	<effect>
+		<SetVariable name="v:val_1" value="v:source:max_hp"/>
+		<MultiplyVariable name="v:val_1" value="0.5"/>
+		
+		<Heal target="source" value="v:val_1">
+			<DisplayMessage>[SOURCE] récupère son énergie</DisplayMessage>
+			<AddBuff target="source" name="Deja Soigné"/>
+			<AddBuff target="source" name="Gravité" duration="1"/>
+		</Heal>
+	</effect>
+</move>
+
+
+<move>
+	<name>Aurore</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>5</pp>
+	<direction>Self</direction>
+	
+	<description>Soigne le lanceur. Réduit la puissance des soins suivants.</description>
+	
+	<effect>
+		<SetVariable name="v:val_1" value="v:source:max_hp"/>
+		<MultiplyVariable name="v:val_1" value="0.5"/>
+		
+		<Heal target="source" value="v:val_1">
+			<DisplayMessage>[SOURCE] récupère son énergie</DisplayMessage>
+			<AddBuff target="source" name="Deja Soigné"/>
+		</Heal>
+	</effect>
+</move>
+
+<move>
+	<name>Balance</name>
+	
+	<type>Spectre</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>Equlibre les Points de vie des deux Pokémon en jeu.</description>
+	
+	<effect>
+		<NumberCompare name="v:source:hp" comparator="sup" value="0">
+			<NumberCompare name="v:opponent:hp" comparator="sup" value="0">
+				<SetVariable name="v:val_1" value="v:source:hp"/>
+				<AdditionVariable name="v:val_1" value="v:opponent:hp"/>
+				<DivideVariable name="v:val_1" value="2" round="down"/>
+				<SetVariable name="v:source:hp" value="v:val_1"/>
+				<SetVariable name="v:opponent:hp" value="v:val_1"/>
+				<DisplayMessage>Les Points de Vie des deux Pokémon ont été partagés !</DisplayMessage>
+			</NumberCompare>
+		</NumberCompare>
+	</effect>
+</move>
+
+<move>
+	<name>Berceuse</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>55</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	
+	<description>Endort la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Sommeil">[TARGET] s'est endormi !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Bouclier</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Self</direction>
+	
+	<description>Augmente fortement la défense du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="2" name="def">La Défense de [SOURCE] a fortement augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Cage-Eclair</name>
+	
+	<type>Electrik</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>Paralyse la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Paralysie">[TARGET] est paralysé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Chang. Vitesse</name>
+	
+	<type>Acier</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Self</direction>
+	
+	<description>Augmente fortement la vitesse du lanceur, ainsi que son attaque.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="2" name="vit">La Vitesse de [SOURCE] a fortement augmentée !</ModifyStat>
+		<ModifyStat target="source" value="1" name="att">L'Attaque de [SOURCE] a augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Charme</name>
+	
+	<type>Fee</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>Réduit fortement l'attaque de la cible.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="-2" name="att">L'Attaque de [TARGET] a fortement diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Clonage</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Self</direction>
+	
+	<description>[NON IMPLEMENTE] Utilise 25% de ses PV pour créer un clone qui recevra les attaques à la place du lanceur.</description>
+	
+	<effect>
+		<clone/>
+	</effect>
+</move>
+
+<move>
+	<name>Confidence</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>Réduit fortement l'attaque spéciale de la cible.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="-1" name="att_spe">L'Attaque Spéciale de [TARGET] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Cognobidon</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>10</pp>
+	<direction>Self</direction>
+	
+	<description>Sacrifie la moitié de sa vie max pour augmenter son attaque à fond.</description>
+	
+	
+	<effect>
+		<SetVariable name="v:val_1" value="v:source:max_hp"/>
+		<DivideVariable name="v:val_1" value="2" round="down"/>
+		<NumberCompare name="v:source:hp" comparator="sup" value="v:val_1">
+			<Damage target="source" value="v:val_1" reason="Sacrifice">
+				<ModifyStat target="source" name="att" value="6">[SOURCE] sacrifie des PV et augmente son attaque à fond !</ModifyStat>
+			</Damage>
+		</NumberCompare>
+	</effect>
+</move>
+
+<move>
+	<name>Cotogarde</name>
+	
+	<type>Plante</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>10</pp>
+	<direction>Self</direction>
+	
+	<description>Augmente fortement la défense du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="2" name="def">La Défense de [SOURCE] a fortement augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Cyclone</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>Force la cible à changer de Pokémon.</description>
+	
+	<priority value="-6"/>
+	
+	<effect>
+		<ForceChange target="target">[TARGET] a été éjecté du terrain !</ForceChange>
+	</effect>
+</move>
+
+<move>
+	<name>Croissance</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Self</direction>
+	
+	<description>Augmente l'attaque et l'attaque spéciale du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="1" name="att">L'Attaque de [SOURCE] a augmentée !</ModifyStat>
+		<ModifyStat target="source" value="1" name="spe_att">L'Attaqie spéciale de [SOURCE] a augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Danse-Lames</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Self</direction>
+	
+	<description>Augmente fortement l'attaque du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="2" name="att">L'Attaque de [SOURCE] a fortement augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Danse Draco</name>
+	
+	<type>Dragon</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Self</direction>
+	
+	<description>Augmente l'attaque et la vitesse du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="1" name="att">L'Attaque de [SOURCE] a augmentée !</ModifyStat>
+		<ModifyStat target="source" value="1" name="vit">La Vitesse de [SOURCE] a augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Danse Folle</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Zone</direction>
+	
+	<description>Rend confus la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Confusion">[TARGET] est confus !</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Danse Pluie</name>
+	
+	<type>Eau</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>10</pp>
+	<direction>Field</direction>
+	
+	<description>Change le climat en Pluie durant 5 tours. Augmentant la puissance des Attaques Eau et réduisant celle des attaques Feu.</description>
+	
+	<effect>
+		<AddGlobal duration="5"  name="Pluie">Il se met à pleuvoir.</AddGlobal>
+	</effect>
+</move>
+
+<move>
+	<name>Danse Plume</name>
+	
+	<type>Vol</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>Réduit fortement l'attaque de la cible.</description>
+	
+	<effect>
+		<ModifyStat target="target" value="-2" name="att">L'Attaque de [TARGET] a fortement diminuée !</ModifyStat>
+	</effect>
+</move>
+
+
+<move>
+	<name>Distorsion</name>
+	
+	<type>Psy</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>5</pp>
+	<direction>Field</direction>
+	
+	<description>Distord l'espace durant 5 tours. Les Pokémon les plus lents deviennent les plus rapides.</description>
+	
+	<effect>
+		<AddGlobal duration="5"  name="Distorsion">Les dimensions deviennent étranges.</AddGlobal>
+	</effect>
+</move>
+
+<move>
+	<name>Doux Baiser</name>
+	
+	<type>Fee</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>75</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>Rend confus la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Confusion">[TARGET] est confus !</AddBuff>
+	</effect>
+</move>
+
+
+<move>
+	<name>E-Coque</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>10</pp>
+	<direction>Self</direction>
+	
+	<description>Soigne le lanceur. Réduit la puissance des soins suivants.</description>
+	
+	<effect>
+		<SetVariable name="v:val_1" value="v:source:max_hp"/>
+		<MultiplyVariable name="v:val_1" value="0.5"/>
+		
+		<Heal target="source" value="v:val_1">
+			<DisplayMessage>[SOURCE] récupère son énergie</DisplayMessage>
+			<AddBuff target="source" name="Deja Soigné"/>
+		</Heal>
+	</effect>
+</move>
+
+<move>
+	<name>Encore</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>100</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	
+	<description>Force la cible à utiliser la dernière attaque utilisée plusieurs fois.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Encore" duration="3">[TARGET] ! Encore une fois !</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Enroulement</name>
+	
+	<type>Poison</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Self</direction>
+	
+	<description>Augmente l'attaque, la défense et la précision du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="1" name="att">L'Attaque de [SOURCE] a augmentée !</ModifyStat>
+		<ModifyStat target="source" value="1" name="def">La Défense de [SOURCE] a augmentée !</ModifyStat>
+		<ModifyStat target="source" value="1" name="pre">La Précision de [SOURCE] a augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Entrave</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>Bloque la dernière attaque utilisée par la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Entrave" duration="3">[TARGET] a été mis sous entrave !</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Exuviation</name>
+	
+	<type>Roche</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>10</pp>
+	<direction>Self</direction>
+	
+	<description>Augmente fortement les stats offensives, au détriment des stats défensives.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="-1" name="def">La Défense de [SOURCE] a diminuée !</ModifyStat>
+		<ModifyStat target="source" value="-1" name="spe_def">La Défense Spéciale de [SOURCE] a diminuée !</ModifyStat>
+		<ModifyStat target="source" value="2" name="att">L'Attaque de [SOURCE] a fortement augmentée !</ModifyStat>
+		<ModifyStat target="source" value="2" name="spe_att">L'Attaque Spéciale de [SOURCE] a fortement augmentée !</ModifyStat>
+		<ModifyStat target="source" value="2" name="vit">La Vitesse de [SOURCE] a fortement augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Feu Follet</name>
+	
+	<type>Feu</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>85</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	
+	<description>Brûle la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Brûlure">[TARGET] est brûlé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Fil Toxique</name>
+	
+	<type>Poison</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>Empoisonne la cible et lui fait baisser sa vitese.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Poison">[TARGET] est empoisonné !</AddStatut>>
+		<ModifyStat target="target" value="-2" name="vit">La Vitesse de [TARGET] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Gonflette</name>
+	
+	<type>Combat</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Self</direction>
+	
+	<description>Augmente l'attaque et la défense du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="1" name="att">L'Attaque de [SOURCE] a augmentée !</ModifyStat>
+		<ModifyStat target="source" value="1" name="def">La Défense de [SOURCE] a augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Grincement</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>Réduit fortement la défense de la cible.</description>
+	
+	<effect>
+		<ModifyStat target="target" value="-2" name="def">La Défense de [TARGET] a fortement diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Grêle</name>
+	
+	<type>Glace</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>10</pp>
+	<direction>Field</direction>
+	
+	<description>Change le climat en Grêle durant 5 tours. Blessant régulièrement les Pokémon n'ayant pas le type Glace.</description>
+	
+	<effect>
+		<AddGlobal duration="5"  name="Grêle">La grêle commence à tomber.</AddGlobal>
+	</effect>
+</move>
+
+<move>
+	<name>Grobisou</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>75</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>Endort la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Sommeil">[TARGET] s'est endormi !</AddStatut>
+	</effect>
+</move>
+
+
+<move>
+	<name>Hâte</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Self</direction>
+	
+	<description>Augmente fortement la vitesse du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="2" name="vit">La Vitesse de [SOURCE] a fortement augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Hurlement</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>100</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>Force la cible à changer de Pokémon.</description>
+	
+	<priority value="-6"/>
+	
+	<effect>
+		<ForceChange target="target">[TARGET] a été éjecté du terrain !</ForceChange>
+	</effect>
+</move>
+
+<move>
+	<name>Hypnose</name>
+	
+	<type>Psy</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>60</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	
+	<description>Endort la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Sommeil">[TARGET] s'est endormi !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Lait a Boire</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>10</pp>
+	<direction>Self</direction>
+	
+	<description>Soigne le lanceur. Réduit la puissance des soins suivants.</description>
+	
+	<effect>
+		<SetVariable name="v:val_1" value="v:source:max_hp"/>
+		<MultiplyVariable name="v:val_1" value="0.5"/>
+		
+		<Heal target="source" value="v:val_1">
+			<DisplayMessage>[SOURCE] récupère son énergie</DisplayMessage>
+			<AddBuff target="source" name="Deja Soigné"/>
+		</Heal>
+	</effect>
+</move>
+
+<move>
+	<name>Lumiqueue</name>
+	
+	<type>Insecte</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Self</direction>
+	
+	<description>Augmente énormément l'attaque spéciale du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="3" name="spe_att">L'Attaque Spéciale de [SOURCE] a augmentée à fond !!</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Machination</name>
+	
+	<type>Tenebres</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>15</pp>
+	<direction>Self</direction>
+	
+	<description>Augmente fortement l'attaque spéciale du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="2" name="spe_att">L'Attaque Spéciale de [SOURCE] a fortement augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Mur de Fer</name>
+	
+	<type>Acier</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Self</direction>
+	
+	<description>Augmente fortement la défense du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="2" name="def">La Défense de [SOURCE] a fortement augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Mur Lumière</name>
+	
+	<type>Psy</type>
+	<category>statut</category>
+	<pp>15</pp>
+	<direction>Team</direction>
+	
+	<description>Pose une protection durant 5 tours, réduisant les dégâts des attaques spéciales subies.</description>
+	
+	<effect>
+		<AddBuff duration="5" name="Mur Lumière">Une barrière lumineuse se dresse devant l'équipe de [TSOURCE]</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Onde Folie</name>
+	
+	<type>Spectre</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>Rend confus la cible.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Confusion">[TARGET] est confus !</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Papillodanse</name>
+	
+	<type>Insecte</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Self</direction>
+	
+	<description>Augmente l'attaque spéciale, la défense spéciale, et la vitesse du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="1" name="spe_att">L'Attaque spéciale de [SOURCE] a augmentée !</ModifyStat>
+		<ModifyStat target="source" value="1" name="spe_def">La Défense Spéciale de [SOURCE] a augmentée !</ModifyStat>
+		<ModifyStat target="source" value="1" name="vit">La Vitesse de [SOURCE] a augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Para-Spore</name>
+	
+	<type>Plante</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>75</precision>
+	<pp>30</pp>
+	<direction>Target</direction>
+	
+	<subtype>Powder</subtype>
+	
+	<description>Paralyse la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Paralysie">[TARGET] est paralysé !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Paresse</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>10</pp>
+	<direction>Self</direction>
+	
+	<description>Soigne le lanceur. Réduit la puissance des soins suivants.</description>
+	
+	<effect>
+		<SetVariable name="v:val_1" value="v:source:max_hp"/>
+		<MultiplyVariable name="v:val_1" value="0.5"/>
+		
+		<Heal target="source" value="v:val_1">
+			<DisplayMessage>[SOURCE] récupère son énergie</DisplayMessage>
+			<AddBuff target="source" name="Deja Soigné"/>
+		</Heal>
+	</effect>
+</move>
+
+<move>
+	<name>Picots</name>
+	
+	<type>Sol</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>E_Team</direction>
+	
+	<description>Lance des picots sur le terrain, blessant les Pokémon terrestes qui arrivent au combat.</description>
+	
+	<effect>
+		<StringCompare name="v:target:list_buffs" comparator="has" value="Picots x3">
+			<EndEffect/>
+		</StringCompare>
+		<StringCompare name="v:target:list_buffs" comparator="has" value="Picots x2">
+			<RemoveBuff target="target" name="Picots x2"/>
+			<AddBuff target="target" name="Picots x3">[SOURCE] Lance des picots sur le terrain !</AddBuff>
+			<EndEffect/>
+		</StringCompare>
+		<StringCompare name="v:target:list_buffs" comparator="has" value="Picots">
+			<RemoveBuff target="target" name="Picots"/>
+			<AddBuff target="target" name="Picots x2">[SOURCE] Lance des picots sur le terrain !</AddBuff>
+			<EndEffect/>
+		</StringCompare>
+		<AddBuff target="target" name="Picots">[SOURCE] Lance des picots sur le terrain !</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Pics Toxiques</name>
+	
+	<type>Poison</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>E_Team</direction>
+	
+	<description>Lance des pics toxiques sur le terrain, empoisonnant les Pokémon terrestes qui arrivent au combat.</description>
+	
+	<effect>
+		<StringCompare name="v:target:list_buffs" comparator="has" value="Pics Toxiques x2">
+			<EndEffect/>
+		</StringCompare>
+		<StringCompare name="v:target:list_buffs" comparator="has" value="Pics Toxiques">
+			<RemoveBuff target="target" name="Pics Toxiques"/>
+			<AddBuff target="target" name="Pics Toxiques x2">[SOURCE] Lance des pics toxiques sur le terrain !</AddBuff>
+			<EndEffect/>
+		</StringCompare>
+		<AddBuff target="target" name="Pics Toxiques">[SOURCE] Lance des pics toxiques sur le terrain !</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Piège de Roc</name>
+	
+	<type>Roche</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>E_Team</direction>
+	
+	<description>Lance des pièges de roc sur le terrain, infligeant des dégâts de Roche aux Pokémon qui arrivent au combat.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Piège de Roc">[SOURCE] Lance des pièges de roc sur le terrain !</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Plénitude</name>
+	
+	<type>Psy</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Self</direction>
+	
+	<description>Augmente l'attaque spéciale et la défense spéciale du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="1" name="spe_att">L'Attaque spéciale de [SOURCE] a augmentée !</ModifyStat>
+		<ModifyStat target="source" value="1" name="spe_def">La Défense spéciale de [SOURCE] a augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Poliroche</name>
+	
+	<type>Roche</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Self</direction>
+	
+	<description>Augmente fortement la vitesse du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="2" name="vit">La Vitesse de [SOURCE] a fortement augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Poudre Dodo</name>
+	
+	<type>Plante</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>75</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Powder</subtype>
+	
+	<description>Endort la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Sommeil">[TARGET] s'est endormi !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Protection</name>
+	
+	<type>Psy</type>
+	<category>statut</category>
+	<pp>15</pp>
+	<direction>Team</direction>
+	
+	<description>Pose une protection durant 5 tours, réduisant les dégâts des attaques physiques subies.</description>
+	
+	<effect>
+		<AddBuff duration="5" target="source"  name="Protection">Une barrière protectrice se dresse devant l'équipe de [TSOURCE]</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Puissance</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Self</direction>
+	
+	<description>Augmente le taux de critiques du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="1" name="crit">[SOURCE] rassemble ses forces !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Rayon Lune</name>
+	
+	<type>Fee</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>5</pp>
+	<direction>Self</direction>
+	
+	<description>Soigne le lanceur. Réduit la puissance des soins suivants.</description>
+	
+	<effect>
+		<SetVariable name="v:val_1" value="v:source:max_hp"/>
+		<MultiplyVariable name="v:val_1" value="0.5"/>
+		
+		<Heal target="source" value="v:val_1">
+			<DisplayMessage>[SOURCE] récupère son énergie</DisplayMessage>
+			<AddBuff target="source" name="Deja Soigné"/>
+		</Heal>
+	</effect>
+</move>
+
+<move>
+	<name>Regard Noir</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>5</pp>
+	<direction>Target</direction>
+	
+	<description>Empêche la cible de s'enfuir.</description>
+	
+	<effect>
+		<AddBuff target="source" name="Regard Noir">[TARGET] ne peut plus s'échapper !</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Regard Touchant</name>
+	
+	<type>Fee</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<priority value="1"/>
+	<direction>Target</direction>
+	
+	<description>Réduit l'attaque de la cible. Ne peut pas manquer.</description>
+	
+	<effect>
+		<ModifyStat target="target" value="-1" name="att">L'Attaque de [TARGET] a diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Regard Indimidant</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>100</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>Paralyse la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Paralysie">[TARGET] est paralysé!</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Relais</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Self</direction>
+	
+	<description>[NON IMPLEMENTE].</description>
+	
+	<effect>
+		<batonpass/>
+	</effect>
+</move>
+
+<move>
+	<name>Repos</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Self</direction>
+	
+	<description>Soigne le lanceur et l'endort durant deux tours.</description>
+	
+	<effect>
+		<RemoveStatut target="source">
+			<AddStatut target="source" name="Sommeil" value="3">[SOURCE] se repose et récupère son énergie.</AddStatut>
+		</RemoveStatut>
+		<Heal target="source" value="v:source:max_hp">
+			<AddStatut target="source" name="Sommeil" value="3">[SOURCE] se repose et récupère son énergie.</AddStatut>
+		</Heal>
+	</effect>
+</move>
+
+
+<move>
+	<name>Requiem</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>5</pp>
+	<subtype>Sound</subtype>
+	<direction>Field</direction>
+	
+	<description>Chante un requiem, mettant les Pokémon qui l'écoutent K.O dans les 3 prochains tours.</description>
+	
+	<effect>
+		<AddBuff duration="4" target="source" name="Requiem">[SOURCE] va tomber K.O dans 3 tours !</AddBuff>
+		<AddBuff duration="4" target="target" name="Requiem">[TARGET] va tomber K.O dans 3 tours !</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Rune Protect</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<pp>25</pp>
+	<direction>Team</direction>
+	
+	<description>Pose une protection durant 5 tours, bloquant les altérations de statut.</description>
+	
+	<effect>
+		<AddBuff duration="5" target="source" name="Rune Protect">L'équipe de [TSOURCE] s'entoure d'une rune protectrice.</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Sécrétion</name>
+	
+	<type>Insecte</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>40</pp>
+	<direction>Target</direction>
+	
+	<description>Réduit fortement la vitesse de la cible.</description>
+	
+	<effect>
+		<ModifyStat target="target" value="-2" name="vit">La Vitesse de [TARGET] a fortement diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Soin</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>10</pp>
+	<direction>Self</direction>
+	
+	<description>Soigne le lanceur. Réduit la puissance des soins suivants.</description>
+	
+	<effect>
+		<SetVariable name="v:val_1" value="v:source:max_hp"/>
+		<MultiplyVariable name="v:val_1" value="0.5"/>
+		
+		<Heal target="source" value="v:val_1">
+			<DisplayMessage>[SOURCE] récupère son énergie</DisplayMessage>
+			<AddBuff target="source" name="Deja Soigné"/>
+		</Heal>
+	</effect>
+</move>
+
+<move>
+	<name>Spore</name>
+	
+	<type>Plante</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>100</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	<subtype>Powder</subtype>
+	
+	<description>Endort la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Sommeil">[TARGET] s'est endormi !</AddStatut>
+	</effect>
+</move>
+
+<move>
+	<name>Spore Coton</name>
+	
+	<type>Plante</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>Réduit fortement la vitesse de la cible.</description>
+	
+	<effect>
+		<ModifyStat target="target" value="-2" name="vit">La Vitesse de [TARGET] a fortement diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Strido-Son</name>
+	
+	<type>Acier</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>Target</direction>
+	
+	<description>Réduit fortement la défense spéciale de la cible.</description>
+	
+	<effect>
+		<ModifyStat target="target" value="-2" name="spe_def">La Défense spéciale de [TARGET] a fortement diminuée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Synthèse</name>
+	
+	<type>Plante</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>5</pp>
+	<direction>Self</direction>
+	
+	<description>Soigne le lanceur. Réduit la puissance des soins suivants.</description>
+	
+	<effect>
+		<SetVariable name="v:val_1" value="v:source:max_hp"/>
+		<MultiplyVariable name="v:val_1" value="0.5"/>
+		
+		<Heal target="source" value="v:val_1">
+			<DisplayMessage>[SOURCE] récupère son énergie</DisplayMessage>
+			<AddBuff target="source" name="Deja Soigné"/>
+		</Heal>
+	</effect>
+</move>
+
+<move>
+	<name>Tempêtesable</name>
+	
+	<type>Roche</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>10</pp>
+	<direction>Field</direction>
+	
+	<description>Change le climat en Tempêtesable. Blessant régulièrement les Pokémon n'ayant pas le type Roche, Sol ou Acier.</description>
+	
+	<effect>
+		<AddGlobal duration="5"  name="Tempêtesable">Une tempête de sable se prépare.</AddGlobal>
+	</effect>
+</move>
+
+<move>
+	<name>Toile Gluante</name>
+	
+	<type>Insecte</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>20</pp>
+	<direction>E_Team</direction>
+	
+	<description>Lance une Toile Gluante, baissant la vitesse des Pokémon terrestes arrivant au combat.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Toile Gluante">Une toile gluante s'abat sur l'équipe de [TSOURCE] !</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Toxik</name>
+	
+	<type>Poison</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>90</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>Empoisonne gravement la cible.</description>
+	
+	<effect>
+		<AddStatut target="target" name="Toxik">[TARGET] est gravement empoisonné !</AddStatut>
+	</effect>
+</move>
+
+
+<move>
+	<name>Trempette</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>40</pp>
+	<direction>Self</direction>
+	
+	<description>Le Pokémon saute ! Youpi ! Il se met à sauter ! C'est incroyable ! (cette attaque est sans effet malheureusement)</description>
+	
+	<effect></effect>
+</move>
+
+<move>
+	<name>Vampigraine</name>
+	
+	<type>Plante</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>90</precision>
+	<pp>10</pp>
+	<direction>Target</direction>
+	
+	<description>Infecte l'ennemi, lui drainant des PV à chaque tour.</description>
+	
+	<effect>
+		<AddBuff target="target" name="Vampigraine">[TARGET] est infecté !</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Vantardise</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>90</precision>
+	<pp>15</pp>
+	<direction>Target</direction>
+	
+	<description>Augmente fortement l'attaque de la cible et la rend confus.</description>
+	
+	<effect>
+		<ModifyStat target="target" value="2" name="att">L'Attaque de [TARGET] a fortement augmentée !</ModifyStat>
+		<AddBuff target="target" name="Confusion">[TARGET] est confus !</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Vent Arriere</name>
+	
+	<type>Vol</type>
+	<category>statut</category>
+	<pp>15</pp>
+	<direction>Team</direction>
+	
+	<description>Lance un Vent Arrière durant 5 tours, augmentant la vitesse des Pokémon alliés.</description>
+	
+	<effect>
+		<AddBuff duration="5" target="source"  name="Vent Arrière">Un vent arrière souffle pour l'équipe de [TSOURCE] !</AddBuff>
+	</effect>
+</move>
+
+
+<move>
+	<name>Voeu</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>10</pp>
+	<direction>Self</direction>
+	
+	<description>Lance un Voeu, qui soignera un Pokémon allié pour plus tard.</description>
+	
+	<effect>
+		<AddBuff target="source" name="Voeu">[SOURCE] fait un voeu !</AddBuff>
+	</effect>
+</move>
+
+<move>
+	<name>Yoga</name>
+	
+	<type>Normal</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>40</pp>
+	<direction>Self</direction>
+	
+	<description>Augmente l'attaque du lanceur.</description>
+	
+	<effect>
+		<ModifyStat target="source" value="1" name="att">L'Attaque de [SOURCE] a augmentée !</ModifyStat>
+	</effect>
+</move>
+
+<move>
+	<name>Zénith</name>
+	
+	<type>Feu</type>
+	<category>statut</category>
+	<power>0</power>
+	<precision>0</precision>
+	<pp>10</pp>
+	<direction>Field</direction>
+	
+	<description>Change le climat en Zénith. Augmentant la puissance des Attaques Feu et réduisant celle des attaques Eau.</description>
+	
+	<effect>
+		<AddGlobal duration="5"  name="Zénith">Le soleil se met à briller.</AddGlobal>
+	</effect>
+</move>
+
+
+
+

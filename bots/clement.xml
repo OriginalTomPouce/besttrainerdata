@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Will</name>
+<credo>Je joue toujours avec un tour d'avance.</credo>
+<sprite>75</sprite>
+<tag>Johto</tag>
+<creature>
+<number>65</number>
+<name>Alakazam</name>
+<move>Psyko</move>
+<move>Choc Psy</move>
+<move>Plénitude</move>
+<move>Exploforce</move>
+</creature>
+<creature>
+<number>199</number>
+<name>Roigada</name>
+	<ability>Régé-Force</ability>
+	<move>Surf</move>
+	<move>Lance-Flamme</move>
+	<move>Vibraqua</move>
+	<move>Blizzard</move>
+</creature>
+<creature>
+<number>178</number>
+<name>Xatu</name>
+	<ability>Regard Préventif</ability>
+	<move>Ball'Ombre</move>
+	<move>Psyko</move>
+	<move>Demi-Tour</move>
+	<move>Lame d'Air</move>
+</creature>
+<creature>
+<number>203</number>
+<name>Girafarig</name>
+	<move>Psyko</move>
+	<move>Megaphone</move>
+	<move>Machination</move>
+	<move>Ball'Ombre</move>
+</creature>
+<creature>
+<number>234</number>
+<name>Cerfrousse</name>
+	<ability>Intimidation</ability>
+	<move>Giga Impact</move>
+	<move>Psyko</move>
+	<move>Seisme</move>
+	<move>Pied Sauté</move>
+</creature>
+<creature>
+<number>198</number>
+<name>Cornèbre</name>
+	<move>Rapace</move>
+	<move>Vibrobscur</move>
+	<move>Ball'Ombre</move>
+	<move>Vent Arriere</move>
+</creature>
+</bot>

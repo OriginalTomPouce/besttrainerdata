@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adventure>
+	<name>Tournoi Standard</name>
+	<rules>
+		<n_pkmns>3</n_pkmns>
+		<balance>Semi</balance>
+	</rules>
+	
+	<battle>
+	<name>Ronde 1</name>
+	<points>4</points>
+	</battle>
+	
+	<battle>
+	<name>Ronde 1</name>
+	<points>4</points>
+	</battle>
+	<battle>
+	<name>Ronde 2</name>
+	<points>3</points>
+	</battle>
+	<battle>
+	<name>Ronde 3</name>
+	<points>3</points>
+	</battle>
+	<battle>
+	<name>Ronde 4</name>
+	<points>3</points>
+	</battle>
+	<battle>
+	<name>Ronde 5</name>
+	<points>3</points>
+	</battle>
+	<battles>
+	
+	</battles>
+</adventure>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Jeanine</name>
+<credo>J'ai hérité des techniques du grand Koga !</credo>
+<streak>1</streak>
+<sprite>32</sprite>
+<historic>1</historic>
+<tag>Kanto</tag>
+<creature>
+<number>49</number>
+<name>Aeromite</name>
+	<move>Papillodanse</move>
+	<move>Bourdon</move>
+	<move>Psyko</move>
+	<move>Giga-Sangsue</move>
+</creature>
+<creature>
+<number>110</number>
+<name>Smogogo</name>
+<move>Détricanon</move>
+<move>Balance</move>
+<move>Explosion</move>
+<move>Feu Follet</move>
+</creature>
+<creature>
+<number>12</number>
+<name>Papilusion</name>
+	<move>Psyko</move>
+	<move>Bourdon</move>
+	<move>Vent Arriere</move>
+	<move>Demi-Tour</move>
+</creature>
+<creature>
+<number>31</number>
+<name>Nidoqueen</name>
+	<ability>Point Poison</ability>
+	<move>Laser Glace</move>
+	<move>Seisme</move>
+	<move>Direct Toxic</move>
+	<move>Machouille</move>
+</creature>
+<creature>
+<number>169</number>
+<name>Nostenfer</name>
+	<ability>Attention</ability>
+	<move>Crochetvenin</move>
+	<move>Onde Folie</move>
+	<move>Bomb'Eurk</move>
+	<move>Vampirisme</move>
+</creature>
+<creature>
+<number>24</number>
+<name>Arbok</name>
+	<ability>Intimidation</ability>
+	<move>Détricanon</move>
+	<move>Crocs de Feu</move>
+	<move>Enroulement</move>
+	<move>Tunnelier</move>
+</creature>
+</bot>

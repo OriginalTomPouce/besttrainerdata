@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<bot>
+<name>Sabrina</name>
+<credo>La force de l'esprit !</credo>
+<sprite>69</sprite>
+<tag>Kanto</tag>
+<creature>
+<number>65</number>
+<name>Alakazam</name>
+<move>Psyko</move>
+<move>Choc Psy</move>
+<move>Plénitude</move>
+<move>Exploforce</move>
+</creature>
+<creature>
+<number>40</number>
+<name>Grodoudou</name>
+	<move>Câlinerie</move>
+	<move>Megaphone</move>
+	<move>Laser Glace</move>
+	<move>Berceuse</move>
+</creature>
+<creature>
+<number>122</number>
+<name>M. Mime</name>
+	<ability>Pose-Murs</ability>
+	<move>Protection</move>
+	<move>Mur Lumière</move>
+	<move>Psyko</move>
+	<move>Eclat Magique</move>
+</creature>
+<creature>
+<number>103</number>
+<name>Noadkoko</name>
+<move>Psyko</move>
+<move>Eco-Sphère</move>
+<move>Toxik</move>
+<move>Clonage</move>
+</creature>
+<creature>
+<number>124</number>
+<name>Lippoutou</name>
+	<move>Laser Glace</move>
+	<move>Psyko</move>
+	<move>Ball'Ombre</move>
+	<move>Grobisou</move>
+</creature>
+<creature>
+<number form="Alola">26</number>
+<name>Raichu</name>
+	<move>Psyko</move>
+	<move>Tonnerre</move>
+	<move>Queue de Fer</move>
+	<move>Vive-Attaque</move>
+</creature>
+</bot>

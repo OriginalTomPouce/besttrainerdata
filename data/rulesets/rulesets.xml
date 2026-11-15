@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset>
+	<name>Anything Goes</name>
+	<base_level>50</base_level>
+	<description>Niveau 50+. Tout est permis !</description>
+</ruleset>
+<ruleset>
+	<name>Poké-Coupe</name>
+	<base_level>50</base_level>
+	<no_mythics/>
+	<no_fabulous/>
+	<description>Niveau 50+. Pas de gros légendaires.</description>
+</ruleset>
+<ruleset>
+	<name>Coupe Elite</name>
+	<base_level>100</base_level>
+	<min_sum_stats>450</min_sum_stats>
+	<no_autobalance/>
+	<description>Niveau 100. Réservé aux Pokémon puissants !</description>
+</ruleset>
+<ruleset>
+	<name>Pika-Coupe</name>
+	<base_level>15</base_level>
+	<max_sum_stats>425</max_sum_stats>
+	<balance_min_power>425</balance_min_power>
+	<no_legendaries/>
+	<no_mythics/>
+	<no_fabulous/>
+	<description>Niveau 15+. Réservé aux Pokémon jeunes !</description>
+</ruleset>
+<ruleset>
+	<name>P'tite Coupe</name>
+	<base_level>15</base_level>
+	<max_sum_stats>375</max_sum_stats>
+	<no_autobalance/>
+	<no_legendaries/>
+	<no_mythics/>
+	<no_fabulous/>
+	<description>Niveau 15. Réservé aux petits Pokémon !</description>
+</ruleset>
+<ruleset>
+	<name>Coupe Retro</name>
+	<base_level>50</base_level>
+	<no_mythics/>
+	<no_fabulous/>
+	<no_forms/>
+	<description>Niveau 50+. Formes et gros légendaires interdits !</description>
+</ruleset>
+<ruleset>
+	<name>Reverse Battle</name>
+	<base_level>50</base_level>
+	
+	<description>Niveau 50+. Balance des types inversée !</description>
+	<trigger when="CHECK_EFFECTIVENESS" actor="source">
+		<SetVariable name="v:val_1" value="1"/>
+		<DivideVariable name="v:val_1" value="v:result"/>
+		<SetVariable name="v:result" value="v:val_1"/>
+	</trigger>
+</ruleset>

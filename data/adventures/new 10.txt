@@ -1,0 +1,29 @@
+
+<Hero> // Pas de Hero -> On prend notre perso
+	<Sprite Cond=Boy>
+	<Sprite Cond=Girl>
+	<Name Cond=Boy>
+	<Sprite Cond=Girl>
+	<Pokemon>Possibilité de set des starters au Dresseur, voir comment Drafter le reste des Pokémon.
+</Hero>
+
+<Event chance=100> // Mettre la chance à 100% c'est Koul
+	<Trainer> : pas d'objet : Trainer au Pif
+	<PokéBot> : PokéBot au Pif
+	<Trainer> : Générer un Trainer 
+		<Name> : Pas de Nom, pas de Trainer
+		<Sprite> : Pas de Sprite, pas de Trainer
+		<Credo> : Pas de Credo, pas de Trainer ?
+		<Pokemon> : Tout Pokémon non-valide sera remplacé par un Pokémon du TeamBuilder.
+		<SelectPokemon type="Fee" tier="A"> : Possibilité de Sélectionner un Pokémon Random d'un type défini (useful)
+	<Stadium> : Pas de Stadium -> Stade Random
+		<Normal> : Stade Normal
+		<Name> : Stade avec Nom : prendre le stade avec nom (sinon, reprendre les règles déja écoutées)
+	<Name> : Nom du Battle (reprend Ronde X sinon et c'est caca)
+	<Importance> : Un nombre entre 1 et 8 (reprend le Round dans le cas contraire
+	<TextPre>
+	<TextPost>
+</Event>
+
+<Event Type=Secret> // Rajouter Secret active le mode Secret, possibilité de mettre un % de Chance.
+</Event>
